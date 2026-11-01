@@ -1,9 +1,9 @@
 {
  "title": "幼貓濕食比價",
- "updated": "2026-10-31",
- "updated_zh": "2026年10月31日",
- "next_zh": "11月2日",
- "generated_zh": "2026-10-31 17:33",
+ "updated": "2026-11-01",
+ "updated_zh": "2026年11月1日",
+ "next_zh": "11月3日",
+ "generated_zh": "2026-11-01 09:04",
  "location": "鹿特丹",
  "feedback_url": "",
  "products": [
@@ -17,7 +17,7 @@
    "base": "100g",
    "group": "food",
    "image": "assets/products/rc_kitten_sterilised_gravy.webp",
-   "date": "2026-10-31",
+   "date": "2026-11-01",
    "best": {
     "shop": "Pharmapets",
     "variant": "12x85g",
@@ -70,7 +70,7 @@
    },
    "level": {
     "status": "collecting",
-    "n": 4,
+    "n": 5,
     "need": 7
    },
    "history": [
@@ -97,6 +97,13 @@
     },
     {
      "date": "2026-10-31",
+     "unit": 0.985,
+     "per100g": 1.159,
+     "pb": 1.159,
+     "one_time_unit": 1.094
+    },
+    {
+     "date": "2026-11-01",
      "unit": 0.985,
      "per100g": 1.159,
      "pb": 1.159,
@@ -588,7 +595,7 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.viata.nl/royal-canin-feline-sterilised-kitten-versheidszakjes-12x85-g-nl",
-     "detail": "-12%（原價 €22.75）；curl 403，WebFetch 讀取成功"
+     "detail": "-12%（原價 €22.75）；curl 403，改用 WebFetch 取得：-12%（原價 €22.75）"
     },
     {
      "shop": "Brekz",
@@ -731,6 +738,38 @@
      "detail": ""
     },
     {
+     "shop": "Zoolini",
+     "variant": "12x85g",
+     "units": 12,
+     "unit_g": 85,
+     "list_price": 20.93,
+     "price": 20.93,
+     "unit": 1.744,
+     "per100g": 2.052,
+     "pb": 2.052,
+     "size": "85g",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "滿 €64.90 免運・運費 €6.90"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "滿 €64.90 免運／運費 €6.90"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": true,
+     "status": "verified",
+     "url": "https://www.zoolini.nl/royal-canin/kitten-sterilised-in-jelly-12x85g?sai=10231",
+     "detail": "Seasonal Savings -10%（至 2026-11-04）；11/01 Seasonal Savings 10% 折扣（原價 €23.26），剩 5 件"
+    },
+    {
      "shop": "Amazon.nl",
      "variant": "12x85g",
      "units": 12,
@@ -775,38 +814,6 @@
      "detail": ""
     },
     {
-     "shop": "Zoolini",
-     "variant": "12x85g",
-     "units": 12,
-     "unit_g": 85,
-     "list_price": 23.49,
-     "price": 23.49,
-     "unit": 1.957,
-     "per100g": 2.303,
-     "pb": 2.303,
-     "size": "85g",
-     "basis": "單次購買",
-     "autoship": false,
-     "one_time_unit": null,
-     "one_time_per100g": null,
-     "one_time_pb": null,
-     "conditions": [
-      "滿 €64.90 免運・運費 €6.90"
-     ],
-     "tags": [
-      {
-       "k": "ship",
-       "t": "滿 €64.90 免運／運費 €6.90"
-      }
-     ],
-     "new_customer": null,
-     "in_stock": true,
-     "verified": true,
-     "status": "verified",
-     "url": "https://www.zoolini.nl/royal-canin/kitten-sterilised-in-jelly-12x85g?sai=10231",
-     "detail": ""
-    },
-    {
      "shop": "Zooveel",
      "variant": "12x85g",
      "units": 12,
@@ -843,11 +850,11 @@
      "variant": "12x85g",
      "units": 12,
      "unit_g": 85,
-     "list_price": 24.93,
-     "price": 24.93,
-     "unit": 2.078,
-     "per100g": 2.444,
-     "pb": 2.444,
+     "list_price": 24.3,
+     "price": 24.3,
+     "unit": 2.025,
+     "per100g": 2.382,
+     "pb": 2.382,
      "size": "85g",
      "basis": "單次購買",
      "autoship": false,
@@ -868,7 +875,7 @@
      "verified": false,
      "status": "partly_verified",
      "url": "https://www.bol.com/nl/nl/p/royal-canin-kitten-sterilised-gravy-kitten-kattenvoer-12x85-g/9300000064660027/",
-     "detail": "bol.com 商品頁 curl／WebFetch 皆 403（10/25 起每次都擋）；價格只取自 kieskeurig"
+     "detail": "bol.com 商品頁 403（自 10/25 起每次都擋），價格取自 kieskeurig"
     },
     {
      "shop": "Newpharma",
@@ -900,7 +907,7 @@
      "verified": false,
      "status": "partly_verified",
      "url": "https://www.kieskeurig.nl/",
-     "detail": "只取自 kieskeurig（€18.49＋運費 €7.19）"
+     "detail": "只見於 kieskeurig（€18.49＋運費 €7.19）"
     }
    ],
    "main_count": 20,
@@ -917,7 +924,7 @@
    "base": "100g",
    "group": "food",
    "image": "assets/products/macs_kitten.webp",
-   "date": "2026-10-31",
+   "date": "2026-11-01",
    "best": {
     "shop": "Bitiba",
     "variant": "6x800g Kitten 小牛＋雞心",
@@ -970,7 +977,7 @@
    },
    "level": {
     "status": "collecting",
-    "n": 4,
+    "n": 5,
     "need": 7
    },
    "history": [
@@ -997,6 +1004,13 @@
     },
     {
      "date": "2026-10-31",
+     "unit": 4.542,
+     "per100g": 0.568,
+     "pb": 0.568,
+     "one_time_unit": 1.791
+    },
+    {
+     "date": "2026-11-01",
      "unit": 4.542,
      "per100g": 0.568,
      "pb": 0.568,
@@ -1362,6 +1376,43 @@
      "detail": ""
     },
     {
+     "shop": "Bitiba",
+     "variant": "6x200g Kitten",
+     "units": 6,
+     "unit_g": 200,
+     "list_price": 12.29,
+     "price": 11.55,
+     "unit": 1.925,
+     "per100g": 0.963,
+     "pb": 0.963,
+     "size": "200g",
+     "basis": "定期配送價",
+     "autoship": true,
+     "one_time_unit": 2.048,
+     "one_time_per100g": 1.024,
+     "one_time_pb": 1.024,
+     "conditions": [
+      "滿 €29 免運・運費 €2.99",
+      "需訂閱定期配送"
+     ],
+     "tags": [
+      {
+       "k": "sub",
+       "t": "需定期配送"
+      },
+      {
+       "k": "ship",
+       "t": "滿 €29 免運／運費 €2.99"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": true,
+     "status": "verified",
+     "url": "https://www.bitiba.nl/shop/katten/kattenvoer_blik/macs/249562/579519?variantId=579519.6",
+     "detail": "11/01 由 €12.49 降至 €12.29"
+    },
+    {
      "shop": "CutieCat",
      "variant": "12x200g Kitten 火雞＋兔",
      "units": 12,
@@ -1391,43 +1442,6 @@
      "verified": true,
      "status": "verified",
      "url": "https://cutiecat.nl/product/macs-kitten-natvoer-blikjes-200g/",
-     "detail": ""
-    },
-    {
-     "shop": "Bitiba",
-     "variant": "6x200g Kitten",
-     "units": 6,
-     "unit_g": 200,
-     "list_price": 12.49,
-     "price": 11.74,
-     "unit": 1.957,
-     "per100g": 0.978,
-     "pb": 0.978,
-     "size": "200g",
-     "basis": "定期配送價",
-     "autoship": true,
-     "one_time_unit": 2.082,
-     "one_time_per100g": 1.041,
-     "one_time_pb": 1.041,
-     "conditions": [
-      "滿 €29 免運・運費 €2.99",
-      "需訂閱定期配送"
-     ],
-     "tags": [
-      {
-       "k": "sub",
-       "t": "需定期配送"
-      },
-      {
-       "k": "ship",
-       "t": "滿 €29 免運／運費 €2.99"
-      }
-     ],
-     "new_customer": null,
-     "in_stock": true,
-     "verified": true,
-     "status": "verified",
-     "url": "https://www.bitiba.nl/shop/katten/kattenvoer_blik/macs/249562/579519?variantId=579519.6",
      "detail": ""
     },
     {
@@ -1504,11 +1518,11 @@
      "variant": "6x200g Kitten 火雞／牛／鴨",
      "units": 6,
      "unit_g": 200,
-     "list_price": 12.49,
-     "price": 12.35,
-     "unit": 2.058,
-     "per100g": 1.029,
-     "pb": 1.029,
+     "list_price": 12.29,
+     "price": 12.15,
+     "unit": 2.025,
+     "per100g": 1.012,
+     "pb": 1.012,
      "size": "200g",
      "basis": "含返現",
      "autoship": false,
@@ -1532,16 +1546,16 @@
      "new_customer": {
       "portal": "CashbackXL",
       "rate_pct": 10.0,
-      "unit": 1.91,
-      "price": 11.46,
-      "per100g": 0.955,
-      "pb": 0.955
+      "unit": 1.878,
+      "price": 11.27,
+      "per100g": 0.939,
+      "pb": 0.939
      },
      "in_stock": true,
      "verified": true,
      "status": "verified",
      "url": "https://www.zooplus.nl/shop/katten/kattenvoer_blik/macs_s/mac_s_blikken/444155",
-     "detail": ""
+     "detail": "11/01 由 €12.49 降至 €12.29"
     },
     {
      "shop": "zooplus.nl",
@@ -1836,20 +1850,25 @@
      "units": 6,
      "unit_g": 200,
      "list_price": 11.29,
-     "price": 10.16,
-     "unit": 1.693,
-     "per100g": 0.847,
-     "pb": 0.847,
+     "price": 10.61,
+     "unit": 1.768,
+     "per100g": 0.884,
+     "pb": 0.884,
      "size": "200g",
-     "basis": "購物車折扣",
-     "autoship": false,
-     "one_time_unit": null,
-     "one_time_per100g": null,
-     "one_time_pb": null,
+     "basis": "定期配送價",
+     "autoship": true,
+     "one_time_unit": 1.882,
+     "one_time_per100g": 0.941,
+     "one_time_pb": 0.941,
      "conditions": [
-      "滿 €29 免運・運費 €2.99"
+      "滿 €29 免運・運費 €2.99",
+      "需訂閱定期配送"
      ],
      "tags": [
+      {
+       "k": "sub",
+       "t": "需定期配送"
+      },
       {
        "k": "ship",
        "t": "滿 €29 免運／運費 €2.99"
@@ -1860,7 +1879,7 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.bitiba.nl/shop/katten/kattenvoer_blik/macs/249562/579519?variantId=579519.6",
-     "detail": "特價；特價 €10.16 但 10/31 缺貨"
+     "detail": "11/01 已無 €10.16 購物車折扣；仍缺貨"
     },
     {
      "shop": "zooplus.nl",
@@ -1965,17 +1984,17 @@
    "base": "100g",
    "group": "food",
    "image": "assets/products/mjamjam_kitten.webp",
-   "date": "2026-10-31",
+   "date": "2026-11-01",
    "best": {
     "shop": "Amazon.nl",
     "variant": "6x800g 雞肉",
     "units": 6,
     "unit_g": 800,
-    "list_price": 31.31,
-    "price": 29.37,
-    "unit": 4.895,
-    "per100g": 0.612,
-    "pb": 0.612,
+    "list_price": 29.64,
+    "price": 27.8,
+    "unit": 4.633,
+    "per100g": 0.579,
+    "pb": 0.579,
     "size": "800g",
     "basis": "含返現",
     "autoship": false,
@@ -1984,12 +2003,12 @@
     "one_time_pb": null,
     "conditions": [
      "Amazon 出售並出貨；免運",
-     "經 CashbackXL 返現 €1.94"
+     "經 CashbackXL 返現 €1.84"
     ],
     "tags": [
      {
       "k": "cash",
-      "t": "CashbackXL 返現 €1.94"
+      "t": "CashbackXL 返現 €1.84"
      },
      {
       "k": "ship",
@@ -1999,26 +2018,26 @@
     "new_customer": {
      "portal": "CashbackXL",
      "rate_pct": 15.0,
-     "unit": 4.572,
-     "price": 27.43,
-     "per100g": 0.572,
-     "pb": 0.572
+     "unit": 4.328,
+     "price": 25.97,
+     "per100g": 0.541,
+     "pb": 0.541
     },
     "in_stock": true,
     "verified": true,
     "status": "verified",
     "url": "https://www.amazon.nl/dp/B087MKL24X",
-    "detail": "10/31 同商品頁新列入的雞肉口味（Amazon 出售並出貨）"
+    "detail": "11/01 降價（10/31 €31.31）；Amazon 出售並出貨；訂閱省 5% €28.16（返現不疊加，返現較便宜）"
    },
    "one_time_best": null,
    "badge": {
     "kind": "new_low",
     "text": "新低價",
-    "prev": 0.617
+    "prev": 0.612
    },
    "level": {
     "status": "collecting",
-    "n": 4,
+    "n": 5,
     "need": 7
    },
    "history": [
@@ -2049,6 +2068,13 @@
      "per100g": 0.612,
      "pb": 0.612,
      "one_time_unit": 2.049
+    },
+    {
+     "date": "2026-11-01",
+     "unit": 4.633,
+     "per100g": 0.579,
+     "pb": 0.579,
+     "one_time_unit": 2.049
     }
    ],
    "offers": [
@@ -2057,11 +2083,11 @@
      "variant": "6x800g 雞肉",
      "units": 6,
      "unit_g": 800,
-     "list_price": 31.31,
-     "price": 29.37,
-     "unit": 4.895,
-     "per100g": 0.612,
-     "pb": 0.612,
+     "list_price": 29.64,
+     "price": 27.8,
+     "unit": 4.633,
+     "per100g": 0.579,
+     "pb": 0.579,
      "size": "800g",
      "basis": "含返現",
      "autoship": false,
@@ -2070,12 +2096,12 @@
      "one_time_pb": null,
      "conditions": [
       "Amazon 出售並出貨；免運",
-      "經 CashbackXL 返現 €1.94"
+      "經 CashbackXL 返現 €1.84"
      ],
      "tags": [
       {
        "k": "cash",
-       "t": "CashbackXL 返現 €1.94"
+       "t": "CashbackXL 返現 €1.84"
       },
       {
        "k": "ship",
@@ -2085,16 +2111,16 @@
      "new_customer": {
       "portal": "CashbackXL",
       "rate_pct": 15.0,
-      "unit": 4.572,
-      "price": 27.43,
-      "per100g": 0.572,
-      "pb": 0.572
+      "unit": 4.328,
+      "price": 25.97,
+      "per100g": 0.541,
+      "pb": 0.541
      },
      "in_stock": true,
      "verified": true,
      "status": "verified",
      "url": "https://www.amazon.nl/dp/B087MKL24X",
-     "detail": "10/31 同商品頁新列入的雞肉口味（Amazon 出售並出貨）"
+     "detail": "11/01 降價（10/31 €31.31）；Amazon 出售並出貨；訂閱省 5% €28.16（返現不疊加，返現較便宜）"
     },
     {
      "shop": "Amazon.nl",
@@ -2509,6 +2535,70 @@
      "detail": ""
     },
     {
+     "shop": "Zoolini",
+     "variant": "1x800g 小牛肉",
+     "units": 1,
+     "unit_g": 800,
+     "list_price": 6.08,
+     "price": 6.08,
+     "unit": 6.08,
+     "per100g": 0.76,
+     "pb": 0.76,
+     "size": "800g",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "滿 €64.90 免運・運費 €6.90"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "滿 €64.90 免運／運費 €6.90"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": true,
+     "status": "verified",
+     "url": "https://www.zoolini.nl/mjamjam/kitten-kalfsvlees-en-zalmolie",
+     "detail": "Seasonal Savings -10%（至 2026-11-04）；原價 €6.76"
+    },
+    {
+     "shop": "Zoolini",
+     "variant": "1x800g 雞肉",
+     "units": 1,
+     "unit_g": 800,
+     "list_price": 6.2,
+     "price": 6.2,
+     "unit": 6.2,
+     "per100g": 0.775,
+     "pb": 0.775,
+     "size": "800g",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "滿 €64.90 免運・運費 €6.90"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "滿 €64.90 免運／運費 €6.90"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": true,
+     "status": "verified",
+     "url": "https://www.zoolini.nl/mjamjam/kitten-kip-en-zalmolie",
+     "detail": "Seasonal Savings -10%（至 2026-11-04）；原價 €6.89"
+    },
+    {
      "shop": "Amazon.nl",
      "variant": "6x400g 小牛肉",
      "units": 6,
@@ -2550,7 +2640,7 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.amazon.nl/dp/B08MM2L42D",
-     "detail": ""
+     "detail": "訂閱省 5% €19.38"
     },
     {
      "shop": "Amazon.nl",
@@ -2634,38 +2724,6 @@
      "detail": ""
     },
     {
-     "shop": "Zoolini",
-     "variant": "1x800g 小牛肉",
-     "units": 1,
-     "unit_g": 800,
-     "list_price": 6.79,
-     "price": 6.79,
-     "unit": 6.79,
-     "per100g": 0.849,
-     "pb": 0.849,
-     "size": "800g",
-     "basis": "單次購買",
-     "autoship": false,
-     "one_time_unit": null,
-     "one_time_per100g": null,
-     "one_time_pb": null,
-     "conditions": [
-      "滿 €64.90 免運・運費 €6.90"
-     ],
-     "tags": [
-      {
-       "k": "ship",
-       "t": "滿 €64.90 免運／運費 €6.90"
-      }
-     ],
-     "new_customer": null,
-     "in_stock": true,
-     "verified": true,
-     "status": "verified",
-     "url": "https://www.zoolini.nl/mjamjam/kitten-kalfsvlees-en-zalmolie",
-     "detail": ""
-    },
-    {
      "shop": "Bitiba",
      "variant": "6x400g 小牛肉",
      "units": 6,
@@ -2700,38 +2758,6 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.bitiba.nl/shop/katten/kattenvoer_blik/mjamjam/1750490",
-     "detail": ""
-    },
-    {
-     "shop": "Zoolini",
-     "variant": "1x800g 雞肉",
-     "units": 1,
-     "unit_g": 800,
-     "list_price": 6.89,
-     "price": 6.89,
-     "unit": 6.89,
-     "per100g": 0.861,
-     "pb": 0.861,
-     "size": "800g",
-     "basis": "單次購買",
-     "autoship": false,
-     "one_time_unit": null,
-     "one_time_per100g": null,
-     "one_time_pb": null,
-     "conditions": [
-      "滿 €64.90 免運・運費 €6.90"
-     ],
-     "tags": [
-      {
-       "k": "ship",
-       "t": "滿 €64.90 免運／運費 €6.90"
-      }
-     ],
-     "new_customer": null,
-     "in_stock": true,
-     "verified": true,
-     "status": "verified",
-     "url": "https://www.zoolini.nl/mjamjam/kitten-kip-en-zalmolie",
      "detail": ""
     },
     {
@@ -2813,7 +2839,7 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.amazon.nl/dp/B0821DWR9D",
-     "detail": "10/31 同商品頁新列入的雞肉口味（Amazon 出售並出貨）"
+     "detail": "訂閱省 5% €21.84"
     },
     {
      "shop": "Bitiba",
@@ -3066,6 +3092,38 @@
      "detail": ""
     },
     {
+     "shop": "Zoolini",
+     "variant": "1x400g 小牛肉",
+     "units": 1,
+     "unit_g": 400,
+     "list_price": 4.01,
+     "price": 4.01,
+     "unit": 4.01,
+     "per100g": 1.002,
+     "pb": 1.002,
+     "size": "400g",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "滿 €64.90 免運・運費 €6.90"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "滿 €64.90 免運／運費 €6.90"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": true,
+     "status": "verified",
+     "url": "https://www.zoolini.nl/mjamjam/kitten-kalfsvlees-en-zalmolie",
+     "detail": "Seasonal Savings -10%（至 2026-11-04）；原價 €4.46"
+    },
+    {
      "shop": "Bitiba",
      "variant": "6x200g 雞肉",
      "units": 6,
@@ -3189,6 +3247,38 @@
      "status": "verified",
      "url": "https://www.zooplus.nl/shop/katten/kattenvoer_blik/mjamjam_natvoer/1578995",
      "detail": ""
+    },
+    {
+     "shop": "Zoolini",
+     "variant": "1x400g 雞肉",
+     "units": 1,
+     "unit_g": 400,
+     "list_price": 4.13,
+     "price": 4.13,
+     "unit": 4.13,
+     "per100g": 1.032,
+     "pb": 1.032,
+     "size": "400g",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "滿 €64.90 免運・運費 €6.90"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "滿 €64.90 免運／運費 €6.90"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": true,
+     "status": "verified",
+     "url": "https://www.zoolini.nl/mjamjam/kitten-kip-en-zalmolie",
+     "detail": "Seasonal Savings -10%（至 2026-11-04）；原價 €4.59"
     },
     {
      "shop": "Bitiba",
@@ -3316,38 +3406,6 @@
      "detail": ""
     },
     {
-     "shop": "Zoolini",
-     "variant": "1x400g 小牛肉",
-     "units": 1,
-     "unit_g": 400,
-     "list_price": 4.49,
-     "price": 4.49,
-     "unit": 4.49,
-     "per100g": 1.123,
-     "pb": 1.123,
-     "size": "400g",
-     "basis": "單次購買",
-     "autoship": false,
-     "one_time_unit": null,
-     "one_time_per100g": null,
-     "one_time_pb": null,
-     "conditions": [
-      "滿 €64.90 免運・運費 €6.90"
-     ],
-     "tags": [
-      {
-       "k": "ship",
-       "t": "滿 €64.90 免運／運費 €6.90"
-      }
-     ],
-     "new_customer": null,
-     "in_stock": true,
-     "verified": true,
-     "status": "verified",
-     "url": "https://www.zoolini.nl/mjamjam/kitten-kalfsvlees-en-zalmolie",
-     "detail": ""
-    },
-    {
      "shop": "CutieCat",
      "variant": "1x200g（4 種口味）",
      "units": 1,
@@ -3377,38 +3435,6 @@
      "verified": true,
      "status": "verified",
      "url": "https://cutiecat.nl/product/mjamjam-kitten-blikje-200g/",
-     "detail": ""
-    },
-    {
-     "shop": "Zoolini",
-     "variant": "1x400g 雞肉",
-     "units": 1,
-     "unit_g": 400,
-     "list_price": 4.59,
-     "price": 4.59,
-     "unit": 4.59,
-     "per100g": 1.147,
-     "pb": 1.147,
-     "size": "400g",
-     "basis": "單次購買",
-     "autoship": false,
-     "one_time_unit": null,
-     "one_time_per100g": null,
-     "one_time_pb": null,
-     "conditions": [
-      "滿 €64.90 免運・運費 €6.90"
-     ],
-     "tags": [
-      {
-       "k": "ship",
-       "t": "滿 €64.90 免運／運費 €6.90"
-      }
-     ],
-     "new_customer": null,
-     "in_stock": true,
-     "verified": true,
-     "status": "verified",
-     "url": "https://www.zoolini.nl/mjamjam/kitten-kip-en-zalmolie",
      "detail": ""
     },
     {
@@ -3457,6 +3483,38 @@
     },
     {
      "shop": "Zoolini",
+     "variant": "1x200g 雞肉",
+     "units": 1,
+     "unit_g": 200,
+     "list_price": 2.52,
+     "price": 2.52,
+     "unit": 2.52,
+     "per100g": 1.26,
+     "pb": 1.26,
+     "size": "200g",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "滿 €64.90 免運・運費 €6.90"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "滿 €64.90 免運／運費 €6.90"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": true,
+     "status": "verified",
+     "url": "https://www.zoolini.nl/mjamjam/kitten-kip-en-zalmolie",
+     "detail": "Seasonal Savings -10%（至 2026-11-04）；原價 €2.80"
+    },
+    {
+     "shop": "Zoolini",
      "variant": "1x200g 小牛肉",
      "units": 1,
      "unit_g": 200,
@@ -3485,39 +3543,7 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.zoolini.nl/mjamjam/kitten-kalfsvlees-en-zalmolie",
-     "detail": ""
-    },
-    {
-     "shop": "Zoolini",
-     "variant": "1x200g 雞肉",
-     "units": 1,
-     "unit_g": 200,
-     "list_price": 2.89,
-     "price": 2.89,
-     "unit": 2.89,
-     "per100g": 1.445,
-     "pb": 1.445,
-     "size": "200g",
-     "basis": "單次購買",
-     "autoship": false,
-     "one_time_unit": null,
-     "one_time_per100g": null,
-     "one_time_pb": null,
-     "conditions": [
-      "滿 €64.90 免運・運費 €6.90"
-     ],
-     "tags": [
-      {
-       "k": "ship",
-       "t": "滿 €64.90 免運／運費 €6.90"
-      }
-     ],
-     "new_customer": null,
-     "in_stock": true,
-     "verified": true,
-     "status": "verified",
-     "url": "https://www.zoolini.nl/mjamjam/kitten-kip-en-zalmolie",
-     "detail": ""
+     "detail": "Seasonal Savings（至 2026-11-04）；原價 €2.67"
     },
     {
      "shop": "Medpets",
@@ -3660,7 +3686,7 @@
    "base": "100g",
    "group": "food",
    "image": "assets/products/farmina_nd_ocean_kitten.webp",
-   "date": "2026-10-31",
+   "date": "2026-11-01",
    "best": {
     "shop": "CutieCat",
     "variant": "24x70g Prime Kitten 雞＋石榴",
@@ -3700,7 +3726,7 @@
    },
    "level": {
     "status": "collecting",
-    "n": 4,
+    "n": 5,
     "need": 7
    },
    "history": [
@@ -3727,6 +3753,13 @@
     },
     {
      "date": "2026-10-31",
+     "unit": 1.65,
+     "per100g": 2.357,
+     "pb": 2.357,
+     "one_time_unit": 1.65
+    },
+    {
+     "date": "2026-11-01",
      "unit": 1.65,
      "per100g": 2.357,
      "pb": 2.357,
@@ -3892,7 +3925,7 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.catsclusive.nl/farmina-natvoer/nd-ocean-kitten-tonijn-kabeljauw-garnaal-pompoen-24-x-70-gram",
-     "detail": ""
+     "detail": "JSON-LD 標 PreOrder，但頁面顯示「Levertijd 1-3 werkdagen」可加入購物車"
     },
     {
      "shop": "Farmina 官方 eshop",
@@ -4029,7 +4062,7 @@
      "verified": false,
      "status": "partly_verified",
      "url": "https://www.zoomalia.nl/dierenwinkel/farmina-n-d-ocean-tonijn-kabeljauw-garnalen-pompoen-voor-kitten-p-145245.html",
-     "detail": "curl 403，WebFetch 讀取成功；頁面未明示庫存；首單 -€5 今日未重核；12 入 €23.88 減 €2.40 組合折扣 = €21.48"
+     "detail": "curl 403，改用 WebFetch：頁面顯示每罐起價 €1.79（12 罐組），原價 €23.88；組合價只能推算"
     },
     {
      "shop": "Zoomalia.nl",
@@ -4061,7 +4094,7 @@
      "verified": false,
      "status": "partly_verified",
      "url": "https://www.zoomalia.nl/dierenwinkel/farmina-n-d-ocean-tonijn-kabeljauw-garnalen-pompoen-voor-kitten-p-145245.html",
-     "detail": "curl 403，WebFetch 讀取成功；頁面未明示庫存；首單 -€5 今日未重核"
+     "detail": "curl 403，改用 WebFetch 取得"
     }
    ],
    "main_count": 8,
@@ -4078,7 +4111,7 @@
    "base": "L",
    "group": "other",
    "image": "assets/products/tigerino_tofu_sensitive.webp",
-   "date": "2026-10-31",
+   "date": "2026-11-01",
    "best": {
     "shop": "zooplus.nl",
     "variant": "3x11L",
@@ -4138,7 +4171,7 @@
    },
    "level": {
     "status": "collecting",
-    "n": 2,
+    "n": 3,
     "need": 7
    },
    "history": [
@@ -4151,6 +4184,13 @@
     },
     {
      "date": "2026-10-31",
+     "unit": 12.463,
+     "per100g": null,
+     "pb": 1.133,
+     "one_time_unit": 13.963
+    },
+    {
+     "date": "2026-11-01",
      "unit": 12.463,
      "per100g": null,
      "pb": 1.133,
@@ -4416,7 +4456,7 @@
    "base": "g",
    "group": "other",
    "image": "assets/products/l_mesitran_vet_soft.webp",
-   "date": "2026-10-31",
+   "date": "2026-11-01",
    "best": {
     "shop": "Dierapotheker",
     "variant": "250g",
@@ -4456,7 +4496,7 @@
    },
    "level": {
     "status": "collecting",
-    "n": 2,
+    "n": 3,
     "need": 7
    },
    "history": [
@@ -4469,6 +4509,13 @@
     },
     {
      "date": "2026-10-31",
+     "unit": 50.95,
+     "per100g": null,
+     "pb": 0.2038,
+     "one_time_unit": 0.64
+    },
+    {
+     "date": "2026-11-01",
      "unit": 50.95,
      "per100g": null,
      "pb": 0.2038,
@@ -4829,6 +4876,38 @@
      "detail": ""
     },
     {
+     "shop": "bol.com（Plaza 賣家）",
+     "variant": "60g",
+     "units": 1,
+     "unit_g": 60,
+     "list_price": 26.99,
+     "price": 26.99,
+     "unit": 26.99,
+     "per100g": null,
+     "pb": 0.4498,
+     "size": "60g",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "依賣家而定"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "依賣家而定"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": false,
+     "status": "partly_verified",
+     "url": "https://www.kieskeurig.nl/",
+     "detail": "bol.com 商品頁 403（自 10/25 起每次都擋）；11/01 kieskeurig 只列 60g €26.99（Divoza €28.54）"
+    },
+    {
      "shop": "Cool4pets.be",
      "variant": "20g",
      "units": 1,
@@ -4923,38 +5002,6 @@
      "status": "partly_verified",
      "url": "https://www.petssupermart.com/rundvee/wondverzorging/https--wwwpetssupermartcom-rundvee-wondverzorging-l-mesitran",
      "detail": ""
-    },
-    {
-     "shop": "bol.com（Plaza 賣家）",
-     "variant": "20g",
-     "units": 1,
-     "unit_g": 20,
-     "list_price": 18.49,
-     "price": 18.49,
-     "unit": 18.49,
-     "per100g": null,
-     "pb": 0.9245,
-     "size": "20g",
-     "basis": "單次購買",
-     "autoship": false,
-     "one_time_unit": null,
-     "one_time_per100g": null,
-     "one_time_pb": null,
-     "conditions": [
-      "依賣家而定"
-     ],
-     "tags": [
-      {
-       "k": "ship",
-       "t": "依賣家而定"
-      }
-     ],
-     "new_customer": null,
-     "in_stock": true,
-     "verified": false,
-     "status": "partly_verified",
-     "url": "https://www.kieskeurig.nl/",
-     "detail": ""
     }
    ],
    "main_count": 9,
@@ -4969,11 +5016,15 @@
   },
   {
    "shop": "Bitiba",
-   "text": "定期配送約 6%；單次滿 €100 享 5%；MAC's Kitten 小牛＋雞心 6x200g 特價 €10.16 但缺貨；免運 €29 起"
+   "text": "定期配送約 6%；單次滿 €100 享 5%；MAC's Kitten 小牛＋雞心 6x200g 的 €10.16 折扣已消失；免運 €29 起"
+  },
+  {
+   "shop": "Zoolini",
+   "text": "Seasonal Savings 全站約 -10%；免運 €64.90 起，否則 €6.90"
   },
   {
    "shop": "Pharmapets",
-   "text": "RC Kitten Sterilised 30% 折扣 €13.13；訂閱首單 -10%、之後 -5%；免運 €39 起，否則 €3.99"
+   "text": "RC Kitten Sterilised 30% 折扣 €13.13；訂閱首單 -10%、之後 -5%；免運 €39 起"
   },
   {
    "shop": "Medpets",
@@ -4984,20 +5035,12 @@
    "text": "Kies en mix 3+1 gratis；免運 €39 起"
   },
   {
-   "shop": "Viata",
-   "text": "RC -12% €19.93；免運 €49 起"
-  },
-  {
-   "shop": "Petgamma",
-   "text": "Herhaalgemak -5%；免運 €50 起"
+   "shop": "Amazon.nl",
+   "text": "MjAMjAM 雞肉 6x800g 降至 €29.64；訂閱省 5%；返現不與訂閱疊加"
   },
   {
    "shop": "Dierapotheker",
    "text": "Mesitran Vet Soft 買 2 件起：20g €9.95、60g €19.95、250g €49.95"
-  },
-  {
-   "shop": "Amazon.nl",
-   "text": "MjAMjAM 訂閱省 5%；返現不與訂閱疊加"
   }
  ],
  "details": {
@@ -5013,7 +5056,10 @@
    "Newpharma RC €18.49＋運費 €7.19（只見於 kieskeurig）",
    "Woeffies & Friends、Paws and Belly：Mesitran Vet Soft 20g €10.50（只見於搜尋摘要）",
    "Hypostore Mesitran Vet Soft 起價 €10.74；Canislufa €18.14（未開商品頁）",
-   "Intratuin ShopBuddies 返現 5%（只見於 GotCashback）"
+   "Intratuin ShopBuddies 返現 5%（只見於 GotCashback）",
+   "2026-11-01：bol.com 商品頁 403（10/25 起連續失敗），RC €24.30、Mesitran 60g €26.99 只取自 kieskeurig",
+   "2026-11-01：Newpharma RC €18.49＋運費 €7.19 只見於 kieskeurig",
+   "2026-11-01：Intratuin ShopBuddies 原頁 404，5% 只見於 GotCashback"
   ],
   "assumptions": "以既有客戶費率計算；返現多以未稅、不含運費的訂單金額計；定期配送／購物車折扣／Herhaalgemak 與返現不疊加（各平台未明示可疊加；Medpets 明示定期訂購無返現）"
  }
