@@ -1,6 +1,6 @@
 {
   "source_dir": "/cursor/stores/store-07c67034-b23d-4a5a-9f26-e791b261bad1/cat-wetfood",
-  "site_title": "幼貓濕食比價",
+  "site_title": "幼貓飼料比價",
   "update_interval_days": 2,
   "feedback_url": "",
   "cashback_invites": {
@@ -103,7 +103,8 @@
       "desc": "幼貓乾飼料・無穀",
       "pack": "1.8kg 袋",
       "unit_word": "袋",
-      "image": "assets/products/orijen_cat_dry_kitten.webp"
+      "image": "assets/products/orijen_cat_dry_kitten.webp",
+      "age": "kitten"
     },
     "orijen_cat_dry_original": {
       "brand": "ORIJEN",
@@ -112,7 +113,8 @@
       "desc": "乾飼料・無穀・全齡（含幼貓）",
       "pack": "1.8kg／5.4kg／17kg 袋",
       "unit_word": "袋",
-      "image": "assets/products/orijen_cat_dry_original.webp"
+      "image": "assets/products/orijen_cat_dry_original.webp",
+      "age": "all"
     },
     "orijen_cat_dry_six_fish": {
       "brand": "ORIJEN",
@@ -121,7 +123,8 @@
       "desc": "乾飼料・無穀・魚肉配方",
       "pack": "1.8kg／5.4kg 袋",
       "unit_word": "袋",
-      "image": "assets/products/orijen_cat_dry_six_fish.webp"
+      "image": "assets/products/orijen_cat_dry_six_fish.webp",
+      "age": "all"
     },
     "orijen_cat_dry_regional_red": {
       "brand": "ORIJEN",
@@ -130,7 +133,8 @@
       "desc": "乾飼料・無穀・紅肉配方",
       "pack": "1.8kg／5.4kg 袋",
       "unit_word": "袋",
-      "image": "assets/products/orijen_cat_dry_regional_red.webp"
+      "image": "assets/products/orijen_cat_dry_regional_red.webp",
+      "age": "all"
     },
     "orijen_cat_dry_tundra": {
       "brand": "ORIJEN",
@@ -139,7 +143,8 @@
       "desc": "乾飼料・無穀・野味配方",
       "pack": "1.8kg／5.4kg 袋",
       "unit_word": "袋",
-      "image": "assets/products/orijen_cat_dry_tundra.webp"
+      "image": "assets/products/orijen_cat_dry_tundra.webp",
+      "age": "all"
     },
     "orijen_cat_dry_fit_trim": {
       "brand": "ORIJEN",
@@ -148,7 +153,8 @@
       "desc": "乾飼料・無穀・體重控制",
       "pack": "1.8kg／5.4kg 袋",
       "unit_word": "袋",
-      "image": "assets/products/orijen_cat_dry_fit_trim.webp"
+      "image": "assets/products/orijen_cat_dry_fit_trim.webp",
+      "age": "adult"
     },
     "orijen_cat_dry_guardian8": {
       "brand": "ORIJEN",
@@ -157,7 +163,8 @@
       "desc": "乾飼料・無穀・成貓",
       "pack": "1.8kg／4.5kg 袋",
       "unit_word": "袋",
-      "image": "assets/products/orijen_cat_dry_guardian8.webp"
+      "image": "assets/products/orijen_cat_dry_guardian8.webp",
+      "age": "adult"
     },
     "ever_clean_extra_hygiene_unscented": {
       "brand": "Ever Clean",
@@ -168,5 +175,6 @@
       "unit_word": "份",
       "image": "assets/products/ever_clean_extra_hygiene_unscented.webp"
     }
-  }
+  },
+  "_age_sources": "age：kitten／adult／all（篩選用）。ORIJEN 依官方 EU 商品頁（emea.orijenpetfoods.com：Original、Six Fish、Tundra、Regional Red 為 FEDIAF All Life Stages）；Guardian 8 為 Adult Maintenance（orijenpetfoods.co.uk／orijen.ie）；Fit & Trim 官方 FAQ 註明不適合幼貓（orijen.ie）。沒寫的商品由 build.py 依名稱推定。"
 }

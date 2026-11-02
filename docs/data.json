@@ -1,10 +1,10 @@
 {
- "title": "幼貓濕食比價",
+ "title": "幼貓飼料比價",
  "updated": "2026-11-02",
  "updated_zh": "2026年11月2日",
  "next_zh": "11月4日",
  "next": "2026-11-04",
- "generated_zh": "2026-11-02 16:01",
+ "generated_zh": "2026-11-02 16:28",
  "location": "鹿特丹",
  "feedback_url": "",
  "products": [
@@ -18,6 +18,9 @@
    "unit_word": "包",
    "base": "100g",
    "category": "wet",
+   "age": "kitten",
+   "deal": true,
+   "drop": 25.3,
    "image": "assets/products/rc_kitten_sterilised_gravy.webp",
    "date": "2026-11-01",
    "best": {
@@ -928,6 +931,9 @@
    "unit_word": "罐",
    "base": "100g",
    "category": "wet",
+   "age": "kitten",
+   "deal": true,
+   "drop": 16.1,
    "image": "assets/products/macs_kitten.webp",
    "date": "2026-11-01",
    "best": {
@@ -1996,6 +2002,9 @@
    "unit_word": "罐",
    "base": "100g",
    "category": "wet",
+   "age": "kitten",
+   "deal": true,
+   "drop": 45.2,
    "image": "assets/products/mjamjam_kitten.webp",
    "date": "2026-11-01",
    "best": {
@@ -3720,6 +3729,9 @@
    "unit_word": "罐",
    "base": "100g",
    "category": "wet",
+   "age": "kitten",
+   "deal": true,
+   "drop": 0.0,
    "image": "assets/products/farmina_nd_ocean_kitten.webp",
    "date": "2026-11-02",
    "best": {
@@ -3907,6 +3919,9 @@
    "unit_word": "袋",
    "base": "kg",
    "category": "dry",
+   "age": "kitten",
+   "deal": true,
+   "drop": 0.0,
    "image": "assets/products/orijen_cat_dry_kitten.webp",
    "date": "2026-11-02",
    "best": {
@@ -4489,6 +4504,9 @@
    "unit_word": "袋",
    "base": "kg",
    "category": "dry",
+   "age": "all",
+   "deal": true,
+   "drop": 0.0,
    "image": "assets/products/orijen_cat_dry_original.webp",
    "date": "2026-11-02",
    "best": {
@@ -5452,6 +5470,9 @@
    "unit_word": "袋",
    "base": "kg",
    "category": "dry",
+   "age": "all",
+   "deal": true,
+   "drop": 0.0,
    "image": "assets/products/orijen_cat_dry_six_fish.webp",
    "date": "2026-11-02",
    "best": {
@@ -6165,6 +6186,9 @@
    "unit_word": "袋",
    "base": "kg",
    "category": "dry",
+   "age": "all",
+   "deal": true,
+   "drop": 0.0,
    "image": "assets/products/orijen_cat_dry_regional_red.webp",
    "date": "2026-11-02",
    "best": {
@@ -6821,6 +6845,9 @@
    "unit_word": "袋",
    "base": "kg",
    "category": "dry",
+   "age": "all",
+   "deal": true,
+   "drop": 0.0,
    "image": "assets/products/orijen_cat_dry_tundra.webp",
    "date": "2026-11-02",
    "best": {
@@ -7516,6 +7543,9 @@
    "unit_word": "袋",
    "base": "kg",
    "category": "dry",
+   "age": "adult",
+   "deal": true,
+   "drop": 0.0,
    "image": "assets/products/orijen_cat_dry_fit_trim.webp",
    "date": "2026-11-02",
    "best": {
@@ -8242,6 +8272,9 @@
    "unit_word": "袋",
    "base": "kg",
    "category": "dry",
+   "age": "adult",
+   "deal": true,
+   "drop": 0.0,
    "image": "assets/products/orijen_cat_dry_guardian8.webp",
    "date": "2026-11-02",
    "best": {
@@ -8962,6 +8995,9 @@
    "unit_word": "袋",
    "base": "L",
    "category": "litter",
+   "age": null,
+   "deal": true,
+   "drop": 0.0,
    "image": "assets/products/tigerino_tofu_sensitive.webp",
    "date": "2026-11-01",
    "best": {
@@ -9308,6 +9344,9 @@
    "unit_word": "份",
    "base": "L",
    "category": "litter",
+   "age": null,
+   "deal": true,
+   "drop": 0.0,
    "image": "assets/products/ever_clean_extra_hygiene_unscented.webp",
    "date": "2026-11-02",
    "best": {
@@ -9729,6 +9768,9 @@
    "unit_word": "條",
    "base": "g",
    "category": "care",
+   "age": null,
+   "deal": false,
+   "drop": 0.0,
    "image": "assets/products/l_mesitran_vet_soft.webp",
    "date": "2026-11-01",
    "best": {
@@ -10292,6 +10334,9 @@
    "unit_word": "罐",
    "base": "100g",
    "category": "wet",
+   "age": "all",
+   "deal": false,
+   "drop": 0.0,
    "image": "assets/products/ziwi_peak_cat_wet.webp",
    "date": "2026-11-02",
    "best": {
@@ -11375,8 +11420,8 @@
    "Laagste prijzen kattenbakvulling nu"
   ],
   "care_title": [
-   "護理用品目前最低價",
-   "Lowest care product prices now",
+   "保健用品目前最低價",
+   "Lowest health care prices now",
    "Laagste prijzen verzorging nu"
   ],
   "nav_aria": [
@@ -11400,14 +11445,114 @@
    "Kattenbakvulling"
   ],
   "nav_care": [
-   "護理",
-   "Care",
+   "保健",
+   "Health care",
    "Verzorging"
   ],
   "per_kg": [
    "每公斤",
    "per kg",
    "per kg"
+  ],
+  "filters_aria": [
+   "篩選",
+   "Filters",
+   "Filters"
+  ],
+  "f_deal": [
+   "只看有折扣或返現",
+   "Deals or cashback only",
+   "Alleen korting of cashback"
+  ],
+  "f_brand": [
+   "品牌",
+   "Brand",
+   "Merk"
+  ],
+  "f_age": [
+   "年齡",
+   "Age",
+   "Leeftijd"
+  ],
+  "age_kitten": [
+   "幼貓",
+   "Kitten",
+   "Kitten"
+  ],
+  "age_adult": [
+   "成貓",
+   "Adult",
+   "Volwassen"
+  ],
+  "age_all": [
+   "全齡",
+   "All ages",
+   "Alle leeftijden"
+  ],
+  "f_clear": [
+   "清除篩選",
+   "Clear filters",
+   "Filters wissen"
+  ],
+  "sort_label": [
+   "排序",
+   "Sort",
+   "Sorteren"
+  ],
+  "sort_cheap": [
+   "每單位最便宜",
+   "Cheapest per unit",
+   "Goedkoopst per eenheid"
+  ],
+  "sort_drop": [
+   "降價最多",
+   "Biggest price drop",
+   "Grootste prijsdaling"
+  ],
+  "sort_recent": [
+   "最近更新",
+   "Recently updated",
+   "Recent bijgewerkt"
+  ],
+  "n_items": [
+   "{0} 項商品",
+   "{0} products",
+   "{0} producten"
+  ],
+  "n_items_of": [
+   "{0}／{1} 項商品",
+   "{0} of {1} products",
+   "{0} van {1} producten"
+  ],
+  "empty_filter": [
+   "沒有符合篩選條件的商品。",
+   "No products match these filters.",
+   "Geen producten die aan deze filters voldoen."
+  ],
+  "drop_badge": [
+   "比近 30 天高點低 {0}%",
+   "{0}% below its 30-day high",
+   "{0}% lager dan hoogste prijs (30 dagen)"
+  ],
+  "f_btn": [
+   "篩選",
+   "Filters",
+   "Filters"
+  ],
+  "close": [
+   "關閉",
+   "Close",
+   "Sluiten"
+  ],
+  "show_n": [
+   "顯示 {0} 項商品",
+   "Show {0} products",
+   "Toon {0} producten"
+  ],
+  "f_active": [
+   "{0} 個篩選條件",
+   "{0} active",
+   "{0} actief"
   ]
  },
  "i18n": {
@@ -11693,7 +11838,7 @@
    "定期配送（自動扣款）95 折，不計返現；庫存 34；EAN 8606014102918": "autoship (automatic payment) 5% off, no cashback; 34 in stock; EAN 8606014102918",
    "幼貓主食罐": "Complete kitten food",
    "幼貓乾飼料・無穀": "Kitten dry food · grain-free",
-   "幼貓濕食比價": "Kitten Wet Food Prices",
+   "幼貓飼料比價": "Kitten Food Prices",
    "庫存 26；鹿肉 €3.50（85g）／€4.95（185g）": "26 in stock; venison €3.50 (85g)/€4.95 (185g)",
    "庫存 31；定期訂購（herhaalbestelling）價 -6%，Medpets 明示定期訂購不給返現": "31 in stock; Repeat-order (herhaalbestelling) price -6%; Medpets states repeat orders get no cashback",
    "庫存 7": "7 in stock",
@@ -12059,7 +12204,7 @@
    "定期配送（自動扣款）95 折，不計返現；庫存 34；EAN 8606014102918": "abonnement (automatische incasso) 5% korting, geen cashback; 34 op voorraad; EAN 8606014102918",
    "幼貓主食罐": "Volledig kittenvoer",
    "幼貓乾飼料・無穀": "Kittendroogvoer · graanvrij",
-   "幼貓濕食比價": "Prijzen kittennatvoer",
+   "幼貓飼料比價": "Prijzen kittenvoer",
    "庫存 26；鹿肉 €3.50（85g）／€4.95（185g）": "26 op voorraad; hert €3,50 (85g)/€4,95 (185g)",
    "庫存 31；定期訂購（herhaalbestelling）價 -6%，Medpets 明示定期訂購不給返現": "31 op voorraad; Herhaalbestelprijs -6%; Medpets meldt dat herhaalbestellingen geen cashback krijgen",
    "庫存 7": "7 op voorraad",

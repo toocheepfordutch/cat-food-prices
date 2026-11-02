@@ -337,8 +337,8 @@
    "Laagste prijzen kattenbakvulling nu"
   ],
   "care_title": [
-   "護理用品目前最低價",
-   "Lowest care product prices now",
+   "保健用品目前最低價",
+   "Lowest health care prices now",
    "Laagste prijzen verzorging nu"
   ],
   "nav_aria": [
@@ -362,18 +362,122 @@
    "Kattenbakvulling"
   ],
   "nav_care": [
-   "護理",
-   "Care",
+   "保健",
+   "Health care",
    "Verzorging"
   ],
   "per_kg": [
    "每公斤",
    "per kg",
    "per kg"
+  ],
+  "filters_aria": [
+   "篩選",
+   "Filters",
+   "Filters"
+  ],
+  "f_deal": [
+   "只看有折扣或返現",
+   "Deals or cashback only",
+   "Alleen korting of cashback"
+  ],
+  "f_brand": [
+   "品牌",
+   "Brand",
+   "Merk"
+  ],
+  "f_age": [
+   "年齡",
+   "Age",
+   "Leeftijd"
+  ],
+  "age_kitten": [
+   "幼貓",
+   "Kitten",
+   "Kitten"
+  ],
+  "age_adult": [
+   "成貓",
+   "Adult",
+   "Volwassen"
+  ],
+  "age_all": [
+   "全齡",
+   "All ages",
+   "Alle leeftijden"
+  ],
+  "f_clear": [
+   "清除篩選",
+   "Clear filters",
+   "Filters wissen"
+  ],
+  "sort_label": [
+   "排序",
+   "Sort",
+   "Sorteren"
+  ],
+  "sort_cheap": [
+   "每單位最便宜",
+   "Cheapest per unit",
+   "Goedkoopst per eenheid"
+  ],
+  "sort_drop": [
+   "降價最多",
+   "Biggest price drop",
+   "Grootste prijsdaling"
+  ],
+  "sort_recent": [
+   "最近更新",
+   "Recently updated",
+   "Recent bijgewerkt"
+  ],
+  "n_items": [
+   "{0} 項商品",
+   "{0} products",
+   "{0} producten"
+  ],
+  "n_items_of": [
+   "{0}／{1} 項商品",
+   "{0} of {1} products",
+   "{0} van {1} producten"
+  ],
+  "empty_filter": [
+   "沒有符合篩選條件的商品。",
+   "No products match these filters.",
+   "Geen producten die aan deze filters voldoen."
+  ],
+  "drop_badge": [
+   "比近 30 天高點低 {0}%",
+   "{0}% below its 30-day high",
+   "{0}% lager dan hoogste prijs (30 dagen)"
+  ],
+  "f_btn": [
+   "篩選",
+   "Filters",
+   "Filters"
+  ],
+  "close": [
+   "關閉",
+   "Close",
+   "Sluiten"
+  ],
+  "show_n": [
+   "顯示 {0} 項商品",
+   "Show {0} products",
+   "Toon {0} producten"
+  ],
+  "f_active": [
+   "{0} 個篩選條件",
+   "{0} active",
+   "{0} actief"
   ]
  },
  "data": {
   "exact": {
+   "幼貓飼料比價": [
+    "Kitten Food Prices",
+    "Prijzen kittenvoer"
+   ],
    "幼貓濕食比價": [
     "Kitten Wet Food Prices",
     "Prijzen kittennatvoer"

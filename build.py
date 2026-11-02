@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""幼貓濕食比價網站產生器。
+"""幼貓飼料比價網站產生器。
 
 讀取價格追蹤資料 (prices.json)，產生 docs/ 靜態網站：
   docs/index.html  （內嵌資料，首屏無需額外請求）
@@ -52,6 +52,52 @@ def product_category(pdata, meta, base):
         if c in CATEGORIES:
             return c
     return BASE_TO_CATEGORY.get(base, "wet")
+
+
+AGES = ("kitten", "adult", "all")
+AGE_WORDS = {"kitten": "kitten", "幼貓": "kitten", "adult": "adult", "成貓": "adult", "senior": "adult",
+             "all": "all", "all_life_stages": "all", "all life stages": "all", "全齡": "all"}
+
+
+def product_age(pdata, meta, category):
+    """適用年齡（篩選用）：site.config.json 的 age 優先，其次 prices.json 的 life_stage／age，
+    再依商品名稱推定（只限濕食／乾飼料）。推不出來就是 None（篩選時照樣顯示）。"""
+    for v in (meta.get("age"), pdata.get("life_stage"), pdata.get("age")):
+        v = AGE_WORDS.get(str(v or "").strip().lower())
+        if v:
+            return v
+    if category not in ("wet", "dry"):
+        return None
+    text = " ".join(str(x or "") for x in (pdata.get("product_name"), meta.get("name"), meta.get("desc"))).lower()
+    if re.search(r"all life stages|所有生命階段|全齡|alle levensfasen|cat\s*&\s*kitten", text):
+        return "all"
+    if re.search(r"kitten|幼貓", text):
+        return "kitten"
+    if re.search(r"\badult\b|成貓|senior", text):
+        return "adult"
+    return None
+
+
+def has_deal(best):
+    """目前最低價那筆有折扣（低於原價）、返現或新客優惠。"""
+    if not best:
+        return False
+    if any(t.get("k") in ("cash", "deal") for t in best.get("tags") or []) or best.get("new_customer"):
+        return True
+    lp, pr = best.get("list_price"), best.get("price")
+    return bool(lp and pr and pr < lp - 0.005)
+
+
+def price_drop(hist, cur_pb, cur_date, days=30):
+    """降價幅度（%）：目前單位價比過去 days 天（不含今天）每日最低價的最高點低多少；沒有更早紀錄就是 0。"""
+    if cur_pb is None or not cur_date:
+        return 0.0
+    start = (dt.date.fromisoformat(cur_date) - dt.timedelta(days=days)).isoformat()
+    prev = [h["pb"] for h in hist if start <= h["date"] < cur_date and h.get("pb")]
+    if not prev:
+        return 0.0
+    ref = max(prev)
+    return round(max(0.0, (ref - cur_pb) / ref * 100), 1)
 
 
 def num(v):
@@ -567,6 +613,9 @@ def build(src: Path):
             "unit_word": unit_word,
             "base": base,
             "category": category,
+            "age": product_age(pdata, meta, category),
+            "deal": has_deal(best),
+            "drop": price_drop(hist, best["pb"] if best else None, cur_date),
             "image": img_out,
             "date": cur_date,
             "best": best,
@@ -588,7 +637,7 @@ def build(src: Path):
     upd = dt.date.fromisoformat(latest) if latest else now.date()
     nxt = upd + dt.timedelta(days=cfg.get("update_interval_days", 2))
     site = {
-        "title": cfg.get("site_title", "幼貓濕食比價"),
+        "title": cfg.get("site_title", "幼貓飼料比價"),
         "updated": latest,
         "updated_zh": fmt_date_zh(upd),
         "next_zh": f"{nxt.month}月{nxt.day}日",
@@ -622,6 +671,9 @@ def build(src: Path):
     (OUT / "index.html").write_text(html, encoding="utf-8")
     (OUT / ".nojekyll").write_text("")
     cats = {c: sum(p["category"] == c for p in products) for c in CATEGORIES}
+    unknown_age = [p["id"] for p in products if p["category"] in ("wet", "dry") and not p["age"]]
+    if unknown_age:
+        print("提醒：這些商品無法判斷適用年齡（篩選時照樣顯示），可在 site.config.json 加 \"age\"：" + "、".join(unknown_age))
     print(f"完成：{len(products)} 項商品（" + "、".join(f"{c} {n}" for c, n in cats.items() if n) + f"），資料日期 {latest}，輸出 {OUT}")
 
 

@@ -52,11 +52,12 @@
   var INVITES = D.cashback_invites||[], INVITE={};
   INVITES.forEach(function(x){ INVITE[x.name]=x.url; });
 
-  // 分區（build.py 依 prices.json 的 category）：濕食、乾飼料、貓砂、護理；沒有商品的分區不顯示
+  // 分類（build.py 依 prices.json 的 category）：濕食、乾飼料、貓砂、保健；沒有商品的分類不顯示。一次只顯示一個分類。
   var CATS=[{k:"wet",title:"food_title",nav:"nav_wet"},{k:"dry",title:"dry_title",nav:"nav_dry"},{k:"litter",title:"litter_title",nav:"nav_litter"},{k:"care",title:"care_title",nav:"nav_care"}];
   function catOf(p){ for(var i=0;i<CATS.length;i++) if(CATS[i].k===p.category) return p.category; return "wet"; }
   var SECTIONS=CATS.map(function(c){ return {k:c.k,title:c.title,nav:c.nav,items:D.products.filter(function(p){return catOf(p)===c.k;})}; }).filter(function(c){return c.items.length;});
-  var ORDERED=[].concat.apply([],SECTIONS.map(function(c){return c.items;}));
+  function secOf(k){ for(var i=0;i<SECTIONS.length;i++) if(SECTIONS[i].k===k) return SECTIONS[i]; return SECTIONS[0]; }
+  function ls(k,v){ try{ if(v===undefined) return localStorage.getItem(k); if(v===null) localStorage.removeItem(k); else localStorage.setItem(k,v); }catch(e){} return null; }
 
   // 關注篩選：儲存「隱藏的商品」，因此之後新增的商品預設會顯示，已下架的商品自動忽略
   var FKEY="catfood.hidden.v1";
@@ -64,12 +65,43 @@
   var hidden=loadHidden();
   function loadHidden(){
     try{
-      var v=JSON.parse(localStorage.getItem(FKEY)||"[]");
+      var v=JSON.parse(ls(FKEY)||"[]");
       return Array.isArray(v)?v.filter(function(id){return IDS.indexOf(id)>=0;}):[];
     }catch(e){return [];}
   }
-  function saveHidden(){
-    try{ if(hidden.length) localStorage.setItem(FKEY,JSON.stringify(hidden)); else localStorage.removeItem(FKEY); }catch(e){}
+  function saveHidden(){ ls(FKEY, hidden.length?JSON.stringify(hidden):null); }
+
+  // 目前分類（catfood.tab.v1）；篩選與排序（catfood.view.v1：{sort, f:{分類:{brand:[],age:[],deal}}}）
+  var TKEY="catfood.tab.v1", VKEY="catfood.view.v1", SORTS=["cheap","drop","recent"], AGES=["kitten","adult","all"];
+  var TAB=secOf(ls(TKEY)).k;
+  var VIEW=(function(){ try{ var v=JSON.parse(ls(VKEY)||"{}"); if(v&&typeof v==="object") return {sort:SORTS.indexOf(v.sort)>=0?v.sort:"cheap", f:(v.f&&typeof v.f==="object")?v.f:{}}; }catch(e){} return {sort:"cheap",f:{}}; })();
+  function saveView(){ ls(VKEY, JSON.stringify(VIEW)); }
+  // 該分類可用的篩選：只有 2 種以上的值才顯示
+  function facets(sec){
+    var brands=[], ages=[], deals={};
+    sec.items.forEach(function(p){ if(p.brand&&brands.indexOf(p.brand)<0) brands.push(p.brand); if(p.age&&ages.indexOf(p.age)<0) ages.push(p.age); deals[!!p.deal]=1; });
+    ages=AGES.filter(function(a){return ages.indexOf(a)>=0;});
+    return {brand:brands.length>1?brands:[], age:ages.length>1?ages:[], deal:!!(deals["true"]&&deals["false"])};
+  }
+  function filt(){
+    var F=facets(secOf(TAB)), f=VIEW.f[TAB]||{};
+    var r={brand:(f.brand||[]).filter(function(b){return F.brand.indexOf(b)>=0;}), age:(f.age||[]).filter(function(a){return F.age.indexOf(a)>=0;}), deal:F.deal&&!!f.deal};
+    VIEW.f[TAB]=r; return r;
+  }
+  function nActive(f){ return f.brand.length+f.age.length+(f.deal?1:0); }
+  // 年齡不明的商品照樣顯示；全齡商品也符合「幼貓」「成貓」
+  function pass(p,f){
+    if(f.brand.length&&f.brand.indexOf(p.brand)<0) return false;
+    if(f.age.length&&p.age&&f.age.indexOf(p.age)<0&&!(p.age==="all")) return false;
+    if(f.deal&&!p.deal) return false;
+    return true;
+  }
+  function unitPrice(p){ var b=p.best; var v=b?pbv(b):null; return v==null?(b&&b.unit!=null?b.unit*1e6:Infinity):v; }
+  function cmp(a,b){
+    var s=VIEW.sort, d=0;
+    if(s==="drop") d=(b.drop||0)-(a.drop||0);
+    else if(s==="recent") d=(b.date||"")<(a.date||"")?-1:((b.date||"")>(a.date||"")?1:0);
+    return d||(unitPrice(a)-unitPrice(b))||(D.products.indexOf(a)-D.products.indexOf(b));
   }
 
   // 語言切換器（頁首右上角）
@@ -78,7 +110,7 @@
     sel.value=LANG;
     sel.addEventListener("change",function(){
       if(LANGS.indexOf(sel.value)<0) return;
-      LANG=sel.value; try{ localStorage.setItem(LKEY,LANG); }catch(e){}
+      LANG=sel.value; ls(LKEY,LANG);
       render();
     });
   }
@@ -98,36 +130,49 @@
     var fab=$(".fab"); fab.title=t("fab_title"); fab.setAttribute("aria-label",t("fab_aria")); $(".fab-lbl").textContent=t("fab");
   }
 
+  var sheetOpen=false;
+  function tabsHtml(cls){
+    return '<div class="'+cls+'" role="tablist" aria-label="'+esc(t("nav_aria"))+'">'+SECTIONS.map(function(c){
+      var on=c.k===TAB;
+      return '<button type="button" role="tab" class="tab" data-tab="'+c.k+'" aria-selected="'+on+'" tabindex="'+(on?0:-1)+'"><span>'+esc(t(c.nav))+'</span><span class="n num">'+c.items.length+'</span></button>';
+    }).join("")+'</div>';
+  }
+  function optHtml(group,value,label){
+    return '<label class="opt"><input type="checkbox" data-f="'+group+'" value="'+esc(value)+'"><span>'+esc(label)+'</span></label>';
+  }
+  // 側欄（桌機）／底部面板（手機）：分類、排序、篩選、商品挑選
+  function sideHtml(sec){
+    var F=facets(sec), s=[];
+    s.push('<aside class="side" id="side" aria-label="'+esc(t("filters_aria"))+'"><div class="sheet-head"><b>'+esc(t("f_btn"))+'</b><button type="button" class="sheet-x" data-close aria-label="'+esc(t("close"))+'">✕</button></div><div class="side-body">');
+    if(SECTIONS.length>1) s.push('<div class="blk blk-cats"><h3>'+esc(t("nav_aria"))+'</h3>'+tabsHtml("vtabs")+'</div>');
+    s.push('<div class="blk" role="radiogroup" aria-label="'+esc(t("sort_label"))+'"><h3>'+esc(t("sort_label"))+'</h3>'+SORTS.map(function(k){
+      return '<label class="opt"><input type="radio" name="sort" value="'+k+'"><span>'+esc(t("sort_"+k))+'</span></label>';}).join("")+'</div>');
+    if(F.deal) s.push('<div class="blk">'+optHtml("deal","1",t("f_deal"))+'</div>');
+    if(F.brand.length) s.push('<div class="blk"><h3>'+esc(t("f_brand"))+'</h3>'+F.brand.map(function(b){return optHtml("brand",b,b);}).join("")+'</div>');
+    if(F.age.length) s.push('<div class="blk"><h3>'+esc(t("f_age"))+'</h3>'+F.age.map(function(a){return optHtml("age",a,t("age_"+a));}).join("")+'</div>');
+    s.push('<div class="blk picker"><div class="pk-head"><h3>'+esc(t("focus_h"))+'</h3><span class="focus-count num" id="focus-count"></span><button type="button" class="focus-all" id="focus-all">'+esc(t("show_all"))+'</button></div>');
+    sec.items.forEach(function(p){
+      var img=p.image?esc(p.image):PLACEHOLDER;
+      s.push('<label class="pk"><input type="checkbox" data-pick="'+esc(p.id)+'"><img src="'+img+'" alt="" width="22" height="22" decoding="async"><span>'+esc(p.chip||p.brand||tr(p.name))+'</span></label>');
+    });
+    s.push('</div><button type="button" class="clear-f" data-clear>'+esc(t("f_clear"))+'</button></div>');
+    s.push('<div class="sheet-foot"><button type="button" class="ghost" data-clear>'+esc(t("f_clear"))+'</button><button type="button" class="solid" data-close id="sheet-show"></button></div></aside>');
+    s.push('<div class="sheet-bg" data-close></div>');
+    return s.join("");
+  }
+
   function render(){
     chrome();
-    var html = [];
-    html.push('<section class="focus" aria-label="'+esc(t("focus_h"))+'"><div class="focus-head"><h2>'+esc(t("focus_h"))+'</h2><span class="focus-count num" id="focus-count"></span><button type="button" class="focus-all" id="focus-all">'+esc(t("show_all"))+'</button></div><div class="chips">');
-    function chipHtml(p){
-      var img = p.image ? esc(p.image) : PLACEHOLDER;
-      return '<button type="button" class="chip" data-pid="'+esc(p.id)+'" aria-pressed="true"><img src="'+img+'" alt="" width="24" height="24" decoding="async"><span>'+esc(p.chip||p.brand||tr(p.name))+'</span><svg class="ck" width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M9.5 16.2 5.3 12l-1.4 1.4 5.6 5.6 11-11-1.4-1.4z"/></svg></button>';
-    }
-    if(SECTIONS.length>1){
-      // 多個分類時，晶片依分類分組，每組前面一個小標
-      html.push('</div>');
-      SECTIONS.forEach(function(c){
-        html.push('<div class="chip-group"><span class="chip-cat">'+esc(t(c.nav))+'</span><div class="chips">'+c.items.map(chipHtml).join("")+'</div></div>');
-      });
-      html.push('</section>');
-    } else {
-      html.push(ORDERED.map(chipHtml).join("")+'</div></section>');
-    }
-
-    // 分區快速跳轉（只有一個分區時不顯示）
-    if(SECTIONS.length>1){
-      html.push('<nav class="sec-nav" aria-label="'+esc(t("nav_aria"))+'">'+SECTIONS.map(function(c){return '<a href="#sec-'+c.k+'" data-cat="'+c.k+'">'+esc(t(c.nav))+'<span class="n num">'+c.items.length+'</span></a>';}).join("")+'</nav>');
-    }
+    var sec=secOf(TAB), html=[];
+    html.push('<div class="layout">'+sideHtml(sec)+'<div class="content">');
+    // 手機：一列分類 + 「篩選」按鈕（打開底部面板）
+    html.push('<div class="mbar">'+(SECTIONS.length>1?tabsHtml("mtabs"):'<div class="mtabs"></div>')+'</div>');
+    html.push('<div class="res-head"><h2 class="section-title">'+esc(t(sec.title))+'</h2><span class="res-n num" id="res-n"></span>'+'<button type="button" class="fbtn" id="fbtn" aria-controls="side" aria-expanded="false"><svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3 5h18v2H3zm4 6h10v2H7zm3 6h4v2h-4z"/></svg><span>'+esc(t("f_btn"))+'</span><b class="fbadge num" id="fbadge" hidden></b></button></div>');
+    html.push('<div class="grid" id="grid">');
+    sec.items.forEach(function(p,i){ html.push(card(p,i)); });
+    html.push('</div>');
     html.push('<div class="empty-focus" id="empty-focus" hidden><span aria-hidden="true">🐾</span><p>'+t("empty_focus")+'</p><button type="button" class="focus-all solid" data-all>'+esc(t("show_all"))+'</button></div>');
-    var n=0;
-    SECTIONS.forEach(function(c){
-      html.push('<section class="cat" id="sec-'+c.k+'" data-cat="'+c.k+'"><h2 class="section-title">'+esc(t(c.title))+'</h2><div class="grid">');
-      c.items.forEach(function(p){ html.push(card(p,n++)); });
-      html.push('</div></section>');
-    });
+    html.push('<div class="empty-focus" id="empty-filter" hidden><span aria-hidden="true">🔍</span><p>'+esc(t("empty_filter"))+'</p><button type="button" class="focus-all solid" data-clear>'+esc(t("f_clear"))+'</button></div>');
     if(D.promos.length){
       html.push('<h2 class="section-title">'+esc(t("promos_title"))+'</h2><div class="promos">');
       D.promos.forEach(function(x){ html.push('<div class="promo"><b>'+esc(x.shop)+'</b><span>'+esc(tr(x.text))+'</span></div>'); });
@@ -135,6 +180,7 @@
     }
     html.push(details());
     html.push(cashbackHtml());
+    html.push('</div></div>');
     $("#app").innerHTML = html.join("");
 
     var links=[];
@@ -142,17 +188,43 @@
     links.push('<a class="tip-link" href="'+TIP_URL+'" target="_blank" rel="noopener">'+esc(t("tip_link"))+'</a>');
     $("#foot").innerHTML = '<div class="foot-links">'+links.join("")+'</div><p>'+esc(t("foot1"))+'</p><p>'+esc(t("foot2",D.generated_zh))+'</p>';
 
-    document.querySelectorAll(".chip").forEach(function(c){
-      c.addEventListener("click",function(){
-        var id=c.getAttribute("data-pid"), i=hidden.indexOf(id);
-        if(i>=0) hidden.splice(i,1); else hidden.push(id);
-        saveHidden(); applyFocus();
+    var app=$("#app");
+    app.querySelectorAll("[data-tab]").forEach(function(b){
+      b.addEventListener("click",function(){ setTab(b.getAttribute("data-tab"), b.closest(".vtabs")?".vtabs":".mtabs"); });
+      b.addEventListener("keydown",function(e){
+        if(e.key!=="ArrowRight"&&e.key!=="ArrowLeft"&&e.key!=="ArrowDown"&&e.key!=="ArrowUp") return;
+        e.preventDefault(); var ks=SECTIONS.map(function(c){return c.k;}), i=ks.indexOf(TAB), d=(e.key==="ArrowRight"||e.key==="ArrowDown")?1:-1;
+        setTab(ks[(i+d+ks.length)%ks.length], b.closest(".vtabs")?".vtabs":".mtabs");
       });
     });
-    document.querySelectorAll("#focus-all,[data-all]").forEach(function(b){
-      b.addEventListener("click",function(){ hidden=[]; saveHidden(); applyFocus(); });
+    app.querySelectorAll("[data-pick]").forEach(function(c){
+      c.addEventListener("change",function(){
+        var id=c.getAttribute("data-pick"), i=hidden.indexOf(id);
+        if(c.checked&&i>=0) hidden.splice(i,1); else if(!c.checked&&i<0) hidden.push(id);
+        saveHidden(); applyView();
+      });
     });
-    applyFocus();
+    app.querySelectorAll("#focus-all,[data-all]").forEach(function(b){
+      b.addEventListener("click",function(){ hidden=hidden.filter(function(id){return !sec.items.some(function(p){return p.id===id;});}); saveHidden(); applyView(); });
+    });
+    app.querySelectorAll("[data-f]").forEach(function(c){
+      c.addEventListener("change",function(){
+        var g=c.getAttribute("data-f"), f=filt();
+        if(g==="deal") f.deal=c.checked;
+        else { var a=f[g], i=a.indexOf(c.value); if(c.checked&&i<0) a.push(c.value); else if(!c.checked&&i>=0) a.splice(i,1); }
+        saveView(); applyView();
+      });
+    });
+    app.querySelectorAll('input[name="sort"]').forEach(function(r){
+      r.addEventListener("change",function(){ if(r.checked){ VIEW.sort=r.value; saveView(); applyView(); } });
+    });
+    app.querySelectorAll("[data-clear]").forEach(function(b){
+      b.addEventListener("click",function(){ VIEW.f[TAB]={brand:[],age:[],deal:false}; saveView(); applyView(); });
+    });
+    $("#fbtn").addEventListener("click",function(){ setSheet(true); });
+    app.querySelectorAll("[data-close]").forEach(function(b){ b.addEventListener("click",function(){ setSheet(false); }); });
+    applyView();
+    setSheet(sheetOpen,true);
     document.querySelectorAll(".toggle").forEach(function(b){
       b.addEventListener("click",function(){
         var c=b.closest(".card"); var open=c.classList.toggle("open");
@@ -168,25 +240,52 @@
     });
   }
 
-  function applyFocus(){
-    var shown=0;
-    document.querySelectorAll(".chip").forEach(function(c){
-      var on=hidden.indexOf(c.getAttribute("data-pid"))<0; c.setAttribute("aria-pressed",on?"true":"false");
+  function setTab(k,from){
+    if(!k||k===TAB) return;
+    TAB=secOf(k).k; ls(TKEY,TAB); render();
+    var b=document.querySelector((from||".mtabs")+' [data-tab="'+TAB+'"]'); if(b) b.focus({preventScroll:true});
+    var bar=document.querySelector(".mtabs"); if(bar&&b&&from===".mtabs") b.scrollIntoView({block:"nearest",inline:"nearest"});
+  }
+  function setSheet(open,quiet){
+    sheetOpen=!!open;
+    document.body.classList.toggle("sheet-open",sheetOpen);
+    var fb=$("#fbtn"); if(fb) fb.setAttribute("aria-expanded",sheetOpen?"true":"false");
+    var side=$("#side");
+    if(side){ if(sheetOpen){ side.setAttribute("role","dialog"); side.setAttribute("aria-modal","true"); } else { side.removeAttribute("role"); side.removeAttribute("aria-modal"); } }
+    if(quiet) return;
+    if(sheetOpen){ var x=side&&side.querySelector(".sheet-x"); if(x) x.focus({preventScroll:true}); } else if(fb) fb.focus({preventScroll:true});
+  }
+  document.addEventListener("keydown",function(e){ if(e.key==="Escape"&&sheetOpen) setSheet(false); });
+  // 視窗變寬（改成側欄）時自動關閉底部面板
+  if(window.matchMedia){ var mq=window.matchMedia("(min-width: 900px)"); var mqf=function(){ if(mq.matches&&sheetOpen) setSheet(false,true); }; if(mq.addEventListener) mq.addEventListener("change",mqf); else if(mq.addListener) mq.addListener(mqf); }
+
+  // 套用分類、篩選、關注、排序（不重畫卡片，展開狀態保留）
+  function applyView(){
+    var sec=secOf(TAB), f=filt(), app=$("#app");
+    app.classList.toggle("sort-drop",VIEW.sort==="drop");
+    app.querySelectorAll("[data-pick]").forEach(function(c){ c.checked=hidden.indexOf(c.getAttribute("data-pick"))<0; });
+    app.querySelectorAll("[data-f]").forEach(function(c){ var g=c.getAttribute("data-f"); c.checked = g==="deal" ? f.deal : f[g].indexOf(c.value)>=0; });
+    app.querySelectorAll('input[name="sort"]').forEach(function(r){ r.checked=r.value===VIEW.sort; });
+    var byId={}; D.products.forEach(function(p){ byId[p.id]=p; });
+    var shown=0, unhidden=0;
+    sec.items.forEach(function(p){ if(hidden.indexOf(p.id)<0){ unhidden++; if(pass(p,f)) shown++; } });
+    app.querySelectorAll("[data-pid]").forEach(function(el){
+      var p=byId[el.getAttribute("data-pid")];
+      el.hidden=!(p&&catOf(p)===TAB&&hidden.indexOf(p.id)<0&&pass(p,f));
     });
-    document.querySelectorAll("[data-pid]:not(.chip)").forEach(function(el){
-      var on=hidden.indexOf(el.getAttribute("data-pid"))<0; el.hidden=!on;
-      if(on&&el.classList.contains("card")) shown++;
-    });
-    $("#focus-count").textContent = shown===IDS.length ? "" : t("focus_count",shown,IDS.length);
-    $("#focus-all").hidden = shown===IDS.length;
-    $("#empty-focus").hidden = shown>0;
-    // 該分區的商品全部被隱藏時，連同分區標題與跳轉按鈕一起隱藏
-    document.querySelectorAll("[data-cat]").forEach(function(el){
-      var g=el.getAttribute("data-cat"), any=D.products.some(function(p){return catOf(p)===g && hidden.indexOf(p.id)<0;});
-      el.hidden=!any;
-    });
-    var nav=document.querySelector(".sec-nav");
-    if(nav) nav.hidden=document.querySelectorAll(".sec-nav a:not([hidden])").length<2;
+    // 排序：依序把卡片重新放進格線
+    var grid=$("#grid");
+    sec.items.slice().sort(cmp).forEach(function(p){ var el=document.getElementById(p.id); if(el&&el.parentNode===grid) grid.appendChild(el); });
+    var total=sec.items.length;
+    $("#focus-count").textContent = unhidden===total ? "" : t("focus_count",unhidden,total);
+    $("#focus-all").hidden = unhidden===total;
+    $("#empty-focus").hidden = unhidden>0;
+    $("#empty-filter").hidden = !(unhidden>0&&shown===0);
+    $("#res-n").textContent = shown===total ? t("n_items",total) : t("n_items_of",shown,total);
+    var na=nActive(f)+(unhidden<total?1:0), fb=$("#fbadge");
+    fb.hidden=!na; fb.textContent=na||""; $("#fbtn").setAttribute("aria-label",t("f_btn")+(na?" ("+t("f_active",na)+")":""));
+    app.querySelectorAll("[data-clear]").forEach(function(b){ if(b.classList.contains("clear-f")) b.hidden=!nActive(f); else if(!b.classList.contains("solid")) b.disabled=!nActive(f); });
+    $("#sheet-show").textContent=t("show_n",shown);
   }
 
   // 標籤：同類型同顏色（ship 運費、sub 訂閱、cond 其他條件、cash 返現、deal 新客首單、once 單次購買）
@@ -232,7 +331,8 @@
     s += '<div class="card-main">';
     s += '<div class="thumb"><img src="'+img+'" alt="'+esc(t("img_alt",p.brand+" "+name))+'" width="112" height="112" '+(i>1?'loading="lazy" ':'')+'decoding="async"></div>';
     s += '<div class="ptitle"><div class="brandname">'+esc(p.brand)+'</div><h3>'+esc(name)+'</h3><div class="desc">'+esc(tr(p.desc))+(p.pack?DOT()+esc(tr(p.pack)):'')+'</div>';
-    if(p.badge) s += '<div class="badges"><span class="badge '+esc(p.badge.kind)+'">'+esc(tr(p.badge.text))+'</span></div>';
+    var dropb = p.drop>0 ? '<span class="badge dropb">'+esc(t("drop_badge",Math.round(p.drop)))+'</span>' : '';
+    if(p.badge||dropb) s += '<div class="badges">'+(p.badge?'<span class="badge '+esc(p.badge.kind)+'">'+esc(tr(p.badge.text))+'</span>':'')+dropb+'</div>';
     s += '</div>';
     if(!b){
       s += '<div class="where">'+esc(t("no_offer"))+'</div></div>';

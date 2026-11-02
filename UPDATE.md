@@ -1,4 +1,4 @@
-# 幼貓濕食比價網站：更新方式
+# 幼貓飼料比價網站：更新方式
 
 原始碼：`/workspace/cat-food-site`（box）
 資料來源（唯讀，由價格追蹤 bot 每 2 天約 09:00 荷蘭時間更新）：
@@ -8,10 +8,14 @@
 - `build.py`：讀 prices.json → 產生 `docs/`（index.html 內嵌資料、data.json、assets/）。不會寫入資料來源。
 - `site.config.json`：商品順序、中文名稱、圖片（`target` 欄位已停用，網站不再顯示比價目標）。新商品若未設定會自動加入（使用貓咪佔位圖）。
 - `web/`：版型（index.html、style.css、app.js）與多語系文字 `i18n.json`。
-- 分類分區：網站依商品的 `category`（prices.json，`wet`／`dry`／`litter`／`care`）分成濕食、乾飼料、貓砂、護理四區，順序固定，沒有商品的分區不顯示。單價單位依 `unit_basis`／`unit` 自動判斷（濕食 €/100g、乾飼料 €/kg、貓砂 €/L、護理 €/g）；prices.json 沒寫 category 時，可在 config 寫 `"category"`，再不然依單位推斷。config 的 `chip` 是頁首篩選晶片的短名稱（例如 ORIJEN 各口味只寫 `Kitten`、`Six Fish`），沒寫就用品牌。
-- 關注篩選：訪客可在頁首點選要看的商品，選擇存在瀏覽器 localStorage（`catfood.hidden.v1`，記錄「隱藏」的商品 id），新商品預設顯示、已移除的 id 自動忽略。
+- 分類分頁：網站依商品的 `category`（prices.json，`wet`／`dry`／`litter`／`care`）分成濕食、乾飼料、貓砂、保健四個分頁，一次只顯示一類，沒有商品的分類不顯示；目前分頁存在 localStorage（`catfood.tab.v1`）。單價單位依 `unit_basis`／`unit` 自動判斷（濕食 €/100g、乾飼料 €/kg、貓砂 €/L、保健 €/g）；prices.json 沒寫 category 時，可在 config 寫 `"category"`，再不然依單位推斷。config 的 `chip` 是商品勾選清單的短名稱（例如 ORIJEN 各口味只寫 `Kitten`、`Six Fish`），沒寫就用品牌。
+- 版面：寬度 ≥ 900px 時左側有固定側欄（約 220px，分類＋數量、排序、篩選、商品勾選清單），右側只放商品；手機上方一排分類分頁，「篩選」按鈕打開底部面板（排序、篩選、商品勾選清單）。
+- 篩選與排序：品牌、年齡（幼貓／成貓／全齡）、「只看有折扣或返現」，可以疊加；只顯示目前分類用得到、而且有 2 種以上值的篩選。排序：每單位最便宜（預設）、降價最多（比近 30 天高點低多少 %，沒有更早紀錄算 0）、最近更新。設定存在 `catfood.view.v1`（排序全站共用，篩選每個分類各自記住）。
+  - 年齡來源：config 的 `"age"`（`kitten`／`adult`／`all`）優先，其次 prices.json 的 `life_stage`／`age`，再不然從濕食／乾飼料的品名猜；猜不到的商品在篩選時一律顯示，build 會印「提醒」列出來，最好補進 config（ORIJEN 的來源記在 config 的 `_age_sources`）。「全齡」商品在選幼貓或成貓時也會出現。
+  - 「有折扣或返現」＝最低價那一家有返現／促銷標籤、新客優惠，或售價低於原價。
+- 關注篩選：訪客可在商品勾選清單取消勾選不想看的商品，選擇存在 localStorage（`catfood.hidden.v1`，記錄「隱藏」的商品 id），新商品預設顯示、已移除的 id 自動忽略；會跟上面的篩選一起套用。
 - `assets/products/`：商品圖（自行託管，不外連）。新增商品時放一張 480×480 webp 並在 config 指定。
-- `shoot.py`：headless Chrome 截圖檢查（390×844、1280×800）。
+- `shoot.py`：headless Chrome 截圖檢查（390×844、1280×800）。Playwright 互動測試（分頁、篩選、排序、重新整理後保留）見 /workspace/shoot_filters.py（不在 repo 裡，斷言依當天資料寫死）。
 
 ## 每次更新（約每 2 天，資料更新後 10:00 以後）
 ```bash
