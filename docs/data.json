@@ -3,7 +3,7 @@
  "updated": "2026-11-01",
  "updated_zh": "2026年11月1日",
  "next_zh": "11月3日",
- "generated_zh": "2026-11-02 13:58",
+ "generated_zh": "2026-11-02 14:30",
  "location": "鹿特丹",
  "feedback_url": "",
  "products": [
@@ -684,6 +684,7 @@
      "tags": [
       {
        "k": "cash",
+       "p": "CashbackXL",
        "t": "CashbackXL 返現 €5.43"
       },
       {
@@ -792,6 +793,7 @@
      "tags": [
       {
        "k": "cash",
+       "p": "CashbackXL",
        "t": "CashbackXL 返現 €1.55"
       },
       {
@@ -1536,6 +1538,7 @@
      "tags": [
       {
        "k": "cash",
+       "p": "ShopBuddies",
        "t": "ShopBuddies 返現 €0.14"
       },
       {
@@ -1580,6 +1583,7 @@
      "tags": [
       {
        "k": "cash",
+       "p": "ShopBuddies",
        "t": "ShopBuddies 返現 €0.14"
       },
       {
@@ -1661,6 +1665,7 @@
      "tags": [
       {
        "k": "cash",
+       "p": "ShopBuddies",
        "t": "ShopBuddies 返現 €0.19"
       },
       {
@@ -1742,6 +1747,7 @@
      "tags": [
       {
        "k": "cash",
+       "p": "ShopBuddies",
        "t": "ShopBuddies 返現 €0.20"
       },
       {
@@ -1823,6 +1829,7 @@
      "tags": [
       {
        "k": "cash",
+       "p": "ShopBuddies",
        "t": "ShopBuddies 返現 €0.22"
       },
       {
@@ -1904,6 +1911,7 @@
      "tags": [
       {
        "k": "cash",
+       "p": "ShopBuddies",
        "t": "ShopBuddies 返現 €0.12"
       },
       {
@@ -1948,6 +1956,7 @@
      "tags": [
       {
        "k": "cash",
+       "p": "ShopBuddies",
        "t": "ShopBuddies 返現 €0.20"
       },
       {
@@ -2008,6 +2017,7 @@
     "tags": [
      {
       "k": "cash",
+      "p": "CashbackXL",
       "t": "CashbackXL 返現 €1.84"
      },
      {
@@ -2101,6 +2111,7 @@
      "tags": [
       {
        "k": "cash",
+       "p": "CashbackXL",
        "t": "CashbackXL 返現 €1.84"
       },
       {
@@ -2145,6 +2156,7 @@
      "tags": [
       {
        "k": "cash",
+       "p": "CashbackXL",
        "t": "CashbackXL 返現 €1.96"
       },
       {
@@ -2263,6 +2275,7 @@
      "tags": [
       {
        "k": "cash",
+       "p": "CashbackXL",
        "t": "CashbackXL 返現 €2.01"
       },
       {
@@ -2381,6 +2394,7 @@
      "tags": [
       {
        "k": "cash",
+       "p": "ShopBuddies",
        "t": "ShopBuddies 返現 €1.41"
       },
       {
@@ -2425,6 +2439,7 @@
      "tags": [
       {
        "k": "cash",
+       "p": "ShopBuddies",
        "t": "ShopBuddies 返現 €1.41"
       },
       {
@@ -2469,6 +2484,7 @@
      "tags": [
       {
        "k": "cash",
+       "p": "ShopBuddies",
        "t": "ShopBuddies 返現 €0.36"
       },
       {
@@ -2513,6 +2529,7 @@
      "tags": [
       {
        "k": "cash",
+       "p": "ShopBuddies",
        "t": "ShopBuddies 返現 €0.36"
       },
       {
@@ -2621,6 +2638,7 @@
      "tags": [
       {
        "k": "cash",
+       "p": "CashbackXL",
        "t": "CashbackXL 返現 €1.26"
       },
       {
@@ -2665,6 +2683,7 @@
      "tags": [
       {
        "k": "cash",
+       "p": "CashbackXL",
        "t": "CashbackXL 返現 €1.30"
       },
       {
@@ -2820,6 +2839,7 @@
      "tags": [
       {
        "k": "cash",
+       "p": "CashbackXL",
        "t": "CashbackXL 返現 €1.43"
       },
       {
@@ -2901,6 +2921,7 @@
      "tags": [
       {
        "k": "cash",
+       "p": "ShopBuddies",
        "t": "ShopBuddies 返現 €0.99"
       },
       {
@@ -2945,6 +2966,7 @@
      "tags": [
       {
        "k": "cash",
+       "p": "ShopBuddies",
        "t": "ShopBuddies 返現 €0.99"
       },
       {
@@ -2989,6 +3011,7 @@
      "tags": [
       {
        "k": "cash",
+       "p": "ShopBuddies",
        "t": "ShopBuddies 返現 €0.25"
       },
       {
@@ -3033,6 +3056,7 @@
      "tags": [
       {
        "k": "cash",
+       "p": "ShopBuddies",
        "t": "ShopBuddies 返現 €0.25"
       },
       {
@@ -3183,6 +3207,7 @@
      "tags": [
       {
        "k": "cash",
+       "p": "ShopBuddies",
        "t": "ShopBuddies 返現 €0.55"
       },
       {
@@ -3227,6 +3252,7 @@
      "tags": [
       {
        "k": "cash",
+       "p": "ShopBuddies",
        "t": "ShopBuddies 返現 €0.55"
       },
       {
@@ -3340,6 +3366,7 @@
      "tags": [
       {
        "k": "cash",
+       "p": "ShopBuddies",
        "t": "ShopBuddies 返現 €0.14"
       },
       {
@@ -3384,6 +3411,7 @@
      "tags": [
       {
        "k": "cash",
+       "p": "ShopBuddies",
        "t": "ShopBuddies 返現 €0.14"
       },
       {
@@ -3460,6 +3488,7 @@
      "tags": [
       {
        "k": "cash",
+       "p": "ShopBuddies",
        "t": "ShopBuddies 返現 €0.15"
       },
       {
@@ -3650,6 +3679,7 @@
      "tags": [
       {
        "k": "cash",
+       "p": "ShopBuddies",
        "t": "ShopBuddies 返現 €0.28"
       },
       {
@@ -5007,6 +5037,12 @@
    "main_count": 9,
    "shop_count": 3,
    "mixed_sizes": true
+  }
+ ],
+ "cashback_invites": [
+  {
+   "name": "CashbackXL",
+   "url": "https://www.cashbackxl.nl?share=yhes-62a4a407"
   }
  ],
  "promos": [

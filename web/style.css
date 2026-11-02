@@ -178,3 +178,16 @@ body{padding-bottom:calc(64px + env(safe-area-inset-bottom))}
 .fb-btn{display:inline-flex;align-items:center;min-height:36px;padding:0 14px;border-radius:99px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);text-decoration:none;font-size:13px;font-weight:700}
 .fb-btn:hover{border-color:var(--accent);color:var(--accent)}
 .tip-link{color:var(--muted);font-size:12px}
+
+/* 返現網站註冊（站長邀請連結） */
+.cb{margin:18px 0 4px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 14px 14px}
+.cb h2{margin:0;font-size:14px;font-weight:700;color:var(--ink)}
+.cb p{margin:2px 0 10px;font-size:12px;color:var(--muted)}
+.cb-list{display:flex;flex-wrap:wrap;gap:8px}
+.cb-btn{display:inline-flex;align-items:center;gap:10px;min-height:40px;padding:0 14px;border-radius:12px;border:1.5px solid #cfe7da;background:#f3faf6;color:var(--ink);text-decoration:none;font-size:14px}
+.cb-btn b{font-weight:700}
+.cb-btn span{font-size:12px;font-weight:700;color:#1f6b47}
+.cb-btn:hover{border-color:#1f6b47}
+.cb-btn:focus-visible,.tag-link:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+a.tag-link{text-decoration:none;cursor:pointer}
+a.tag-link:hover{text-decoration:underline}

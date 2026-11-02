@@ -3,6 +3,15 @@
   "site_title": "幼貓濕食比價",
   "update_interval_days": 2,
   "feedback_url": "",
+  "cashback_invites": {
+    "Woolsocks": "https://woolsocks.page.link/qs53",
+    "CashbackXL": "https://www.cashbackxl.nl?share=yhes-62a4a407",
+    "TopCashback UK": "https://www.topcashback.co.uk/ref/member12111339488106",
+    "TopCashback US": "https://www.topcashback.com/ref/member1232374665614",
+    "iGraal (DE)": "https://de.igraal.com/einladung?werber=kbBSGxR3&utm_medium=raf&utm_source=refer_friend",
+    "ShopBack": "https://app.shopback.com/BN6KdBvMUwb",
+    "Social Deal": "https://www.socialdeal.nl/?ref=BSWZHK"
+  },
   "product_order": [
     "rc_kitten_sterilised_gravy",
     "macs_kitten",

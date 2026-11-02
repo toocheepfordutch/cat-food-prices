@@ -119,6 +119,31 @@ def short_portal(p):
     return strip_paren(p) if p else None
 
 
+def portal_key(name):
+    """返現網站名稱比對用：去括號、空白與大小寫（「CashbackXL」＝「cashback xl」）。"""
+    return re.sub(r"\s+", "", strip_paren(name or "")).lower()
+
+
+def cashback_invites(cfg, products):
+    """只保留目前資料（網站上各商品今日報價）實際用到的返現網站邀請連結。
+    比對 offer 的返現標籤（cashback_portal）與新客返現（cashback_new_customer.portal），
+    依 site.config.json "cashback_invites" 的順序輸出 [{"name", "url"}]。"""
+    used = set()
+    for p in products:
+        for o in p["offers"]:
+            for t in o["tags"]:
+                if t.get("k") == "cash" and t.get("p"):
+                    used.add(portal_key(t["p"]))
+            if o.get("new_customer") and o["new_customer"].get("portal"):
+                used.add(portal_key(o["new_customer"]["portal"]))
+    out = []
+    for name, url in (cfg.get("cashback_invites") or {}).items():
+        url = (url or "").strip()
+        if url and portal_key(name) in used:
+            out.append({"name": name, "url": url})
+    return out
+
+
 def eff_unit_price(o):
     """回傳 (每份價, 每100g價, 總價, 計價基礎)：優惠價與返現後取較低者，不疊加。"""
     bu, b100, bp = num(o.get("best_eur_per_unit")), num(o.get("best_eur_per_100g")), num(o.get("best_price_eur"))
@@ -188,7 +213,7 @@ def offer_view(o, unit_word, base="100g"):
     if k == "cashback" and o.get("cashback_portal"):
         cb = num(o.get("cashback_eur"))
         conds.append(f"經 {short_portal(o['cashback_portal'])} 返現" + (f" €{cb:.2f}" if cb else ""))
-        tags.insert(0, {"k": "cash", "t": f"{short_portal(o['cashback_portal'])} 返現" + (f" €{cb:.2f}" if cb else "")})
+        tags.insert(0, {"k": "cash", "p": short_portal(o['cashback_portal']), "t": f"{short_portal(o['cashback_portal'])} 返現" + (f" €{cb:.2f}" if cb else "")})
     nc = o.get("cashback_new_customer")
     new_cust = None
     if isinstance(nc, dict) and num(nc.get("after_cashback_eur_per_unit")) is not None:
@@ -410,6 +435,8 @@ def build(src: Path):
         # 意見回饋 Google 表單網址：填在 site.config.json 的 "feedback_url"；空字串時網站不顯示入口
         "feedback_url": (cfg.get("feedback_url") or "").strip(),
         "products": products,
+        # 返現網站邀請連結：只列出今日資料實際用到的（見 cashback_invites()）
+        "cashback_invites": cashback_invites(cfg, products),
         "promos": promos,
         "details": {
             "promos_other": promos_other,

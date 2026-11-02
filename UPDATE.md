@@ -41,3 +41,10 @@ npx -y @shipstatic/ship ./docs
 
 ## 價格水準膠囊
 `build.py` 的 `price_level()`：取該商品最近 90 天「每日最低有效單價」（與走勢圖相同），≥ 7 天才顯示；今日 ≤ 第 25 百分位＝偏低、≥ 第 75 百分位＝偏高、其餘＝一般。不足 7 天顯示「資料累積中」。
+
+## 返現網站邀請連結（`cashback_invites`）
+`site.config.json` 的 `"cashback_invites"`：`{ "返現網站名稱": "站長邀請連結" }`（目前存了 Woolsocks、CashbackXL、TopCashback UK／US、iGraal (DE)、ShopBack、Social Deal 共 7 個）。
+- `build.py` 的 `cashback_invites()` 只輸出「今日資料實際用到」的網站：比對網站上各商品今日報價的返現標籤（`cashback_portal`，去掉括號內文字）與新客返現（`cashback_new_customer.portal`）。名稱比對忽略大小寫與空白，需與 prices.json 的 portal 名稱一致（例如 `ShopBuddies（Woolsocks All-in-One 禮品卡）` 視為 ShopBuddies，不算 Woolsocks）。
+- 符合的網站會出現在頁尾上方「先註冊返現網站，買罐罐再拿回一點錢」區塊（每站一顆按鈕），同時報價上的「XXX 返現 €x.xx」標籤也會連到該邀請連結；連結皆 `target="_blank" rel="noopener sponsored"`。
+- 資料裡出現新的返現網站時會自動顯示；沒有對應邀請連結的網站（例如 ShopBuddies）不會列出，要加就在設定檔補一筆，名稱與 portal 相同即可。沒有任何符合的網站時整個區塊不顯示。
+- 不要寫註冊獎金金額（未核實）。

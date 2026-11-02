@@ -21,6 +21,8 @@
   $("#updated").innerHTML = "<b>"+esc(D.updated_zh.replace(/^\d+年/,""))+" 更新</b>下次約 "+esc(D.next_zh)+"（荷蘭時間）";
 
   var html = [];
+  var INVITES = D.cashback_invites||[], INVITE={};
+  INVITES.forEach(function(x){ INVITE[x.name]=x.url; });
 
   // 關注篩選：儲存「隱藏的商品」，因此之後新增的商品預設會顯示，已下架的商品自動忽略
   var FKEY="catfood.hidden.v1";
@@ -60,6 +62,7 @@
   }
 
   html.push(details());
+  html.push(cashbackHtml());
   $("#app").innerHTML = html.join("");
   var links=[];
   if(D.feedback_url) links.push('<a class="fb-btn" href="'+esc(D.feedback_url)+'" target="_blank" rel="noopener">✍️ 意見回饋／想新增商品</a>');
@@ -116,7 +119,20 @@
     if(o.new_customer) t.push({k:"deal",t:'新客首單 '+(pbv(o.new_customer)!=null?eur(pbv(o.new_customer),bd(p))+'/'+bu(p):eur(o.new_customer.unit)+'/'+u)});
     var otp=o.one_time_pb!=null?o.one_time_pb:o.one_time_per100g;
     if(o.one_time_unit&&!noOnce) t.push({k:"once",t:'單次購買 '+(otp!=null?eur(otp,bd(p))+'/'+bu(p):eur(o.one_time_unit)+'/'+u)});
-    return t.map(function(x){return '<span class="tag t-'+esc(x.k)+'">'+esc(x.t)+'</span>';}).join("");
+    return t.map(function(x){
+      var inv=x.k==="cash"&&x.p?INVITE[x.p]:null;
+      if(inv) return '<a class="tag t-'+esc(x.k)+' tag-link" href="'+esc(inv)+'" target="_blank" rel="noopener sponsored" title="經由站長邀請連結註冊 '+esc(x.p)+'（另開新視窗）">'+esc(x.t)+' ›</a>';
+      return '<span class="tag t-'+esc(x.k)+'">'+esc(x.t)+'</span>';
+    }).join("");
+  }
+
+  // 返現網站註冊區：build.py 只會輸出今日資料實際用到、且有設定邀請連結的網站
+  function cashbackHtml(){
+    if(!INVITES.length) return "";
+    return '<section class="cb" aria-labelledby="cb-h"><h2 id="cb-h">先註冊返現網站，買罐罐再拿回一點錢</h2>'+
+      '<p>網站上的「含返現」價格需要先註冊對應的返現網站，經由下面連結註冊是用站長的邀請連結。</p><div class="cb-list">'+
+      INVITES.map(function(x){return '<a class="cb-btn" href="'+esc(x.url)+'" target="_blank" rel="noopener sponsored" aria-label="註冊 '+esc(x.name)+'（站長邀請連結，另開新視窗）"><b>'+esc(x.name)+'</b><span>註冊 ↗</span></a>';}).join("")+
+      '</div></section>';
   }
 
   // 價格水準膠囊（類似 Google 機票「目前價格偏低」）：依該商品自己的每日最低價歷史
