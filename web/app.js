@@ -63,7 +63,7 @@
   $("#app").innerHTML = html.join("");
   var links=[];
   if(D.feedback_url) links.push('<a class="fb-btn" href="'+esc(D.feedback_url)+'" target="_blank" rel="noopener">✍️ 意見回饋／想新增商品</a>');
-  links.push('<a class="tip-link" href="https://donate.stripe.com/14A28q0Hk2EweXg6pc1wY00" target="_blank" rel="noopener">☕ 贊助本站</a>');
+  links.push('<a class="tip-link" href="https://donate.stripe.com/14A28q0Hk2EweXg6pc1wY00" target="_blank" rel="noopener">🥫 贊助罐罐</a>');
   $("#foot").innerHTML = '<div class="foot-links">'+links.join("")+'</div><p>價格取「優惠價（定期配送、折扣）」與「返現後價格」中較低者，兩者不疊加。返現以既有客戶費率計算。</p><p>所有商店皆可寄送至鹿特丹；實際價格以商店頁面為準。網站產生時間 '+esc(D.generated_zh)+'（阿姆斯特丹時間）。</p>';
 
   function applyFocus(){
