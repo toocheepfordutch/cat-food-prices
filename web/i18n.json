@@ -345,6 +345,14 @@
    "海洋魚蝦／雞肉石榴": [
     "Ocean fish & shrimp / chicken & pomegranate",
     "Zeevis & garnalen / kip & granaatappel"
+   ],
+   "貓罐頭": [
+    "Canned cat food",
+    "Blikvoer voor katten"
+   ],
+   "85g／185g 罐": [
+    "85g/185g cans",
+    "85g/185g blikken"
    ]
   },
   "patterns": [
@@ -1118,6 +1126,10 @@
    "定期配送95 折": [
     "autoship 5% off",
     "abonnement 5% korting"
+   ],
+   "全齡配方": [
+    "All life stages",
+    "Voor alle levensfasen"
    ]
   }
  }

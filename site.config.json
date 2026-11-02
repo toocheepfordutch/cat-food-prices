@@ -81,6 +81,14 @@
       "unit_word": "條",
       "group": "other",
       "image": "assets/products/l_mesitran_vet_soft.webp"
+    },
+    "ziwi_peak_cat_wet": {
+      "brand": "ZIWI Peak",
+      "name": "貓罐頭",
+      "desc": "全齡配方（含幼貓）・6 種口味",
+      "pack": "85g／185g 罐",
+      "unit_word": "罐",
+      "image": "assets/products/ziwi_peak_cat_wet.webp"
     }
   }
 }

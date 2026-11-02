@@ -227,7 +227,7 @@
       s += levelHtml(p);
       if(p.one_time_best){
         var o=p.one_time_best;
-        s += '<div class="alt">'+esc(t("alt_once"))+'<a href="'+esc(o.url)+'" target="_blank" rel="noopener nofollow">'+esc(tr(o.shop))+'</a> '+variant(o.variant)+' '+(pbv(o)!=null?pB(p,pbv(o)):'<span class="num">'+eur(o.unit)+'</span>/'+esc(u))+'</div>';
+        s += '<div class="alt">'+esc(t("alt_once"))+(LANG==="zh"?"":" ")+'<a href="'+esc(o.url)+'" target="_blank" rel="noopener nofollow">'+esc(tr(o.shop))+'</a> '+variant(o.variant)+' '+(pbv(o)!=null?pB(p,pbv(o)):'<span class="num">'+eur(o.unit)+'</span>/'+esc(u))+'</div>';
       }
       s += '</div>';
     }
