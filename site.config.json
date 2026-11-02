@@ -24,7 +24,15 @@
     "macs_kitten",
     "mjamjam_kitten",
     "farmina_nd_ocean_kitten",
+    "orijen_cat_dry_kitten",
+    "orijen_cat_dry_original",
+    "orijen_cat_dry_six_fish",
+    "orijen_cat_dry_regional_red",
+    "orijen_cat_dry_tundra",
+    "orijen_cat_dry_fit_trim",
+    "orijen_cat_dry_guardian8",
     "tigerino_tofu_sensitive",
+    "ever_clean_extra_hygiene_unscented",
     "l_mesitran_vet_soft"
   ],
   "products": {
@@ -70,7 +78,6 @@
       "desc": "豆腐貓砂・可沖馬桶・無香",
       "pack": "11L 袋",
       "unit_word": "袋",
-      "group": "other",
       "image": "assets/products/tigerino_tofu_sensitive.webp"
     },
     "l_mesitran_vet_soft": {
@@ -79,7 +86,6 @@
       "desc": "動物用醫療級蜂蜜凝膠（非 Ointment 軟膏）",
       "pack": "1g／20g／60g／250g 條",
       "unit_word": "條",
-      "group": "other",
       "image": "assets/products/l_mesitran_vet_soft.webp"
     },
     "ziwi_peak_cat_wet": {
@@ -89,6 +95,78 @@
       "pack": "85g／185g 罐",
       "unit_word": "罐",
       "image": "assets/products/ziwi_peak_cat_wet.webp"
+    },
+    "orijen_cat_dry_kitten": {
+      "brand": "ORIJEN",
+      "name": "Kitten",
+      "chip": "Kitten",
+      "desc": "幼貓乾飼料・無穀",
+      "pack": "1.8kg 袋",
+      "unit_word": "袋",
+      "image": "assets/products/orijen_cat_dry_kitten.webp"
+    },
+    "orijen_cat_dry_original": {
+      "brand": "ORIJEN",
+      "name": "Original（Cat & Kitten）",
+      "chip": "Original",
+      "desc": "乾飼料・無穀・全齡（含幼貓）",
+      "pack": "1.8kg／5.4kg／17kg 袋",
+      "unit_word": "袋",
+      "image": "assets/products/orijen_cat_dry_original.webp"
+    },
+    "orijen_cat_dry_six_fish": {
+      "brand": "ORIJEN",
+      "name": "Six Fish",
+      "chip": "Six Fish",
+      "desc": "乾飼料・無穀・魚肉配方",
+      "pack": "1.8kg／5.4kg 袋",
+      "unit_word": "袋",
+      "image": "assets/products/orijen_cat_dry_six_fish.webp"
+    },
+    "orijen_cat_dry_regional_red": {
+      "brand": "ORIJEN",
+      "name": "Regional Red",
+      "chip": "Regional Red",
+      "desc": "乾飼料・無穀・紅肉配方",
+      "pack": "1.8kg／5.4kg 袋",
+      "unit_word": "袋",
+      "image": "assets/products/orijen_cat_dry_regional_red.webp"
+    },
+    "orijen_cat_dry_tundra": {
+      "brand": "ORIJEN",
+      "name": "Tundra",
+      "chip": "Tundra",
+      "desc": "乾飼料・無穀・野味配方",
+      "pack": "1.8kg／5.4kg 袋",
+      "unit_word": "袋",
+      "image": "assets/products/orijen_cat_dry_tundra.webp"
+    },
+    "orijen_cat_dry_fit_trim": {
+      "brand": "ORIJEN",
+      "name": "Fit & Trim",
+      "chip": "Fit & Trim",
+      "desc": "乾飼料・無穀・體重控制",
+      "pack": "1.8kg／5.4kg 袋",
+      "unit_word": "袋",
+      "image": "assets/products/orijen_cat_dry_fit_trim.webp"
+    },
+    "orijen_cat_dry_guardian8": {
+      "brand": "ORIJEN",
+      "name": "Guardian 8",
+      "chip": "Guardian 8",
+      "desc": "乾飼料・無穀・成貓",
+      "pack": "1.8kg／4.5kg 袋",
+      "unit_word": "袋",
+      "image": "assets/products/orijen_cat_dry_guardian8.webp"
+    },
+    "ever_clean_extra_hygiene_unscented": {
+      "brand": "Ever Clean",
+      "name": "Extra Hygiene（無香）",
+      "chip": "Ever Clean",
+      "desc": "結團礦砂・活性碳・無香",
+      "pack": "20L 袋／10L 盒／6L 盒",
+      "unit_word": "份",
+      "image": "assets/products/ever_clean_extra_hygiene_unscented.webp"
     }
   }
 }

@@ -66,11 +66,6 @@
    "Lowest kitten wet food prices now",
    "Laagste prijzen kittennatvoer nu"
   ],
-  "other_title": [
-   "其他貓咪用品",
-   "Other cat supplies",
-   "Overige kattenspullen"
-  ],
   "empty_focus": [
    "目前沒有選擇任何商品。<br>點上方的商品名稱來挑選，或",
    "No products selected.<br>Tap a product name above to pick one, or",
@@ -330,6 +325,51 @@
    "更新",
    "Updated",
    "Bijgewerkt"
+  ],
+  "dry_title": [
+   "乾飼料目前最低價",
+   "Lowest dry food prices now",
+   "Laagste prijzen droogvoer nu"
+  ],
+  "litter_title": [
+   "貓砂目前最低價",
+   "Lowest cat litter prices now",
+   "Laagste prijzen kattenbakvulling nu"
+  ],
+  "care_title": [
+   "護理用品目前最低價",
+   "Lowest care product prices now",
+   "Laagste prijzen verzorging nu"
+  ],
+  "nav_aria": [
+   "商品分類",
+   "Product categories",
+   "Productcategorieën"
+  ],
+  "nav_wet": [
+   "濕食",
+   "Wet food",
+   "Natvoer"
+  ],
+  "nav_dry": [
+   "乾飼料",
+   "Dry food",
+   "Droogvoer"
+  ],
+  "nav_litter": [
+   "貓砂",
+   "Cat litter",
+   "Kattenbakvulling"
+  ],
+  "nav_care": [
+   "護理",
+   "Care",
+   "Verzorging"
+  ],
+  "per_kg": [
+   "每公斤",
+   "per kg",
+   "per kg"
   ]
  },
  "data": {
@@ -353,9 +393,179 @@
    "85g／185g 罐": [
     "85g/185g cans",
     "85g/185g blikken"
+   ],
+   "2026-11-02：Ever Clean 10L ongeparfumeerd 在 bol（https://www.bol.com/nl/nl/p/ever-clean-extra-sterk-klonterend-ongeparfumeerd-10-liter/9300000171271045/）：bol 擋存取，價格與賣家未核實": [
+    "2026-11-02: Ever Clean 10L ongeparfumeerd on bol (https://www.bol.com/nl/nl/p/ever-clean-extra-sterk-klonterend-ongeparfumeerd-10-liter/9300000171271045/): bol blocks access; price and seller unverified",
+    "2026-11-02: Ever Clean 10L ongeparfumeerd op bol (https://www.bol.com/nl/nl/p/ever-clean-extra-sterk-klonterend-ongeparfumeerd-10-liter/9300000171271045/): bol blokkeert toegang; prijs en verkoper niet geverifieerd"
+   ],
+   "2026-11-02：Ever Clean Unscented 20L 在 Amazon.de €39.99＋寄 NL €6.99＝€46.98（Amazon.de 頁，賣家 Amazon），比 Amazon.nl 貴": [
+    "2026-11-02: Ever Clean Unscented 20L on Amazon.de €39.99 + €6.99 shipping to NL = €46.98 (Amazon.de page, sold by Amazon); more expensive than Amazon.nl",
+    "2026-11-02: Ever Clean Unscented 20L op Amazon.de €39.99 + €6.99 verzending naar NL = €46.98 (Amazon.de-pagina, verkoper Amazon); duurder dan Amazon.nl"
+   ],
+   "2026-11-02：Ever Clean Unscented 20L 在 Karkkainen（芬蘭）€41.90（搜尋摘要），寄 NL 未確認": [
+    "2026-11-02: Ever Clean Unscented 20L at Karkkainen (Finland) €41.90 (search snippet); shipping to NL unconfirmed",
+    "2026-11-02: Ever Clean Unscented 20L bij Karkkainen (Finland) €41.90 (zoekfragment); verzending naar NL onbevestigd"
+   ],
+   "2026-11-02：ORIJEN 乾糧 Pets Place 各口味頁只讀到 €/kg（見 shop_sweep_2026_11_02.orijen_dry_sweep.pets_place_eur_per_kg），只有 Kitten 1.8kg €40.49 有完整價格": [
+    "2026-11-02: ORIJEN dry food at Pets Place: the flavour pages only showed €/kg (see shop_sweep_2026_11_02.orijen_dry_sweep.pets_place_eur_per_kg); only Kitten 1.8kg €40.49 has a full price",
+    "2026-11-02: ORIJEN-droogvoer bij Pets Place: de smaakpagina's toonden alleen €/kg (zie shop_sweep_2026_11_02.orijen_dry_sweep.pets_place_eur_per_kg); alleen Kitten 1.8kg €40.49 heeft een volledige prijs"
+   ],
+   "Abonnement 價頁面未顯示": [
+    "Abonnement price not shown on the page",
+    "Abonnementsprijs niet op de pagina getoond"
+   ],
+   "autoship 價頁面未顯示": [
+    "Autoship price not shown on the page",
+    "Abonnementsprijs niet op de pagina getoond"
+   ],
+   "組合 2x10L 省 €2（每包 €33.99）": [
+    "2x10L bundle saves €2 (€33.99 per pack)",
+    "Bundel 2x10L bespaart €2 (€33.99 per pak)"
+   ],
+   "Ever Clean：2x10L 組合省 €2": [
+    "Ever Clean: 2x10L bundle saves €2",
+    "Ever Clean: bundel 2x10L bespaart €2"
+   ],
+   "ORIJEN 乾糧：Plein／anistores 賣家頁有 Amazon 折扣 €1.96–€3.02": [
+    "ORIJEN dry food: Plein/anistores seller listings have Amazon discounts of €1.96–€3.02",
+    "ORIJEN-droogvoer: verkopers Plein/anistores hebben Amazon-korting van €1.96–€3.02"
+   ],
+   "ORIJEN 乾糧：訂閱電子報首單 10%": [
+    "ORIJEN dry food: 10% off your first order with newsletter sign-up",
+    "ORIJEN-droogvoer: 10% korting op je eerste bestelling bij aanmelding voor de nieuwsbrief"
+   ],
+   "自家集點每 €1 一點、500 點折 €10": [
+    "Own loyalty points: 1 point per €1, 500 points = €10 off",
+    "Eigen spaarpunten: 1 punt per €1, 500 punten = €10 korting"
+   ],
+   "週二送達": [
+    "Delivered Tuesday",
+    "Bezorgd op dinsdag"
+   ],
+   "免運，週三 11/4 送達": [
+    "Free shipping, delivered Wed 11/4",
+    "Gratis verzending, bezorgd wo 4/11"
+   ],
+   "只有數量價與定期配送 95 折": [
+    "Only volume pricing and 5% off with autoship",
+    "Alleen staffelprijzen en 5% korting met abonnement"
+   ],
+   "定期訂購（herhaalbestelling）價 -6%，Medpets 明示定期訂購不給返現": [
+    "Repeat-order (herhaalbestelling) price -6%; Medpets states repeat orders get no cashback",
+    "Herhaalbestelprijs -6%; Medpets meldt dat herhaalbestellingen geen cashback krijgen"
    ]
   },
   "patterns": [
+   [
+    "滿 (€[\\d.,]+) 全單再 (\\d+%) 折扣",
+    "extra $2 off the whole order from $1",
+    "extra $2 korting op de hele bestelling vanaf $1"
+   ],
+   [
+    "滿 (€[\\d.,]+) 再 (\\d+%)",
+    "extra $2 from $1",
+    "extra $2 vanaf $1"
+   ],
+   [
+    "新客 (\\d+%) 歡迎折扣",
+    "$1 welcome discount for new customers",
+    "$1 welkomstkorting voor nieuwe klanten"
+   ],
+   [
+    "(\\d+) 包組合每包 (€[\\d.,]+)",
+    "$1-pack bundle, $2 per pack",
+    "bundel van $1, $2 per stuk"
+   ],
+   [
+    "(\\d+) 包組合省 (€[\\d.,]+)",
+    "$1-pack bundle saves $2",
+    "bundel van $1 bespaart $2"
+   ],
+   [
+    "(\\d+) 包組合價",
+    "$1-pack bundle price",
+    "bundelprijs voor $1"
+   ],
+   [
+    "(\\d+) 包起每包 (€[\\d.,]+)",
+    "$2 each from $1 packs",
+    "$2 per stuk vanaf $1 stuks"
+   ],
+   [
+    "只剩 (\\d+) 包",
+    "only $1 left",
+    "nog maar $1 op voorraad"
+   ],
+   [
+    "含 (\\S+) 折扣 (€[\\d.,]+)",
+    "incl. $1 discount $2",
+    "incl. $1-korting $2"
+   ],
+   [
+    "建議售價 (€[\\d.,]+)",
+    "RRP $1",
+    "adviesprijs $1"
+   ],
+   [
+    "其他賣家 (€[\\d.,]+) 起",
+    "other sellers from $1",
+    "andere verkopers vanaf $1"
+   ],
+   [
+    "同頁可切換 (\\S+) (€[\\d.,]+)",
+    "same page also offers $1 for $2",
+    "op dezelfde pagina ook $1 voor $2"
+   ],
+   [
+    "（賣家 ([^）]+)）",
+    "（seller $1）",
+    "（verkoper $1）"
+   ],
+   [
+    "^(.+?) 出售並出貨",
+    "sold and shipped by $1",
+    "verkocht en verzonden door $1"
+   ],
+   [
+    "([\\d–-]+) 天出貨",
+    "ships in $1 days",
+    "verzonden binnen $1 dagen"
+   ],
+   [
+    "(\\d+) 小時內出貨",
+    "ships within $1 hours",
+    "verzonden binnen $1 uur"
+   ],
+   [
+    "免運 ([\\d/–-]+) 送達",
+    "free shipping, delivered $1",
+    "gratis verzending, bezorgd $1"
+   ],
+   [
+    "預計 ([\\d/–-]+) 到貨",
+    "expected $1",
+    "verwacht $1"
+   ],
+   [
+    "(\\S+) 另售",
+    "$1 sold separately",
+    "$1 apart verkrijgbaar"
+   ],
+   [
+    "網址寫 (.+?)，但商品是 (.+)",
+    "URL says $1, but the product is $2",
+    "URL zegt $1, maar het product is $2"
+   ],
+   [
+    "並送 (\\d+) 點",
+    "plus $1 points",
+    "plus $1 punten"
+   ],
+   [
+    "單買 (€[\\d.,]+)",
+    "separately $1",
+    "los $1"
+   ],
    [
     "(\\d+) 罐起每罐 (€[\\d.,]+)",
     "$2 per can from $1 cans",
@@ -600,6 +810,11 @@
     "頁面價 (€[\\d.,]+)",
     "page price $1",
     "prijs op pagina $1"
+   ],
+   [
+    "省 ((?:€[\\d.,]+)|(?:[\\d.]+%))",
+    "saves $1",
+    "bespaart $1"
    ]
   ],
   "phrases": {
@@ -1130,6 +1345,122 @@
    "全齡配方": [
     "All life stages",
     "Voor alle levensfasen"
+   ],
+   "幼貓乾飼料": [
+    "Kitten dry food",
+    "Kittendroogvoer"
+   ],
+   "乾飼料": [
+    "Dry food",
+    "Droogvoer"
+   ],
+   "乾糧": [
+    "dry food",
+    "droogvoer"
+   ],
+   "無穀": [
+    "grain-free",
+    "graanvrij"
+   ],
+   "全齡": [
+    "all life stages",
+    "alle levensfasen"
+   ],
+   "成貓": [
+    "adult cats",
+    "volwassen katten"
+   ],
+   "魚肉配方": [
+    "fish recipe",
+    "visrecept"
+   ],
+   "紅肉配方": [
+    "red meat recipe",
+    "recept met rood vlees"
+   ],
+   "野味配方": [
+    "game recipe",
+    "recept met wild"
+   ],
+   "體重控制": [
+    "weight control",
+    "gewichtsbeheersing"
+   ],
+   "結團礦砂": [
+    "Clumping clay litter",
+    "Klonterende kleikorrels"
+   ],
+   "活性碳": [
+    "activated carbon",
+    "actieve kool"
+   ],
+   "盒": [
+    "box",
+    "doos"
+   ],
+   "門市與網店有貨": [
+    "in stock in store and online",
+    "op voorraad in winkel en online"
+   ],
+   "可預訂": [
+    "can be pre-ordered",
+    "vooruitbestellen mogelijk"
+   ],
+   "德國店": [
+    "German shop",
+    "Duitse winkel"
+   ],
+   "定期訂購": [
+    "repeat order",
+    "herhaalbestelling"
+   ],
+   "首次訂閱": [
+    "first subscription",
+    "eerste abonnement"
+   ],
+   "訂閱電子報": [
+    "newsletter sign-up",
+    "aanmelding nieuwsbrief"
+   ],
+   "訂閱": [
+    "subscription",
+    "abonnement"
+   ],
+   "首次": [
+    "first",
+    "eerste"
+   ],
+   "LD 標": [
+    "LD says",
+    "LD zegt"
+   ],
+   "頁面標": [
+    "page shows",
+    "pagina toont"
+   ],
+   "Yi 看到的那款": [
+    "the one Yi saw",
+    "degene die Yi zag"
+   ],
+   "無促銷": [
+    "no promotions",
+    "geen acties"
+   ],
+   "全線低於建議售價": [
+    "whole range below RRP",
+    "hele assortiment onder adviesprijs"
+   ],
+   "多款": [
+    "several products on",
+    "meerdere producten in de"
+   ],
+   "本次沒有折扣或 THT 促銷": [
+    "no discounts or THT deals this time",
+    "deze keer geen korting of THT-acties"
+   ],
+   "訂閱首次": [
+    "subscription: first",
+    "abonnement: eerste keer"
    ]
   }
  }

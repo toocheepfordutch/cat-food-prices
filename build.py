@@ -26,8 +26,32 @@ BASIS_LABEL = {
     "list price": "單次購買",
 }
 AUTOSHIP_BASES = {"autoship", "herhaalgemak", "herhaal", "subscription"}
-# 比價單位：濕食＝每 100g；其他商品依 prices.json 的 products.<id>.unit_basis（g＝每克、L＝每公升）
-BASE_FACTOR = {"100g": 100.0, "g": 1.0, "L": 1.0}
+# 比價單位：濕食＝每 100g；其他商品依 prices.json 的 products.<id>.unit_basis（g＝每克、kg＝每公斤、L＝每公升）
+BASE_FACTOR = {"100g": 100.0, "g": 1.0, "kg": 1.0, "L": 1.0}
+# products.<id>.unit（"€/kg" 等）→ 比價單位；unit_basis 缺漏時的後備
+UNIT_TO_BASE = {"€/100g": "100g", "€/g": "g", "€/kg": "kg", "€/l": "L"}
+# 網站分區（依 products.<id>.category）：順序＝濕食、乾飼料、貓砂、護理；未知分類依比價單位推定
+CATEGORIES = ("wet", "dry", "litter", "care")
+BASE_TO_CATEGORY = {"100g": "wet", "kg": "dry", "L": "litter", "g": "care"}
+
+
+def product_base(pdata):
+    """比價單位：unit_basis 優先，其次 unit（€/kg…），都沒有就是濕食的每 100g。"""
+    b = (pdata.get("unit_basis") or "").strip()
+    if b.lower() == "l":
+        b = "L"
+    if b in BASE_FACTOR:
+        return b
+    return UNIT_TO_BASE.get(re.sub(r"\s+", "", pdata.get("unit") or "").lower(), "100g")
+
+
+def product_category(pdata, meta, base):
+    """網站分區：prices.json 的 category 優先，其次 site.config.json 的 category，最後依比價單位推定。"""
+    for c in (pdata.get("category"), meta.get("category")):
+        c = (c or "").strip().lower()
+        if c in CATEGORIES:
+            return c
+    return BASE_TO_CATEGORY.get(base, "wet")
 
 
 def num(v):
@@ -201,14 +225,21 @@ def is_main(o):
 
 
 def unit_size(o, base):
-    """每份的份量（g 或 L），用來換算比價單位。"""
-    return num(o.get("unit_l")) if base == "L" else num(o.get("unit_g"))
+    """每份的份量（g、kg 或 L），用來換算比價單位。"""
+    if base == "L":
+        return num(o.get("unit_l"))
+    g = num(o.get("unit_g"))
+    if base == "kg":
+        return g / 1000 if g else None
+    return g
 
 
 def size_label(o, base):
     v = unit_size(o, base)
     if v is None:
         return ""
+    if base == "kg":
+        return f"{v:g}kg" if v >= 1 else f"{v * 1000:g}g"
     return f"{v:g}L" if base == "L" else f"{v:g}g"
 
 
@@ -458,9 +489,8 @@ def build(src: Path):
         meta = cfg.get("products", {}).get(pid, {})
         pdata = data.get("products", {}).get(pid, {})
         unit_word = meta.get("unit_word", "份")
-        base = pdata.get("unit_basis") or "100g"
-        if base not in BASE_FACTOR:
-            base = "100g"
+        base = product_base(pdata)
+        category = product_category(pdata, meta, base)
         pobs = [o for o in obs if o["product"] == pid]
         if not pobs:
             continue
@@ -492,7 +522,7 @@ def build(src: Path):
         badge = None
         if best:
             prev = [h["pb"] for h in hist if h["date"] < cur_date and h["pb"]]
-            ever_key = {"100g": "eur_per_100g", "g": "eur_per_g", "L": "eur_per_l"}[base]
+            ever_key = {"100g": "eur_per_100g", "g": "eur_per_g", "kg": "eur_per_kg", "L": "eur_per_l"}[base]
             ever = num((pdata.get("lowest_unit_price_ever") or {}).get(ever_key))
             prev_min = min(prev) if prev else None
             if prev_min is None:
@@ -530,12 +560,13 @@ def build(src: Path):
         products.append({
             "id": pid,
             "brand": meta.get("brand", ""),
+            "chip": meta.get("chip", ""),
             "name": name,
             "desc": meta.get("desc", ""),
             "pack": meta.get("pack", ""),
             "unit_word": unit_word,
             "base": base,
-            "group": meta.get("group", "food"),
+            "category": category,
             "image": img_out,
             "date": cur_date,
             "best": best,
@@ -590,7 +621,8 @@ def build(src: Path):
     html = html.replace("__TITLE__", site["title"]).replace("__UPDATED__", site["updated_zh"])
     (OUT / "index.html").write_text(html, encoding="utf-8")
     (OUT / ".nojekyll").write_text("")
-    print(f"完成：{len(products)} 項商品，資料日期 {latest}，輸出 {OUT}")
+    cats = {c: sum(p["category"] == c for p in products) for c in CATEGORIES}
+    print(f"完成：{len(products)} 項商品（" + "、".join(f"{c} {n}" for c, n in cats.items() if n) + f"），資料日期 {latest}，輸出 {OUT}")
 
 
 if __name__ == "__main__":

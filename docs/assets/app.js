@@ -38,7 +38,7 @@
   function unitW(p){return tr(p.unit_word);}
   function pB(p,v){return v==null?"—":'<b class="p100 num">'+eur(v,bd(p))+'<span class="u100">/'+bu(p)+'</span></b>';}
   // 比價單位：濕食每 100g；其他商品每 g（3 位小數）或每公升
-  var BASE_LBL={"100g":"100g","g":"g","L":"L"}, BASE_KEY={"100g":"per_100g","g":"per_g","L":"per_L"};
+  var BASE_LBL={"100g":"100g","g":"g","kg":"kg","L":"L"}, BASE_KEY={"100g":"per_100g","g":"per_g","kg":"per_kg","L":"per_L"};
   function bu(p){return BASE_LBL[p.base]||"100g";}
   function bz(p){return t(BASE_KEY[p.base]||"per_100g");}
   function bd(p){return p.base==="g"?3:2;}
@@ -51,6 +51,12 @@
   // 返現邀請連結（build.py 只輸出今日資料實際用到的網站）
   var INVITES = D.cashback_invites||[], INVITE={};
   INVITES.forEach(function(x){ INVITE[x.name]=x.url; });
+
+  // 分區（build.py 依 prices.json 的 category）：濕食、乾飼料、貓砂、護理；沒有商品的分區不顯示
+  var CATS=[{k:"wet",title:"food_title",nav:"nav_wet"},{k:"dry",title:"dry_title",nav:"nav_dry"},{k:"litter",title:"litter_title",nav:"nav_litter"},{k:"care",title:"care_title",nav:"nav_care"}];
+  function catOf(p){ for(var i=0;i<CATS.length;i++) if(CATS[i].k===p.category) return p.category; return "wet"; }
+  var SECTIONS=CATS.map(function(c){ return {k:c.k,title:c.title,nav:c.nav,items:D.products.filter(function(p){return catOf(p)===c.k;})}; }).filter(function(c){return c.items.length;});
+  var ORDERED=[].concat.apply([],SECTIONS.map(function(c){return c.items;}));
 
   // 關注篩選：儲存「隱藏的商品」，因此之後新增的商品預設會顯示，已下架的商品自動忽略
   var FKEY="catfood.hidden.v1";
@@ -96,22 +102,32 @@
     chrome();
     var html = [];
     html.push('<section class="focus" aria-label="'+esc(t("focus_h"))+'"><div class="focus-head"><h2>'+esc(t("focus_h"))+'</h2><span class="focus-count num" id="focus-count"></span><button type="button" class="focus-all" id="focus-all">'+esc(t("show_all"))+'</button></div><div class="chips">');
-    D.products.forEach(function(p){
+    function chipHtml(p){
       var img = p.image ? esc(p.image) : PLACEHOLDER;
-      html.push('<button type="button" class="chip" data-pid="'+esc(p.id)+'" aria-pressed="true"><img src="'+img+'" alt="" width="24" height="24" decoding="async"><span>'+esc(p.brand||tr(p.name))+'</span><svg class="ck" width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M9.5 16.2 5.3 12l-1.4 1.4 5.6 5.6 11-11-1.4-1.4z"/></svg></button>');
-    });
-    html.push('</div></section>');
-
-    var FOOD=D.products.filter(function(p){return p.group!=="other";});
-    var OTHER=D.products.filter(function(p){return p.group==="other";});
-    html.push('<h2 class="section-title" data-group="food">'+esc(t("food_title"))+'</h2><div class="empty-focus" id="empty-focus" hidden><span aria-hidden="true">🐾</span><p>'+t("empty_focus")+'</p><button type="button" class="focus-all solid" data-all>'+esc(t("show_all"))+'</button></div><div class="grid">');
-    FOOD.forEach(function(p,i){ html.push(card(p,i)); });
-    html.push('</div>');
-    if(OTHER.length){
-      html.push('<h2 class="section-title" data-group="other">'+esc(t("other_title"))+'</h2><div class="grid">');
-      OTHER.forEach(function(p,i){ html.push(card(p,FOOD.length+i)); });
-      html.push('</div>');
+      return '<button type="button" class="chip" data-pid="'+esc(p.id)+'" aria-pressed="true"><img src="'+img+'" alt="" width="24" height="24" decoding="async"><span>'+esc(p.chip||p.brand||tr(p.name))+'</span><svg class="ck" width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M9.5 16.2 5.3 12l-1.4 1.4 5.6 5.6 11-11-1.4-1.4z"/></svg></button>';
     }
+    if(SECTIONS.length>1){
+      // 多個分類時，晶片依分類分組，每組前面一個小標
+      html.push('</div>');
+      SECTIONS.forEach(function(c){
+        html.push('<div class="chip-group"><span class="chip-cat">'+esc(t(c.nav))+'</span><div class="chips">'+c.items.map(chipHtml).join("")+'</div></div>');
+      });
+      html.push('</section>');
+    } else {
+      html.push(ORDERED.map(chipHtml).join("")+'</div></section>');
+    }
+
+    // 分區快速跳轉（只有一個分區時不顯示）
+    if(SECTIONS.length>1){
+      html.push('<nav class="sec-nav" aria-label="'+esc(t("nav_aria"))+'">'+SECTIONS.map(function(c){return '<a href="#sec-'+c.k+'" data-cat="'+c.k+'">'+esc(t(c.nav))+'<span class="n num">'+c.items.length+'</span></a>';}).join("")+'</nav>');
+    }
+    html.push('<div class="empty-focus" id="empty-focus" hidden><span aria-hidden="true">🐾</span><p>'+t("empty_focus")+'</p><button type="button" class="focus-all solid" data-all>'+esc(t("show_all"))+'</button></div>');
+    var n=0;
+    SECTIONS.forEach(function(c){
+      html.push('<section class="cat" id="sec-'+c.k+'" data-cat="'+c.k+'"><h2 class="section-title">'+esc(t(c.title))+'</h2><div class="grid">');
+      c.items.forEach(function(p){ html.push(card(p,n++)); });
+      html.push('</div></section>');
+    });
     if(D.promos.length){
       html.push('<h2 class="section-title">'+esc(t("promos_title"))+'</h2><div class="promos">');
       D.promos.forEach(function(x){ html.push('<div class="promo"><b>'+esc(x.shop)+'</b><span>'+esc(tr(x.text))+'</span></div>'); });
@@ -164,11 +180,13 @@
     $("#focus-count").textContent = shown===IDS.length ? "" : t("focus_count",shown,IDS.length);
     $("#focus-all").hidden = shown===IDS.length;
     $("#empty-focus").hidden = shown>0;
-    // 該分類的商品全部被隱藏時，連同分類標題一起隱藏
-    document.querySelectorAll(".section-title[data-group]").forEach(function(el){
-      var g=el.getAttribute("data-group"), any=D.products.some(function(p){return (p.group==="other"?"other":"food")===g && hidden.indexOf(p.id)<0;});
-      el.hidden=!any && shown>0;
+    // 該分區的商品全部被隱藏時，連同分區標題與跳轉按鈕一起隱藏
+    document.querySelectorAll("[data-cat]").forEach(function(el){
+      var g=el.getAttribute("data-cat"), any=D.products.some(function(p){return catOf(p)===g && hidden.indexOf(p.id)<0;});
+      el.hidden=!any;
     });
+    var nav=document.querySelector(".sec-nav");
+    if(nav) nav.hidden=document.querySelectorAll(".sec-nav a:not([hidden])").length<2;
   }
 
   // 標籤：同類型同顏色（ship 運費、sub 訂閱、cond 其他條件、cash 返現、deal 新客首單、once 單次購買）

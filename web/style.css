@@ -205,3 +205,19 @@ a.tag-link:hover{text-decoration:underline}
 /* 最上方小字鼓勵 */
 .cheer{text-align:center;font-size:11.5px;line-height:1.4;color:var(--muted,#8a7f76);padding:5px 12px 4px;background:transparent}
 .cheer a{color:inherit;text-decoration:underline;text-underline-offset:2px}
+
+/* 分區（濕食／乾飼料／貓砂／護理）與快速跳轉 */
+.cat{scroll-margin-top:112px}
+.sec-nav{display:flex;gap:8px;margin:14px 0 0;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.sec-nav::-webkit-scrollbar{display:none}
+.sec-nav a{flex:none;display:inline-flex;align-items:center;gap:6px;min-height:36px;padding:0 14px;border-radius:99px;background:var(--chip);color:var(--ink);text-decoration:none;font-size:13px;font-weight:700;-webkit-tap-highlight-color:transparent}
+.sec-nav a:hover{background:#f1e6dc}
+.sec-nav a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.sec-nav .n{font-size:11px;font-weight:700;color:var(--muted)}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+.focus .chips:empty{display:none}
+.chip-group{margin-top:10px}
+.chip-group:first-of-type{margin-top:4px}
+.chip-cat{display:block;font-size:12px;font-weight:600;color:var(--muted);margin:0 0 6px 2px;letter-spacing:.02em}

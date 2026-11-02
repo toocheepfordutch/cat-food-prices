@@ -8,6 +8,7 @@
 - `build.py`：讀 prices.json → 產生 `docs/`（index.html 內嵌資料、data.json、assets/）。不會寫入資料來源。
 - `site.config.json`：商品順序、中文名稱、圖片（`target` 欄位已停用，網站不再顯示比價目標）。新商品若未設定會自動加入（使用貓咪佔位圖）。
 - `web/`：版型（index.html、style.css、app.js）與多語系文字 `i18n.json`。
+- 分類分區：網站依商品的 `category`（prices.json，`wet`／`dry`／`litter`／`care`）分成濕食、乾飼料、貓砂、護理四區，順序固定，沒有商品的分區不顯示。單價單位依 `unit_basis`／`unit` 自動判斷（濕食 €/100g、乾飼料 €/kg、貓砂 €/L、護理 €/g）；prices.json 沒寫 category 時，可在 config 寫 `"category"`，再不然依單位推斷。config 的 `chip` 是頁首篩選晶片的短名稱（例如 ORIJEN 各口味只寫 `Kitten`、`Six Fish`），沒寫就用品牌。
 - 關注篩選：訪客可在頁首點選要看的商品，選擇存在瀏覽器 localStorage（`catfood.hidden.v1`，記錄「隱藏」的商品 id），新商品預設顯示、已移除的 id 自動忽略。
 - `assets/products/`：商品圖（自行託管，不外連）。新增商品時放一張 480×480 webp 並在 config 指定。
 - `shoot.py`：headless Chrome 截圖檢查（390×844、1280×800）。
