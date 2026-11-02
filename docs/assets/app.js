@@ -131,7 +131,7 @@
     if(!INVITES.length) return "";
     return '<section class="cb" aria-labelledby="cb-h"><h2 id="cb-h">先註冊返現網站，買罐罐再拿回一點錢</h2>'+
       '<p>網站上的「含返現」價格需要先註冊對應的返現網站，經由下面連結註冊是用站長的邀請連結。</p><div class="cb-list">'+
-      INVITES.map(function(x){return '<a class="cb-btn" href="'+esc(x.url)+'" target="_blank" rel="noopener sponsored" aria-label="註冊 '+esc(x.name)+'（站長邀請連結，另開新視窗）"><b>'+esc(x.name)+'</b><span>註冊 ↗</span></a>';}).join("")+
+      INVITES.map(function(x){return '<div class="cb-item"><a class="cb-btn" href="'+esc(x.url)+'" target="_blank" rel="noopener sponsored" aria-label="註冊 '+esc(x.name)+'（站長邀請連結，另開新視窗）"><b>'+esc(x.name)+'</b><span>註冊 ↗</span></a>'+(x.note?'<small class="cb-note">'+esc(x.note)+'</small>':'')+'</div>';}).join("")+
       '</div></section>';
   }
 

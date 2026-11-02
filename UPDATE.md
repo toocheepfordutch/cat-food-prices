@@ -48,3 +48,8 @@ npx -y @shipstatic/ship ./docs
 - 符合的網站會出現在頁尾上方「先註冊返現網站，買罐罐再拿回一點錢」區塊（每站一顆按鈕），同時報價上的「XXX 返現 €x.xx」標籤也會連到該邀請連結；連結皆 `target="_blank" rel="noopener sponsored"`。
 - 資料裡出現新的返現網站時會自動顯示；沒有對應邀請連結的網站（例如 ShopBuddies）不會列出，要加就在設定檔補一筆，名稱與 portal 相同即可。沒有任何符合的網站時整個區塊不顯示。
 - 不要寫註冊獎金金額（未核實）。
+
+### 返現網站顯示名稱（`cashback_display_names`）與註冊備註（`cashback_invite_notes`）
+- `"cashback_display_names"`：`{ 原名: 顯示名 }`，`build.py` 的 `apply_display_names()` 在輸出前把網站資料中所有文字（不含 url 欄位）替換，長的先換。目前：`ShopBuddies（Woolsocks All-in-One 禮品卡）` → `Woolsocks（All-in-One 禮品卡）`、`ShopBuddies` → `Woolsocks`。prices.json 仍寫 ShopBuddies，網站上一律顯示 Woolsocks。
+- 邀請連結的比對用「改名後」的名稱，所以 ShopBuddies 的報價會對到 `cashback_invites` 的 Woolsocks。
+- `"cashback_invite_notes"`：`{ 顯示名: 備註 }`，顯示在註冊按鈕下方的灰色小字（目前 Woolsocks：「返現確認可能要等幾個月」）。

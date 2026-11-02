@@ -191,3 +191,5 @@ body{padding-bottom:calc(64px + env(safe-area-inset-bottom))}
 .cb-btn:focus-visible,.tag-link:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 a.tag-link{text-decoration:none;cursor:pointer}
 a.tag-link:hover{text-decoration:underline}
+.cb-item{display:flex;flex-direction:column;align-items:flex-start;gap:3px}
+.cb-note{font-size:11.5px;color:var(--muted);padding-left:2px}

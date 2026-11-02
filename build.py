@@ -124,6 +124,27 @@ def portal_key(name):
     return re.sub(r"\s+", "", strip_paren(name or "")).lower()
 
 
+def apply_display_names(obj, names):
+    """返現網站顯示名稱改寫（prices.json 唯讀，名稱只在輸出時替換）：
+    site.config.json "cashback_display_names" {原名: 顯示名}，長的先換；網址欄位（url）不動。"""
+    pairs = sorted((names or {}).items(), key=lambda kv: -len(kv[0]))
+    if not pairs:
+        return obj
+    def fix(v, key=None):
+        if isinstance(v, str):
+            if key == "url":
+                return v
+            for a, b in pairs:
+                v = v.replace(a, b)
+            return v
+        if isinstance(v, list):
+            return [fix(x) for x in v]
+        if isinstance(v, dict):
+            return {k: fix(x, k) for k, x in v.items()}
+        return v
+    return fix(obj)
+
+
 def cashback_invites(cfg, products):
     """只保留目前資料（網站上各商品今日報價）實際用到的返現網站邀請連結。
     比對 offer 的返現標籤（cashback_portal）與新客返現（cashback_new_customer.portal），
@@ -140,7 +161,8 @@ def cashback_invites(cfg, products):
     for name, url in (cfg.get("cashback_invites") or {}).items():
         url = (url or "").strip()
         if url and portal_key(name) in used:
-            out.append({"name": name, "url": url})
+            note = ((cfg.get("cashback_invite_notes") or {}).get(name) or "").strip()
+            out.append({"name": name, "url": url, "note": note})
     return out
 
 
@@ -213,7 +235,7 @@ def offer_view(o, unit_word, base="100g"):
     if k == "cashback" and o.get("cashback_portal"):
         cb = num(o.get("cashback_eur"))
         conds.append(f"經 {short_portal(o['cashback_portal'])} 返現" + (f" €{cb:.2f}" if cb else ""))
-        tags.insert(0, {"k": "cash", "p": short_portal(o['cashback_portal']), "t": f"{short_portal(o['cashback_portal'])} 返現" + (f" €{cb:.2f}" if cb else "")})
+        tags.insert(0, {"k": "cash", "p": short_portal(o['cashback_portal']), "t": f"{o['cashback_portal']} 返現" + (f" €{cb:.2f}" if cb else "")})
     nc = o.get("cashback_new_customer")
     new_cust = None
     if isinstance(nc, dict) and num(nc.get("after_cashback_eur_per_unit")) is not None:
@@ -435,8 +457,6 @@ def build(src: Path):
         # 意見回饋 Google 表單網址：填在 site.config.json 的 "feedback_url"；空字串時網站不顯示入口
         "feedback_url": (cfg.get("feedback_url") or "").strip(),
         "products": products,
-        # 返現網站邀請連結：只列出今日資料實際用到的（見 cashback_invites()）
-        "cashback_invites": cashback_invites(cfg, products),
         "promos": promos,
         "details": {
             "promos_other": promos_other,
@@ -444,6 +464,9 @@ def build(src: Path):
             "assumptions": (data.get("cashback") or {}).get("assumptions"),
         },
     }
+    site = apply_display_names(site, cfg.get("cashback_display_names"))
+    # 返現網站邀請連結：只列出今日資料實際用到的（見 cashback_invites()；比對改名後的顯示名稱）
+    site["cashback_invites"] = cashback_invites(cfg, site["products"])
     js = json.dumps(site, ensure_ascii=False, separators=(",", ":"))
     (OUT / "data.json").write_text(json.dumps(site, ensure_ascii=False, indent=1), encoding="utf-8")
     for f in ("style.css", "app.js"):

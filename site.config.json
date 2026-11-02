@@ -12,6 +12,13 @@
     "ShopBack": "https://app.shopback.com/BN6KdBvMUwb",
     "Social Deal": "https://www.socialdeal.nl/?ref=BSWZHK"
   },
+  "cashback_display_names": {
+    "ShopBuddies（Woolsocks All-in-One 禮品卡）": "Woolsocks（All-in-One 禮品卡）",
+    "ShopBuddies": "Woolsocks"
+  },
+  "cashback_invite_notes": {
+    "Woolsocks": "返現確認可能要等幾個月"
+  },
   "product_order": [
     "rc_kitten_sterilised_gravy",
     "macs_kitten",
