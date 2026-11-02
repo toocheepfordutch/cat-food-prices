@@ -1,9 +1,10 @@
 {
  "title": "幼貓濕食比價",
- "updated": "2026-11-01",
- "updated_zh": "2026年11月1日",
- "next_zh": "11月3日",
- "generated_zh": "2026-11-02 14:45",
+ "updated": "2026-11-02",
+ "updated_zh": "2026年11月2日",
+ "next_zh": "11月4日",
+ "next": "2026-11-04",
+ "generated_zh": "2026-11-02 14:59",
  "location": "鹿特丹",
  "feedback_url": "",
  "products": [
@@ -3716,47 +3717,54 @@
    "base": "100g",
    "group": "food",
    "image": "assets/products/farmina_nd_ocean_kitten.webp",
-   "date": "2026-11-01",
+   "date": "2026-11-02",
    "best": {
-    "shop": "CutieCat",
+    "shop": "bestpetfoods",
     "variant": "24x70g Prime Kitten 雞＋石榴",
     "units": 24,
     "unit_g": 70,
-    "list_price": 39.6,
-    "price": 39.6,
-    "unit": 1.65,
-    "per100g": 2.357,
-    "pb": 2.357,
+    "list_price": 48.0,
+    "price": 46.41,
+    "unit": 1.934,
+    "per100g": 2.762,
+    "pb": 2.762,
     "size": "70g",
-    "basis": "單次購買",
+    "basis": "含返現",
     "autoship": false,
     "one_time_unit": null,
     "one_time_per100g": null,
     "one_time_pb": null,
     "conditions": [
-     "滿 €45 免運・運費 €0–8.25"
+     "€50 起免運；未達門檻 €5.95；15:00 前下單隔天到",
+     "經 YesCashback 返現 €1.59"
     ],
     "tags": [
      {
+      "k": "cash",
+      "p": "YesCashback",
+      "t": "YesCashback 返現 €1.59"
+     },
+     {
       "k": "ship",
-      "t": "滿 €45 免運／運費 €0–8.25"
+      "t": "€50 起免運（NL/BE）"
      }
     ],
     "new_customer": null,
     "in_stock": true,
     "verified": true,
     "status": "verified",
-    "url": "https://cutiecat.nl/product/farmina-nd-prime-kitten-natvoer-70g/",
-    "detail": ""
+    "url": "https://www.bestpetfoods.nl/product/nd-prime-natvoeding-voor-de-kitten-kip-70-gr-per-24-stuks",
+    "detail": "定期配送（自動扣款）95 折，不計返現；庫存 20；EAN 8606014106879"
    },
    "one_time_best": null,
    "badge": {
-    "kind": "at_low",
-    "text": "持平歷史低價"
+    "kind": "above",
+    "text": "比歷史低價高 17%",
+    "prev": 2.357
    },
    "level": {
     "status": "collecting",
-    "n": 5,
+    "n": 6,
     "need": 7
    },
    "history": [
@@ -3794,341 +3802,95 @@
      "per100g": 2.357,
      "pb": 2.357,
      "one_time_unit": 1.65
+    },
+    {
+     "date": "2026-11-02",
+     "unit": 1.934,
+     "per100g": 2.762,
+     "pb": 2.762,
+     "one_time_unit": 1.934
     }
    ],
    "offers": [
     {
-     "shop": "CutieCat",
-     "variant": "24x70g Prime Kitten 雞＋石榴",
-     "units": 24,
-     "unit_g": 70,
-     "list_price": 39.6,
-     "price": 39.6,
-     "unit": 1.65,
-     "per100g": 2.357,
-     "pb": 2.357,
-     "size": "70g",
-     "basis": "單次購買",
-     "autoship": false,
-     "one_time_unit": null,
-     "one_time_per100g": null,
-     "one_time_pb": null,
-     "conditions": [
-      "滿 €45 免運・運費 €0–8.25"
-     ],
-     "tags": [
-      {
-       "k": "ship",
-       "t": "滿 €45 免運／運費 €0–8.25"
-      }
-     ],
-     "new_customer": null,
-     "in_stock": true,
-     "verified": true,
-     "status": "verified",
-     "url": "https://cutiecat.nl/product/farmina-nd-prime-kitten-natvoer-70g/",
-     "detail": ""
-    },
-    {
-     "shop": "CutieCat",
-     "variant": "24x70g Ocean",
-     "units": 24,
-     "unit_g": 70,
-     "list_price": 39.99,
-     "price": 39.99,
-     "unit": 1.666,
-     "per100g": 2.38,
-     "pb": 2.38,
-     "size": "70g",
-     "basis": "單次購買",
-     "autoship": false,
-     "one_time_unit": null,
-     "one_time_per100g": null,
-     "one_time_pb": null,
-     "conditions": [
-      "滿 €45 免運・運費 €0–8.25"
-     ],
-     "tags": [
-      {
-       "k": "ship",
-       "t": "滿 €45 免運／運費 €0–8.25"
-      }
-     ],
-     "new_customer": null,
-     "in_stock": true,
-     "verified": true,
-     "status": "verified",
-     "url": "https://cutiecat.nl/product/farmina-nd-ocean-kitten-natvoer/",
-     "detail": ""
-    },
-    {
-     "shop": "CutieCat",
-     "variant": "1x70g Prime Kitten 雞＋石榴",
-     "units": 1,
-     "unit_g": 70,
-     "list_price": 1.69,
-     "price": 1.69,
-     "unit": 1.69,
-     "per100g": 2.414,
-     "pb": 2.414,
-     "size": "70g",
-     "basis": "單次購買",
-     "autoship": false,
-     "one_time_unit": null,
-     "one_time_per100g": null,
-     "one_time_pb": null,
-     "conditions": [
-      "滿 €45 免運・運費 €0–8.25"
-     ],
-     "tags": [
-      {
-       "k": "ship",
-       "t": "滿 €45 免運／運費 €0–8.25"
-      }
-     ],
-     "new_customer": null,
-     "in_stock": true,
-     "verified": true,
-     "status": "verified",
-     "url": "https://cutiecat.nl/product/farmina-nd-prime-kitten-natvoer-70g/",
-     "detail": ""
-    },
-    {
-     "shop": "CutieCat",
-     "variant": "1x70g Ocean",
-     "units": 1,
-     "unit_g": 70,
-     "list_price": 1.79,
-     "price": 1.79,
-     "unit": 1.79,
-     "per100g": 2.557,
-     "pb": 2.557,
-     "size": "70g",
-     "basis": "單次購買",
-     "autoship": false,
-     "one_time_unit": null,
-     "one_time_per100g": null,
-     "one_time_pb": null,
-     "conditions": [
-      "滿 €45 免運・運費 €0–8.25"
-     ],
-     "tags": [
-      {
-       "k": "ship",
-       "t": "滿 €45 免運／運費 €0–8.25"
-      }
-     ],
-     "new_customer": null,
-     "in_stock": true,
-     "verified": true,
-     "status": "verified",
-     "url": "https://cutiecat.nl/product/farmina-nd-ocean-kitten-natvoer/",
-     "detail": ""
-    },
-    {
-     "shop": "Catsclusive",
-     "variant": "24x70g Ocean",
-     "units": 24,
-     "unit_g": 70,
-     "list_price": 48.0,
-     "price": 48.0,
-     "unit": 2.0,
-     "per100g": 2.857,
-     "pb": 2.857,
-     "size": "70g",
-     "basis": "單次購買",
-     "autoship": false,
-     "one_time_unit": null,
-     "one_time_per100g": null,
-     "one_time_pb": null,
-     "conditions": [
-      "滿 €65 免運"
-     ],
-     "tags": [
-      {
-       "k": "ship",
-       "t": "滿 €65 免運"
-      }
-     ],
-     "new_customer": null,
-     "in_stock": true,
-     "verified": true,
-     "status": "verified",
-     "url": "https://www.catsclusive.nl/farmina-natvoer/nd-ocean-kitten-tonijn-kabeljauw-garnaal-pompoen-24-x-70-gram",
-     "detail": "JSON-LD 標 PreOrder，但頁面顯示「Levertijd 1-3 werkdagen」可加入購物車"
-    },
-    {
-     "shop": "Farmina 官方 eshop",
-     "variant": "24x70g Ocean",
-     "units": 24,
-     "unit_g": 70,
-     "list_price": 48.0,
-     "price": 48.0,
-     "unit": 2.0,
-     "per100g": 2.857,
-     "pb": 2.857,
-     "size": "70g",
-     "basis": "單次購買",
-     "autoship": false,
-     "one_time_unit": null,
-     "one_time_per100g": null,
-     "one_time_pb": null,
-     "conditions": [
-      "運費未知"
-     ],
-     "tags": [
-      {
-       "k": "ship",
-       "t": "運費未知"
-      }
-     ],
-     "new_customer": null,
-     "in_stock": true,
-     "verified": true,
-     "status": "verified",
-     "url": "https://www.farmina.com/nl/eshop/kattenvoeding/n&d-ocean-/698-tonijn,-kabeljauw,-garnaal-&-pompoen-kitten-natvoer.html",
-     "detail": ""
-    },
-    {
-     "shop": "Farmina 官方 eshop",
+     "shop": "bestpetfoods",
      "variant": "24x70g Prime Kitten 雞＋石榴",
      "units": 24,
      "unit_g": 70,
      "list_price": 48.0,
-     "price": 48.0,
-     "unit": 2.0,
-     "per100g": 2.857,
-     "pb": 2.857,
+     "price": 46.41,
+     "unit": 1.934,
+     "per100g": 2.762,
+     "pb": 2.762,
      "size": "70g",
-     "basis": "單次購買",
+     "basis": "含返現",
      "autoship": false,
      "one_time_unit": null,
      "one_time_per100g": null,
      "one_time_pb": null,
      "conditions": [
-      "運費未知"
+      "€50 起免運；未達門檻 €5.95；15:00 前下單隔天到",
+      "經 YesCashback 返現 €1.59"
      ],
      "tags": [
       {
+       "k": "cash",
+       "p": "YesCashback",
+       "t": "YesCashback 返現 €1.59"
+      },
+      {
        "k": "ship",
-       "t": "運費未知"
+       "t": "€50 起免運（NL/BE）"
       }
      ],
      "new_customer": null,
      "in_stock": true,
      "verified": true,
      "status": "verified",
-     "url": "https://www.farmina.com/nl/eshop/kattenvoeding/n&d-prime/498-kip-&-granaatappel-kitten-natvoer.html",
-     "detail": ""
+     "url": "https://www.bestpetfoods.nl/product/nd-prime-natvoeding-voor-de-kitten-kip-70-gr-per-24-stuks",
+     "detail": "定期配送（自動扣款）95 折，不計返現；庫存 20；EAN 8606014106879"
     },
     {
-     "shop": "Medpets",
-     "variant": "24x70g Ocean",
+     "shop": "bestpetfoods",
+     "variant": "24x70g Ocean Kitten 鮪魚＋鱈魚",
      "units": 24,
      "unit_g": 70,
-     "list_price": 52.8,
-     "price": 49.65,
-     "unit": 2.069,
-     "per100g": 2.955,
-     "pb": 2.955,
+     "list_price": 48.0,
+     "price": 46.41,
+     "unit": 1.934,
+     "per100g": 2.762,
+     "pb": 2.762,
      "size": "70g",
-     "basis": "定期訂購價",
-     "autoship": true,
-     "one_time_unit": 2.127,
-     "one_time_per100g": 3.039,
-     "one_time_pb": 3.039,
+     "basis": "含返現",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
      "conditions": [
-      "滿 €69 免運・運費 €3.95・最低訂單 €14.95",
-      "需訂閱定期配送"
+      "€50 起免運；未達門檻 €5.95；15:00 前下單隔天到",
+      "經 YesCashback 返現 €1.59"
      ],
      "tags": [
       {
-       "k": "sub",
-       "t": "需定期配送"
+       "k": "cash",
+       "p": "YesCashback",
+       "t": "YesCashback 返現 €1.59"
       },
       {
        "k": "ship",
-       "t": "滿 €69 免運／運費 €3.95"
-      },
-      {
-       "k": "cond",
-       "t": "最低消費 €14.95"
+       "t": "€50 起免運（NL/BE）"
       }
      ],
      "new_customer": null,
      "in_stock": true,
      "verified": true,
      "status": "verified",
-     "url": "https://www.medpets.nl/farmina-n-d-ocean-kitten-natvoer?sku=MP44798",
-     "detail": ""
-    },
-    {
-     "shop": "Zoomalia.nl",
-     "variant": "12x70g Ocean（組合）",
-     "units": 12,
-     "unit_g": 70,
-     "list_price": 21.48,
-     "price": 21.48,
-     "unit": 1.79,
-     "per100g": 2.557,
-     "pb": 2.557,
-     "size": "70g",
-     "basis": "單次購買",
-     "autoship": false,
-     "one_time_unit": null,
-     "one_time_per100g": null,
-     "one_time_pb": null,
-     "conditions": [
-      "滿 €49 免運"
-     ],
-     "tags": [
-      {
-       "k": "ship",
-       "t": "滿 €49 免運"
-      }
-     ],
-     "new_customer": null,
-     "in_stock": true,
-     "verified": false,
-     "status": "partly_verified",
-     "url": "https://www.zoomalia.nl/dierenwinkel/farmina-n-d-ocean-tonijn-kabeljauw-garnalen-pompoen-voor-kitten-p-145245.html",
-     "detail": "curl 403，改用 WebFetch：頁面顯示每罐起價 €1.79（12 罐組），原價 €23.88；組合價只能推算"
-    },
-    {
-     "shop": "Zoomalia.nl",
-     "variant": "1x70g Ocean",
-     "units": 1,
-     "unit_g": 70,
-     "list_price": 1.99,
-     "price": 1.99,
-     "unit": 1.99,
-     "per100g": 2.843,
-     "pb": 2.843,
-     "size": "70g",
-     "basis": "單次購買",
-     "autoship": false,
-     "one_time_unit": null,
-     "one_time_per100g": null,
-     "one_time_pb": null,
-     "conditions": [
-      "滿 €49 免運"
-     ],
-     "tags": [
-      {
-       "k": "ship",
-       "t": "滿 €49 免運"
-      }
-     ],
-     "new_customer": null,
-     "in_stock": true,
-     "verified": false,
-     "status": "partly_verified",
-     "url": "https://www.zoomalia.nl/dierenwinkel/farmina-n-d-ocean-tonijn-kabeljauw-garnalen-pompoen-voor-kitten-p-145245.html",
-     "detail": "curl 403，改用 WebFetch 取得"
+     "url": "https://www.bestpetfoods.nl/product/nd-ocean-natvoeding-voor-kittens-tonijn-met-kabeljauw-70-gr-per-24-stuks",
+     "detail": "定期配送（自動扣款）95 折，不計返現；庫存 34；EAN 8606014102918"
     }
    ],
-   "main_count": 8,
-   "shop_count": 4,
+   "main_count": 2,
+   "shop_count": 1,
    "mixed_sizes": false
   },
   {
@@ -5037,40 +4799,670 @@
    "main_count": 9,
    "shop_count": 3,
    "mixed_sizes": true
+  },
+  {
+   "id": "ziwi_peak_cat_wet",
+   "brand": "",
+   "name": "ZIWI Peak 貓罐頭（85g／185g，官方標示適用所有生命階段，含幼貓）",
+   "desc": "",
+   "pack": "",
+   "unit_word": "份",
+   "base": "100g",
+   "group": "food",
+   "image": null,
+   "date": "2026-11-02",
+   "best": {
+    "shop": "Petfooddiscount.nl",
+    "variant": "24x185g 牛肉／鯖魚（24 罐起每罐 €3.79）",
+    "units": 24,
+    "unit_g": 185,
+    "list_price": 90.96,
+    "price": 90.96,
+    "unit": 3.79,
+    "per100g": 2.049,
+    "pb": 2.049,
+    "size": "185g",
+    "basis": "單次購買",
+    "autoship": false,
+    "one_time_unit": null,
+    "one_time_per100g": null,
+    "one_time_pb": null,
+    "conditions": [
+     "運費 €4.95"
+    ],
+    "tags": [
+     {
+      "k": "ship",
+      "t": "運費 €4.95"
+     }
+    ],
+    "new_customer": null,
+    "in_stock": true,
+    "verified": true,
+    "status": "verified",
+    "url": "https://www.petfooddiscount.nl/product/7349/ziwi-peak-daily-cat-cuisine-blik-beef-185gr",
+    "detail": "數量價：1–9 罐 €4.25、10–23 罐 €3.95、24 罐起 €3.79；可混搭牛肉與鯖魚（/product/7358/ziwi-peak-daily-cat-cuisine-blik-mackerel-185gr）；雞肉、鯖魚羊肉 185g 暫時缺貨"
+   },
+   "one_time_best": null,
+   "badge": {
+    "kind": "first",
+    "text": "首次紀錄"
+   },
+   "level": {
+    "status": "collecting",
+    "n": 1,
+    "need": 7
+   },
+   "history": [
+    {
+     "date": "2026-11-02",
+     "unit": 3.79,
+     "per100g": 2.049,
+     "pb": 2.049,
+     "one_time_unit": 2.59
+    }
+   ],
+   "offers": [
+    {
+     "shop": "Petfooddiscount.nl",
+     "variant": "24x185g 牛肉／鯖魚（24 罐起每罐 €3.79）",
+     "units": 24,
+     "unit_g": 185,
+     "list_price": 90.96,
+     "price": 90.96,
+     "unit": 3.79,
+     "per100g": 2.049,
+     "pb": 2.049,
+     "size": "185g",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "運費 €4.95"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "運費 €4.95"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": true,
+     "status": "verified",
+     "url": "https://www.petfooddiscount.nl/product/7349/ziwi-peak-daily-cat-cuisine-blik-beef-185gr",
+     "detail": "數量價：1–9 罐 €4.25、10–23 罐 €3.95、24 罐起 €3.79；可混搭牛肉與鯖魚（/product/7358/ziwi-peak-daily-cat-cuisine-blik-mackerel-185gr）；雞肉、鯖魚羊肉 185g 暫時缺貨"
+    },
+    {
+     "shop": "bestpetfoods",
+     "variant": "12x185g 雞肉／牛肉（12 罐起每罐 €4.07）",
+     "units": 12,
+     "unit_g": 185,
+     "list_price": 48.84,
+     "price": 47.23,
+     "unit": 3.936,
+     "per100g": 2.127,
+     "pb": 2.127,
+     "size": "185g",
+     "basis": "含返現",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "€50 起免運；未達門檻 €5.95；15:00 前下單隔天到",
+      "經 YesCashback 返現 €1.61"
+     ],
+     "tags": [
+      {
+       "k": "cash",
+       "p": "YesCashback",
+       "t": "YesCashback 返現 €1.61"
+      },
+      {
+       "k": "ship",
+       "t": "€50 起免運（NL/BE）"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": true,
+     "status": "verified",
+     "url": "https://www.bestpetfoods.nl/product/ziwi-peak-natvoeding-voor-de-kat-rund-185-gr",
+     "detail": "數量價：€4.40、6 罐起 €4.18、12 罐起 €4.07；定期配送 95 折（不計返現）；庫存：牛肉 44、雞肉 42；鯖魚羊肉、鯖魚 185g 缺貨"
+    },
+    {
+     "shop": "Hondjekoek",
+     "variant": "1x185g 牛肉／雞肉",
+     "units": 1,
+     "unit_g": 185,
+     "list_price": 4.1,
+     "price": 4.1,
+     "unit": 4.1,
+     "per100g": 2.216,
+     "pb": 2.216,
+     "size": "185g",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "€59 起免運"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "€59 起免運"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": true,
+     "status": "verified",
+     "url": "https://www.hondjekoek.nl/ziwipeak-cat-blik-beef.html",
+     "detail": "庫存：牛肉 68、雞肉 7；鯖魚羊肉 185g 缺貨；鹿肉 185g €4.95（庫存 19）"
+    },
+    {
+     "shop": "Cool4pets.be",
+     "variant": "1x185g 雞肉",
+     "units": 1,
+     "unit_g": 185,
+     "list_price": 4.1,
+     "price": 4.1,
+     "unit": 4.1,
+     "per100g": 2.216,
+     "pb": 2.216,
+     "size": "185g",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "運費 €4.95"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "運費 €4.95"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": true,
+     "status": "verified",
+     "url": "https://www.cool4pets.be/ziwipeak-kat-blikvoer-kip-185-g",
+     "detail": "庫存 7"
+    },
+    {
+     "shop": "Petfooddiscount.nl",
+     "variant": "1x185g 牛肉／鯖魚",
+     "units": 1,
+     "unit_g": 185,
+     "list_price": 4.25,
+     "price": 4.25,
+     "unit": 4.25,
+     "per100g": 2.297,
+     "pb": 2.297,
+     "size": "185g",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "運費 €4.95"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "運費 €4.95"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": true,
+     "status": "verified",
+     "url": "https://www.petfooddiscount.nl/product/7349/ziwi-peak-daily-cat-cuisine-blik-beef-185gr",
+     "detail": ""
+    },
+    {
+     "shop": "Petfooddiscount.nl",
+     "variant": "24x185g 鹿肉（24 罐起每罐 €4.25）",
+     "units": 24,
+     "unit_g": 185,
+     "list_price": 102.0,
+     "price": 102.0,
+     "unit": 4.25,
+     "per100g": 2.297,
+     "pb": 2.297,
+     "size": "185g",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "運費 €4.95"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "運費 €4.95"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": true,
+     "status": "verified",
+     "url": "https://www.petfooddiscount.nl/product/7346",
+     "detail": "數量價：€4.75、10 罐起 €4.59、24 罐起 €4.25；85g 鹿肉 /1842：€3.45／€3.35／€3.09"
+    },
+    {
+     "shop": "bestpetfoods",
+     "variant": "1x185g 雞肉／牛肉",
+     "units": 1,
+     "unit_g": 185,
+     "list_price": 4.4,
+     "price": 4.25,
+     "unit": 4.25,
+     "per100g": 2.297,
+     "pb": 2.297,
+     "size": "185g",
+     "basis": "含返現",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "€50 起免運；未達門檻 €5.95；15:00 前下單隔天到",
+      "經 YesCashback 返現 €0.15"
+     ],
+     "tags": [
+      {
+       "k": "cash",
+       "p": "YesCashback",
+       "t": "YesCashback 返現 €0.15"
+      },
+      {
+       "k": "ship",
+       "t": "€50 起免運（NL/BE）"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": true,
+     "status": "verified",
+     "url": "https://www.bestpetfoods.nl/product/ziwi-peak-natvoeding-voor-de-kat-kip-185-gr",
+     "detail": ""
+    },
+    {
+     "shop": "Catsclusive",
+     "variant": "12x185g 雞肉／牛肉",
+     "units": 12,
+     "unit_g": 185,
+     "list_price": 51.99,
+     "price": 51.99,
+     "unit": 4.333,
+     "per100g": 2.342,
+     "pb": 2.342,
+     "size": "185g",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "€65 起免運"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "€65 起免運"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": true,
+     "status": "verified",
+     "url": "https://www.catsclusive.nl/ziwi-peak-natvoer",
+     "detail": "鯖魚羊肉、鯖魚 12x185g 售完；鹿肉 12x185g €59.99"
+    },
+    {
+     "shop": "bestpetfoods",
+     "variant": "12x185g 鹿肉（12 罐起每罐 €4.90）",
+     "units": 12,
+     "unit_g": 185,
+     "list_price": 58.8,
+     "price": 56.86,
+     "unit": 4.738,
+     "per100g": 2.561,
+     "pb": 2.561,
+     "size": "185g",
+     "basis": "含返現",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "€50 起免運；未達門檻 €5.95；15:00 前下單隔天到",
+      "經 YesCashback 返現 €1.94"
+     ],
+     "tags": [
+      {
+       "k": "cash",
+       "p": "YesCashback",
+       "t": "YesCashback 返現 €1.94"
+      },
+      {
+       "k": "ship",
+       "t": "€50 起免運（NL/BE）"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": true,
+     "status": "verified",
+     "url": "https://www.bestpetfoods.nl/product/ziwi-peak-natvoeding-voor-de-kat-hert-185-gr",
+     "detail": "數量價：€5.30、6 罐起 €5.04、12 罐起 €4.90；庫存 4；85g 鹿肉 €3.85／€3.66／€3.56"
+    },
+    {
+     "shop": "Petfooddiscount.nl",
+     "variant": "24x85g 牛肉／雞肉／鯖魚羊肉／鯖魚（24 罐起每罐 €2.59）",
+     "units": 24,
+     "unit_g": 85,
+     "list_price": 62.16,
+     "price": 62.16,
+     "unit": 2.59,
+     "per100g": 3.047,
+     "pb": 3.047,
+     "size": "85g",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "運費 €4.95"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "運費 €4.95"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": true,
+     "status": "verified",
+     "url": "https://www.petfooddiscount.nl/product/4818/ziwi-peak-daily-cat-cuisine-blik-beef-85gr",
+     "detail": "數量價：€2.89、10 罐起 €2.69、24 罐起 €2.59；雞肉 /4817、鯖魚羊肉 /3756、鯖魚 /7359"
+    },
+    {
+     "shop": "bestpetfoods",
+     "variant": "24x85g 雞肉／牛肉／鯖魚羊肉／鯖魚（24 罐起每罐 €2.77）",
+     "units": 24,
+     "unit_g": 85,
+     "list_price": 66.48,
+     "price": 64.28,
+     "unit": 2.678,
+     "per100g": 3.151,
+     "pb": 3.151,
+     "size": "85g",
+     "basis": "含返現",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "€50 起免運；未達門檻 €5.95；15:00 前下單隔天到",
+      "經 YesCashback 返現 €2.20"
+     ],
+     "tags": [
+      {
+       "k": "cash",
+       "p": "YesCashback",
+       "t": "YesCashback 返現 €2.20"
+      },
+      {
+       "k": "ship",
+       "t": "€50 起免運（NL/BE）"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": true,
+     "status": "verified",
+     "url": "https://www.bestpetfoods.nl/product/ziwi-peak-natvoeding-voor-de-kat-rund-85-gr",
+     "detail": "數量價：€2.99、12 罐起 €2.84、24 罐起 €2.77；庫存：牛肉 92、鯖魚羊肉 114、雞肉 22、鯖魚 5"
+    },
+    {
+     "shop": "Catsclusive",
+     "variant": "24x85g 雞肉／鯖魚羊肉／鯖魚／牛肉",
+     "units": 24,
+     "unit_g": 85,
+     "list_price": 64.8,
+     "price": 64.8,
+     "unit": 2.7,
+     "per100g": 3.176,
+     "pb": 3.176,
+     "size": "85g",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "€65 起免運"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "€65 起免運"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": true,
+     "status": "verified",
+     "url": "https://www.catsclusive.nl/ziwi-peak-natvoer",
+     "detail": "鹿肉 24x85g €85.99"
+    },
+    {
+     "shop": "Hondjekoek",
+     "variant": "1x85g 牛肉／雞肉／鯖魚羊肉",
+     "units": 1,
+     "unit_g": 85,
+     "list_price": 2.8,
+     "price": 2.8,
+     "unit": 2.8,
+     "per100g": 3.294,
+     "pb": 3.294,
+     "size": "85g",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "€59 起免運"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "€59 起免運"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": true,
+     "status": "verified",
+     "url": "https://www.hondjekoek.nl/ziwipeak-cat-blik-chicken.html",
+     "detail": "庫存：牛肉 26、雞肉 6、鯖魚羊肉 27；鹿肉 85g €3.50"
+    },
+    {
+     "shop": "Cool4pets.be",
+     "variant": "1x85g 牛肉",
+     "units": 1,
+     "unit_g": 85,
+     "list_price": 2.8,
+     "price": 2.8,
+     "unit": 2.8,
+     "per100g": 3.294,
+     "pb": 3.294,
+     "size": "85g",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "運費 €4.95"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "運費 €4.95"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": true,
+     "status": "verified",
+     "url": "https://www.cool4pets.be/ziwipeak-kat-blikvoer-rund-85-g",
+     "detail": "庫存 26；鹿肉 €3.50（85g）／€4.95（185g）"
+    },
+    {
+     "shop": "Medpets",
+     "variant": "24x85g 牛肉",
+     "units": 24,
+     "unit_g": 85,
+     "list_price": 69.95,
+     "price": 67.64,
+     "unit": 2.818,
+     "per100g": 3.316,
+     "pb": 3.316,
+     "size": "85g",
+     "basis": "含返現",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "€69 起免運",
+      "經 CashbackXL 返現 €2.31"
+     ],
+     "tags": [
+      {
+       "k": "cash",
+       "p": "CashbackXL",
+       "t": "CashbackXL 返現 €2.31"
+      },
+      {
+       "k": "ship",
+       "t": "€69 起免運"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": true,
+     "status": "verified",
+     "url": "https://www.medpets.nl/ziwi-peak-kattenvoer-rund-blik",
+     "detail": ""
+    },
+    {
+     "shop": "Medpets",
+     "variant": "12x185g 雞肉",
+     "units": 12,
+     "unit_g": 185,
+     "list_price": 49.95,
+     "price": 48.3,
+     "unit": 4.025,
+     "per100g": 2.176,
+     "pb": 2.176,
+     "size": "185g",
+     "basis": "含返現",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "€69 起免運",
+      "經 CashbackXL 返現 €1.65"
+     ],
+     "tags": [
+      {
+       "k": "cash",
+       "p": "CashbackXL",
+       "t": "CashbackXL 返現 €1.65"
+      },
+      {
+       "k": "ship",
+       "t": "€69 起免運"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": false,
+     "verified": true,
+     "status": "verified",
+     "url": "https://www.medpets.nl/ziwi-peak-kattenvoer-kip-blik",
+     "detail": "預計 2026-11-06 到貨；24x85g 雞肉 €69.95 也缺貨"
+    },
+    {
+     "shop": "bestpetfoods",
+     "variant": "1x185g 鯖魚羊肉",
+     "units": 1,
+     "unit_g": 185,
+     "list_price": 4.4,
+     "price": 4.25,
+     "unit": 4.25,
+     "per100g": 2.297,
+     "pb": 2.297,
+     "size": "185g",
+     "basis": "含返現",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "€50 起免運；未達門檻 €5.95；15:00 前下單隔天到",
+      "經 YesCashback 返現 €0.15"
+     ],
+     "tags": [
+      {
+       "k": "cash",
+       "p": "YesCashback",
+       "t": "YesCashback 返現 €0.15"
+      },
+      {
+       "k": "ship",
+       "t": "€50 起免運（NL/BE）"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": false,
+     "verified": true,
+     "status": "verified",
+     "url": "https://www.bestpetfoods.nl/product/ziwi-peak-natvoeding-voor-de-kat-makreel-lam-185-gr",
+     "detail": "鯖魚 185g 也缺貨"
+    }
+   ],
+   "main_count": 15,
+   "shop_count": 6,
+   "mixed_sizes": true
   }
  ],
  "promos": [
   {
-   "shop": "zooplus.nl",
-   "text": "zooplusGemak 首單 15%、之後至少 5%；免運 €29 起；無其他全站碼"
+   "shop": "bestpetfoods",
+   "text": "Ziwi Box kat Kip 試吃組 €36.30：800g Steam & Dried 雞肉＋雞肉 185g＋牛肉 185g；Ziwi Box kat Rund／Vis 缺貨；Ziwi 罐頭只有數量價；ORIJEN 無任何促銷"
   },
   {
-   "shop": "Bitiba",
-   "text": "定期配送約 6%；單次滿 €100 享 5%；MAC's Kitten 小牛＋雞心 6x200g 的 €10.16 折扣已消失；免運 €29 起"
-  },
-  {
-   "shop": "Zoolini",
-   "text": "Seasonal Savings 全站約 -10%；免運 €64.90 起，否則 €6.90"
-  },
-  {
-   "shop": "Pharmapets",
-   "text": "RC Kitten Sterilised 30% 折扣 €13.13；訂閱首單 -10%、之後 -5%；免運 €39 起"
-  },
-  {
-   "shop": "Medpets",
-   "text": "RC 30% 折扣 €13.85；Herhaal 6%；最低訂單 €14.95；免運 €69 起；HONDENJAS 碼只限狗衣"
-  },
-  {
-   "shop": "Pets Place",
-   "text": "Kies en mix 3+1 gratis；免運 €39 起"
-  },
-  {
-   "shop": "Amazon.nl",
-   "text": "MjAMjAM 雞肉 6x800g 降至 €29.64；訂閱省 5%；返現不與訂閱疊加"
-  },
-  {
-   "shop": "Dierapotheker",
-   "text": "Mesitran Vet Soft 買 2 件起：20g €9.95、60g €19.95、250g €49.95"
+   "shop": "bestpetfoods",
+   "text": "其他促銷：Applaws Kitten 400g €5.74、Nutrolin kat Kitten & Adult 150ml €16.79；THT頁沒有 Ziwi 貓食或 ORIJEN；定期配送95 折"
   }
  ],
  "details": {
@@ -5089,7 +5481,13 @@
    "Intratuin Woolsocks 返現 5%（只見於 GotCashback）",
    "2026-11-01：bol.com 商品頁 403（10/25 起連續失敗），RC €24.30、Mesitran 60g €26.99 只取自 kieskeurig",
    "2026-11-01：Newpharma RC €18.49＋運費 €7.19 只見於 kieskeurig",
-   "2026-11-01：Intratuin Woolsocks 原頁 404，5% 只見於 GotCashback"
+   "2026-11-01：Intratuin Woolsocks 原頁 404，5% 只見於 GotCashback",
+   "2026-11-02：bol.com 本機 IP 被封鎖，Ziwi 是否有售無法核實（Google 索引也沒找到 Ziwi 貓罐頭）",
+   "2026-11-02：kieskeurig 一直回 429（請求過多），本次無法搜尋 Ziwi",
+   "2026-11-02：CutieCat Ziwi 牛肉 85g €2.95／185g €4.40（頁面未顯示庫存）https://cutiecat.nl/product/ziwipeak-kattenvoer-rund/",
+   "2026-11-02：Dierenwinkel247 Ziwi 牛肉「vanaf €3.95」（另見劃線價 €2.95，規格不明），€99 起免運",
+   "2026-11-02：Naturitas Ziwi 185g €5.28（部分即將到貨）；Amazon.nl 只有高價進口（例 12x185g 雞肉 €198.62）；beslist 上 Joybuy 185g 鹿肉 €7.99",
+   "2026-11-02：ORIJEN 幼貓濕食（Chicken & Salmon Entrée for Kittens 85g，EAN 064992719371）只在美國官網；EMEA 官網只列乾糧；法國 Bonjour Papattes 24x85g €127.25（寄 NL 未確認）；Paw Street Market 是北美店"
   ],
   "assumptions": "以既有客戶費率計算；返現多以未稅、不含運費的訂單金額計；定期配送／購物車折扣／Herhaalgemak 與返現不疊加（各平台未明示可疊加；Medpets 明示定期訂購無返現）"
  },
@@ -5104,5 +5502,771 @@
    "url": "https://www.cashbackxl.nl?share=yhes-62a4a407",
    "note": ""
   }
- ]
+ ],
+ "ui": {
+  "lang_label": [
+   "語言",
+   "Language",
+   "Taal"
+  ],
+  "title_suffix": [
+   "｜每兩天更新",
+   " · updated every 2 days",
+   " · elke 2 dagen bijgewerkt"
+  ],
+  "header_sub": [
+   "寄送鹿特丹・{0} 更新・下次約 {1}",
+   "Ships to Rotterdam · updated {0} · next ~{1}",
+   "Bezorging Rotterdam · bijgewerkt {0} · volgende ~{1}"
+  ],
+  "header_tz": [
+   "荷蘭時間",
+   "Dutch time",
+   "Nederlandse tijd"
+  ],
+  "cheer": [
+   "這個網站幫到你的話，歡迎{0}鼓勵我 🥫",
+   "Find this site useful? {0} to cheer me on 🥫",
+   "Heb je iets aan deze site? {0} 🥫"
+  ],
+  "cheer_link": [
+   "贊助一個罐罐",
+   "Sponsor a can",
+   "Trakteer me op een blikje"
+  ],
+  "fab": [
+   "贊助罐罐",
+   "Sponsor a can",
+   "Trakteer op een blikje"
+  ],
+  "fab_title": [
+   "本站免費，喜歡的話可以贊助一個罐罐",
+   "This site is free. If you like it, you can sponsor a can",
+   "Deze site is gratis. Vind je hem handig, trakteer dan op een blikje"
+  ],
+  "fab_aria": [
+   "贊助罐罐（另開新視窗）",
+   "Sponsor a can (opens in a new window)",
+   "Trakteer op een blikje (opent in nieuw venster)"
+  ],
+  "focus_h": [
+   "選擇要看的商品",
+   "Choose products to show",
+   "Kies welke producten je ziet"
+  ],
+  "focus_count": [
+   "顯示 {0}／{1}",
+   "Showing {0}/{1}",
+   "{0}/{1} zichtbaar"
+  ],
+  "show_all": [
+   "全部顯示",
+   "Show all",
+   "Alles tonen"
+  ],
+  "food_title": [
+   "幼貓濕食目前最低價",
+   "Lowest kitten wet food prices now",
+   "Laagste prijzen kittennatvoer nu"
+  ],
+  "other_title": [
+   "其他貓咪用品",
+   "Other cat supplies",
+   "Overige kattenspullen"
+  ],
+  "empty_focus": [
+   "目前沒有選擇任何商品。<br>點上方的商品名稱來挑選，或",
+   "No products selected.<br>Tap a product name above to pick one, or",
+   "Geen producten geselecteerd.<br>Tik hierboven op een product, of"
+  ],
+  "promos_title": [
+   "全站優惠",
+   "Sitewide deals",
+   "Acties in de hele winkel"
+  ],
+  "feedback": [
+   "✍️ 意見回饋／想新增商品",
+   "✍️ Feedback / suggest a product",
+   "✍️ Feedback / product voorstellen"
+  ],
+  "tip_link": [
+   "🥫 贊助罐罐",
+   "🥫 Sponsor a can",
+   "🥫 Trakteer op een blikje"
+  ],
+  "foot1": [
+   "價格取「優惠價（定期配送、折扣）」與「返現後價格」中較低者，兩者不疊加。返現以既有客戶費率計算。",
+   "Prices use the lower of the deal price (autoship, discounts) and the price after cashback; the two are not combined. Cashback uses existing-customer rates.",
+   "Prijzen zijn de laagste van de actieprijs (abonnement, korting) en de prijs na cashback; die twee worden niet gecombineerd. Cashback volgens tarief voor bestaande klanten."
+  ],
+  "foot2": [
+   "所有商店皆可寄送至鹿特丹；實際價格以商店頁面為準。網站產生時間 {0}（阿姆斯特丹時間）。",
+   "All shops deliver to Rotterdam; the shop's own page is always leading. Site generated {0} (Amsterdam time).",
+   "Alle winkels bezorgen in Rotterdam; de prijs op de winkelpagina is leidend. Site gegenereerd op {0} (Amsterdamse tijd)."
+  ],
+  "new_cust": [
+   "新客首單 {0}",
+   "New customer, 1st order {0}",
+   "Nieuwe klant, 1e bestelling {0}"
+  ],
+  "once": [
+   "單次購買 {0}",
+   "One-off {0}",
+   "Eenmalig {0}"
+  ],
+  "invite_title": [
+   "經由站長邀請連結註冊 {0}（另開新視窗）",
+   "Sign up for {0} with the site owner's invite link (opens in a new window)",
+   "Meld je aan bij {0} via de uitnodigingslink van de beheerder (opent in nieuw venster)"
+  ],
+  "cb_title": [
+   "先註冊返現網站，買罐罐再拿回一點錢",
+   "Sign up for a cashback site and get a bit back on every can",
+   "Meld je aan bij een cashbacksite en krijg wat terug op elk blikje"
+  ],
+  "cb_desc": [
+   "網站上的「含返現」價格需要先註冊對應的返現網站，經由下面連結註冊是用站長的邀請連結。",
+   "Prices marked “incl. cashback” require an account with that cashback site. The links below are the site owner's invite links.",
+   "Prijzen met „incl. cashback” vereisen een account bij die cashbacksite. De links hieronder zijn uitnodigingslinks van de beheerder."
+  ],
+  "cb_btn": [
+   "註冊 ↗",
+   "Sign up ↗",
+   "Aanmelden ↗"
+  ],
+  "cb_aria": [
+   "註冊 {0}（站長邀請連結，另開新視窗）",
+   "Sign up for {0} (site owner's invite link, opens in a new window)",
+   "Aanmelden bij {0} (uitnodigingslink van de beheerder, opent in nieuw venster)"
+  ],
+  "lv_low": [
+   "偏低",
+   "Low",
+   "Laag"
+  ],
+  "lv_typical": [
+   "一般",
+   "Typical",
+   "Normaal"
+  ],
+  "lv_high": [
+   "偏高",
+   "High",
+   "Hoog"
+  ],
+  "lv_h": [
+   "價格水準",
+   "Price level",
+   "Prijsniveau"
+  ],
+  "lv_collecting": [
+   "資料累積中（已有 {0}／{1} 天）",
+   "Collecting data ({0}/{1} days so far)",
+   "Gegevens verzamelen ({0}/{1} dagen)"
+  ],
+  "lv_now": [
+   "目前價格",
+   "Price now",
+   "Prijs nu"
+  ],
+  "lv_n": [
+   "依過去 {0} 天紀錄",
+   "Based on the last {0} days",
+   "Op basis van {0} dagen"
+  ],
+  "lv_aria": [
+   "今日 {0}，價格{1}；偏低 ≤ {2}，偏高 ≥ {3}",
+   "Today {0}, price is {1}; low ≤ {2}, high ≥ {3}",
+   "Vandaag {0}, prijs is {1}; laag ≤ {2}, hoog ≥ {3}"
+  ],
+  "lv_scale_low": [
+   "偏低 ≤ {0}",
+   "Low ≤ {0}",
+   "Laag ≤ {0}"
+  ],
+  "lv_scale_high": [
+   "偏高 ≥ {0}",
+   "High ≥ {0}",
+   "Hoog ≥ {0}"
+  ],
+  "img_alt": [
+   "{0} 商品圖",
+   "{0} product photo",
+   "{0} productfoto"
+  ],
+  "no_offer": [
+   "目前沒有已核實、有庫存的報價。",
+   "No verified, in-stock offer right now.",
+   "Op dit moment geen geverifieerd aanbod op voorraad."
+  ],
+  "per_100g": [
+   "每 100g ",
+   "per 100g",
+   "per 100g"
+  ],
+  "per_g": [
+   "每克",
+   "per gram",
+   "per gram"
+  ],
+  "per_L": [
+   "每公升",
+   "per litre",
+   "per liter"
+  ],
+  "lowest_per_base": [
+   "{0}最低價",
+   "Lowest {0}",
+   "Laagste prijs {0}"
+  ],
+  "lowest_per_unit": [
+   "最低每{0}",
+   "Lowest per {0}",
+   "Laagste per {0}"
+  ],
+  "go_to": [
+   "前往 {0}",
+   "Go to {0}",
+   "Naar {0}"
+  ],
+  "go": [
+   "前往 ›",
+   "Go ›",
+   "Bekijk ›"
+  ],
+  "alt_once": [
+   "不想訂閱？單次購買最低：",
+   "No subscription? Lowest one-off price:",
+   "Geen abonnement? Laagste eenmalige prijs:"
+  ],
+  "compare": [
+   "比較 {0} 家商店與價格走勢",
+   "Compare {0} shops and price trend",
+   "Vergelijk {0} winkels en prijsverloop"
+  ],
+  "rank_h": [
+   "商店排名（依{0}最低價）",
+   "Shop ranking (lowest price {0})",
+   "Winkelranglijst (laagste prijs {0})"
+  ],
+  "st_oos": [
+   "缺貨",
+   "Out of stock",
+   "Uitverkocht"
+  ],
+  "st_partly": [
+   "部分核實",
+   "Partly verified",
+   "Deels geverifieerd"
+  ],
+  "st_unver": [
+   "未核實",
+   "Unverified",
+   "Niet geverifieerd"
+  ],
+  "other_sizes": [
+   "其他規格：",
+   "Other sizes: ",
+   "Andere formaten: "
+  ],
+  "more": [
+   "顯示其他 {0} 筆（缺貨或未完全核實）",
+   "Show {0} more (out of stock or not fully verified)",
+   "Toon nog {0} (uitverkocht of niet volledig geverifieerd)"
+  ],
+  "less": [
+   "只顯示有庫存、已核實的商店",
+   "Show only verified, in-stock shops",
+   "Alleen geverifieerde winkels op voorraad"
+  ],
+  "trend_base": [
+   "{0}最低價走勢",
+   "Lowest price trend {0}",
+   "Verloop laagste prijs {0}"
+  ],
+  "trend_unit": [
+   "每{0}最低價走勢",
+   "Lowest price trend per {0}",
+   "Verloop laagste prijs per {0}"
+  ],
+  "trend_aria": [
+   "價格走勢圖",
+   "Price trend chart",
+   "Grafiek prijsverloop"
+  ],
+  "trend_one": [
+   "目前只有 {0} 一天的資料{1}，累積更多天數後會顯示價格走勢。",
+   "Only data for {0} so far{1}; the trend appears once more days are collected.",
+   "Alleen gegevens van {0}{1}; het verloop verschijnt zodra er meer dagen zijn."
+  ],
+  "details": [
+   "詳細資料",
+   "Details",
+   "Details"
+  ],
+  "d_calc": [
+   "計算方式",
+   "How prices are calculated",
+   "Berekening"
+  ],
+  "d_promos_other": [
+   "未完全核實的優惠",
+   "Deals not fully verified",
+   "Niet volledig geverifieerde acties"
+  ],
+  "d_notes": [
+   "各商店備註",
+   "Shop notes",
+   "Opmerkingen per winkel"
+  ],
+  "d_unverified": [
+   "無法核實的線索（未列入比價）",
+   "Unverifiable leads (not compared)",
+   "Niet te verifiëren tips (niet vergeleken)"
+  ],
+  "noscript": [
+   "請開啟 JavaScript 以檢視價格。",
+   "Please enable JavaScript to see prices.",
+   "Zet JavaScript aan om de prijzen te zien."
+  ],
+  "updated_label": [
+   "更新",
+   "Updated",
+   "Bijgewerkt"
+  ]
+ },
+ "i18n": {
+  "en": {
+   "-12%（原價 €22.75）；curl 403，改用 WebFetch 取得：-12%（原價 €22.75）": "-12% (was €22.75); curl 403, fetched via WebFetch instead: -12% (was €22.75)",
+   "10/31 缺貨": "10/31 out of stock",
+   "10/31 頁面價 €19.79，缺貨": "10/31 page price €19.79, out of stock",
+   "10x1g 單次包": "10x1g single sachets",
+   "11/01 已無 €10.16 購物車折扣；仍缺貨": "11/01 €10.16 cart discount no longer available; still out of stock",
+   "11/01 由 €12.49 降至 €12.29": "11/01 down from €12.49 to €12.29",
+   "11/01 降價（10/31 €31.31）；Amazon 出售並出貨；訂閱省 5% €28.16（返現不疊加，返現較便宜）": "11/01 price drop (10/31 €31.31); sold and shipped by Amazon; subscribe & save 5% €28.16 (cashback doesn't stack, cashback is cheaper)",
+   "11L 袋": "11L bag",
+   "125g／200g／400g／800g": "125g/200g/400g/800g",
+   "12x100g 餐包 Kitten 牛＋禽": "12x100g pouches Kitten beef & poultry",
+   "12x125g 擠壓袋 雞肉": "12x125g squeeze pouches chicken",
+   "12x125g 試吃組（3 種）": "12x125g tasting set (3 kinds)",
+   "12x185g 雞肉": "12x185g chicken",
+   "12x185g 雞肉／牛肉": "12x185g chicken/beef",
+   "12x185g 雞肉／牛肉（12 罐起每罐 €4.07）": "12x185g chicken/beef (€4.07 per can from 12 cans)",
+   "12x185g 鹿肉（12 罐起每罐 €4.90）": "12x185g venison (€4.90 per can from 12 cans)",
+   "12x200g Kitten 小牛＋雞心": "12x200g Kitten veal & chicken heart",
+   "12x200g Kitten 火雞＋兔": "12x200g Kitten turkey & rabbit",
+   "12x200g Kitten 火雞／牛／鴨": "12x200g Kitten turkey/beef/duck",
+   "1g／20g／60g／250g 條": "1g/20g/60g/250g tube",
+   "1x185g 牛肉／雞肉": "1x185g beef/chicken",
+   "1x185g 牛肉／鯖魚": "1x185g beef/mackerel",
+   "1x185g 雞肉": "1x185g chicken",
+   "1x185g 雞肉／牛肉": "1x185g chicken/beef",
+   "1x185g 鯖魚羊肉": "1x185g mackerel & lamb",
+   "1x200g Kitten 小牛＋雞心": "1x200g Kitten veal & chicken heart",
+   "1x200g Kitten 火雞＋兔": "1x200g Kitten turkey & rabbit",
+   "1x200g Kitten 火雞／牛／鴨": "1x200g Kitten turkey/beef/duck",
+   "1x200g 小牛肉": "1x200g veal",
+   "1x200g 雞肉": "1x200g chicken",
+   "1x200g（4 種口味）": "1x200g (4 flavours)",
+   "1x400g Kitten 小牛＋雞心": "1x400g Kitten veal & chicken heart",
+   "1x400g Kitten 火雞＋兔": "1x400g Kitten turkey & rabbit",
+   "1x400g Kitten 火雞／牛／鴨": "1x400g Kitten turkey/beef/duck",
+   "1x400g 小牛肉": "1x400g veal",
+   "1x400g 雞肉": "1x400g chicken",
+   "1x800g Kitten 小牛＋雞心": "1x800g Kitten veal & chicken heart",
+   "1x800g Kitten 火雞＋兔": "1x800g Kitten turkey & rabbit",
+   "1x800g Kitten 火雞／牛／鴨": "1x800g Kitten turkey/beef/duck",
+   "1x800g 小牛肉": "1x800g veal",
+   "1x800g 雞肉": "1x800g chicken",
+   "1x85g 牛肉": "1x85g beef",
+   "1x85g 牛肉／雞肉／鯖魚羊肉": "1x85g beef/chicken/mackerel & lamb",
+   "200g／400g／800g 罐": "200g/400g/800g can",
+   "2026-11-01：Intratuin Woolsocks 原頁 404，5% 只見於 GotCashback": "2026-11-01: Intratuin Woolsocks original page 404, 5% only seen on GotCashback",
+   "2026-11-01：Newpharma RC €18.49＋運費 €7.19 只見於 kieskeurig": "2026-11-01: Newpharma RC €18.49 + shipping €7.19 only seen on kieskeurig",
+   "2026-11-01：bol.com 商品頁 403（10/25 起連續失敗），RC €24.30、Mesitran 60g €26.99 只取自 kieskeurig": "2026-11-01: bol.com product page 403 (failing since 10/25), RC €24.30, Mesitran 60g €26.99 only from kieskeurig",
+   "2026-11-02：CutieCat Ziwi 牛肉 85g €2.95／185g €4.40（頁面未顯示庫存）https://cutiecat.nl/product/ziwipeak-kattenvoer-rund/": "2026-11-02: CutieCat Ziwi beef 85g €2.95/185g €4.40 (page shows no stock) https://cutiecat.nl/product/ziwipeak-kattenvoer-rund/",
+   "2026-11-02：Dierenwinkel247 Ziwi 牛肉「vanaf €3.95」（另見劃線價 €2.95，規格不明），€99 起免運": "2026-11-02: Dierenwinkel247 Ziwi beef “vanaf €3.95” (also a struck-through price of €2.95, size unclear), free shipping from €99",
+   "2026-11-02：Naturitas Ziwi 185g €5.28（部分即將到貨）；Amazon.nl 只有高價進口（例 12x185g 雞肉 €198.62）；beslist 上 Joybuy 185g 鹿肉 €7.99": "2026-11-02: Naturitas Ziwi 185g €5.28 (some items arriving soon); Amazon.nl only expensive imports (e.g. 12x185g chicken €198.62); on beslist: Joybuy 185g venison €7.99",
+   "2026-11-02：ORIJEN 幼貓濕食（Chicken & Salmon Entrée for Kittens 85g，EAN 064992719371）只在美國官網；EMEA 官網只列乾糧；法國 Bonjour Papattes 24x85g €127.25（寄 NL 未確認）；Paw Street Market 是北美店": "2026-11-02: ORIJEN kitten wet food (Chicken & Salmon Entrée for Kittens 85g, EAN 064992719371) only on the US official site; EMEA official site only lists dry food; French shop Bonjour Papattes 24x85g €127.25 (shipping to NL unconfirmed); Paw Street Market is a North American shop",
+   "2026-11-02：bol.com 本機 IP 被封鎖，Ziwi 是否有售無法核實（Google 索引也沒找到 Ziwi 貓罐頭）": "2026-11-02: bol.com blocks our IP, can't verify whether Ziwi is sold (Google's index has no Ziwi cat cans either)",
+   "2026-11-02：kieskeurig 一直回 429（請求過多），本次無法搜尋 Ziwi": "2026-11-02: kieskeurig keeps returning 429 (too many requests), couldn't search for Ziwi this time",
+   "24x125g 擠壓袋 雞肉": "24x125g squeeze pouches chicken",
+   "24x185g 牛肉／鯖魚（24 罐起每罐 €3.79）": "24x185g beef/mackerel (€3.79 per can from 24 cans)",
+   "24x185g 鹿肉（24 罐起每罐 €4.25）": "24x185g venison (€4.25 per can from 24 cans)",
+   "24x200g 小牛肉": "24x200g veal",
+   "24x200g 雞肉": "24x200g chicken",
+   "24x400g 小牛肉": "24x400g veal",
+   "24x400g 雞肉": "24x400g chicken",
+   "24x70g Ocean Kitten 鮪魚＋鱈魚": "24x70g Ocean Kitten tuna & cod",
+   "24x70g Prime Kitten 雞＋石榴": "24x70g Prime Kitten chicken & pomegranate",
+   "24x800g 小牛肉": "24x800g veal",
+   "24x800g 雞肉": "24x800g chicken",
+   "24x85g 牛肉": "24x85g beef",
+   "24x85g 牛肉／雞肉／鯖魚羊肉／鯖魚（24 罐起每罐 €2.59）": "24x85g beef/chicken/mackerel & lamb/mackerel (€2.59 per can from 24 cans)",
+   "24x85g 雞肉／牛肉／鯖魚羊肉／鯖魚（24 罐起每罐 €2.77）": "24x85g chicken/beef/mackerel & lamb/mackerel (€2.77 per can from 24 cans)",
+   "24x85g 雞肉／鯖魚羊肉／鯖魚／牛肉": "24x85g chicken/mackerel & lamb/mackerel/beef",
+   "30% 折扣（原價 €18.75）；curl 403，WebFetch 讀取成功；訂閱首單 -10%（上限 €15）、之後 -5% 由官方 /abonnement 頁確認": "30% off (was €18.75); curl 403, WebFetch read OK; first subscription order -10% (max. €15), then -5% confirmed on the official /abonnement page",
+   "30% 折扣（原價約 €19.79）": "30% off (was approx. €19.79)",
+   "6x200g Kitten 小牛＋雞心": "6x200g Kitten veal & chicken heart",
+   "6x200g Kitten 火雞＋兔": "6x200g Kitten turkey & rabbit",
+   "6x200g Kitten 火雞／牛／鴨": "6x200g Kitten turkey/beef/duck",
+   "6x200g 小牛肉": "6x200g veal",
+   "6x200g 雞肉": "6x200g chicken",
+   "6x400g Kitten 小牛＋雞心": "6x400g Kitten veal & chicken heart",
+   "6x400g Kitten 火雞＋兔": "6x400g Kitten turkey & rabbit",
+   "6x400g Kitten 火雞／牛／鴨": "6x400g Kitten turkey/beef/duck",
+   "6x400g 小牛肉": "6x400g veal",
+   "6x400g 火雞": "6x400g turkey",
+   "6x400g 雞肉": "6x400g chicken",
+   "6x800g Kitten 小牛＋雞心": "6x800g Kitten veal & chicken heart",
+   "6x800g 小牛肉": "6x800g veal",
+   "6x800g 火雞": "6x800g turkey",
+   "6x800g 雞肉": "6x800g chicken",
+   "70g 罐": "70g can",
+   "85g 餐包": "85g pouches",
+   "CashbackXL 返現 €1.26": "CashbackXL cashback €1.26",
+   "CashbackXL 返現 €1.30": "CashbackXL cashback €1.30",
+   "CashbackXL 返現 €1.43": "CashbackXL cashback €1.43",
+   "CashbackXL 返現 €1.55": "CashbackXL cashback €1.55",
+   "CashbackXL 返現 €1.65": "CashbackXL cashback €1.65",
+   "CashbackXL 返現 €1.84": "CashbackXL cashback €1.84",
+   "CashbackXL 返現 €1.96": "CashbackXL cashback €1.96",
+   "CashbackXL 返現 €2.01": "CashbackXL cashback €2.01",
+   "CashbackXL 返現 €2.31": "CashbackXL cashback €2.31",
+   "CashbackXL 返現 €5.43": "CashbackXL cashback €5.43",
+   "De Kattensite（聯盟導購站，導向 zooplus 1578995；10/27 顯示 €12.99）": "De Kattensite (affiliate site, links to zooplus 1578995; 10/27 shows €12.99)",
+   "Hypostore Mesitran Vet Soft 起價 €10.74；Canislufa €18.14（未開商品頁）": "Hypostore Mesitran Vet Soft from €10.74; Canislufa €18.14 (product page not opened)",
+   "Intratuin Woolsocks 返現 5%（只見於 GotCashback）": "Intratuin Woolsocks cashback 5% (only seen on GotCashback)",
+   "Kies en mix 3+1 gratis；3+1 = 4 盒以上 25% 折扣；4 盒 €59.85 已過免運門檻 €39": "Kies en mix 3+1 gratis; 3+1 = 25% off from 4 boxes; 4 boxes €59.85 is above the free-shipping threshold of €39",
+   "Kitten（Ocean／Prime）": "Kitten (Ocean/Prime)",
+   "Newpharma RC €18.49＋運費 €7.19（只見於 kieskeurig）": "Newpharma RC €18.49 + shipping €7.19 (only seen on kieskeurig)",
+   "Pflanzen-Kölle MAC's €1.55（可能只寄德國）": "Pflanzen-Kölle MAC's €1.55 (may ship to Germany only)",
+   "Seasonal Savings -10%（至 2026-11-04）；11/01 Seasonal Savings 10% 折扣（原價 €23.26），剩 5 件": "Seasonal Savings -10% (until 2026-11-04); 11/01 Seasonal Savings 10% off (was €23.26), 5 left",
+   "Seasonal Savings -10%（至 2026-11-04）；原價 €2.80": "Seasonal Savings -10% (until 2026-11-04); was €2.80",
+   "Seasonal Savings -10%（至 2026-11-04）；原價 €4.46": "Seasonal Savings -10% (until 2026-11-04); was €4.46",
+   "Seasonal Savings -10%（至 2026-11-04）；原價 €4.59": "Seasonal Savings -10% (until 2026-11-04); was €4.59",
+   "Seasonal Savings -10%（至 2026-11-04）；原價 €6.76": "Seasonal Savings -10% (until 2026-11-04); was €6.76",
+   "Seasonal Savings -10%（至 2026-11-04）；原價 €6.89": "Seasonal Savings -10% (until 2026-11-04); was €6.89",
+   "Seasonal Savings（至 2026-11-04）；原價 €2.67": "Seasonal Savings (until 2026-11-04); was €2.67",
+   "Tom&Co（比利時站 €20.09，是否寄荷蘭未確認）": "Tom&Co (Belgian site €20.09, delivery to NL unconfirmed)",
+   "Vet Soft 蜂蜜傷口凝膠": "Vet Soft honey wound gel",
+   "Vivapets（10/25 頁面 404）": "Vivapets (10/25 page 404)",
+   "Woeffies & Friends、Paws and Belly：Mesitran Vet Soft 20g €10.50（只見於搜尋摘要）": "Woeffies & Friends, Paws and Belly: Mesitran Vet Soft 20g €10.50 (only seen in search snippets)",
+   "Woolsocks 返現 €0.12": "Woolsocks cashback €0.12",
+   "Woolsocks 返現 €0.14": "Woolsocks cashback €0.14",
+   "Woolsocks 返現 €0.15": "Woolsocks cashback €0.15",
+   "Woolsocks 返現 €0.19": "Woolsocks cashback €0.19",
+   "Woolsocks 返現 €0.20": "Woolsocks cashback €0.20",
+   "Woolsocks 返現 €0.22": "Woolsocks cashback €0.22",
+   "Woolsocks 返現 €0.25": "Woolsocks cashback €0.25",
+   "Woolsocks 返現 €0.28": "Woolsocks cashback €0.28",
+   "Woolsocks 返現 €0.36": "Woolsocks cashback €0.36",
+   "Woolsocks 返現 €0.55": "Woolsocks cashback €0.55",
+   "Woolsocks 返現 €0.99": "Woolsocks cashback €0.99",
+   "Woolsocks 返現 €1.41": "Woolsocks cashback €1.41",
+   "YesCashback 返現 €0.15": "YesCashback cashback €0.15",
+   "YesCashback 返現 €1.59": "YesCashback cashback €1.59",
+   "YesCashback 返現 €1.61": "YesCashback cashback €1.61",
+   "YesCashback 返現 €1.94": "YesCashback cashback €1.94",
+   "YesCashback 返現 €2.20": "YesCashback cashback €2.20",
+   "ZIWI Peak 貓罐頭（85g／185g，官方標示適用所有生命階段，含幼貓）": "ZIWI Peak canned cat food (85g/185g, officially for all life stages, incl. kittens)",
+   "Ziwi Box kat Kip 試吃組 €36.30：800g Steam & Dried 雞肉＋雞肉 185g＋牛肉 185g；Ziwi Box kat Rund／Vis 缺貨；Ziwi 罐頭只有數量價；ORIJEN 無任何促銷": "Ziwi Box kat Kip tasting set €36.30: 800g Steam & Dried chicken + chicken 185g + beef 185g; Ziwi Box kat Rund/Vis out of stock; Ziwi cans only have volume pricing; ORIJEN no promotions at all",
+   "agriking.nl MjAMjAM 200g €2.28（德國價、缺貨）": "agriking.nl MjAMjAM 200g €2.28 (German price, out of stock)",
+   "bol.be RC 12x85g €18.01（bol 自營，只見於搜尋摘要；bol.com 擋自動化 403）": "bol.be RC 12x85g €18.01 (sold by bol, only seen in search snippets; bol.com blocks automated access (403))",
+   "bol.com 商品頁 403（自 10/25 起每次都擋），價格取自 kieskeurig": "bol.com product page 403 (blocked every time since 10/25), price taken from kieskeurig",
+   "bol.com 商品頁 403（自 10/25 起每次都擋）；11/01 kieskeurig 只列 60g €26.99（Divoza €28.54）": "bol.com product page 403 (blocked every time since 10/25); 11/01 kieskeurig only lists 60g €26.99 (Divoza €28.54)",
+   "bol.com（Plaza 賣家）": "bol.com (Plaza seller)",
+   "curl 403，WebFetch 讀取成功": "curl 403, WebFetch read OK",
+   "supersales.nl（10/25 頁面 404，10/27 未重查）": "supersales.nl (10/25 page 404, 10/27 not rechecked)",
+   "€50 起免運（NL/BE）": "free shipping from €50 (NL/BE)",
+   "€59 起免運": "free shipping from €59",
+   "€65 起免運": "free shipping from €65",
+   "€69 起免運": "free shipping from €69",
+   "以既有客戶費率計算；返現多以未稅、不含運費的訂單金額計；定期配送／購物車折扣／Herhaalgemak 與返現不疊加（各平台未明示可疊加；Medpets 明示定期訂購無返現）": "Calculated with existing-customer rates; cashback is usually based on the order amount excl. VAT and shipping; autoship, cart discounts and Herhaalgemak are not combined with cashback (no platform says they stack; Medpets states repeat orders get no cashback).",
+   "份": "pack",
+   "依賣家而定": "depends on seller",
+   "免運": "free shipping",
+   "免運（首單或滿 €25）": "free shipping (first order or from €25)",
+   "其他促銷：Applaws Kitten 400g €5.74、Nutrolin kat Kitten & Adult 150ml €16.79；THT頁沒有 Ziwi 貓食或 ORIJEN；定期配送95 折": "Other promotions: Applaws Kitten 400g €5.74, Nutrolin kat Kitten & Adult 150ml €16.79; THT page has no Ziwi cat food or ORIJEN; autoship 5% off",
+   "動物用醫療級蜂蜜凝膠（非 Ointment 軟膏）": "Medical-grade honey gel for animals (not the Ointment)",
+   "包": "pouch",
+   "只見於 kieskeurig（€18.49＋運費 €7.19）": "only seen on kieskeurig (€18.49 + shipping €7.19)",
+   "含返現": "incl. cashback",
+   "含運費": "incl. shipping",
+   "單次購買": "one-off purchase",
+   "定期訂購價": "repeat-order price",
+   "定期配送價": "autoship price",
+   "定期配送首單價": "autoship first-order price",
+   "定期配送（自動扣款）95 折，不計返現；庫存 20；EAN 8606014106879": "autoship (automatic payment) 5% off, no cashback; 20 in stock; EAN 8606014106879",
+   "定期配送（自動扣款）95 折，不計返現；庫存 34；EAN 8606014102918": "autoship (automatic payment) 5% off, no cashback; 34 in stock; EAN 8606014102918",
+   "幼貓主食罐": "Complete kitten food",
+   "幼貓濕食比價": "Kitten Wet Food Prices",
+   "庫存 26；鹿肉 €3.50（85g）／€4.95（185g）": "26 in stock; venison €3.50 (85g)/€4.95 (185g)",
+   "庫存 7": "7 in stock",
+   "庫存：牛肉 26、雞肉 6、鯖魚羊肉 27；鹿肉 85g €3.50": "stock: beef 26, chicken 6, mackerel & lamb 27; venison 85g €3.50",
+   "庫存：牛肉 68、雞肉 7；鯖魚羊肉 185g 缺貨；鹿肉 185g €4.95（庫存 19）": "stock: beef 68, chicken 7; mackerel & lamb 185g out of stock; venison 185g €4.95 (19 in stock)",
+   "持平歷史低價": "Matches record low",
+   "數量價：1–9 罐 €4.25、10–23 罐 €3.95、24 罐起 €3.79；可混搭牛肉與鯖魚（/product/7358/ziwi-peak-daily-cat-cuisine-blik-mackerel-185gr）；雞肉、鯖魚羊肉 185g 暫時缺貨": "volume pricing: 1–9 cans €4.25, 10–23 cans €3.95, from 24 cans €3.79; beef and mackerel can be mixed (/product/7358/ziwi-peak-daily-cat-cuisine-blik-mackerel-185gr); chicken, mackerel & lamb 185g temporarily out of stock",
+   "數量價：€2.89、10 罐起 €2.69、24 罐起 €2.59；雞肉 /4817、鯖魚羊肉 /3756、鯖魚 /7359": "volume pricing: €2.89, from 10 cans €2.69, from 24 cans €2.59; chicken /4817, mackerel & lamb /3756, mackerel /7359",
+   "數量價：€2.99、12 罐起 €2.84、24 罐起 €2.77；庫存：牛肉 92、鯖魚羊肉 114、雞肉 22、鯖魚 5": "volume pricing: €2.99, from 12 cans €2.84, from 24 cans €2.77; stock: beef 92, mackerel & lamb 114, chicken 22, mackerel 5",
+   "數量價：€4.40、6 罐起 €4.18、12 罐起 €4.07；定期配送 95 折（不計返現）；庫存：牛肉 44、雞肉 42；鯖魚羊肉、鯖魚 185g 缺貨": "volume pricing: €4.40, from 6 cans €4.18, from 12 cans €4.07; autoship 5% off (no cashback); stock: beef 44, chicken 42; mackerel & lamb, mackerel 185g out of stock",
+   "數量價：€4.75、10 罐起 €4.59、24 罐起 €4.25；85g 鹿肉 /1842：€3.45／€3.35／€3.09": "volume pricing: €4.75, from 10 cans €4.59, from 24 cans €4.25; 85g venison /1842: €3.45/€3.35/€3.09",
+   "數量價：€5.30、6 罐起 €5.04、12 罐起 €4.90；庫存 4；85g 鹿肉 €3.85／€3.66／€3.56": "volume pricing: €5.30, from 6 cans €5.04, from 12 cans €4.90; 4 in stock; 85g venison €3.85/€3.66/€3.56",
+   "新低價": "New low",
+   "最低消費 €14.95": "minimum order €14.95",
+   "條": "tube",
+   "植物豆腐砂 Sensitive（無香）": "Plant-based tofu litter Sensitive (unscented)",
+   "比利時店，寄荷蘭運費未核實": "Belgian shop; shipping to NL unverified",
+   "比歷史低價高 17%": "17% above record low",
+   "海洋魚蝦／雞肉石榴": "Ocean fish & shrimp / chicken & pomegranate",
+   "滿 €29 免運／運費 €2.99": "free shipping from €29 / shipping €2.99",
+   "滿 €35 免運": "free shipping from €35",
+   "滿 €39 免運": "free shipping from €39",
+   "滿 €39 免運／運費 €3.99": "free shipping from €39 / shipping €3.99",
+   "滿 €40 免運／運費 €4.95": "free shipping from €40 / shipping €4.95",
+   "滿 €45 免運／運費 €0–8.25": "free shipping from €45 / shipping €0–8.25",
+   "滿 €49 免運": "free shipping from €49",
+   "滿 €50 免運": "free shipping from €50",
+   "滿 €59 免運": "free shipping from €59",
+   "滿 €59 免運／運費 €3.95": "free shipping from €59 / shipping €3.95",
+   "滿 €64.90 免運／運費 €6.90": "free shipping from €64.90 / shipping €6.90",
+   "滿 €69 免運／運費 €3.95": "free shipping from €69 / shipping €3.95",
+   "滿 €75 免運／運費 €7.20": "free shipping from €75 / shipping €7.20",
+   "結紮幼貓・肉汁餐包": "Sterilised kittens · pouches in gravy",
+   "罐": "can",
+   "袋": "bag",
+   "訂閱省 5% €19.38": "subscribe & save 5% €19.38",
+   "訂閱省 5% €21.84": "subscribe & save 5% €21.84",
+   "訂閱首單 -10%": "first subscription order -10%",
+   "豆腐貓砂・可沖馬桶・無香": "Tofu cat litter · flushable · unscented",
+   "買 2 條起每條 €9.95": "€9.95 each when buying 2 or more",
+   "返現確認可能要等幾個月": "Cashback confirmation can take a few months",
+   "運費 €4.95": "shipping €4.95",
+   "運費 €6.26": "shipping €6.26",
+   "運費 €7.19": "shipping €7.19",
+   "運費未知": "shipping unknown",
+   "需定期配送": "autoship required",
+   "預計 2026-11-06 到貨；24x85g 雞肉 €69.95 也缺貨": "expected 2026-11-06; 24x85g chicken €69.95 also out of stock",
+   "首次紀錄": "First record",
+   "鯖魚 185g 也缺貨": "mackerel 185g also out of stock",
+   "鯖魚羊肉、鯖魚 12x185g 售完；鹿肉 12x185g €59.99": "mackerel & lamb, mackerel 12x185g sold out; venison 12x185g €59.99",
+   "鹿肉 24x85g €85.99": "venison 24x85g €85.99"
+  },
+  "nl": {
+   "-12%（原價 €22.75）；curl 403，改用 WebFetch 取得：-12%（原價 €22.75）": "-12% (was €22,75); curl 403, opgehaald via WebFetch: -12% (was €22,75)",
+   "10/31 缺貨": "10/31 uitverkocht",
+   "10/31 頁面價 €19.79，缺貨": "10/31 prijs op pagina €19,79, uitverkocht",
+   "10x1g 單次包": "10x1g losse sachets",
+   "11/01 已無 €10.16 購物車折扣；仍缺貨": "11/01 winkelwagenkorting van €10,16 vervallen; nog steeds uitverkocht",
+   "11/01 由 €12.49 降至 €12.29": "11/01 verlaagd van €12,49 naar €12,29",
+   "11/01 降價（10/31 €31.31）；Amazon 出售並出貨；訂閱省 5% €28.16（返現不疊加，返現較便宜）": "11/01 prijsdaling (10/31 €31,31); verkocht en verzonden door Amazon; abonnementskorting 5% €28,16 (cashback niet te combineren, cashback is goedkoper)",
+   "11L 袋": "11L zak",
+   "125g／200g／400g／800g": "125g/200g/400g/800g",
+   "12x100g 餐包 Kitten 牛＋禽": "12x100g zakjes Kitten rund & gevogelte",
+   "12x125g 擠壓袋 雞肉": "12x125g knijpzakjes kip",
+   "12x125g 試吃組（3 種）": "12x125g proefpakket (3 soorten)",
+   "12x185g 雞肉": "12x185g kip",
+   "12x185g 雞肉／牛肉": "12x185g kip/rund",
+   "12x185g 雞肉／牛肉（12 罐起每罐 €4.07）": "12x185g kip/rund (€4,07 per blik vanaf 12 blikken)",
+   "12x185g 鹿肉（12 罐起每罐 €4.90）": "12x185g hert (€4,90 per blik vanaf 12 blikken)",
+   "12x200g Kitten 小牛＋雞心": "12x200g Kitten kalf & kippenhart",
+   "12x200g Kitten 火雞＋兔": "12x200g Kitten kalkoen & konijn",
+   "12x200g Kitten 火雞／牛／鴨": "12x200g Kitten kalkoen/rund/eend",
+   "1g／20g／60g／250g 條": "1g/20g/60g/250g tube",
+   "1x185g 牛肉／雞肉": "1x185g rund/kip",
+   "1x185g 牛肉／鯖魚": "1x185g rund/makreel",
+   "1x185g 雞肉": "1x185g kip",
+   "1x185g 雞肉／牛肉": "1x185g kip/rund",
+   "1x185g 鯖魚羊肉": "1x185g makreel & lam",
+   "1x200g Kitten 小牛＋雞心": "1x200g Kitten kalf & kippenhart",
+   "1x200g Kitten 火雞＋兔": "1x200g Kitten kalkoen & konijn",
+   "1x200g Kitten 火雞／牛／鴨": "1x200g Kitten kalkoen/rund/eend",
+   "1x200g 小牛肉": "1x200g kalf",
+   "1x200g 雞肉": "1x200g kip",
+   "1x200g（4 種口味）": "1x200g (4 smaken)",
+   "1x400g Kitten 小牛＋雞心": "1x400g Kitten kalf & kippenhart",
+   "1x400g Kitten 火雞＋兔": "1x400g Kitten kalkoen & konijn",
+   "1x400g Kitten 火雞／牛／鴨": "1x400g Kitten kalkoen/rund/eend",
+   "1x400g 小牛肉": "1x400g kalf",
+   "1x400g 雞肉": "1x400g kip",
+   "1x800g Kitten 小牛＋雞心": "1x800g Kitten kalf & kippenhart",
+   "1x800g Kitten 火雞＋兔": "1x800g Kitten kalkoen & konijn",
+   "1x800g Kitten 火雞／牛／鴨": "1x800g Kitten kalkoen/rund/eend",
+   "1x800g 小牛肉": "1x800g kalf",
+   "1x800g 雞肉": "1x800g kip",
+   "1x85g 牛肉": "1x85g rund",
+   "1x85g 牛肉／雞肉／鯖魚羊肉": "1x85g rund/kip/makreel & lam",
+   "200g／400g／800g 罐": "200g/400g/800g blik",
+   "2026-11-01：Intratuin Woolsocks 原頁 404，5% 只見於 GotCashback": "2026-11-01: Intratuin Woolsocks originele pagina 404, 5% alleen gezien op GotCashback",
+   "2026-11-01：Newpharma RC €18.49＋運費 €7.19 只見於 kieskeurig": "2026-11-01: Newpharma RC €18,49 + verzending €7,19 alleen gezien op kieskeurig",
+   "2026-11-01：bol.com 商品頁 403（10/25 起連續失敗），RC €24.30、Mesitran 60g €26.99 只取自 kieskeurig": "2026-11-01: bol.com productpagina 403 (mislukt sinds 10/25), RC €24,30, Mesitran 60g €26,99 alleen via kieskeurig",
+   "2026-11-02：CutieCat Ziwi 牛肉 85g €2.95／185g €4.40（頁面未顯示庫存）https://cutiecat.nl/product/ziwipeak-kattenvoer-rund/": "2026-11-02: CutieCat Ziwi rund 85g €2,95/185g €4,40 (pagina toont geen voorraad) https://cutiecat.nl/product/ziwipeak-kattenvoer-rund/",
+   "2026-11-02：Dierenwinkel247 Ziwi 牛肉「vanaf €3.95」（另見劃線價 €2.95，規格不明），€99 起免運": "2026-11-02: Dierenwinkel247 Ziwi rund ‘vanaf €3,95’ (ook doorgestreepte prijs €2,95, formaat onduidelijk), gratis verzending vanaf €99",
+   "2026-11-02：Naturitas Ziwi 185g €5.28（部分即將到貨）；Amazon.nl 只有高價進口（例 12x185g 雞肉 €198.62）；beslist 上 Joybuy 185g 鹿肉 €7.99": "2026-11-02: Naturitas Ziwi 185g €5,28 (deels binnenkort leverbaar); Amazon.nl alleen dure import (bijv. 12x185g kip €198,62); op beslist: Joybuy 185g hert €7,99",
+   "2026-11-02：ORIJEN 幼貓濕食（Chicken & Salmon Entrée for Kittens 85g，EAN 064992719371）只在美國官網；EMEA 官網只列乾糧；法國 Bonjour Papattes 24x85g €127.25（寄 NL 未確認）；Paw Street Market 是北美店": "2026-11-02: ORIJEN kittennatvoer (Chicken & Salmon Entrée for Kittens 85g, EAN 064992719371) alleen op de Amerikaanse officiële site; EMEA officiële site toont alleen droogvoer; Franse winkel Bonjour Papattes 24x85g €127,25 (verzending naar NL onbevestigd); Paw Street Market is een Noord-Amerikaanse winkel",
+   "2026-11-02：bol.com 本機 IP 被封鎖，Ziwi 是否有售無法核實（Google 索引也沒找到 Ziwi 貓罐頭）": "2026-11-02: bol.com blokkeert ons IP-adres, niet te verifiëren of Ziwi verkocht wordt (ook geen Ziwi-kattenblikken in de Google-index)",
+   "2026-11-02：kieskeurig 一直回 429（請求過多），本次無法搜尋 Ziwi": "2026-11-02: kieskeurig geeft steeds 429 (te veel verzoeken), kon deze keer niet zoeken naar Ziwi",
+   "24x125g 擠壓袋 雞肉": "24x125g knijpzakjes kip",
+   "24x185g 牛肉／鯖魚（24 罐起每罐 €3.79）": "24x185g rund/makreel (€3,79 per blik vanaf 24 blikken)",
+   "24x185g 鹿肉（24 罐起每罐 €4.25）": "24x185g hert (€4,25 per blik vanaf 24 blikken)",
+   "24x200g 小牛肉": "24x200g kalf",
+   "24x200g 雞肉": "24x200g kip",
+   "24x400g 小牛肉": "24x400g kalf",
+   "24x400g 雞肉": "24x400g kip",
+   "24x70g Ocean Kitten 鮪魚＋鱈魚": "24x70g Ocean Kitten tonijn & kabeljauw",
+   "24x70g Prime Kitten 雞＋石榴": "24x70g Prime Kitten kip & granaatappel",
+   "24x800g 小牛肉": "24x800g kalf",
+   "24x800g 雞肉": "24x800g kip",
+   "24x85g 牛肉": "24x85g rund",
+   "24x85g 牛肉／雞肉／鯖魚羊肉／鯖魚（24 罐起每罐 €2.59）": "24x85g rund/kip/makreel & lam/makreel (€2,59 per blik vanaf 24 blikken)",
+   "24x85g 雞肉／牛肉／鯖魚羊肉／鯖魚（24 罐起每罐 €2.77）": "24x85g kip/rund/makreel & lam/makreel (€2,77 per blik vanaf 24 blikken)",
+   "24x85g 雞肉／鯖魚羊肉／鯖魚／牛肉": "24x85g kip/makreel & lam/makreel/rund",
+   "30% 折扣（原價 €18.75）；curl 403，WebFetch 讀取成功；訂閱首單 -10%（上限 €15）、之後 -5% 由官方 /abonnement 頁確認": "30% korting (was €18,75); curl 403, WebFetch gelukt; eerste abonnementsbestelling -10% (max. €15), daarna -5% bevestigd op de officiële /abonnement-pagina",
+   "30% 折扣（原價約 €19.79）": "30% korting (was ca. €19,79)",
+   "6x200g Kitten 小牛＋雞心": "6x200g Kitten kalf & kippenhart",
+   "6x200g Kitten 火雞＋兔": "6x200g Kitten kalkoen & konijn",
+   "6x200g Kitten 火雞／牛／鴨": "6x200g Kitten kalkoen/rund/eend",
+   "6x200g 小牛肉": "6x200g kalf",
+   "6x200g 雞肉": "6x200g kip",
+   "6x400g Kitten 小牛＋雞心": "6x400g Kitten kalf & kippenhart",
+   "6x400g Kitten 火雞＋兔": "6x400g Kitten kalkoen & konijn",
+   "6x400g Kitten 火雞／牛／鴨": "6x400g Kitten kalkoen/rund/eend",
+   "6x400g 小牛肉": "6x400g kalf",
+   "6x400g 火雞": "6x400g kalkoen",
+   "6x400g 雞肉": "6x400g kip",
+   "6x800g Kitten 小牛＋雞心": "6x800g Kitten kalf & kippenhart",
+   "6x800g 小牛肉": "6x800g kalf",
+   "6x800g 火雞": "6x800g kalkoen",
+   "6x800g 雞肉": "6x800g kip",
+   "70g 罐": "70g blik",
+   "85g 餐包": "85g zakjes",
+   "CashbackXL 返現 €1.26": "CashbackXL cashback €1,26",
+   "CashbackXL 返現 €1.30": "CashbackXL cashback €1,30",
+   "CashbackXL 返現 €1.43": "CashbackXL cashback €1,43",
+   "CashbackXL 返現 €1.55": "CashbackXL cashback €1,55",
+   "CashbackXL 返現 €1.65": "CashbackXL cashback €1,65",
+   "CashbackXL 返現 €1.84": "CashbackXL cashback €1,84",
+   "CashbackXL 返現 €1.96": "CashbackXL cashback €1,96",
+   "CashbackXL 返現 €2.01": "CashbackXL cashback €2,01",
+   "CashbackXL 返現 €2.31": "CashbackXL cashback €2,31",
+   "CashbackXL 返現 €5.43": "CashbackXL cashback €5,43",
+   "De Kattensite（聯盟導購站，導向 zooplus 1578995；10/27 顯示 €12.99）": "De Kattensite (affiliatesite, verwijst naar zooplus 1578995; 10/27 toont €12,99)",
+   "Hypostore Mesitran Vet Soft 起價 €10.74；Canislufa €18.14（未開商品頁）": "Hypostore Mesitran Vet Soft vanaf €10,74; Canislufa €18,14 (productpagina niet geopend)",
+   "Intratuin Woolsocks 返現 5%（只見於 GotCashback）": "Intratuin Woolsocks cashback 5% (alleen gezien op GotCashback)",
+   "Kies en mix 3+1 gratis；3+1 = 4 盒以上 25% 折扣；4 盒 €59.85 已過免運門檻 €39": "Kies en mix 3+1 gratis; 3+1 = 25% korting vanaf 4 dozen; 4 dozen €59,85 zit boven de grens voor gratis verzending van €39",
+   "Kitten（Ocean／Prime）": "Kitten (Ocean/Prime)",
+   "Newpharma RC €18.49＋運費 €7.19（只見於 kieskeurig）": "Newpharma RC €18,49 + verzending €7,19 (alleen gezien op kieskeurig)",
+   "Pflanzen-Kölle MAC's €1.55（可能只寄德國）": "Pflanzen-Kölle MAC's €1,55 (levert mogelijk alleen in Duitsland)",
+   "Seasonal Savings -10%（至 2026-11-04）；11/01 Seasonal Savings 10% 折扣（原價 €23.26），剩 5 件": "Seasonal Savings -10% (t/m 2026-11-04); 11/01 Seasonal Savings 10% korting (was €23,26), nog 5 op voorraad",
+   "Seasonal Savings -10%（至 2026-11-04）；原價 €2.80": "Seasonal Savings -10% (t/m 2026-11-04); was €2,80",
+   "Seasonal Savings -10%（至 2026-11-04）；原價 €4.46": "Seasonal Savings -10% (t/m 2026-11-04); was €4,46",
+   "Seasonal Savings -10%（至 2026-11-04）；原價 €4.59": "Seasonal Savings -10% (t/m 2026-11-04); was €4,59",
+   "Seasonal Savings -10%（至 2026-11-04）；原價 €6.76": "Seasonal Savings -10% (t/m 2026-11-04); was €6,76",
+   "Seasonal Savings -10%（至 2026-11-04）；原價 €6.89": "Seasonal Savings -10% (t/m 2026-11-04); was €6,89",
+   "Seasonal Savings（至 2026-11-04）；原價 €2.67": "Seasonal Savings (t/m 2026-11-04); was €2,67",
+   "Tom&Co（比利時站 €20.09，是否寄荷蘭未確認）": "Tom&Co (Belgische site €20,09, levering in NL onbevestigd)",
+   "Vet Soft 蜂蜜傷口凝膠": "Vet Soft honingwondgel",
+   "Vivapets（10/25 頁面 404）": "Vivapets (10/25 pagina 404)",
+   "Woeffies & Friends、Paws and Belly：Mesitran Vet Soft 20g €10.50（只見於搜尋摘要）": "Woeffies & Friends, Paws and Belly: Mesitran Vet Soft 20g €10,50 (alleen gezien in zoekfragmenten)",
+   "Woolsocks 返現 €0.12": "Woolsocks cashback €0,12",
+   "Woolsocks 返現 €0.14": "Woolsocks cashback €0,14",
+   "Woolsocks 返現 €0.15": "Woolsocks cashback €0,15",
+   "Woolsocks 返現 €0.19": "Woolsocks cashback €0,19",
+   "Woolsocks 返現 €0.20": "Woolsocks cashback €0,20",
+   "Woolsocks 返現 €0.22": "Woolsocks cashback €0,22",
+   "Woolsocks 返現 €0.25": "Woolsocks cashback €0,25",
+   "Woolsocks 返現 €0.28": "Woolsocks cashback €0,28",
+   "Woolsocks 返現 €0.36": "Woolsocks cashback €0,36",
+   "Woolsocks 返現 €0.55": "Woolsocks cashback €0,55",
+   "Woolsocks 返現 €0.99": "Woolsocks cashback €0,99",
+   "Woolsocks 返現 €1.41": "Woolsocks cashback €1,41",
+   "YesCashback 返現 €0.15": "YesCashback cashback €0,15",
+   "YesCashback 返現 €1.59": "YesCashback cashback €1,59",
+   "YesCashback 返現 €1.61": "YesCashback cashback €1,61",
+   "YesCashback 返現 €1.94": "YesCashback cashback €1,94",
+   "YesCashback 返現 €2.20": "YesCashback cashback €2,20",
+   "ZIWI Peak 貓罐頭（85g／185g，官方標示適用所有生命階段，含幼貓）": "ZIWI Peak kattenblikvoer (85g/185g, officieel voor alle levensfasen, incl. kittens)",
+   "Ziwi Box kat Kip 試吃組 €36.30：800g Steam & Dried 雞肉＋雞肉 185g＋牛肉 185g；Ziwi Box kat Rund／Vis 缺貨；Ziwi 罐頭只有數量價；ORIJEN 無任何促銷": "Ziwi Box kat Kip proefpakket €36,30: 800g Steam & Dried kip + kip 185g + rund 185g; Ziwi Box kat Rund/Vis uitverkocht; Ziwi blikken alleen met staffelprijzen; ORIJEN geen enkele actie",
+   "agriking.nl MjAMjAM 200g €2.28（德國價、缺貨）": "agriking.nl MjAMjAM 200g €2,28 (Duitse prijs, uitverkocht)",
+   "bol.be RC 12x85g €18.01（bol 自營，只見於搜尋摘要；bol.com 擋自動化 403）": "bol.be RC 12x85g €18,01 (verkocht door bol, alleen gezien in zoekfragmenten; bol.com blokkeert automatische toegang (403))",
+   "bol.com 商品頁 403（自 10/25 起每次都擋），價格取自 kieskeurig": "bol.com productpagina 403 (sinds 10/25 steeds geblokkeerd), prijs via kieskeurig",
+   "bol.com 商品頁 403（自 10/25 起每次都擋）；11/01 kieskeurig 只列 60g €26.99（Divoza €28.54）": "bol.com productpagina 403 (sinds 10/25 steeds geblokkeerd); 11/01 kieskeurig toont alleen 60g €26,99 (Divoza €28,54)",
+   "bol.com（Plaza 賣家）": "bol.com (Plaza-verkoper)",
+   "curl 403，WebFetch 讀取成功": "curl 403, WebFetch gelukt",
+   "supersales.nl（10/25 頁面 404，10/27 未重查）": "supersales.nl (10/25 pagina 404, 10/27 niet opnieuw gecontroleerd)",
+   "€50 起免運（NL/BE）": "gratis verzending vanaf €50 (NL/BE)",
+   "€59 起免運": "gratis verzending vanaf €59",
+   "€65 起免運": "gratis verzending vanaf €65",
+   "€69 起免運": "gratis verzending vanaf €69",
+   "以既有客戶費率計算；返現多以未稅、不含運費的訂單金額計；定期配送／購物車折扣／Herhaalgemak 與返現不疊加（各平台未明示可疊加；Medpets 明示定期訂購無返現）": "Berekend met tarieven voor bestaande klanten; cashback geldt meestal over het orderbedrag excl. btw en verzending; abonnement, winkelwagenkorting en Herhaalgemak worden niet gecombineerd met cashback (geen platform meldt dat het kan; Medpets meldt dat herhaalbestellingen geen cashback krijgen).",
+   "份": "pak",
+   "依賣家而定": "afhankelijk van verkoper",
+   "免運": "gratis verzending",
+   "免運（首單或滿 €25）": "gratis verzending (eerste bestelling of vanaf €25)",
+   "其他促銷：Applaws Kitten 400g €5.74、Nutrolin kat Kitten & Adult 150ml €16.79；THT頁沒有 Ziwi 貓食或 ORIJEN；定期配送95 折": "Andere acties: Applaws Kitten 400g €5,74, Nutrolin kat Kitten & Adult 150ml €16,79; THT pagina heeft geen Ziwi kattenvoer of ORIJEN; abonnement 5% korting",
+   "動物用醫療級蜂蜜凝膠（非 Ointment 軟膏）": "Medische honinggel voor dieren (niet de Ointment-zalf)",
+   "包": "zakje",
+   "只見於 kieskeurig（€18.49＋運費 €7.19）": "alleen gezien op kieskeurig (€18,49 + verzending €7,19)",
+   "含返現": "incl. cashback",
+   "含運費": "incl. verzending",
+   "單次購買": "eenmalige aankoop",
+   "定期訂購價": "herhaalbestelprijs",
+   "定期配送價": "abonnementsprijs",
+   "定期配送首單價": "abonnementsprijs 1e bestelling",
+   "定期配送（自動扣款）95 折，不計返現；庫存 20；EAN 8606014106879": "abonnement (automatische incasso) 5% korting, geen cashback; 20 op voorraad; EAN 8606014106879",
+   "定期配送（自動扣款）95 折，不計返現；庫存 34；EAN 8606014102918": "abonnement (automatische incasso) 5% korting, geen cashback; 34 op voorraad; EAN 8606014102918",
+   "幼貓主食罐": "Volledig kittenvoer",
+   "幼貓濕食比價": "Prijzen kittennatvoer",
+   "庫存 26；鹿肉 €3.50（85g）／€4.95（185g）": "26 op voorraad; hert €3,50 (85g)/€4,95 (185g)",
+   "庫存 7": "7 op voorraad",
+   "庫存：牛肉 26、雞肉 6、鯖魚羊肉 27；鹿肉 85g €3.50": "voorraad: rund 26, kip 6, makreel & lam 27; hert 85g €3,50",
+   "庫存：牛肉 68、雞肉 7；鯖魚羊肉 185g 缺貨；鹿肉 185g €4.95（庫存 19）": "voorraad: rund 68, kip 7; makreel & lam 185g uitverkocht; hert 185g €4,95 (19 op voorraad)",
+   "持平歷史低價": "Gelijk aan laagste prijs ooit",
+   "數量價：1–9 罐 €4.25、10–23 罐 €3.95、24 罐起 €3.79；可混搭牛肉與鯖魚（/product/7358/ziwi-peak-daily-cat-cuisine-blik-mackerel-185gr）；雞肉、鯖魚羊肉 185g 暫時缺貨": "staffelprijzen: 1–9 blikken €4,25, 10–23 blikken €3,95, vanaf 24 blikken €3,79; rund en makreel te combineren (/product/7358/ziwi-peak-daily-cat-cuisine-blik-mackerel-185gr); kip, makreel & lam 185g tijdelijk uitverkocht",
+   "數量價：€2.89、10 罐起 €2.69、24 罐起 €2.59；雞肉 /4817、鯖魚羊肉 /3756、鯖魚 /7359": "staffelprijzen: €2,89, vanaf 10 blikken €2,69, vanaf 24 blikken €2,59; kip /4817, makreel & lam /3756, makreel /7359",
+   "數量價：€2.99、12 罐起 €2.84、24 罐起 €2.77；庫存：牛肉 92、鯖魚羊肉 114、雞肉 22、鯖魚 5": "staffelprijzen: €2,99, vanaf 12 blikken €2,84, vanaf 24 blikken €2,77; voorraad: rund 92, makreel & lam 114, kip 22, makreel 5",
+   "數量價：€4.40、6 罐起 €4.18、12 罐起 €4.07；定期配送 95 折（不計返現）；庫存：牛肉 44、雞肉 42；鯖魚羊肉、鯖魚 185g 缺貨": "staffelprijzen: €4,40, vanaf 6 blikken €4,18, vanaf 12 blikken €4,07; abonnement 5% korting (geen cashback); voorraad: rund 44, kip 42; makreel & lam, makreel 185g uitverkocht",
+   "數量價：€4.75、10 罐起 €4.59、24 罐起 €4.25；85g 鹿肉 /1842：€3.45／€3.35／€3.09": "staffelprijzen: €4,75, vanaf 10 blikken €4,59, vanaf 24 blikken €4,25; 85g hert /1842: €3,45/€3,35/€3,09",
+   "數量價：€5.30、6 罐起 €5.04、12 罐起 €4.90；庫存 4；85g 鹿肉 €3.85／€3.66／€3.56": "staffelprijzen: €5,30, vanaf 6 blikken €5,04, vanaf 12 blikken €4,90; 4 op voorraad; 85g hert €3,85/€3,66/€3,56",
+   "新低價": "Nieuwe laagste prijs",
+   "最低消費 €14.95": "minimale bestelling €14,95",
+   "條": "tube",
+   "植物豆腐砂 Sensitive（無香）": "Plantaardige tofukorrels Sensitive (geurloos)",
+   "比利時店，寄荷蘭運費未核實": "Belgische winkel; verzending naar NL niet geverifieerd",
+   "比歷史低價高 17%": "17% boven laagste prijs ooit",
+   "海洋魚蝦／雞肉石榴": "Zeevis & garnalen / kip & granaatappel",
+   "滿 €29 免運／運費 €2.99": "gratis verzending vanaf €29 / verzending €2,99",
+   "滿 €35 免運": "gratis verzending vanaf €35",
+   "滿 €39 免運": "gratis verzending vanaf €39",
+   "滿 €39 免運／運費 €3.99": "gratis verzending vanaf €39 / verzending €3,99",
+   "滿 €40 免運／運費 €4.95": "gratis verzending vanaf €40 / verzending €4,95",
+   "滿 €45 免運／運費 €0–8.25": "gratis verzending vanaf €45 / verzending €0–8,25",
+   "滿 €49 免運": "gratis verzending vanaf €49",
+   "滿 €50 免運": "gratis verzending vanaf €50",
+   "滿 €59 免運": "gratis verzending vanaf €59",
+   "滿 €59 免運／運費 €3.95": "gratis verzending vanaf €59 / verzending €3,95",
+   "滿 €64.90 免運／運費 €6.90": "gratis verzending vanaf €64,90 / verzending €6,90",
+   "滿 €69 免運／運費 €3.95": "gratis verzending vanaf €69 / verzending €3,95",
+   "滿 €75 免運／運費 €7.20": "gratis verzending vanaf €75 / verzending €7,20",
+   "結紮幼貓・肉汁餐包": "Gesteriliseerde kittens · zakjes in saus",
+   "罐": "blik",
+   "袋": "zak",
+   "訂閱省 5% €19.38": "abonnementskorting 5% €19,38",
+   "訂閱省 5% €21.84": "abonnementskorting 5% €21,84",
+   "訂閱首單 -10%": "eerste abonnementsbestelling -10%",
+   "豆腐貓砂・可沖馬桶・無香": "Tofu-kattenbakvulling · doorspoelbaar · geurloos",
+   "買 2 條起每條 €9.95": "€9,95 per stuk vanaf 2 stuks",
+   "返現確認可能要等幾個月": "Bevestiging van cashback kan een paar maanden duren",
+   "運費 €4.95": "verzending €4,95",
+   "運費 €6.26": "verzending €6,26",
+   "運費 €7.19": "verzending €7,19",
+   "運費未知": "verzendkosten onbekend",
+   "需定期配送": "abonnement vereist",
+   "預計 2026-11-06 到貨；24x85g 雞肉 €69.95 也缺貨": "verwacht 2026-11-06; 24x85g kip €69,95 ook uitverkocht",
+   "首次紀錄": "Eerste meting",
+   "鯖魚 185g 也缺貨": "makreel 185g ook uitverkocht",
+   "鯖魚羊肉、鯖魚 12x185g 售完；鹿肉 12x185g €59.99": "makreel & lam, makreel 12x185g uitverkocht; hert 12x185g €59,99",
+   "鹿肉 24x85g €85.99": "hert 24x85g €85,99"
+  }
+ }
 }

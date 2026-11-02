@@ -7,7 +7,7 @@
 ## 結構
 - `build.py`：讀 prices.json → 產生 `docs/`（index.html 內嵌資料、data.json、assets/）。不會寫入資料來源。
 - `site.config.json`：商品順序、中文名稱、圖片（`target` 欄位已停用，網站不再顯示比價目標）。新商品若未設定會自動加入（使用貓咪佔位圖）。
-- `web/`：版型（index.html、style.css、app.js）。
+- `web/`：版型（index.html、style.css、app.js）與多語系文字 `i18n.json`。
 - 關注篩選：訪客可在頁首點選要看的商品，選擇存在瀏覽器 localStorage（`catfood.hidden.v1`，記錄「隱藏」的商品 id），新商品預設顯示、已移除的 id 自動忽略。
 - `assets/products/`：商品圖（自行託管，不外連）。新增商品時放一張 480×480 webp 並在 config 指定。
 - `shoot.py`：headless Chrome 截圖檢查（390×844、1280×800）。
@@ -15,7 +15,7 @@
 ## 每次更新（約每 2 天，資料更新後 10:00 以後）
 ```bash
 cd /workspace/cat-food-site
-python3 build.py                       # 重新產生 docs/
+python3 build.py                       # 重新產生 docs/；若輸出有「未翻譯：」請依下方「多語系」補 web/i18n.json
 python3 shoot.py /workspace/screenshots   # 選用：截圖檢查
 git add -A && git commit -m "更新價格 $(date +%F)" && git push   # GitHub Pages（main /docs）會自動部署
 ```
@@ -53,3 +53,18 @@ npx -y @shipstatic/ship ./docs
 - `"cashback_display_names"`：`{ 原名: 顯示名 }`，`build.py` 的 `apply_display_names()` 在輸出前把網站資料中所有文字（不含 url 欄位）替換，長的先換。目前：`ShopBuddies（Woolsocks All-in-One 禮品卡）` → `Woolsocks（All-in-One 禮品卡）`、`ShopBuddies` → `Woolsocks`。prices.json 仍寫 ShopBuddies，網站上一律顯示 Woolsocks。
 - 邀請連結的比對用「改名後」的名稱，所以 ShopBuddies 的報價會對到 `cashback_invites` 的 Woolsocks。
 - `"cashback_invite_notes"`：`{ 顯示名: 備註 }`，顯示在註冊按鈕下方的灰色小字（目前 Woolsocks：「返現確認可能要等幾個月」）。
+
+## 多語系（中文／English／Nederlands，`web/i18n.json`）
+
+- 右上角語言選單：預設依裝置語言（`navigator.languages` 第一個 zh→中文、nl→荷蘭文、en 或其他→英文），手動選擇存在瀏覽器 localStorage `catfood.lang.v1`（與關注商品 `catfood.hidden.v1` 分開）。`<html lang>`、標題、頁首、按鈕、FAB、頁尾都會跟著切換；荷蘭文金額用逗號（€1,16）。
+- **介面文字**：`web/i18n.json` 的 `ui`，每個 key 是 `[中文, English, Nederlands]`，`{0}`、`{1}` 是代入值。改字只改這裡，`app.js` 不用動。
+- **資料文字**（prices.json 裡的中文：規格、標籤、優惠、備註…）在 `python3 build.py` 時翻譯，結果內嵌到網頁。商品名稱的品牌／英文部分與商店名稱維持原文，只翻中文描述。規則在 `data`：
+  1. `exact`：整句對照（最優先）。
+  2. 其餘句子以「；」切段，每段依序套用 `patterns`（正規式，`$1` 代入，**順序有意義，較具體的放前面**），再套用 `phrases`（片語，長的先換），最後把全形標點轉半形。
+  3. 某一段換完仍有中文 → 該段在英／荷文版**保留中文原文**（網站不會壞），並在 build 輸出列出：
+     `多語系：N 段中文沒有翻譯… 未翻譯：<原文>`
+- **補翻譯**：每次 build 後看有沒有「未翻譯：」。有的話：
+  - 常見詞（新口味、新單位）→ 加到 `phrases`，例如 `"鴨肉": ["duck", "eend"]`。
+  - 有數字的固定句型 → 加到 `patterns`，例如 `["(\\d+) 罐起每罐 (€[\\d.,]+)", "$2 per can from $1 cans", "$2 per blik vanaf $1 blikken"]`（放在會搶先吃掉同一段文字的較通用規則之前）。
+  - 一次性的長句 → 加到 `exact` 或當成整段片語加到 `phrases`。
+  - 再跑 `python3 build.py`，直到顯示「全部有英文／荷蘭文翻譯」，再 commit。

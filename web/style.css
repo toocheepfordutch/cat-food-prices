@@ -16,7 +16,14 @@ a{color:inherit}
 .brand{display:flex;align-items:center;gap:10px;min-width:0}
 .logo{font-size:26px;line-height:1}
 h1{font-size:18px;margin:0;font-weight:800;letter-spacing:.02em}
-.sub{margin:0;color:var(--muted);font-size:12px}
+.sub{margin:0;color:var(--muted);font-size:12px;line-height:1.35}
+.brand-txt{min-width:0}
+.sub .nw{white-space:nowrap}
+.lang{position:relative;flex:none;display:inline-flex;align-items:center;gap:4px;height:32px;padding:0 9px 0 8px;border:1px solid var(--line);border-radius:999px;background:#fff;color:var(--ink);font-size:13px;font-weight:700;cursor:pointer}
+.lang .globe,.lang .lchev{color:var(--muted)}
+.lang-cur{min-width:1.3em;text-align:center}
+.lang select{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:pointer;font-size:16px;border:0;-webkit-appearance:none;appearance:none}
+.lang:focus-within{outline:2px solid var(--accent);outline-offset:2px}
 .updated{font-size:12px;color:var(--muted);text-align:right;white-space:nowrap}
 .updated b{display:block;color:var(--ink);font-size:13px}
 

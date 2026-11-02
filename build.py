@@ -282,6 +282,115 @@ def offer_view(o, unit_word, base="100g"):
     }
 
 
+# ── 多語系（web/i18n.json）──────────────────────────────────────────────
+# 介面文字由 app.js 依 ui 表顯示；prices.json 的中文自由文字在 build 時依 data 規則翻成 en／nl，
+# 以 {中文原文: 譯文} 對照表內嵌到網頁。翻不完整的段落保留中文，並列在 build 記錄中。
+LANGS = ("en", "nl")
+CJK_RE = re.compile(r"[\u3400-\u9fff\u3000-\u303f\uff00-\uffef]")
+HAN_RE = re.compile(r"[\u3400-\u9fff]")
+PUNCT = [("（", " ("), ("）", ") "), ("／", "/"), ("＋", " + "), ("：", ": "), ("，", ", "), ("、", ", "),
+         ("・", " · "), ("；", "; "), ("～", "~"), ("　", " ")]
+QUOTES = {"en": ("“", "”"), "nl": ("‘", "’")}
+I18N_SKIP_KEYS = {"url", "updated_zh", "next_zh", "generated_zh", "conditions", "location", "ui", "i18n"}
+
+
+class Translator:
+    def __init__(self, cfg):
+        d = cfg.get("data", {})
+        self.exact = d.get("exact", {})
+        self.phrases = sorted(d.get("phrases", {}).items(), key=lambda kv: -len(kv[0]))
+        self.patterns = [(re.compile(p), en, nl) for p, en, nl in d.get("patterns", [])]
+        self.missing = {}   # 未翻譯段落 → 出現次數
+
+    @staticmethod
+    def _repl(s):
+        return re.sub(r"\$(\d)", r"\\g<\1>", s)
+
+    def _tidy(self, s, lang):
+        q = QUOTES[lang]
+        s = s.replace("「", " " + q[0]).replace("」", q[1])
+        for a, b in PUNCT:
+            s = s.replace(a, b)
+        s = re.sub(r"\s+", " ", s)
+        s = re.sub(r"\(\s+", "(", s)
+        s = re.sub(r"\s+([),:;])", r"\1", s)
+        s = re.sub(r"\)\s+/", ")/", s)
+        return s.strip()
+
+    @staticmethod
+    def euro(s, lang):
+        """荷蘭文：€1.16 → €1,16（含 €0–8.25 這類區間）。"""
+        if lang != "nl":
+            return s
+        return re.sub(r"€\s?\d[\d.,]*(?:[–-]\d[\d.]*)?", lambda m: m.group(0).replace(".", ","), s)
+
+    def segment(self, seg, lang):
+        i = 0 if lang == "en" else 1
+        if seg in self.exact:
+            return self.exact[seg][i]
+        t = seg
+        for rx, en, nl in self.patterns:
+            t = rx.sub(self._repl(en if lang == "en" else nl), t)
+        for zh, tr in self.phrases:
+            if zh in t:
+                t = t.replace(zh, tr[i])
+        if HAN_RE.search(t):
+            return None
+        return self._tidy(t, lang)
+
+    def translate(self, s, lang):
+        """回傳譯文；無中文時只處理標點與歐元格式；翻不完整的段落保留中文原文。"""
+        i = 0 if lang == "en" else 1
+        if s in self.exact:
+            return self.euro(self.exact[s][i], lang)
+        out = []
+        for seg in [x.strip() for x in s.split("；")]:
+            if not seg:
+                continue
+            t = self.segment(seg, lang)
+            if t is None:
+                self.missing[seg] = self.missing.get(seg, 0) + 1
+                t = seg
+            out.append(t)
+        return self.euro("; ".join(out), lang)
+
+
+def collect_strings(obj, key=None, acc=None):
+    acc = set() if acc is None else acc
+    if key in I18N_SKIP_KEYS:
+        return acc
+    if isinstance(obj, str):
+        if CJK_RE.search(obj) or "€" in obj:
+            acc.add(obj)
+    elif isinstance(obj, list):
+        for x in obj:
+            collect_strings(x, key, acc)
+    elif isinstance(obj, dict):
+        for k, v in obj.items():
+            collect_strings(v, k, acc)
+    return acc
+
+
+def build_i18n(site):
+    path = ROOT / "web" / "i18n.json"
+    cfg = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+    tr = Translator(cfg)
+    strings = sorted(collect_strings(site))
+    maps = {lang: {} for lang in LANGS}
+    for s in strings:
+        for lang in LANGS:
+            t = tr.translate(s, lang)
+            if t != s:
+                maps[lang][s] = t
+    if tr.missing:
+        print(f"多語系：{len(tr.missing)} 段中文沒有翻譯（網站會顯示中文原文），請在 web/i18n.json 的 data 補上：", file=sys.stderr)
+        for seg in sorted(tr.missing):
+            print(f"  未翻譯：{seg}", file=sys.stderr)
+    else:
+        print(f"多語系：{len(strings)} 段資料文字全部有英文／荷蘭文翻譯")
+    return cfg.get("ui", {}), maps
+
+
 LEVEL_MIN_POINTS = 7      # 少於這麼多天的歷史就不顯示價格水準（避免誤導）
 LEVEL_WINDOW_DAYS = 90    # 只看最近 90 天
 
@@ -452,6 +561,7 @@ def build(src: Path):
         "updated": latest,
         "updated_zh": fmt_date_zh(upd),
         "next_zh": f"{nxt.month}月{nxt.day}日",
+        "next": nxt.isoformat(),
         "generated_zh": now.strftime("%Y-%m-%d %H:%M"),
         "location": "鹿特丹",
         # 意見回饋 Google 表單網址：填在 site.config.json 的 "feedback_url"；空字串時網站不顯示入口
@@ -467,6 +577,7 @@ def build(src: Path):
     site = apply_display_names(site, cfg.get("cashback_display_names"))
     # 返現網站邀請連結：只列出今日資料實際用到的（見 cashback_invites()；比對改名後的顯示名稱）
     site["cashback_invites"] = cashback_invites(cfg, site["products"])
+    site["ui"], site["i18n"] = build_i18n(site)
     js = json.dumps(site, ensure_ascii=False, separators=(",", ":"))
     (OUT / "data.json").write_text(json.dumps(site, ensure_ascii=False, indent=1), encoding="utf-8")
     for f in ("style.css", "app.js"):
