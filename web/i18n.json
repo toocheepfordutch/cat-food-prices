@@ -561,6 +561,21 @@
   },
   "patterns": [
    [
+    "^-(\\d+%)（原價 (€[\\d.,]+)，30 天最低價 (€[\\d.,]+) 前）$",
+    "-$1 (was $2; lowest price in the previous 30 days $3)",
+    "-$1 (was $2; laagste prijs in de 30 dagen ervoor $3)"
+   ],
+   [
+    "^(\\d{4}-\\d{2}-\\d{2})：(\\d+%) 折扣已結束（(\\d+)/(\\d+) (€[\\d.,]+)）$",
+    "$1: $2 discount has ended ($3/$4 $5)",
+    "$1: $2 korting is voorbij ($4-$3 $5)"
+   ],
+   [
+    "^(.+?) (\\d+%) 折扣已結束$",
+    "$1 $2 discount has ended",
+    "$2 korting op $1 is voorbij"
+   ],
+   [
     "滿 (€[\\d.,]+) 全單再 (\\d+%) 折扣",
     "extra $2 off the whole order from $1",
     "extra $2 korting op de hele bestelling vanaf $1"
@@ -1565,6 +1580,154 @@
    "訂閱首次": [
     "subscription: first",
     "abonnement: eerste keer"
+   ],
+   "-20%（原價 €14.99，30 天最低價 €14.99 前）": [
+    "-20% (was €14.99; lowest price in the previous 30 days €14.99)",
+    "-20% (was €14,99; laagste prijs in de 30 dagen ervoor €14,99)"
+   ],
+   "1x800g Kitten 其他口味": [
+    "1x800g Kitten, other flavours",
+    "1x800g Kitten, andere smaken"
+   ],
+   "2026-11-03 WebFetch 讀取（curl 被 captcha 擋）": [
+    "2026-11-03 read via WebFetch (curl blocked by captcha)",
+    "2026-11-03 gelezen via WebFetch (curl geblokkeerd door captcha)"
+   ],
+   "2026-11-03 WebFetch 讀取": [
+    "2026-11-03 read via WebFetch",
+    "2026-11-03 gelezen via WebFetch"
+   ],
+   "2026-11-03 修正網址（先前誤記為 800g 頁）": [
+    "2026-11-03 URL corrected (previously pointed to the 800g page)",
+    "2026-11-03 URL gecorrigeerd (verwees eerder naar de 800g-pagina)"
+   ],
+   "2026-11-03 單包 -20%": [
+    "2026-11-03 single pack -20%",
+    "2026-11-03 los pak -20%"
+   ],
+   "2026-11-03 有貨，價格 €22.49（10 月 €19.79 時缺貨）": [
+    "2026-11-03 in stock at €22.49 (was out of stock at €19.79 in October)",
+    "2026-11-03 op voorraad voor €22,49 (was in oktober uitverkocht voor €19,79)"
+   ],
+   "2026-11-03 有貨，價格 €22.49": [
+    "2026-11-03 in stock at €22.49",
+    "2026-11-03 op voorraad voor €22,49"
+   ],
+   "2026-11-03 漲價（11/01 €13.29）": [
+    "2026-11-03 price up (11/01 €13.29)",
+    "2026-11-03 prijs gestegen (01-11 €13,29)"
+   ],
+   "2026-11-03 漲價（11/01 €21.99）": [
+    "2026-11-03 price up (11/01 €21.99)",
+    "2026-11-03 prijs gestegen (01-11 €21,99)"
+   ],
+   "2026-11-03 漲價（11/01 €86.19）": [
+    "2026-11-03 price up (11/01 €86.19)",
+    "2026-11-03 prijs gestegen (01-11 €86,19)"
+   ],
+   "2026-11-03 漲價（11/02 €80.49）": [
+    "2026-11-03 price up (11/02 €80.49)",
+    "2026-11-03 prijs gestegen (02-11 €80,49)"
+   ],
+   "2026-11-03 漲價（€12.29）": [
+    "2026-11-03 price up (was €12.29)",
+    "2026-11-03 prijs gestegen (was €12,29)"
+   ],
+   "2026-11-03 補貨": [
+    "2026-11-03 back in stock",
+    "2026-11-03 weer op voorraad"
+   ],
+   "2026-11-03：30% 折扣已結束（11/01 €13.13）": [
+    "2026-11-03: 30% discount has ended (11/01 €13.13)",
+    "2026-11-03: 30% korting is voorbij (01-11 €13,13)"
+   ],
+   "2026-11-03：30% 折扣已結束（11/01 €13.85）": [
+    "2026-11-03: 30% discount has ended (11/01 €13.85)",
+    "2026-11-03: 30% korting is voorbij (01-11 €13,85)"
+   ],
+   "2026-11-03：Amazon.nl curl 被 captcha 擋": [
+    "2026-11-03: Amazon.nl curl blocked by captcha",
+    "2026-11-03: Amazon.nl curl geblokkeerd door captcha"
+   ],
+   "2026-11-03：Newpharma RC 與 bol L-Mesitran 只靠 kieskeurig，本次未重抓 kieskeurig，未更新": [
+    "2026-11-03: Newpharma RC and bol L-Mesitran come only from kieskeurig, which wasn't re-checked this time, so not updated",
+    "2026-11-03: Newpharma RC en bol L-Mesitran komen alleen van kieskeurig, dat deze keer niet opnieuw is gecontroleerd, dus niet bijgewerkt"
+   ],
+   "2026-11-03：Viata（RC）403，未抓取（連續多次被擋）": [
+    "2026-11-03: Viata (RC) returned 403, not fetched (blocked several times in a row)",
+    "2026-11-03: Viata (RC) gaf 403, niet opgehaald (meerdere keren op rij geblokkeerd)"
+   ],
+   "2026-11-03：Woolsocks Intratuin 頁仍 404，Intratuin 返現 5% 仍未核實": [
+    "2026-11-03: Woolsocks Intratuin page still 404, Intratuin 5% cashback still unverified",
+    "2026-11-03: Woolsocks Intratuin-pagina nog steeds 404, 5% cashback bij Intratuin nog niet geverifieerd"
+   ],
+   "2026-11-03：Zoomalia.nl（Ever Clean、Farmina、ORIJEN）curl 403，未抓取（10/30 起多次被擋）": [
+    "2026-11-03: Zoomalia.nl (Ever Clean, Farmina, ORIJEN) curl 403, not fetched (blocked repeatedly since 10/30)",
+    "2026-11-03: Zoomalia.nl (Ever Clean, Farmina, ORIJEN) curl 403, niet opgehaald (sinds 30-10 herhaaldelijk geblokkeerd)"
+   ],
+   "2026-11-03：bol.com（RC、L-Mesitran Plaza 賣家）403，未抓取（自 10/25 起每次被擋）": [
+    "2026-11-03: bol.com (RC, L-Mesitran Plaza seller) 403, not fetched (blocked every time since 10/25)",
+    "2026-11-03: bol.com (RC, L-Mesitran Plaza-verkoper) 403, niet opgehaald (sinds 25-10 elke keer geblokkeerd)"
+   ],
+   "2026-11-03：zooplus RC 頁「% couponcode beschikbaar」代碼內容未顯示，未計入": [
+    "2026-11-03: zooplus RC page shows \"% couponcode beschikbaar\" but not the code, not counted",
+    "2026-11-03: zooplus RC-pagina toont \"% couponcode beschikbaar\" maar niet de code, niet meegeteld"
+   ],
+   "2026-11-03：短網址 /product/7346 已改導向他品，改用完整網址": [
+    "2026-11-03: short URL /product/7346 now redirects to another product, switched to the full URL",
+    "2026-11-03: korte URL /product/7346 verwijst nu naar een ander product, volledige URL gebruikt"
+   ],
+   "Black Friday -30%（原價 12x €19.99／24x €39.19／48x €76.35）": [
+    "Black Friday -30% (was 12x €19.99 / 24x €39.19 / 48x €76.35)",
+    "Black Friday -30% (was 12x €19,99 / 24x €39,19 / 48x €76,35)"
+   ],
+   "Brekz 無返現（Woolsocks 已停用）": [
+    "No cashback at Brekz (Woolsocks discontinued)",
+    "Geen cashback bij Brekz (Woolsocks gestopt)"
+   ],
+   "CashbackXL 列 zooplus 新客 25% FELIX 代碼 WELCOMEFELIX": [
+    "CashbackXL lists a 25% FELIX code for new zooplus customers: WELCOMEFELIX",
+    "CashbackXL vermeldt een FELIX-code van 25% voor nieuwe zooplus-klanten: WELCOMEFELIX"
+   ],
+   "ORIJEN 無折扣": [
+    "No discount on ORIJEN",
+    "Geen korting op ORIJEN"
+   ],
+   "Plein 出售": [
+    "sold by Plein",
+    "verkocht door Plein"
+   ],
+   "RC Kitten Sterilised 30% 折扣已結束": [
+    "RC Kitten Sterilised 30% discount has ended",
+    "30% korting op RC Kitten Sterilised is voorbij"
+   ],
+   "RC 頁顯示「% couponcode beschikbaar」但未顯示代碼內容": [
+    "RC page shows \"% couponcode beschikbaar\" but not the code",
+    "RC-pagina toont \"% couponcode beschikbaar\" maar niet de code"
+   ],
+   "Ziwi／ORIJEN 特價：只有 Ziwi Box kat Kip 試吃組 €36.30": [
+    "Ziwi / ORIJEN deals: only the Ziwi Box kat Kip sample set at €36.30",
+    "Ziwi / ORIJEN-aanbiedingen: alleen de Ziwi Box kat Kip proefset voor €36,30"
+   ],
+   "只用 WebFetch 讀了 B087MKL24X、B08MM2L42D、B09T9ZQ99T、B06XX1CSB1、B0D4M3SLLG、B00BXHHMAA、B00VTMVY9E。未抓取：RC 搜尋頁、MjAMjAM 火雞 B0BMQFQ836、雞肉 6x400 B0821DWR9D、小牛 6x400 變體、ORIJEN Plein／anistores B06XFXJBLB、B06XFSQZFS、B06XG1JWF8、B06XG1NB58、B06XFDK3GG、B09TB1J91Q": [
+    "Only read via WebFetch: B087MKL24X, B08MM2L42D, B09T9ZQ99T, B06XX1CSB1, B0D4M3SLLG, B00BXHHMAA, B00VTMVY9E. Not fetched: RC search page, MjAMjAM turkey B0BMQFQ836, chicken 6x400 B0821DWR9D, veal 6x400 variants, ORIJEN Plein / anistores B06XFXJBLB, B06XFSQZFS, B06XG1JWF8, B06XG1NB58, B06XFDK3GG, B09TB1J91Q",
+    "Alleen gelezen via WebFetch: B087MKL24X, B08MM2L42D, B09T9ZQ99T, B06XX1CSB1, B0D4M3SLLG, B00BXHHMAA, B00VTMVY9E. Niet opgehaald: RC-zoekpagina, MjAMjAM kalkoen B0BMQFQ836, kip 6x400 B0821DWR9D, kalf 6x400-varianten, ORIJEN Plein / anistores B06XFXJBLB, B06XFSQZFS, B06XG1JWF8, B06XG1NB58, B06XFDK3GG, B09TB1J91Q"
+   ],
+   "建議價 €32.03": [
+    "RRP €32.03",
+    "adviesprijs €32,03"
+   ],
+   "沒有 Ziwi 或 ORIJEN": [
+    "no Ziwi or ORIJEN",
+    "geen Ziwi of ORIJEN"
+   ],
+   "無返現": [
+    "no cashback",
+    "geen cashback"
+   ],
+   "特價頁第 1 頁只有 Applaws等": [
+    "page 1 of the deals only has Applaws etc.",
+    "pagina 1 van de aanbiedingen heeft alleen Applaws enz."
    ]
   }
  }
