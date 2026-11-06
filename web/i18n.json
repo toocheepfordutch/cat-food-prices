@@ -557,9 +557,210 @@
    "定期訂購（herhaalbestelling）價 -6%，Medpets 明示定期訂購不給返現": [
     "Repeat-order (herhaalbestelling) price -6%; Medpets states repeat orders get no cashback",
     "Herhaalbestelprijs -6%; Medpets meldt dat herhaalbestellingen geen cashback krijgen"
+   ],
+   "Amazon 出售／出貨免運": [
+    "Sold and shipped by Amazon, free shipping",
+    "Verkocht en verzonden door Amazon, gratis verzending"
+   ],
+   "Black Friday 仍在：Royal Canin Kitten Sterilised Gravy -30%": [
+    "Black Friday still on: Royal Canin Kitten Sterilised Gravy -30%",
+    "Black Friday nog actief: Royal Canin Kitten Sterilised Gravy -30%"
+   ],
+   "ORIJEN 無額外套用折扣": [
+    "ORIJEN has no extra stackable discount",
+    "ORIJEN heeft geen extra stapelbare korting"
+   ],
+   "bol.com／kieskeurig 已知封鎖未試。Huisdieren.nl 價格部分僅見範圍／變體，Kitten 取 €40.49。": [
+    "bol.com / kieskeurig known blocked, not tried. Huisdieren.nl only showed a range/variants for prices; Kitten taken as €40.49.",
+    "bol.com / kieskeurig bekend geblokkeerd, niet geprobeerd. Huisdieren.nl toonde alleen een bereik/varianten; Kitten genomen als €40,49."
+   ],
+   "免運門檻見商店": [
+    "see the shop for the free-shipping threshold",
+    "zie de winkel voor de gratis-verzendingdrempel"
+   ],
+   "含 Steam&Dried 800g＋2×185g": [
+    "includes Steam&Dried 800g + 2×185g",
+    "inclusief Steam&Dried 800g + 2×185g"
+   ],
+   "常見免運門檻較高": [
+    "free-shipping threshold is often high",
+    "drempel voor gratis verzending is vaak hoog"
+   ],
+   "抓取失敗商店": [
+    "shops that failed to fetch",
+    "winkels die niet opgehaald konden worden"
+   ],
+   "本輪 curl 403，未能重查 RC／ORIJEN 價格（沿用需下次）": [
+    "this round got curl 403; could not recheck RC / ORIJEN prices (reuse until next time)",
+    "deze ronde curl 403; RC- / ORIJEN-prijzen niet opnieuw gecontroleerd (hergebruik tot volgende keer)"
+   ],
+   "特價頁未見 Ziwi／ORIJEN 單品特價": [
+    "deals page showed no Ziwi / ORIJEN single-item deals",
+    "aanbiedingenpagina toonde geen Ziwi- / ORIJEN-enkelproductaanbiedingen"
+   ],
+   "組合價，unit_g 佔位不參與單價排名": [
+    "bundle price; placeholder unit_g not used in per-unit ranking",
+    "bundelprijs; placeholder unit_g telt niet mee in prijs per eenheid"
+   ],
+   "頁面同時見 InStock／OutOfStock 標記": [
+    "page shows both InStock and OutOfStock markers",
+    "pagina toont zowel InStock- als OutOfStock-markeringen"
+   ],
+   "24x70g Prime Kitten 雞": [
+    "24x70g Prime Kitten chicken",
+    "24x70g Prime Kitten kip"
+   ],
+   "運費見商店": [
+    "see the shop for shipping",
+    "zie de winkel voor verzending"
    ]
   },
   "patterns": [
+   [
+    "^-(\\d+%)（標價）$",
+    "-$1 (list price)",
+    "-$1 (adviesprijs)"
+   ],
+   [
+    "^(\\d+)g 買(\\d+)$",
+    "buy $2 of $1g",
+    "koop $2 van $1g"
+   ],
+   [
+    "^(\\d+)x 標價由 (\\d+)/(\\d+) 的 (€[\\d.,]+) 調為 (€[\\d.,]+)$",
+    "$1x list price changed from $4 on $2/$3 to $5",
+    "$1x adviesprijs gewijzigd van $4 op $3-$2 naar $5"
+   ],
+   [
+    "^(\\d+)x／(\\d+)x 標價與 (\\d+)/(\\d+) 相同$",
+    "$1x/$2x list price same as on $3/$4",
+    "$1x/$2x adviesprijs gelijk aan $4-$3"
+   ],
+   [
+    "^Abonnement 由 -(\\d+%)（(€[\\d.,]+)）改為 -(\\d+%)（(€[\\d.,]+)／(€[\\d.,]+)）$",
+    "subscription changed from -$1 ($2) to -$3 ($4 / $5)",
+    "abonnement gewijzigd van -$1 ($2) naar -$3 ($4 / $5)"
+   ],
+   [
+    "^NL 運費固定 (€[\\d.,]+)$",
+    "fixed NL shipping $1",
+    "vaste NL-verzending $1"
+   ],
+   [
+    "^(.+) 標價 (€[\\d.,]+)$",
+    "$1 list price $2",
+    "$1 adviesprijs $2"
+   ],
+   [
+    "^Tigerino 3x11L 仍 (€[\\d.,]+)／Abonnement -(\\d+%) (€[\\d.,]+)$",
+    "Tigerino 3x11L still $1 / subscription -$2 $3",
+    "Tigerino 3x11L nog $1 / abonnement -$2 $3"
+   ],
+   [
+    "^Ziwi／ORIJEN 特價：Ziwi Box kat Kip 試吃組仍 (€[\\d.,]+)$",
+    "Ziwi / ORIJEN deals: Ziwi Box kat Kip sample set still $1",
+    "Ziwi / ORIJEN-aanbiedingen: Ziwi Box kat Kip proefset nog $1"
+   ],
+   [
+    "^staffel (\\d+) 起 (€[\\d.,]+)$",
+    "volume pricing from $1 units: $2",
+    "staffelkorting vanaf $1: $2"
+   ],
+   [
+    "^staffel 仍 (€[\\d.,]+)$",
+    "volume pricing still $1",
+    "staffelkorting nog $1"
+   ],
+   [
+    "^variant ([^\\s]+) 標價 (€[\\d.,]+)／Abonnement (€[\\d.,]+)$",
+    "variant $1 list price $2 / subscription $3",
+    "variant $1 adviesprijs $2 / abonnement $3"
+   ],
+   [
+    "^其他口味 (€[\\d.,]+)／(€[\\d.,]+)$",
+    "other flavours $1 / $2",
+    "andere smaken $1 / $2"
+   ],
+   [
+    "^單罐標 (€[\\d.,]+)$",
+    "single-can list price $1",
+    "adviesprijs per blik $1"
+   ],
+   [
+    "^寄 NL (€[\\d.,]+)，(€[\\d.,]+) 起免運$",
+    "ship to NL $1, free shipping from $2",
+    "verzending NL $1, gratis verzending vanaf $2"
+   ],
+   [
+    "^新客約 (\\d+%)$",
+    "about $1 for new customers",
+    "ongeveer $1 voor nieuwe klanten"
+   ],
+   [
+    "^最低口味档 (€[\\d.,]+)／Abonnement ≈(€[\\d.,]+)$",
+    "cheapest flavour tier $1 / subscription ≈$2",
+    "goedkoopste smaak $1 / abonnement ≈$2"
+   ],
+   [
+    "^最低口味檔 (€[\\d.,]+)／Abonnement ≈(€[\\d.,]+)$",
+    "cheapest flavour tier $1 / subscription ≈$2",
+    "goedkoopste smaak $1 / abonnement ≈$2"
+   ],
+   [
+    "^標價由 (\\d+)/(\\d+) (€[\\d.,]+) 降至 (€[\\d.,]+)$",
+    "list price down from $3 on $1/$2 to $4",
+    "adviesprijs verlaagd van $3 op $2-$1 naar $4"
+   ],
+   [
+    "^標價由 (\\d+)/(\\d+) (€[\\d.,]+) 降為 (€[\\d.,]+)$",
+    "list price down from $3 on $1/$2 to $4",
+    "adviesprijs verlaagd van $3 op $2-$1 naar $4"
+   ],
+   [
+    "^標價由 (\\d+)/(\\d+) (€[\\d.,]+) 升至 (€[\\d.,]+)$",
+    "list price up from $3 on $1/$2 to $4",
+    "adviesprijs verhoogd van $3 op $2-$1 naar $4"
+   ],
+   [
+    "^特價 (€[\\d.,]+)（原約 (€[\\d.,]+)）$",
+    "sale $1 (was about $2)",
+    "aanbieding $1 (was ongeveer $2)"
+   ],
+   [
+    "^賣家 (.+)$",
+    "seller $1",
+    "verkoper $1"
+   ],
+   [
+    "^運費見 (.+)$",
+    "see $1 for shipping",
+    "zie $1 voor verzending"
+   ],
+   [
+    "^選 (.+)$",
+    "choose $1",
+    "kies $1"
+   ],
+   [
+    "^頁面 lowPrice meta (€[\\d.,]+)、結帳價 (€[\\d.,]+)$",
+    "page lowPrice meta $1, checkout price $2",
+    "pagina lowPrice-meta $1, checkoutprijs $2"
+   ],
+   [
+    "^頁面另見 (€[\\d.,]+) 變體$",
+    "page also shows a $1 variant",
+    "pagina toont ook een variant van $1"
+   ],
+   [
+    "^MjAMjAM 800g Abonnement 改為 -(\\d+)$",
+    "MjAMjAM 800g subscription changed to -$1",
+    "MjAMjAM 800g-abonnement gewijzigd naar -$1"
+   ],
+   [
+    "^MjAMjAM 800g Abonnement 改為 -(\\d+%)$",
+    "MjAMjAM 800g subscription changed to -$1",
+    "MjAMjAM 800g-abonnement gewijzigd naar -$1"
+   ],
    [
     "^-(\\d+%)（原價 (€[\\d.,]+)，30 天最低價 (€[\\d.,]+) 前）$",
     "-$1 (was $2; lowest price in the previous 30 days $3)",
@@ -1728,6 +1929,22 @@
    "特價頁第 1 頁只有 Applaws等": [
     "page 1 of the deals only has Applaws etc.",
     "pagina 1 van de aanbiedingen heeft alleen Applaws enz."
+   ],
+   "標價": [
+    "list price",
+    "adviesprijs"
+   ],
+   "結帳價": [
+    "checkout price",
+    "checkoutprijs"
+   ],
+   "變體": [
+    "variant",
+    "variant"
+   ],
+   "商店": [
+    "the shop",
+    "de winkel"
    ]
   }
  }
