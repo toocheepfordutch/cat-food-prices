@@ -495,7 +495,14 @@ def price_level(hist, cur_pb, cur_date):
     p25, p75 = percentile(vals, .25), percentile(vals, .75)
     lo, hi = min(vals), max(vals)
     eps = 1e-6
-    if p75 - p25 <= max(eps, p25 * 0.005):   # 價格幾乎沒變動
+    tol = max(eps, lo * 0.005)
+    if hi - lo <= tol:                        # 整段期間價格幾乎沒變動
+        level = "typical"
+    elif cur_pb <= lo + tol:                  # 等於期間最低價 → 偏低（即使 p25＝p75）
+        level = "low"
+    elif cur_pb >= hi - tol:                  # 等於期間最高價 → 偏高
+        level = "high"
+    elif p75 - p25 <= max(eps, p25 * 0.005):  # 中間價格集中，不在兩端 → 一般
         level = "typical"
     elif cur_pb <= p25 + eps:
         level = "low"

@@ -4,7 +4,7 @@
  "updated_zh": "2026年11月6日",
  "next_zh": "11月8日",
  "next": "2026-11-08",
- "generated_zh": "2026-11-06 12:23",
+ "generated_zh": "2026-11-06 12:38",
  "location": "鹿特丹",
  "feedback_url": "",
  "products": [
@@ -776,7 +776,7 @@
    "level": {
     "status": "ok",
     "n": 7,
-    "level": "typical",
+    "level": "low",
     "cur": 0.568,
     "min": 0.568,
     "p25": 0.568,
