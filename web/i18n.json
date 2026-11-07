@@ -1363,6 +1363,50 @@
    "顯示免運不能當NL免運": [
     "displayed free shipping isn't NL free shipping",
     "getoonde gratis verzending is geen NL-gratis verzending"
+   ],
+   "<39收3.99、≥39免": [
+    "€3.99 under €39, free from €39",
+    "€3,99 onder €39, gratis vanaf €39"
+   ],
+   "NL可寄商品價已確認，列入商品價排名，非pending排除。公開Europe9與本次兩品同車NL顯示15衝突": [
+    "Ships to NL; item price confirmed and ranked. Public Europe €9 conflicts with the €15 shown in a two-item NL cart",
+    "Levert in NL; productprijs bevestigd en gerangschikt. Openbaar Europa €9 strijdig met €15 in een NL-winkelwagen met twee producten"
+   ],
+   "NL國家選項已接受": [
+    "Netherlands accepted as destination",
+    "Nederland geaccepteerd als bestemming"
+   ],
+   "NL已選仍18.79/60有貨": [
+    "with NL selected still 18.79 for 60, in stock",
+    "met NL gekozen nog 18,79 voor 60, op voorraad"
+   ],
+   "NL訪客購物車：單盒18.79＋宅配3.99＝22.78": [
+    "NL guest cart: one box 18.79 + delivery 3.99 = 22.78",
+    "NL-gastwinkelwagen: één doos 18,79 + bezorging 3,99 = 22,78"
+   ],
+   "€3.95是總額內TVA稅額，不是加價！不是Synbiotic價格。一次Achat unique，非首訂/訂閱。": [
+    "The €3.95 is VAT included in the total, not extra. One-off purchase, not first-order or subscription.",
+    "De €3,95 is btw inbegrepen in het totaal, geen toeslag. Eenmalige aankoop, geen eerste bestelling of abonnement."
+   ],
+   "不能稱全平台含運最低，因Barfus單盒運費未知。截圖實選宅配總33.98，31.98為可選取貨點總價。": [
+    "Not claimed lowest incl. shipping, since Barfus single-box shipping is unknown. Home delivery total 33.98; pickup point total 31.98.",
+    "Niet geclaimd als laagste incl. verzending, want Barfus-verzending per doos is onbekend. Thuisbezorging totaal 33,98; afhaalpunt totaal 31,98."
+   ],
+   "兩款各一盒同車商品44.60＋運15＝59.60。單品單盒未測，不把15或公開9套成單盒運費。": [
+    "one box of each in one cart: 44.60 + shipping 15 = 59.60. Single box not tested; neither 15 nor the public 9 is assumed for one box.",
+    "één doos van elk in één winkelwagen: 44,60 + verzending 15 = 59,60. Losse doos niet getest; 15 of de openbare 9 wordt niet aangenomen voor één doos."
+   ],
+   "實選宅配5.99／總33.98，不免運": [
+    "home delivery 5.99 / total 33.98, no free shipping",
+    "thuisbezorging 5,99 / totaal 33,98, geen gratis verzending"
+   ],
+   "已知單盒訪客購物車運費": [
+    "single-box guest cart shipping known",
+    "verzendkosten voor één doos in gastwinkelwagen bekend"
+   ],
+   "按此次車保留15，不外推單盒。保留條款含VAT，cart不另列稅額不等未稅。未知返現不扣。": [
+    "15 kept for this cart only, not extrapolated to one box. Terms say VAT included; unknown cashback not deducted.",
+    "15 alleen voor deze winkelwagen, niet doorgetrokken naar één doos. Voorwaarden: incl. btw; onbekende cashback niet afgetrokken."
    ]
   },
   "patterns": [

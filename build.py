@@ -530,6 +530,13 @@ def build(src: Path):
     cfg = json.loads((ROOT / "site.config.json").read_text(encoding="utf-8"))
     data = json.loads((src / "prices.json").read_text(encoding="utf-8"))
     obs = [o for o in data.get("observations", []) if o.get("product") and o.get("date")]
+    # 最新覆蓋：*_final_browser_verification_* 的 website_latest_offers 取代同日同商品同店的舊 offer（源歷史不動）
+    for k, v in data.items():
+        if "final_browser_verification" in k and isinstance(v, dict):
+            for lo in v.get("website_latest_offers") or []:
+                key = (lo.get("product"), lo.get("shop"), lo.get("date"))
+                obs = [o for o in obs if (o.get("product"), o.get("shop"), o.get("date")) != key]
+                obs.append(lo)
     dates = sorted({o["date"] for o in obs})
     latest = data.get("last_updated") or (dates[-1] if dates else None)
     latest_obs_date = dates[-1] if dates else latest
