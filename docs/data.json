@@ -4,7 +4,7 @@
  "updated_zh": "2026年11月7日",
  "next_zh": "11月9日",
  "next": "2026-11-09",
- "generated_zh": "2026-11-07 21:32",
+ "generated_zh": "2026-11-07 22:05",
  "location": "鹿特丹",
  "feedback_url": "",
  "products": [
@@ -749,6 +749,70 @@
      "detail": ""
     },
     {
+     "shop": "Gos i Gat Alimentació",
+     "variant": "Sterilised Kitten en salsa 1x85g",
+     "units": 1,
+     "unit_g": 85,
+     "list_price": 1.08,
+     "price": 1.08,
+     "unit": 1.08,
+     "per100g": 1.270588,
+     "pb": 1.270588,
+     "size": "85g",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "只讀到Península資訊，NL未核實"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "只讀到Península資訊，NL未核實"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": false,
+     "status": "verified_item_price_nl_delivery_pending",
+     "url": "https://www.gosigatalimentacio.com/es/royal-canin-health-cat/1901-royal-canin-kitten-sterilised-en-salsa-9003579007136.html",
+     "detail": "一次價低於舊一次€1.154但不低於首訂€0.985；85g單包 vs12包EAN需官方包裝對照"
+    },
+    {
+     "shop": "Amazon.es",
+     "variant": "Kitten Sterilised Gravy 4x12x85g",
+     "units": 48,
+     "unit_g": 85,
+     "list_price": 75.72,
+     "price": 75.72,
+     "unit": 1.5775,
+     "per100g": 1.855882,
+     "pb": 1.855882,
+     "size": "85g",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "目的地NL未選；顯示免運不能當NL免運"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "顯示免運不能當NL免運"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": false,
+     "status": "verified_product_page_nl_delivery_pending",
+     "url": "https://www.amazon.es/dp/B0BY8P3G1P",
+     "detail": "48包€1.5775/包，不更低；NL地址/運費未核"
+    },
+    {
      "shop": "Viata",
      "variant": "12x85g",
      "units": 12,
@@ -1052,6 +1116,38 @@
      "status": "verified",
      "url": "https://cutiecat.nl/product/macs-kittenvoer-blikjes-800g/",
      "detail": ""
+    },
+    {
+     "shop": "zooplus.com",
+     "variant": "Kitten Veal & Chicken Hearts 6x800g",
+     "units": 6,
+     "unit_g": 800,
+     "list_price": 28.99,
+     "price": 28.99,
+     "unit": 4.831667,
+     "per100g": 0.603958,
+     "pb": 0.603958,
+     "size": "800g",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "NL €5.99，€49免運；31kg條件"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "NL €5.99，€49免運"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": true,
+     "status": "verified",
+     "url": "https://www.zooplus.com/shop/cats/canned_cat_food_pouches/macs/1947786",
+     "detail": "未低於歷史€0.568/100g"
     },
     {
      "shop": "Bitiba",
@@ -1877,10 +1973,106 @@
      "status": "verified",
      "url": "https://www.zooplus.nl/shop/katten/kattenvoer_blik/macs_s/2654540",
      "detail": "2026-11-07 已補貨（InStock）"
+    },
+    {
+     "shop": "Futterplatz.de",
+     "variant": "Kitten Pute/Rind/Ente 6x800g",
+     "units": 6,
+     "unit_g": 800,
+     "list_price": 19.39,
+     "price": 19.39,
+     "unit": 3.231667,
+     "per100g": 0.403958,
+     "pb": 0.403958,
+     "size": "800g",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "官方只送德國；不能把國內€49免運套NL"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "不能把國內€49免運套NL"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": false,
+     "status": "verified_not_nl_eligible",
+     "url": "https://www.futterplatz.de/MAC-s-Cat-Kitten-Pute-Rind-Ente-6-x-800-g/1cnum2",
+     "detail": "真低商品價但不寄NL，因此不列可買最低。搜尋摘要18.75已過時，以商品頁19.39為準"
+    },
+    {
+     "shop": "Frups.lu",
+     "variant": "Veal & Chicken Hearts800g",
+     "units": 1,
+     "unit_g": 800,
+     "list_price": 3.84,
+     "price": 3.84,
+     "unit": 3.84,
+     "per100g": 0.48,
+     "pb": 0.48,
+     "size": "800g",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "官方目前只寄Luxembourg，不套商品頁60免運到NL"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "官方目前只寄Luxembourg，不套商品頁60免運到NL"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": false,
+     "status": "verified_not_nl_eligible",
+     "url": "https://frups.lu/products/macs-cat-kitten-veau-coeurs-poulet?variant=56086488973689",
+     "detail": "真實低價€0.48/100g但NL不適用；不是以索引價排名"
+    },
+    {
+     "shop": "Amazon.fr",
+     "variant": "Kitten Turkey/Beef/Duck 6x400g",
+     "units": 6,
+     "unit_g": 400,
+     "list_price": 31.22,
+     "price": 31.22,
+     "unit": 5.203333,
+     "per100g": 1.300833,
+     "pb": 1.300833,
+     "size": "400g",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "目的地NL未選；顯示免運不能當NL免運"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "顯示免運不能當NL免運"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": false,
+     "status": "verified_product_page_nl_delivery_pending",
+     "url": "https://www.amazon.fr/dp/B01DX6GT9S",
+     "detail": "3–4天才出貨；頁面首購免運只FR/BE/LU，NL未知"
     }
    ],
-   "main_count": 26,
-   "shop_count": 3,
+   "main_count": 27,
+   "shop_count": 4,
    "mixed_sizes": true
   },
   {
@@ -2014,7 +2206,7 @@
      "unit": 4.582,
      "per100g": 0.573,
      "pb": 0.573,
-     "one_time_unit": 2.101
+     "one_time_unit": 1.95
     }
    ],
    "offers": [
@@ -2181,6 +2373,38 @@
      "status": "verified",
      "url": "https://www.amazon.nl/dp/B08MM2L42D",
      "detail": ""
+    },
+    {
+     "shop": "zooplus.com",
+     "variant": "Kitten Veal & Salmon Oil 6x800g",
+     "units": 6,
+     "unit_g": 800,
+     "list_price": 28.99,
+     "price": 28.99,
+     "unit": 4.831667,
+     "per100g": 0.603958,
+     "pb": 0.603958,
+     "size": "800g",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "NL €5.99，€49免運；單包31kg上限/重包另計"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "NL €5.99，€49免運"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": true,
+     "status": "verified",
+     "url": "https://www.zooplus.com/shop/cats/canned_cat_food_pouches/mjamjam/1584158",
+     "detail": "不是成人低價；未低於歷史€0.573/100g"
     },
     {
      "shop": "zooplus.nl",
@@ -2618,6 +2842,38 @@
      "status": "verified",
      "url": "https://www.zooplus.nl/shop/katten/kattenvoer_blik/mjamjam_natvoer/1579450",
      "detail": ""
+    },
+    {
+     "shop": "Füttern mit Spaß",
+     "variant": "Kitten Chicken & Salmon Oil 200g",
+     "units": 1,
+     "unit_g": 200,
+     "list_price": 1.95,
+     "price": 1.95,
+     "unit": 1.95,
+     "per100g": 0.975,
+     "pb": 0.975,
+     "size": "200g",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "運費 €13.90"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "運費 €13.90"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": true,
+     "status": "verified",
+     "url": "https://www.fuettern-mit-spass.de/katzen/nassfutter/mjamjam/mjamjam-katzenfutter-kitten-saftiges-huehnchen-mit-lachsoel_934606",
+     "detail": "未低於歷史大包單價；其他容量需選規格核實"
     },
     {
      "shop": "Bitiba",
@@ -3071,6 +3327,70 @@
      "detail": ""
     },
     {
+     "shop": "Futterplatz.de",
+     "variant": "Kitten Gute Pute & Salmon Oil 6x800g",
+     "units": 6,
+     "unit_g": 800,
+     "list_price": 22.45,
+     "price": 22.45,
+     "unit": 3.741667,
+     "per100g": 0.467708,
+     "pb": 0.467708,
+     "size": "800g",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "官方只送德國；不能把國內€49免運套NL"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "不能把國內€49免運套NL"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": false,
+     "status": "verified_not_nl_eligible",
+     "url": "https://www.futterplatz.de/MjAMjAM-Cat-Kitten-Gute-Pute-mit-Lachsoel-6-x-800-g/1mjam0246",
+     "detail": "真低商品價但不寄NL，因此不列可買最低。搜尋摘要18.75已過時，以商品頁19.39為準"
+    },
+    {
+     "shop": "Zoolini.si / niceshops Austria",
+     "variant": "Kitten Chicken & Salmon Oil800g shown variant",
+     "units": 1,
+     "unit_g": 800,
+     "list_price": 5.49,
+     "price": 5.49,
+     "unit": 5.49,
+     "per100g": 0.68625,
+     "pb": 0.68625,
+     "size": "800g",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "條款列Nizozemska；SI運費5.90/59.90免不能套NL；NL費未知"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "條款列Nizozemska；SI運費5.90/59.90免不能套NL；NL費未知"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": false,
+     "verified": false,
+     "status": "verified_variant_price_stock_variant_pending",
+     "url": "https://www.zoolini.si/mjamjam/macja-hrana-kitten-piscanec-in-lososovo-olje",
+     "detail": "預設200g2.29只有5罐、400g3.59/800g5.49，各容量有貨量不同未核；800g單價0.68625/100g不低於既有大包。實體出貨Austria，不以.si判Slovenia實體"
+    },
+    {
      "shop": "Medpets",
      "variant": "24x125g 擠壓袋 雞肉",
      "units": 24,
@@ -3155,8 +3475,8 @@
      "detail": ""
     }
    ],
-   "main_count": 27,
-   "shop_count": 5,
+   "main_count": 29,
+   "shop_count": 7,
    "mixed_sizes": true
   },
   {
@@ -3170,53 +3490,54 @@
    "base": "100g",
    "category": "wet",
    "age": "kitten",
-   "deal": false,
-   "drop": 14.7,
+   "deal": true,
+   "drop": 30.7,
    "image": "assets/products/farmina_nd_ocean_kitten.webp",
    "date": "2026-11-07",
    "best": {
-    "shop": "CutieCat",
-    "variant": "24x70g Prime Kitten 雞＋石榴",
-    "units": 24,
+    "shop": "PetBoutique.it",
+    "variant": "Prime Kitten 70g；每6週訂閱 -4%",
+    "units": 1,
     "unit_g": 70,
-    "list_price": 39.6,
-    "price": 39.6,
-    "unit": 1.65,
-    "per100g": 2.357,
-    "pb": 2.357,
+    "list_price": 1.4,
+    "price": 1.34,
+    "unit": 1.34,
+    "per100g": 1.914286,
+    "pb": 1.914286,
     "size": "70g",
-    "basis": "單次購買",
+    "basis": "每6週訂閱 -4%，不疊返現；每月 -3% 顯示€1.36",
     "autoship": false,
     "one_time_unit": null,
     "one_time_per100g": null,
     "one_time_pb": null,
     "conditions": [
-     "運費見 CutieCat；常見免運門檻較高"
+     "同店NL取貨點0–5kg €6.50；運費不含於有效商品價"
     ],
     "tags": [
      {
       "k": "ship",
-      "t": "常見免運門檻較高"
+      "t": "同店NL取貨點0–5kg €6.50；運費不含於有效商品價"
      }
     ],
     "new_customer": null,
     "in_stock": true,
     "verified": true,
     "status": "verified",
-    "url": "https://cutiecat.nl/product/farmina-nd-prime-kitten-natvoer-70g/",
-    "detail": "單罐 €1.69"
+    "url": "https://petboutique.it/products/farmina-n-d-prime-n-d-cat-prime-pollo-e-melograno-kitten",
+    "detail": ""
    },
    "one_time_best": null,
    "badge": {
-    "kind": "at_low",
-    "text": "持平歷史低價"
+    "kind": "new_low",
+    "text": "新低價",
+    "prev": 2.357
    },
    "level": {
     "status": "ok",
     "n": 9,
     "level": "low",
-    "cur": 2.357,
-    "min": 2.357,
+    "cur": 1.9143,
+    "min": 1.9143,
     "p25": 2.357,
     "p75": 2.38,
     "max": 2.762,
@@ -3281,13 +3602,109 @@
     },
     {
      "date": "2026-11-07",
-     "unit": 1.65,
-     "per100g": 2.357,
-     "pb": 2.357,
-     "one_time_unit": 1.65
+     "unit": 1.34,
+     "per100g": 1.914,
+     "pb": 1.9143,
+     "one_time_unit": 1.34
     }
    ],
    "offers": [
+    {
+     "shop": "PetBoutique.it",
+     "variant": "Prime Kitten 70g；每6週訂閱 -4%",
+     "units": 1,
+     "unit_g": 70,
+     "list_price": 1.4,
+     "price": 1.34,
+     "unit": 1.34,
+     "per100g": 1.914286,
+     "pb": 1.914286,
+     "size": "70g",
+     "basis": "每6週訂閱 -4%，不疊返現；每月 -3% 顯示€1.36",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "同店NL取貨點0–5kg €6.50；運費不含於有效商品價"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "同店NL取貨點0–5kg €6.50；運費不含於有效商品價"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": true,
+     "status": "verified",
+     "url": "https://petboutique.it/products/farmina-n-d-prime-n-d-cat-prime-pollo-e-melograno-kitten",
+     "detail": ""
+    },
+    {
+     "shop": "PetBoutique.it",
+     "variant": "Prime Chicken/Pomegranate Kitten 70g",
+     "units": 1,
+     "unit_g": 70,
+     "list_price": 1.4,
+     "price": 1.4,
+     "unit": 1.4,
+     "per100g": 2.0,
+     "pb": 2.0,
+     "size": "70g",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "NL取貨點0–5kg €6.50；宅配0–5kg €9.00、5.01–10kg €12.00；48–96h。沒有已核實NL免運門檻"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "48–96h。沒有已核實NL免運門檻"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": true,
+     "status": "verified",
+     "url": "https://petboutique.it/products/farmina-n-d-prime-n-d-cat-prime-pollo-e-melograno-kitten",
+     "detail": "含稅一次購買顯示價；未測Rotterdam結帳/目的地VAT。商品單價低於舊€1.65，不宣稱含運最低"
+    },
+    {
+     "shop": "PetBoutique.it",
+     "variant": "Ocean Tuna/Cod/Shrimp/Pumpkin Kitten 70g",
+     "units": 1,
+     "unit_g": 70,
+     "list_price": 1.4,
+     "price": 1.4,
+     "unit": 1.4,
+     "per100g": 2.0,
+     "pb": 2.0,
+     "size": "70g",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "NL取貨點0–5kg €6.50；宅配0–5kg €9.00、5.01–10kg €12.00；48–96h。沒有已核實NL免運門檻"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "48–96h。沒有已核實NL免運門檻"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": true,
+     "status": "verified",
+     "url": "https://petboutique.it/products/farmina-n-d-ocean-n-d-cat-ocean-tonno-merluzzo-gamberetti-e-zucca-kitten",
+     "detail": "含稅一次購買顯示價；未測Rotterdam結帳/目的地VAT。商品單價低於舊€1.65，不宣稱含運最低"
+    },
     {
      "shop": "CutieCat",
      "variant": "24x70g Prime Kitten 雞＋石榴",
@@ -3658,6 +4075,102 @@
      "detail": ""
     },
     {
+     "shop": "Life with Pets Malta",
+     "variant": "Prime Chicken/Pomegranate Kitten24x70g",
+     "units": 24,
+     "unit_g": 70,
+     "list_price": 29.95,
+     "price": 29.95,
+     "unit": 1.247917,
+     "per100g": 1.782738,
+     "pb": 1.782738,
+     "size": "70g",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "官方只列Malta/Gozo，未找到NL證據；當地3/5EUR與免運不可套NL"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "當地3/5EUR與免運不可套NL"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": false,
+     "status": "verified_item_price_delivery_pending",
+     "url": "https://lifewithpets.mt/product/farmina-chicken-pomegranate-kitten-wet-food-24x70g-tins/",
+     "detail": "商品頁低於PetBoutique1.40：1.247917/罐、1.782738/100g，但NL與含稅聲明待核，不更新NL有效最低"
+    },
+    {
+     "shop": "SUNU.lt / SUNS Latvia",
+     "variant": "Prime Kitten70g",
+     "units": 1,
+     "unit_g": 70,
+     "list_price": 1.69,
+     "price": 1.69,
+     "unit": 1.69,
+     "per100g": 2.414286,
+     "pb": 2.414286,
+     "size": "70g",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "官方從Riga寄，列LT運送方式；NL未核不套免運門檻"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "NL未核不套免運門檻"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": false,
+     "status": "verified_item_price_delivery_pending",
+     "url": "https://sunu.lt/products/farmina-nd-cat-prime-chicken-pomegranate-kitten-konservai-kaciukams-70-g/",
+     "detail": "非更低；網站國家與實際倉庫不同已註記"
+    },
+    {
+     "shop": "Ani-Pet.sk",
+     "variant": "Prime Kitten70g EAN8606014102901",
+     "units": 1,
+     "unit_g": 70,
+     "list_price": 1.7,
+     "price": 1.7,
+     "unit": 1.7,
+     "per100g": 2.428571,
+     "pb": 2.428571,
+     "size": "70g",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "B2C只見SK、B2B另CZ/HU；未見NL，不判全面不能寄"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "B2C只見SK、B2B另CZ/HU；未見NL，不判全面不能寄"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": false,
+     "status": "verified_item_price_delivery_pending",
+     "url": "https://www.anipet.sk/konzervy-pre-macky/farmina-n-d-kitten-prime-chicken-pomegranate-70g/",
+     "detail": "含稅1.70；1.38是未稅。>50罐有貨，不低於PetBoutique"
+    },
+    {
      "shop": "Catsclusive",
      "variant": "24x70g Ocean",
      "units": 24,
@@ -3690,8 +4203,8 @@
      "detail": "頁面寫 Levertijd 1-3 werkdagen；JSON-LD 標 PreOrder"
     }
    ],
-   "main_count": 11,
-   "shop_count": 5,
+   "main_count": 14,
+   "shop_count": 6,
    "mixed_sizes": false
   },
   {
@@ -3796,7 +4309,7 @@
      "unit": 34.685,
      "per100g": null,
      "pb": 19.2694,
-     "one_time_unit": 34.77
+     "one_time_unit": 33.99
     }
    ],
    "offers": [
@@ -4262,6 +4775,38 @@
      "detail": ""
     },
     {
+     "shop": "Tradeinn/Bricoinn",
+     "variant": "Kitten1.8kg Netherlands/EUR selected one-time",
+     "units": 1,
+     "unit_g": null,
+     "list_price": 33.99,
+     "price": 33.99,
+     "unit": 33.99,
+     "per100g": null,
+     "pb": null,
+     "size": "",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "NL運費未知，未加車；不宣稱含運最低"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "NL運費未知，未加車；不宣稱含運最低"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": true,
+     "status": "verified",
+     "url": "https://www.tradeinn.com/bricoinn/nl/orijen-feline-kitten-1.8kg-kattenvoer/140763248/p",
+     "detail": "商品價33.99/1.8=18.883333/kg，低於舊Pharmapets首訂34.52/1.8（一次比首訂仍低0.53）；舊原始USD34.49不當EUR。舊ref064992718848的340g/1.8kg映射仍待官方，不依此排除精確1.8kg頁"
+    },
+    {
      "shop": "Pharmapets",
      "variant": "1x1.8kg",
      "units": 1,
@@ -4324,11 +4869,43 @@
      "status": "verified",
      "url": "https://www.huisdieren.nl/shop/orijen-kitten/",
      "detail": "BackOrder（可預訂）；11/06 記 €40.49"
+    },
+    {
+     "shop": "FamilyVet.es",
+     "variant": "Kitten 1.8kg",
+     "units": 1,
+     "unit_g": null,
+     "list_price": 30.55,
+     "price": 30.55,
+     "unit": 30.55,
+     "per100g": null,
+     "pb": null,
+     "size": "",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "運費未知"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "運費未知"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": false,
+     "verified": false,
+     "status": "verified_item_price_nl_delivery_pending",
+     "url": "https://tienda.familyvet.es/mascota/gatos/comida-gatos/pienso-gatos/orijen-kitten-pienso-para-gato-18kg/",
+     "detail": "精確商品頁現價確認；庫存/含稅文字/NL官方配送均未核實，不能當可寄NL新低"
     }
    ],
-   "main_count": 13,
-   "shop_count": 10,
-   "mixed_sizes": false
+   "main_count": 14,
+   "shop_count": 11,
+   "mixed_sizes": true
   },
   {
    "id": "orijen_cat_dry_original",
@@ -9310,11 +9887,43 @@
      "status": "verified",
      "url": "https://www.zooplus.nl/shop/katten/kattenbakvulling/tigerino/tigerino_plantaardig/2189648",
      "detail": ""
+    },
+    {
+     "shop": "zooplus.com",
+     "variant": "Sensitive Tofu 4.6kg；頁名7L與單價按11L矛盾",
+     "units": 1,
+     "unit_g": null,
+     "list_price": 13.99,
+     "price": 13.99,
+     "unit": 13.99,
+     "per100g": null,
+     "pb": null,
+     "size": "",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "NL €5.99，€49免運"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "NL €5.99，€49免運"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": false,
+     "status": "verified_price_volume_conflict",
+     "url": "https://www.zooplus.com/shop/cats/cat_litter/tigerino/tigerino_plantbased/2189727",
+     "detail": "EAN4062911057135相同但不能僅依EAN消除7L/11L矛盾，故不算€/L、不更新最低"
     }
    ],
    "main_count": 6,
    "shop_count": 2,
-   "mixed_sizes": false
+   "mixed_sizes": true
   },
   {
    "id": "ever_clean_extra_hygiene_unscented",
@@ -9732,6 +10341,70 @@
      "status": "verified",
      "url": "https://www.zoomalia.nl/dierenwinkel/extra-klontvormende-kattenbakvulling-zonder-parfum-of-geur-ever-clean-p-28896.html",
      "detail": "2026-11-07 WebFetch 讀取（curl 403）"
+    },
+    {
+     "shop": "zooplus.com",
+     "variant": "2x10L Extra Hygiene Unscented",
+     "units": 2,
+     "unit_g": null,
+     "list_price": 41.49,
+     "price": 41.49,
+     "unit": 20.745,
+     "per100g": null,
+     "pb": 2.0745,
+     "size": "10L",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "NL€5.99，€49免運；31kg條件。未確認本帳號首訂資格及NL適用價"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "NL€5.99，€49免運"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": false,
+     "status": "verified_item_and_nl_policy_subscription_country_pending",
+     "url": "https://www.zooplus.com/shop/cats/cat_litter/everclean/1344883?activeVariant=1344883.1",
+     "detail": "2x10L首訂商品價€1.7635/L低於舊€1.948/L返現基準；非相同優惠類型。加政策運費€41.26僅估算，未更低含運"
+    },
+    {
+     "shop": "zooplus.com",
+     "variant": "1x10L Extra Hygiene Unscented",
+     "units": 1,
+     "unit_g": null,
+     "list_price": 21.49,
+     "price": 21.49,
+     "unit": 21.49,
+     "per100g": null,
+     "pb": 2.149,
+     "size": "10L",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "NL€5.99，€49免運；31kg條件。未確認本帳號首訂資格及NL適用價"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "NL€5.99，€49免運"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": false,
+     "status": "verified_item_and_nl_policy_subscription_country_pending",
+     "url": "https://www.zooplus.com/shop/cats/cat_litter/everclean/1344883?activeVariant=1344883.0",
+     "detail": "2x10L首訂商品價€1.7635/L低於舊€1.948/L返現基準；非相同優惠類型。加政策運費€41.26僅估算，未更低含運"
     },
     {
      "shop": "Zoomalia.nl",
@@ -10255,6 +10928,38 @@
      "status": "verified",
      "url": "https://www.petssupermart.com/rundvee/wondverzorging/https--wwwpetssupermartcom-rundvee-wondverzorging-l-mesitran",
      "detail": ""
+    },
+    {
+     "shop": "Pawz Deli",
+     "variant": "VET Soft honey gel 250g（不是Ointment）",
+     "units": 1,
+     "unit_g": 250,
+     "list_price": 49.99,
+     "price": 49.99,
+     "unit": 49.99,
+     "per100g": null,
+     "pb": 0.2,
+     "size": "250g",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "NL非冷凍品€6.99，€89免運；有貨才3工作日內寄出"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "NL非冷凍品€6.99，€89免運"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": false,
+     "verified": false,
+     "status": "verified_price_stock_pending",
+     "url": "https://www.pawzdeli.eu/a-89008113/l-mesitran-wondzalf-honingzalf/l-mesitran-vet-soft-250g-grote-verpakking-honing-gel/",
+     "detail": "含稅；較€50.95商品價低€0.96，但商品頁未有可讀庫存，不更新有效最低"
     }
    ],
    "main_count": 12,
@@ -10272,56 +10977,43 @@
    "base": "capsule",
    "category": "care",
    "age": "all",
-   "deal": true,
+   "deal": false,
    "drop": 0.0,
    "image": "assets/products/protexin_cobalaplex_60.webp",
    "date": "2026-11-07",
    "best": {
-    "shop": "Milo",
-    "variant": "60 capsules（Protexin 標籤）",
+    "shop": "Pharmapets.be",
+    "variant": "Dômes Pharma / TVM60caps HPMC regional package one-time",
     "units": 1,
     "unit_g": null,
-    "list_price": 29.95,
-    "price": 28.45,
-    "unit": 28.45,
+    "list_price": 18.79,
+    "price": 18.79,
+    "unit": 18.79,
     "per100g": null,
-    "pb": 0.4742,
+    "pb": 0.3132,
     "size": "60 caps",
-    "basis": "Milo 定期配送 -5%",
-    "autoship": true,
-    "one_time_unit": 29.95,
+    "basis": "單次購買",
+    "autoship": false,
+    "one_time_unit": null,
     "one_time_per100g": null,
-    "one_time_pb": 0.4992,
+    "one_time_pb": null,
     "conditions": [
-     "滿 €49 免運・運費 €3.95",
-     "需訂閱定期配送"
+     "官方比利時/NL政策：<39收3.99、≥39免；一盒依政策算22.78含運，未測購物車"
     ],
     "tags": [
      {
-      "k": "sub",
-      "t": "需定期配送"
-     },
-     {
       "k": "ship",
-      "t": "滿 €49 免運／運費 €3.95"
+      "t": "官方比利時/NL政策：<39收3.99、≥39免；一盒依政策算22.78含運，未測購物車"
      }
     ],
     "new_customer": null,
     "in_stock": true,
     "verified": true,
-    "status": "verified",
-    "url": "https://milo.nl/products/protexin-cobalaplex-hond-en-kat-60-capsules",
-    "detail": "Yi 原始來源；Shopify .js 讀價格/庫存/EAN；SKU P-698019"
+    "status": "verified_nl_policy_and_item_price",
+    "url": "https://www.pharmapets.be/fr/cobalaplex-60-gelules.html",
+    "detail": "重大更正：18.79確是Cobalaplex60，不是Synbiotic。官方MedVet ADM製造、B12/B9逐粒劑量一致、包裝60/12.6g/GTIN。法版HPMC與舊gelatin有輔料差異，作同產品地區variant比價，不宣稱每成分100%一樣。商品另見16.91但未將其作一次價；訂閱官方10%首訂可另核，不能疊返現。該頁成功WebFetch後raw保存403，停止raw重試，以逐段引文保存"
    },
-   "one_time_best": {
-    "shop": "Docvet",
-    "variant": "60 capsules（Dechra 標籤）",
-    "unit": 28.99,
-    "unit_g": null,
-    "url": "https://www.docvet.nl/kat/cobalaplex-60-capsules-vitamine-b12-hond-kat/",
-    "per100g": null,
-    "pb": 0.4832
-   },
+   "one_time_best": null,
    "badge": {
     "kind": "first",
     "text": "首次紀錄"
@@ -10334,13 +11026,109 @@
    "history": [
     {
      "date": "2026-11-07",
-     "unit": 28.45,
+     "unit": 18.79,
      "per100g": null,
-     "pb": 0.4742,
-     "one_time_unit": 28.99
+     "pb": 0.3132,
+     "one_time_unit": 18.79
     }
    ],
    "offers": [
+    {
+     "shop": "Pharmapets.be",
+     "variant": "Dômes Pharma / TVM60caps HPMC regional package one-time",
+     "units": 1,
+     "unit_g": null,
+     "list_price": 18.79,
+     "price": 18.79,
+     "unit": 18.79,
+     "per100g": null,
+     "pb": 0.3132,
+     "size": "60 caps",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "官方比利時/NL政策：<39收3.99、≥39免；一盒依政策算22.78含運，未測購物車"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "官方比利時/NL政策：<39收3.99、≥39免；一盒依政策算22.78含運，未測購物車"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": true,
+     "status": "verified_nl_policy_and_item_price",
+     "url": "https://www.pharmapets.be/fr/cobalaplex-60-gelules.html",
+     "detail": "重大更正：18.79確是Cobalaplex60，不是Synbiotic。官方MedVet ADM製造、B12/B9逐粒劑量一致、包裝60/12.6g/GTIN。法版HPMC與舊gelatin有輔料差異，作同產品地區variant比價，不宣稱每成分100%一樣。商品另見16.91但未將其作一次價；訂閱官方10%首訂可另核，不能疊返現。該頁成功WebFetch後raw保存403，停止raw重試，以逐段引文保存"
+    },
+    {
+     "shop": "Zoolac",
+     "variant": "3x60 capsules Dechra/NL regional label; buy3 quantity discount",
+     "units": 3,
+     "unit_g": null,
+     "list_price": 81.63,
+     "price": 81.63,
+     "unit": 27.21,
+     "per100g": null,
+     "pb": 0.4535,
+     "size": "60 caps",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "NL滿€75免運，單瓶/兩瓶未滿門檻運費未知；3瓶81.63符合頁面免運規則但未測結帳"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "3瓶81.63符合頁面免運規則但未測結帳"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": true,
+     "status": "verified",
+     "url": "https://www.zoolac.nl/es/protexin-cobalaplex-perro-gato.html",
+     "detail": "新發現平台（西文頁但實際荷蘭商家，不能記為西班牙店）。頁面B12 .5mg/B9 .2mg/Preplex，JSONLD有貨67件；原廠明列Dechra NL代理，Dechra獸醫brochure4x15=60並標ADM Protexin商標，核心劑量同。EAN由零售頁確認，未冒稱原廠條碼映射已核；不因地區EAN不同排除，不宣稱所有舊版輔料完全一致。不疊返現"
+    },
+    {
+     "shop": "Zoolac",
+     "variant": "2x60 capsules Dechra/NL regional label; buy2 quantity discount",
+     "units": 2,
+     "unit_g": null,
+     "list_price": 56.16,
+     "price": 56.16,
+     "unit": 28.08,
+     "per100g": null,
+     "pb": 0.468,
+     "size": "60 caps",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "NL滿€75免運，單瓶/兩瓶未滿門檻運費未知；3瓶81.63符合頁面免運規則但未測結帳"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "3瓶81.63符合頁面免運規則但未測結帳"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": true,
+     "status": "verified",
+     "url": "https://www.zoolac.nl/es/protexin-cobalaplex-perro-gato.html",
+     "detail": "新發現平台（西文頁但實際荷蘭商家，不能記為西班牙店）。頁面B12 .5mg/B9 .2mg/Preplex，JSONLD有貨67件；原廠明列Dechra NL代理，Dechra獸醫brochure4x15=60並標ADM Protexin商標，核心劑量同。EAN由零售頁確認，未冒稱原廠條碼映射已核；不因地區EAN不同排除，不宣稱所有舊版輔料完全一致。不疊返現"
+    },
     {
      "shop": "Milo",
      "variant": "60 capsules（Protexin 標籤）",
@@ -10377,6 +11165,38 @@
      "status": "verified",
      "url": "https://milo.nl/products/protexin-cobalaplex-hond-en-kat-60-capsules",
      "detail": "Yi 原始來源；Shopify .js 讀價格/庫存/EAN；SKU P-698019"
+    },
+    {
+     "shop": "Zoolac",
+     "variant": "1x60 capsules Dechra/NL regional label; single purchase",
+     "units": 1,
+     "unit_g": null,
+     "list_price": 28.95,
+     "price": 28.95,
+     "unit": 28.95,
+     "per100g": null,
+     "pb": 0.4825,
+     "size": "60 caps",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "NL滿€75免運，單瓶/兩瓶未滿門檻運費未知；3瓶81.63符合頁面免運規則但未測結帳"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "3瓶81.63符合頁面免運規則但未測結帳"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": true,
+     "status": "verified",
+     "url": "https://www.zoolac.nl/es/protexin-cobalaplex-perro-gato.html",
+     "detail": "新發現平台（西文頁但實際荷蘭商家，不能記為西班牙店）。頁面B12 .5mg/B9 .2mg/Preplex，JSONLD有貨67件；原廠明列Dechra NL代理，Dechra獸醫brochure4x15=60並標ADM Protexin商標，核心劑量同。EAN由零售頁確認，未冒稱原廠條碼映射已核；不因地區EAN不同排除，不宣稱所有舊版輔料完全一致。不疊返現"
     },
     {
      "shop": "Docvet",
@@ -10539,6 +11359,294 @@
      "detail": "頁面已開：En stock €18.79（另見 €17.85）；不同品牌標籤、EAN 未列；成分寫法與 Protexin 不同，不可假定同配方；寄 Rotterdam 未確認 → 不排名"
     },
     {
+     "shop": "Zoomalia.es",
+     "variant": "TVM/Dômes2x60 quantity bundle",
+     "units": 2,
+     "unit_g": null,
+     "list_price": 38.98,
+     "price": 38.98,
+     "unit": 19.49,
+     "per100g": null,
+     "pb": 0.3248,
+     "size": "60 caps",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "運費未知"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "運費未知"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": false,
+     "verified": false,
+     "status": "verified_bundle_price_nl_pending",
+     "url": "https://www.zoomalia.es/mascotas/domes-pharma-cobalaplex-b-60-capsulas-p-184243.html",
+     "detail": "僅商品價；庫存/NL官方配送未核，不套西班牙免運"
+    },
+    {
+     "shop": "Soin et Nature",
+     "variant": "Dômes Pharma TVM France 60caps；GTIN5027314498779",
+     "units": 1,
+     "unit_g": null,
+     "list_price": 19.9,
+     "price": 19.9,
+     "unit": 19.9,
+     "per100g": null,
+     "pb": 0.3317,
+     "size": "60 caps",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "NL Zone1宅配≤0.5kg€7.99/取貨€6.99；Mondial Relay起€5.99；Delivengo≤100g起€4.99，適用重量/服務待確認；符合條件€129免運"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "符合條件€129免運"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": false,
+     "verified": false,
+     "status": "verified_price_stock_conflict",
+     "url": "https://www.soin-et-nature.com/en/28102-cobalaplex-vitamins-b9-b12-dog-cat-60-capsules.html",
+     "detail": "16.58為未稅不可採！含稅19.90。HTML主商品寫Replenishment in progress/Pre-order，JSON-LD InStock；摘要中的24h是推薦商品文字，不能當本品有貨。官方ADM Protexin製造、Dômes市場責任商，同核心B12/B9/Preplex；地區輔料/膠囊差異不能說完全同配方"
+    },
+    {
+     "shop": "Zoomalia.es",
+     "variant": "TVM/Dômes60caps one-time",
+     "units": 1,
+     "unit_g": null,
+     "list_price": 19.99,
+     "price": 19.99,
+     "unit": 19.99,
+     "per100g": null,
+     "pb": 0.3332,
+     "size": "60 caps",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "運費未知"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "運費未知"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": false,
+     "verified": false,
+     "status": "verified_price_stock_and_nl_unresolved",
+     "url": "https://www.zoomalia.es/mascotas/domes-pharma-cobalaplex-b-60-capsulas-p-184243.html",
+     "detail": "商品頁已讀單瓶19.99；19.49為買2每瓶（總38.98），不當單瓶價。主頁可見下單model但未明讀InStock不猜。NL評論不等於官方配送政策，運費未知，後raw403停止"
+    },
+    {
+     "shop": "DingoVet.bg",
+     "variant": "Protexin60caps",
+     "units": 1,
+     "unit_g": null,
+     "list_price": 20.8,
+     "price": 20.8,
+     "unit": 20.8,
+     "per100g": null,
+     "pb": 0.3467,
+     "size": "60 caps",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "配送只列Bulgaria/Speedy；條款提到出口由買家付費，沒有NL明列或運費，不能判已可寄/絕不寄"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "配送只列Bulgaria/Speedy；條款提到出口由買家付費，沒有NL明列或運費，不能判已可寄/絕不寄"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": false,
+     "status": "verified_item_price_delivery_pending",
+     "url": "https://dingovet.bg/produkt/cobalaplex-dog-cat-protexin-60-kapsuli-kucheta-i-kotki/",
+     "detail": "商品JSONLD20.80EUR InStock；條款仍寫BGN含VAT，頁面和政策年代不一致，NL候選待核，不合成NL總價"
+    },
+    {
+     "shop": "Barfus.lv",
+     "variant": "paper packaging60",
+     "units": 1,
+     "unit_g": null,
+     "list_price": 23.2,
+     "price": 23.2,
+     "unit": 23.2,
+     "per100g": null,
+     "pb": 0.3867,
+     "size": "60 caps",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "Europe非fresh9EUR，未逐國列NL，維持待訪客配送選國核；不能稱NL含運32.20已證"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "Europe非fresh9EUR，未逐國列NL，維持待訪客配送選國核；不能稱NL含運32.20已證"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": false,
+     "status": "verified_price_nl_pending",
+     "url": "https://www.barfus.lv/en/product/protexin-cobalaplex/",
+     "detail": "核心B12.5mg/B9.2mg/Preplex；頁brandOthers、無EAN；圖URL帶gemini_generated不選作產品卡照片，另用官方製造商圖"
+    },
+    {
+     "shop": "BFarma.it",
+     "variant": "60caps EAN5027314499486",
+     "units": 1,
+     "unit_g": null,
+     "list_price": 24.45,
+     "price": 24.45,
+     "unit": 24.45,
+     "per100g": null,
+     "pb": 0.4075,
+     "size": "60 caps",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "運費未知"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "運費未知"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": false,
+     "verified": false,
+     "status": "verified_item_price_nl_delivery_pending",
+     "url": "https://bfarma.it/products/nessuno-cobalaplex-60-capsule-ean-5027314499486",
+     "detail": "Non disponibile；Europe from€11但NL未明列，不列可買新低"
+    },
+    {
+     "shop": "Petreon.ee",
+     "variant": "Protexin60caps",
+     "units": 1,
+     "unit_g": null,
+     "list_price": 24.62,
+     "price": 24.62,
+     "unit": 24.62,
+     "per100g": null,
+     "pb": 0.4103,
+     "size": "60 caps",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "運費未知"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "運費未知"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": false,
+     "verified": false,
+     "status": "verified_price_then403_policy_pending",
+     "url": "https://petreon.ee/en/digestive-system/827-protexin-cobalaplex-prebiotic-supplements-for-dogs-and-cats-for-healthy-digestion-60-capsules-5027314499486.html",
+     "detail": "商品公開可讀24.62，後續保存遇403即停止該站，未繞。實際商家聯絡地址KaunasLT，不因.ee當Estonia實體。庫存/含稅/NL運費待核"
+    },
+    {
+     "shop": "Farmacia33.it",
+     "variant": "60caps EAN5027314499486",
+     "units": 1,
+     "unit_g": null,
+     "list_price": 26.9,
+     "price": 26.9,
+     "unit": 26.9,
+     "per100g": null,
+     "pb": 0.4483,
+     "size": "60 caps",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "運費未知"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "運費未知"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": false,
+     "status": "verified_item_price_nl_delivery_pending",
+     "url": "https://farmacia33.it/mangimi-complementari/81498-cobalaplex-60-capsule.html",
+     "detail": "26.41為30天最低而非現價26.90；運送頁只列義大利，NL未知"
+    },
+    {
+     "shop": "Fitoveta.lt",
+     "variant": "Protexin60caps",
+     "units": 1,
+     "unit_g": null,
+     "list_price": 30.5,
+     "price": 30.5,
+     "unit": 30.5,
+     "per100g": null,
+     "pb": 0.5083,
+     "size": "60 caps",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "運費未知"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "運費未知"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": false,
+     "status": "verified_item_price_delivery_pending",
+     "url": "https://fitoveta.lt/products/protexin-cobalaplex-kapsules-n60",
+     "detail": "條款含所有稅、運費另加，NL國家未明，不較舊低"
+    },
+    {
      "shop": "Diermedicatie.nl",
      "variant": "60 stuks（網址標 Dechra）",
      "units": 1,
@@ -10569,6 +11677,70 @@
      "status": "partly_verified",
      "url": "https://www.diermedicatie.nl/nl/protexin-cobalaplex-60-stuks-dechra.html",
      "detail": "頁面 JSON price 31；EAN 未列；運費未查到；標籤是否 Dechra 未確認（網址含 dechra）"
+    },
+    {
+     "shop": "Amazon.de",
+     "variant": "Cobalaplex 60caps",
+     "units": 1,
+     "unit_g": null,
+     "list_price": 34.0,
+     "price": 34.0,
+     "unit": 34.0,
+     "per100g": null,
+     "pb": 0.5667,
+     "size": "60 caps",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "目的地NL未選；顯示免運不能當NL免運"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "顯示免運不能當NL免運"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": false,
+     "status": "verified_product_page_nl_delivery_pending",
+     "url": "https://www.amazon.de/dp/B077Q3SQZZ",
+     "detail": "Amazon履約；搜尋40.10不是本次商品頁34.00"
+    },
+    {
+     "shop": "Amazon.de",
+     "variant": "Protexin60 one-time defaultdestination",
+     "units": 1,
+     "unit_g": null,
+     "list_price": 34.0,
+     "price": 34.0,
+     "unit": 34.0,
+     "per100g": null,
+     "pb": 0.5667,
+     "size": "60 caps",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "運費未知"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "運費未知"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": false,
+     "status": "verified_default_locale_offer_nl_pending",
+     "url": "https://www.amazon.de/dp/B07QRZZB1P",
+     "detail": "內文另一段FeedMyAnimal offer，不能混成同賣家。NL未選、VATcheckout可能變、首購free不能當一般NL免運；非更低"
     },
     {
      "shop": "Brekz",
@@ -10718,11 +11890,43 @@
      "status": "partly_verified",
      "url": "https://www.amazon.nl/dp/B0DS25KHZ1",
      "detail": "Dechra 標籤；賣家未解析"
+    },
+    {
+     "shop": "Amazon.it",
+     "variant": "title60 capsules but metadata80count/Generico conflict",
+     "units": 1,
+     "unit_g": null,
+     "list_price": 29.9,
+     "price": 29.9,
+     "unit": 29.9,
+     "per100g": null,
+     "pb": null,
+     "size": "",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "運費未知"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "運費未知"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": false,
+     "status": "verified_offer_price_pack_identity_and_NL_pending",
+     "url": "https://www.amazon.it/dp/B0FZBSXG4P",
+     "detail": "主標60但UnitCount80、brand/manufacturerGenerico，不能拿.37/cap當正確；一次29.90、訂閱28.40分開。NL可送/運費未核"
     }
    ],
-   "main_count": 5,
-   "shop_count": 5,
-   "mixed_sizes": false
+   "main_count": 9,
+   "shop_count": 7,
+   "mixed_sizes": true
   },
   {
    "id": "protexin_synbiotic_dc_50",
@@ -10957,6 +12161,134 @@
      "detail": "更正先前verified_policy_shipping觀測的NL推定；舊觀測保留，以本筆及research_corrections為準"
     },
     {
+     "shop": "Agroart.hr",
+     "variant": "single10caps blister NOT50box",
+     "units": 1,
+     "unit_g": null,
+     "list_price": 5.0,
+     "price": 5.0,
+     "unit": 5.0,
+     "per100g": null,
+     "pb": 0.5,
+     "size": "10 caps",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "運費未知"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "運費未知"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": false,
+     "verified": false,
+     "status": "verified_10caps_not_50box_nl_pending",
+     "url": "https://www.agroart.hr/product/protexin-synbiotic-d-c-50-kapsula/",
+     "detail": "現頁明說5EUR是10粒一泡殼非50；摘要/slug50過時。每粒.50，5泡殼才50粒25EUR，仍須庫存/NL配送；不能宣稱5EUR/50粒新低"
+    },
+    {
+     "shop": "Amazon.de",
+     "variant": "Dechra Synbiotic D-C 50caps",
+     "units": 1,
+     "unit_g": null,
+     "list_price": 30.46,
+     "price": 30.46,
+     "unit": 30.46,
+     "per100g": null,
+     "pb": 0.6092,
+     "size": "50 caps",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "目的地NL未選；顯示免運不能當NL免運"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "顯示免運不能當NL免運"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": false,
+     "status": "verified_product_page_nl_delivery_pending",
+     "url": "https://www.amazon.de/dp/B0761V787X",
+     "detail": "Amazon履約；訂閱顯示28.94另列，不疊返現；NL地址VAT可能變動；地區標籤官方映射待補"
+    },
+    {
+     "shop": "RaoFarmaceutici.it",
+     "variant": "Ecuphar50caps",
+     "units": 1,
+     "unit_g": null,
+     "list_price": 30.78,
+     "price": 30.78,
+     "unit": 30.78,
+     "per100g": null,
+     "pb": 0.6156,
+     "size": "50 caps",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "運費未知"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "運費未知"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": false,
+     "status": "verified_item_price_nl_pending",
+     "url": "https://raofarmaceutici.it/it/apparato-gastrointestinale/15879-synbiotic-d-c-50-cps-5027314500571.html",
+     "detail": "舊38.00特價30.78，NL運費/含稅待核，不較Tradeinn商品價低"
+    },
+    {
+     "shop": "Xfarma.it",
+     "variant": "BioforlifeTherapet/Synbiopet title conflict; body50blister",
+     "units": 1,
+     "unit_g": null,
+     "list_price": 31.71,
+     "price": 31.71,
+     "unit": 31.71,
+     "per100g": null,
+     "pb": 0.6342,
+     "size": "50 caps",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "運費未知"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "運費未知"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": false,
+     "status": "verified_item_price_identity_shipping_pending",
+     "url": "https://www.xfarma.it/es/therapet-synbiotic-dc-suplemento-para-uso-veterinario-500-g.html",
+     "detail": "URL500g不對，實頁內文Formato50capsinblister；標題Synbiopet、H1SynbioticDC，需承接證據。NL未讀countryzone不能套ZONE1 9.90。低近期30.23不是當前31.71"
+    },
+    {
      "shop": "Pharmacy4pets",
      "variant": "50 capsules",
      "units": 1,
@@ -11062,6 +12394,38 @@
      "detail": "頁面「Momenteel niet leverbaar」；標籤 Dômes Pharma"
     },
     {
+     "shop": "Pharmapets.be",
+     "variant": "Dômes/TVM50 regional label",
+     "units": 1,
+     "unit_g": null,
+     "list_price": 62.52,
+     "price": 62.52,
+     "unit": 62.52,
+     "per100g": null,
+     "pb": 1.2504,
+     "size": "50 caps",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "運費未知"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "運費未知"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": false,
+     "status": "verified_nl_policy_item_price_not_low",
+     "url": "https://www.pharmapets.be/fr/synbiotic-d-c-50-gelules.html",
+     "detail": "非18.79！另顯56.27疑首訂折扣未混為一次價。含稅62.52超39免政策，非最便宜"
+    },
+    {
      "shop": "Amazon.nl",
      "variant": "Synbiotic DC（VE-030）",
      "units": 1,
@@ -11098,11 +12462,43 @@
      "status": "partly_verified",
      "url": "https://www.amazon.nl/dp/B003ZJ8AF0",
      "detail": "賣家未解析"
+    },
+    {
+     "shop": "VetPetSolutions.it",
+     "variant": "titleJar50; description10or50blister; sizefield60 conflict",
+     "units": 1,
+     "unit_g": null,
+     "list_price": 29.9,
+     "price": 29.9,
+     "unit": 29.9,
+     "per100g": null,
+     "pb": null,
+     "size": "",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "運費未知"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "運費未知"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": false,
+     "verified": false,
+     "status": "verified_title_price_packaging_identity_pending",
+     "url": "https://www.vetpetsolutions.it/products/bioforlife-therapet-synbiotic-d-c-barattolo-50-cpr",
+     "detail": "商品標題瓶裝50但內文Scatolada10o50inblister、Size60，不取60粒也不把barattolo當官方確證。庫存/含稅/NL配送未知；非比Tradeinn低"
     }
    ],
    "main_count": 3,
    "shop_count": 3,
-   "mixed_sizes": false
+   "mixed_sizes": true
   },
   {
    "id": "ziwi_peak_cat_wet",
@@ -11907,6 +13303,38 @@
      "detail": "鯖魚羊肉、鯖魚 185g 庫存 0"
     },
     {
+     "shop": "ZIWI Petfoods España",
+     "variant": "Beef cat can 185g",
+     "units": 1,
+     "unit_g": 185,
+     "list_price": 4.4,
+     "price": 4.4,
+     "unit": 4.4,
+     "per100g": 2.378378,
+     "pb": 2.378378,
+     "size": "185g",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "運費未知"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "運費未知"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": false,
+     "verified": false,
+     "status": "verified_item_price_nl_delivery_pending",
+     "url": "https://www.ziwipetfoods.es/producto/ziwi-peak-comida-humeda-para-gatos-carne-de-res-185-gr",
+     "detail": "不是更低；頁首西班牙免運條件不能套NL"
+    },
+    {
      "shop": "bestpetfoods",
      "variant": "12x185g 鹿肉（12 罐起每罐 €4.90）",
      "units": 12,
@@ -11943,6 +13371,38 @@
      "status": "verified",
      "url": "https://www.bestpetfoods.nl/product/ziwi-peak-natvoeding-voor-de-kat-hert-185-gr",
      "detail": "庫存 0"
+    },
+    {
+     "shop": "Naturitas.nl",
+     "variant": "Beef cat wet 185g",
+     "units": 1,
+     "unit_g": 185,
+     "list_price": 5.28,
+     "price": 5.28,
+     "unit": 5.28,
+     "per100g": 2.854054,
+     "pb": 2.854054,
+     "size": "185g",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "運費未知"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "運費未知"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": false,
+     "status": "verified_item_price_shipping_policy_pending",
+     "url": "https://www.naturitas.nl/p/thuis/huisdieren/dierenvoeding/rundvlees-nat-kattenvoer-185-g-kalfsvlees-ziwi-peak",
+     "detail": "商品頁有貨；10罐€5.02/罐，仍不低於舊€3.79；NL站不等於已核本品寄Rotterdam運費"
     },
     {
      "shop": "Medpets",
@@ -12586,6 +14046,7 @@
    "12x200g Kitten 火雞＋兔": "12x200g Kitten turkey & rabbit",
    "12x200g Kitten 火雞／牛／鴨": "12x200g Kitten turkey/beef/duck",
    "12x70g Ocean（組合）": "12x70g Ocean (mix)",
+   "16.58為未稅不可採！含稅19.90。HTML主商品寫Replenishment in progress/Pre-order，JSON-LD InStock；摘要中的24h是推薦商品文字，不能當本品有貨。官方ADM Protexin製造、Dômes市場責任商，同核心B12/B9/Preplex；地區輔料/膠囊差異不能說完全同配方": "16.58 excludes VAT and isn't used; incl. VAT 19.90. Page says replenishment/pre-order, structured data says in stock; The '24h' is from a recommended item, not this product's stock. Made by ADM Protexin, marketed by Dômes, same core B12/B9/Preplex; regional excipient/capsule differences; not claimed identical formula",
    "1g／20g／60g／250g 條": "1g/20g/60g/250g tube",
    "1x185g 牛肉": "1x185g beef",
    "1x185g 牛肉／雞肉": "1x185g beef/chicken",
@@ -12658,6 +14119,12 @@
    "24x85g 雞肉 €69.95 缺貨": "24x85g chicken €69.95 out of stock",
    "24x85g 雞肉（24 罐起每罐 €2.77）": "24x85g chicken (€2.77 per can from 24 cans)",
    "24x85g 雞肉／鯖魚羊肉／鯖魚／牛肉": "24x85g chicken/mackerel & lamb/mackerel/beef",
+   "26.41為30天最低而非現價26.90；運送頁只列義大利，NL未知": "26.41 is the 30-day low, not the current price 26.90; shipping page only lists Italy; NL unknown",
+   "2x10L首訂商品價€1.7635/L低於舊€1.948/L返現基準；非相同優惠類型。加政策運費€41.26僅估算，未更低含運": "2x10L first-order price €1.7635/L, below the old €1.948/L cashback baseline; different discount type. €41.26 incl. policy shipping is an estimate, not lower incl. shipping",
+   "3–4天才出貨；頁面首購免運只FR/BE/LU，NL未知": "ships in 3–4 days; first-order free shipping only FR/BE/LU; NL unknown",
+   "3瓶81.63符合頁面免運規則但未測結帳": "3 bottles (81.63) meet the page's free-shipping rule; checkout not tested",
+   "48–96h。沒有已核實NL免運門檻": "48–96h. No verified NL free-shipping threshold",
+   "48包€1.5775/包，不更低；NL地址/運費未核": "48 pouches at €1.5775/pouch, not lower; NL address/shipping not verified",
    "50 capsules（頁面標題寫 50 tab）": "50 capsules (page title says 50 tab)",
    "50 caps（Dômes Pharma 標籤）": "50 caps (Dômes Pharma label)",
    "50 stuks（5x10 caps 200mg）": "50 stuks (5x10 caps 200mg)",
@@ -12687,6 +14154,9 @@
    "Amazon.nl（賣家 Best Petfoods）": "Amazon.nl (seller Best Petfoods)",
    "Amazon.nl（賣家 Plein）": "Amazon.nl (seller Plein)",
    "Amazon.nl（賣家 anistores）": "Amazon.nl (seller anistores)",
+   "Amazon履約；搜尋40.10不是本次商品頁34.00": "fulfilled by Amazon; search showed 40.10, product page shows 34.00",
+   "Amazon履約；訂閱顯示28.94另列，不疊返現；NL地址VAT可能變動；地區標籤官方映射待補": "fulfilled by Amazon; subscription 28.94 listed separately, no cashback stacked; VAT may change for an NL address; official regional label mapping pending",
+   "B2C只見SK、B2B另CZ/HU；未見NL，不判全面不能寄": "B2C only shows SK; B2B also CZ/HU; NL not seen; not ruled out",
    "BackOrder（可預訂）": "BackOrder (can be pre-ordered)",
    "BackOrder（可預訂）；11/06 記 €40.49": "BackOrder (can be pre-ordered); noted €€40.49 on 11/06",
    "Black Friday -30%（12x 原價 €19.99）": "Black Friday -30% (12x was €19.99)",
@@ -12715,7 +14185,10 @@
    "Cobalaplex 維生素 B12": "Cobalaplex vitamin B12",
    "De Kattensite（聯盟導購站，導向 zooplus 1578995；10/27 顯示 €12.99）": "De Kattensite (affiliate site, links to zooplus 1578995; 10/27 shows €12.99)",
    "Dechra 標籤；賣家未解析": "Dechra label; seller not identified",
+   "Dômes Pharma TVM France 60caps；GTIN5027314498779": "Dômes Pharma TVM France 60caps; GTIN5027314498779",
+   "EAN4062911057135相同但不能僅依EAN消除7L/11L矛盾，故不算€/L、不更新最低": "Same EAN 4062911057135, but that doesn't resolve the 7L/11L conflict, so no €/L and no new low",
    "EUR已顯示、Netherlands已選；預估11/13–11/16 Europe/Amsterdam；非含運最低": "EUR shown, Netherlands selected; estimated 11/13–11/16 (Amsterdam time); not the lowest including shipping",
+   "Europe非fresh9EUR，未逐國列NL，維持待訪客配送選國核；不能稱NL含運32.20已證": "Europe non-fresh €9, NL not listed separately; pending a guest checkout country check; 32.20 incl. NL shipping is not verified",
    "Extra Hygiene（無香）": "Extra Hygiene (unscented)",
    "FAQ不免運": "FAQ: no free shipping",
    "Farmina 官方 eshop": "Farmina official eshop",
@@ -12727,21 +14200,31 @@
    "Kitten（Ocean／Prime）": "Kitten (Ocean/Prime)",
    "Medpets 定期訂購 -6%": "Medpets repeat order -6%",
    "Milo 定期配送 -5%": "Milo autoship -5%",
+   "NL €5.99，€49免運": "NL €5.99, €49free shipping",
    "NL 運費固定 €6.26": "fixed NL shipping €6.26",
+   "NL€5.99，€49免運": "NL€5.99, €49free shipping",
+   "NL未核不套免運門檻": "NL not verified; free-shipping threshold not applied",
+   "NL運費未知，未加車；不宣稱含運最低": "NL shipping unknown; not added to cart; not claimed as lowest incl. shipping",
+   "NL非冷凍品€6.99，€89免運": "NL non-frozen €6.99, free over €89",
    "Newpharma RC €18.49＋運費 €7.19（只見於 kieskeurig）": "Newpharma RC €18.49 + shipping €7.19 (only seen on kieskeurig)",
+   "Non disponibile；Europe from€11但NL未明列，不列可買新低": "Non disponibile; Europe from €11 but NL not listed; not shown as a buyable new low",
    "Original（Cat & Kitten）": "Original (Cat & Kitten)",
    "Pflanzen-Kölle MAC's €1.55（可能只寄德國）": "Pflanzen-Kölle MAC's €1.55 (may ship to Germany only)",
    "Pharmapets 首次訂閱 -10%": "Pharmapets first subscription -10%",
    "Pharmapets（RC、ORIJEN）HTTP 403；Viata RC 403；Zoomalia（Ever Clean、ORIJEN Kitten）403；Amazon.nl B06XX1CSB1（ORIJEN Original 17kg）captcha；bol.com／kieskeurig 已知封鎖未試。Huisdieren.nl 價格部分僅見範圍／變體，Kitten 取 €40.49。": "Pharmapets (RC, ORIJEN) HTTP 403; Viata RC 403; Zoomalia (Ever Clean, ORIJEN Kitten) 403; Amazon.nl B06XX1CSB1 (ORIJEN Original 17kg) captcha; bol.com / kieskeurig known blocked, not tried. Huisdieren.nl only showed a range/variants for prices; Kitten taken as €40.49.",
    "PostNL €7.20，免運 €75 起": "PostNL €7.20, free shipping from €75",
+   "Prime Kitten 70g；每6週訂閱 -4%": "Prime Kitten 70g; subscription every 6 weeks -4%",
    "Protexin 新增首搜缺口": "Protexin: gaps in the first search",
    "Protexin 首搜第 2 輪缺口": "Protexin: gaps in the second search round",
    "RC Kitten Sterilised 12x85g 頁面 -15%；CashbackXL 新客 25% Felix 碼 WELCOMEFELIX": "RC Kitten Sterilised 12x85g page -15%; CashbackXL new-customer 25% Felix code WELCOMEFELIX",
+   "Sensitive Tofu 4.6kg；頁名7L與單價按11L矛盾": "Sensitive Tofu 4.6kg; page name says 7L but unit price uses 11L",
    "Shopify .js：EAN 5027314500571 與原規格一致": "Shopify .js: EAN 5027314500571 matches the original",
    "Synbiotic D-C 益生菌": "Synbiotic D-C probiotic",
    "Synbiotic DC（VE-030）": "Synbiotic DC (VE-030)",
    "Tijdelijk uitverkocht；gtin 5027314500571": "Tijdelijk uitverkocht; gtin 5027314500571",
    "Tom&Co（比利時站 €20.09，是否寄荷蘭未確認）": "Tom&Co (Belgian site €20.09, delivery to NL unconfirmed)",
+   "URL500g不對，實頁內文Formato50capsinblister；標題Synbiopet、H1SynbioticDC，需承接證據。NL未讀countryzone不能套ZONE1 9.90。低近期30.23不是當前31.71": "The 500g in the URL is wrong; page text says 50 capsules in blister; Title 'Synbiopet', heading 'Synbiotic DC'; needs proof. NL zone unread, so ZONE1 9.90 not applied. Recent low 30.23 isn't the current 31.71",
+   "VET Soft honey gel 250g（不是Ointment）": "VET Soft honey gel 250g (not the ointment)",
    "Vet Soft 蜂蜜傷口凝膠": "Vet Soft honey wound gel",
    "Vivapets（10/25 頁面 404）": "Vivapets (10/25 page 404)",
    "Woeffies & Friends、Paws and Belly：Mesitran Vet Soft 20g €10.50（只見於搜尋摘要）": "Woeffies & Friends, Paws and Belly: Mesitran Vet Soft 20g €10.50 (only seen in search snippets)",
@@ -12800,6 +14283,11 @@
    "€59 起免運": "free shipping from €59",
    "€65 起免運": "free shipping from €65",
    "€69 起免運": "free shipping from €69",
+   "一次價低於舊一次€1.154但不低於首訂€0.985；85g單包 vs12包EAN需官方包裝對照": "One-off price below the old one-off €1.154 but not below first-order €0.985; 85g single vs 12-pack EAN needs checking against official packaging",
+   "不是成人低價；未低於歷史€0.573/100g": "not an adult low price; not below the historic €0.573/100g",
+   "不是更低；頁首西班牙免運條件不能套NL": "not lower; Spanish free-shipping banner doesn't apply to NL",
+   "不能把國內€49免運套NL": "domestic €49 free shipping doesn't apply to NL",
+   "主標60但UnitCount80、brand/manufacturerGenerico，不能拿.37/cap當正確；一次29.90、訂閱28.40分開。NL可送/運費未核": "Title says 60 but unit count 80 and brand Generico; €0.37/cap not reliable; One-off 29.90 and subscription 28.40 listed separately. NL delivery/shipping not verified",
    "乾飼料・無穀・全齡（含幼貓）": "Dry food · grain-free · all life stages (incl. kittens)",
    "乾飼料・無穀・成貓": "Dry food · grain-free · adult cats",
    "乾飼料・無穀・紅肉配方": "Dry food · grain-free · red meat recipe",
@@ -12809,22 +14297,38 @@
    "以既有客戶費率計算；返現多以未稅、不含運費的訂單金額計；定期配送／購物車折扣／Herhaalgemak 與返現不疊加（各平台未明示可疊加；Medpets 明示定期訂購無返現）": "Calculated with existing-customer rates; cashback is usually based on the order amount excl. VAT and shipping; autoship, cart discounts and Herhaalgemak are not combined with cashback (no platform says they stack; Medpets states repeat orders get no cashback).",
    "份": "pack",
    "依賣家/Amazon": "depends on seller/Amazon",
+   "僅商品價；庫存/NL官方配送未核，不套西班牙免運": "item price only; stock/NL delivery not verified; Spanish free shipping not applied",
    "先前折扣已結束，回到原價": "previous discount ended; back to list price",
    "免運": "free shipping",
    "免運 €40 起，否則 €4.95": "free shipping from €40, otherwise €4.95",
    "免運 €59 起": "free shipping from €59",
    "免運門檻見商店": "see the shop for the free-shipping threshold",
    "免運（首單或滿 €25）": "free shipping (first order or from €25)",
+   "內文另一段FeedMyAnimal offer，不能混成同賣家。NL未選、VATcheckout可能變、首購free不能當一般NL免運；非更低": "A separate FeedMyAnimal offer isn't the same seller. NL not selected, VAT may change at checkout, first-order free shipping isn't general NL free shipping; not lower",
    "全齡配方（含幼貓）・6 種口味": "All life stages (incl. kittens) · 6 flavours",
    "動物用醫療級蜂蜜凝膠（非 Ointment 軟膏）": "Medical-grade honey gel for animals (not the Ointment)",
    "包": "pouch",
    "只剩 4 包": "only 4 left",
+   "只讀到Península資訊，NL未核實": "only Spanish mainland info found; NL not verified",
    "同EAN；條款§2 VAT；非全網最低宣告": "same EAN; terms §2 VAT; not a claim of the lowest price anywhere",
+   "同店NL取貨點0–5kg €6.50；運費不含於有效商品價": "same shop NL pickup point 0–5kg €6.50; shipping not included in the price",
+   "含稅1.70；1.38是未稅。>50罐有貨，不低於PetBoutique": "1.70 incl. VAT; 1.38 excludes VAT. >50 cans in stock; not lower than PetBoutique",
+   "含稅一次購買顯示價；未測Rotterdam結帳/目的地VAT。商品單價低於舊€1.65，不宣稱含運最低": "displayed one-off price incl. VAT; Rotterdam checkout/VAT not tested. Unit price below the old €1.65; not claimed lowest incl. shipping",
+   "含稅；較€50.95商品價低€0.96，但商品頁未有可讀庫存，不更新有效最低": "incl. VAT; €0.96 below €50.95, but stock unreadable; low not updated",
    "含返現": "incl. cashback",
    "含運費": "incl. shipping",
+   "商品JSONLD20.80EUR InStock；條款仍寫BGN含VAT，頁面和政策年代不一致，NL候選待核，不合成NL總價": "structured data: €20.80, in stock; Terms still show BGN incl. VAT and are outdated; NL pending, no NL total calculated",
+   "商品價33.99/1.8=18.883333/kg，低於舊Pharmapets首訂34.52/1.8（一次比首訂仍低0.53）；舊原始USD34.49不當EUR。舊ref064992718848的340g/1.8kg映射仍待官方，不依此排除精確1.8kg頁": "33.99/1.8kg = 18.88/kg, below Pharmapets' old first-order 34.52 (one-off still 0.53 lower); Old USD 34.49 isn't EUR. 340g/1.8kg mapping of old ref still pending; exact 1.8kg page not excluded",
+   "商品公開可讀24.62，後續保存遇403即停止該站，未繞。實際商家聯絡地址KaunasLT，不因.ee當Estonia實體。庫存/含稅/NL運費待核": "Public price 24.62; stopped after a 403. Seller is in Kaunas, Lithuania, not Estonia despite .ee. Stock/VAT/NL shipping pending",
+   "商品標題瓶裝50但內文Scatolada10o50inblister、Size60，不取60粒也不把barattolo當官方確證。庫存/含稅/NL配送未知；非比Tradeinn低": "Title says bottle of 50 but text says boxes of 10 or 50 in blister, size 60; not confirmed. Stock/VAT/NL delivery unknown; not lower than Tradeinn",
+   "商品頁低於PetBoutique1.40：1.247917/罐、1.782738/100g，但NL與含稅聲明待核，不更新NL有效最低": "Below PetBoutique's 1.40 (1.2479/can, 1.7827/100g), but NL and VAT pending; NL low not updated",
+   "商品頁已讀單瓶19.99；19.49為買2每瓶（總38.98），不當單瓶價。主頁可見下單model但未明讀InStock不猜。NL評論不等於官方配送政策，運費未知，後raw403停止": "product page shows single bottle 19.99; 19.49 is per bottle when buying 2 (38.98 total), not a single-bottle price. Stock not confirmed; NL reviews aren't a shipping policy; shipping unknown",
+   "商品頁有貨；10罐€5.02/罐，仍不低於舊€3.79；NL站不等於已核本品寄Rotterdam運費": "in stock on product page; 10 cans at €5.02/can, still not below the old €3.79; An NL site doesn't mean shipping to Rotterdam was verified",
    "單次購買": "one-off purchase",
    "單罐 €1.69": "€€1.69 per can",
    "單罐 €1.79": "€€1.79 per can",
+   "官方比利時/NL政策：<39收3.99、≥39免；一盒依政策算22.78含運，未測購物車": "official BE/NL policy: €3.99 under €39, free from €39; one box is 22.78 incl. shipping by policy; cart not tested",
+   "官方目前只寄Luxembourg，不套商品頁60免運到NL": "officially ships only to Luxembourg now; 60 free shipping doesn't apply to NL",
    "定期訂購價": "repeat-order price",
    "定期配送價": "autoship price",
    "定期配送首單價": "autoship first-order price",
@@ -12851,15 +14355,23 @@
    "數量價 1–9 €2.89、10–23 €2.69、24+ €2.59": "volume pricing 1–9 €2.89, 10–23 €2.69, 24+ €2.59",
    "數量價 1–9 €4.25、10–23 €3.95、24+ €3.79": "volume pricing 1–9 €4.25, 10–23 €3.95, 24+ €3.79",
    "數量價 2 盒起每盒 €42.95；返現平台未見": "volume price €42.95 per box from 2 boxes; no cashback portal found",
+   "新低價": "New low",
+   "新發現平台（西文頁但實際荷蘭商家，不能記為西班牙店）。頁面B12 .5mg/B9 .2mg/Preplex，JSONLD有貨67件；原廠明列Dechra NL代理，Dechra獸醫brochure4x15=60並標ADM Protexin商標，核心劑量同。EAN由零售頁確認，未冒稱原廠條碼映射已核；不因地區EAN不同排除，不宣稱所有舊版輔料完全一致。不疊返現": "New shop (Spanish-language page but a Dutch seller). B12 0.5mg/B9 0.2mg/Preplex, 67 in stock; Maker lists Dechra as NL distributor; Dechra's vet brochure shows 4x15=60 with the ADM Protexin mark, same core dose. EAN from the retail page; maker barcode mapping not verified; Not excluded for a regional EAN; excipients may differ from older versions. No cashback stacked",
    "更正先前verified_policy_shipping觀測的NL推定；舊觀測保留，以本筆及research_corrections為準": "corrects the earlier NL assumption in the verified_policy_shipping record; older record kept; this entry and research_corrections take precedence",
    "最低消費 €14.95": "minimum order €14.95",
+   "未低於歷史€0.568/100g": "not below the historic €0.568/100g",
+   "未低於歷史大包單價；其他容量需選規格核實": "not below the historic large-pack unit price; other sizes need verifying per variant",
    "未用瀏覽器；Tradeinn、bol 未確認；Milo／Docvet 運費取自搜尋摘要；Brekz／Medpets 庫存訊號矛盾；Petcure、Diermedicatie 運費未查": "browser not used; Tradeinn, bol unconfirmed; Milo / Docvet shipping taken from search snippets; Brekz / Medpets stock signals conflict; Petcure, Diermedicatie shipping not checked",
    "未確認": "unconfirmed",
+   "核心B12.5mg/B9.2mg/Preplex；頁brandOthers、無EAN；圖URL帶gemini_generated不選作產品卡照片，另用官方製造商圖": "core B12 0.5mg/B9 0.2mg/Preplex; page brand 'Others', no EAN; AI-generated image not used; official maker image used instead",
    "條": "tube",
+   "條款列Nizozemska；SI運費5.90/59.90免不能套NL；NL費未知": "terms list the Netherlands; SI shipping 5.90/free over 59.90 doesn't apply to NL; NL cost unknown",
+   "條款含所有稅、運費另加，NL國家未明，不較舊低": "Terms include all taxes, shipping extra; NL unclear; not lower than before",
    "植物豆腐砂 Sensitive（無香）": "Plant-based tofu litter Sensitive (unscented)",
    "標價由 11/06 €49.89 升至 €57.19": "list price up from €49.89 on 11/06 to €57.19",
    "歐洲政策€9；未逐國列NL、NL配送/運費未驗證": "European policy €9; NL not listed by country; NL delivery/shipping unverified",
    "歐洲非冷凍品€9，公開政策；Rotterdam購物車未測": "€9 for non-frozen goods to Europe, public policy; Rotterdam checkout not tested",
+   "每6週訂閱 -4%，不疊返現；每月 -3% 顯示€1.36": "subscription every 6 weeks -4%, no cashback stacked; monthly -3% shows €1.36",
    "比歷史低價高 0%": "0% above record low",
    "比歷史低價高 13%": "13% above record low",
    "比歷史低價高 6%": "6% above record low",
@@ -12882,10 +14394,17 @@
    "滿 €69 免運／運費 €4.95": "free shipping from €69 / shipping €4.95",
    "滿 €69.95 免運": "free shipping from €69.95",
    "無加碼：zooplus Woolsocks 1.33%／新客 8%、CashbackXL 1%／新客 10%；Medpets 4%；Petgamma 5%；Amazon 寵物 7.5%；Pets Place Woolsocks 4%；Newpharma 8%；bestpetfoods YesCashback 4%；Brekz 停用；Bitiba 無": "no boost: zooplus Woolsocks 1.33%/new customer 8%, CashbackXL 1%/new customer 10%; Medpets 4%; Petgamma 5%; Amazon Pets 7.5%; Pets Place Woolsocks 4%; Newpharma 8%; bestpetfoods YesCashback 4%; Brekz discontinued; Bitiba: none",
+   "現頁明說5EUR是10粒一泡殼非50；摘要/slug50過時。每粒.50，5泡殼才50粒25EUR，仍須庫存/NL配送；不能宣稱5EUR/50粒新低": "page says €5 is a 10-capsule blister, not 50; Summary/URL '50' is outdated: €0.50/capsule, 5 blisters = 50 for €25; stock/NL delivery still pending; can't claim €5/50 capsules as a new low",
+   "當地3/5EUR與免運不可套NL": "local €3/€5 and free shipping don't apply to NL",
    "盒": "box",
+   "真低商品價但不寄NL，因此不列可買最低。搜尋摘要18.75已過時，以商品頁19.39為準": "Truly low price but no NL delivery, so not listed as buyable lowest. Search snippet 18.75 is outdated; product page 19.39",
+   "真實低價€0.48/100g但NL不適用；不是以索引價排名": "real low of €0.48/100g but doesn't apply to NL; not ranked by search-index price",
+   "符合條件€129免運": "free shipping over €129 when eligible",
+   "精確商品頁現價確認；庫存/含稅文字/NL官方配送均未核實，不能當可寄NL新低": "current price confirmed on exact product page; stock, VAT and NL delivery not verified; not a buyable NL low",
    "結團礦砂・活性碳・無香": "Clumping clay litter · activated carbon · unscented",
    "結紮幼貓・肉汁餐包": "Sterilised kittens · pouches in gravy",
    "罐": "can",
+   "舊38.00特價30.78，NL運費/含稅待核，不較Tradeinn商品價低": "Was 38.00, sale 30.78; NL shipping/VAT pending; not below Tradeinn's price",
    "袋": "bag",
    "見商店": "see the shop",
    "訂閱首單 -10%": "first subscription order -10%",
@@ -12902,6 +14421,7 @@
    "返現平台": "cashback portal",
    "返現確認可能要等幾個月": "Cashback confirmation can take a few months",
    "運費 €0.00": "shipping €0.00",
+   "運費 €13.90": "shipping €13.90",
    "運費 €3.95": "shipping €3.95",
    "運費 €4.95": "shipping €4.95",
    "運費 €5.75": "shipping €5.75",
@@ -12914,8 +14434,12 @@
    "運費見 Pets Place": "see Pets Place for shipping",
    "運費見 Zoofera": "see Zoofera for shipping",
    "運費見商店": "see the shop for shipping",
+   "配送只列Bulgaria/Speedy；條款提到出口由買家付費，沒有NL明列或運費，不能判已可寄/絕不寄": "delivery only lists Bulgaria/Speedy; terms say the buyer pays for export; NL and cost not listed, so delivery is unknown",
+   "重大更正：18.79確是Cobalaplex60，不是Synbiotic。官方MedVet ADM製造、B12/B9逐粒劑量一致、包裝60/12.6g/GTIN。法版HPMC與舊gelatin有輔料差異，作同產品地區variant比價，不宣稱每成分100%一樣。商品另見16.91但未將其作一次價；訂閱官方10%首訂可另核，不能疊返現。該頁成功WebFetch後raw保存403，停止raw重試，以逐段引文保存": "Major correction: 18.79 is Cobalaplex 60, not Synbiotic. Made by ADM, same B12/B9 per capsule, pack 60/12.6g. French version uses HPMC vs older gelatin, compared as a regional variant, not claimed 100% identical. A 16.91 also appears but isn't used as the one-off price; Official 10% first-order subscription can be checked separately; no cashback stacked",
    "雞肉 185g 缺貨": "chicken 185g out of stock",
    "需定期配送": "autoship required",
+   "非18.79！另顯56.27疑首訂折扣未混為一次價。含稅62.52超39免政策，非最便宜": "Not 18.79! 56.27 looks like a first-order discount, not used as one-off. 62.52 incl. VAT is over the €39 free-shipping line; not cheapest",
+   "非更低；網站國家與實際倉庫不同已註記": "not lower; site country differs from the actual warehouse (noted)",
    "頁面 EAN 5027314499486；27.60＝未稅價": "page EAN 5027314499486; 27.60 = price excl. VAT",
    "頁面 JSON price 31；EAN 未列；運費未查到；標籤是否 Dechra 未確認（網址含 dechra）": "page JSON price 31; EAN not listed; shipping not found; unconfirmed whether the label is Dechra (URL contains dechra)",
    "頁面「Momenteel niet leverbaar」；標籤 Dômes Pharma": "page “Momenteel niet leverbaar”; label Dômes Pharma",
@@ -12923,6 +14447,8 @@
    "頁面寫 Levertijd 1-3 werkdagen；JSON-LD 標 PreOrder": "page says Levertijd 1-3 werkdagen; JSON-LD says PreOrder",
    "頁面已開：En stock €18.79（另見 €17.85）；不同品牌標籤、EAN 未列；成分寫法與 Protexin 不同，不可假定同配方；寄 Rotterdam 未確認 → 不排名": "page opened: En stock €18.79 (also seen €17.85); different brand label, EAN not listed; ingredients are listed differently from Protexin; don't assume the same formula; shipping to Rotterdam unconfirmed, so not ranked",
    "頁面已開：Op voorraad €31.95；Herhaal 10%（未計，不疊返現）；EAN 與原規格不同，不與原標籤合併排名": "page opened: Op voorraad €31.95; Herhaal 10% (not counted, doesn't stack with cashback); EAN differs from the original; not ranked together with the original label",
+   "預設200g2.29只有5罐、400g3.59/800g5.49，各容量有貨量不同未核；800g單價0.68625/100g不低於既有大包。實體出貨Austria，不以.si判Slovenia實體": "default 200g 2.29 has only 5 cans; 400g 3.59/800g 5.49; stock per size not verified; 800g at 0.68625/100g, not below existing large packs. Ships from Austria, not Slovenia despite .si",
+   "顯示免運不能當NL免運": "displayed free shipping isn't NL free shipping",
    "首次紀錄": "First record",
    "鯖魚羊肉、鯖魚 185g 庫存 0": "mackerel & lamb, mackerel 185g 0 in stock",
    "鹿肉 24+ €4.25": "venison 24+ €4.25"
@@ -12955,6 +14481,7 @@
    "12x200g Kitten 火雞＋兔": "12x200g Kitten kalkoen & konijn",
    "12x200g Kitten 火雞／牛／鴨": "12x200g Kitten kalkoen/rund/eend",
    "12x70g Ocean（組合）": "12x70g Ocean (mix)",
+   "16.58為未稅不可採！含稅19.90。HTML主商品寫Replenishment in progress/Pre-order，JSON-LD InStock；摘要中的24h是推薦商品文字，不能當本品有貨。官方ADM Protexin製造、Dômes市場責任商，同核心B12/B9/Preplex；地區輔料/膠囊差異不能說完全同配方": "16,58 is excl. btw en wordt niet gebruikt; incl. btw 19,90. Pagina meldt aanvulling/pre-order, gestructureerde data zegt op voorraad; De '24u' hoort bij een aanbevolen product, niet bij deze voorraad. Gemaakt door ADM Protexin, op de markt gebracht door Dômes, zelfde kern B12/B9/Preplex; regionale verschillen in hulpstoffen/capsule; geen identieke formule geclaimd",
    "1g／20g／60g／250g 條": "1g/20g/60g/250g tube",
    "1x185g 牛肉": "1x185g rund",
    "1x185g 牛肉／雞肉": "1x185g rund/kip",
@@ -13027,6 +14554,12 @@
    "24x85g 雞肉 €69.95 缺貨": "24x85g kip €69,95 uitverkocht",
    "24x85g 雞肉（24 罐起每罐 €2.77）": "24x85g kip (€2,77 per blik vanaf 24 blikken)",
    "24x85g 雞肉／鯖魚羊肉／鯖魚／牛肉": "24x85g kip/makreel & lam/makreel/rund",
+   "26.41為30天最低而非現價26.90；運送頁只列義大利，NL未知": "26,41 is de laagste prijs van 30 dagen, niet de huidige prijs 26,90; verzendpagina noemt alleen Italië; NL onbekend",
+   "2x10L首訂商品價€1.7635/L低於舊€1.948/L返現基準；非相同優惠類型。加政策運費€41.26僅估算，未更低含運": "2x10L eerste-bestellingsprijs €1,7635/L, onder de oude €1,948/L cashbackbasis; ander kortingstype. €41,26 incl. verzending volgens beleid is een schatting, niet lager incl. verzending",
+   "3–4天才出貨；頁面首購免運只FR/BE/LU，NL未知": "verzonden binnen 3–4 dagen; gratis eerste verzending alleen FR/BE/LU; NL onbekend",
+   "3瓶81.63符合頁面免運規則但未測結帳": "3 flessen (81,63) voldoen aan de gratis-verzendregel; afrekenen niet getest",
+   "48–96h。沒有已核實NL免運門檻": "48–96 u. Geen geverifieerde NL-drempel voor gratis verzending",
+   "48包€1.5775/包，不更低；NL地址/運費未核": "48 zakjes à €1,5775/zakje, niet lager; NL-adres/verzendkosten niet geverifieerd",
    "50 capsules（頁面標題寫 50 tab）": "50 capsules (paginatitel zegt 50 tab)",
    "50 caps（Dômes Pharma 標籤）": "50 caps (Dômes Pharma-label)",
    "50 stuks（5x10 caps 200mg）": "50 stuks (5x10 caps 200mg)",
@@ -13056,6 +14589,9 @@
    "Amazon.nl（賣家 Best Petfoods）": "Amazon.nl (verkoper Best Petfoods)",
    "Amazon.nl（賣家 Plein）": "Amazon.nl (verkoper Plein)",
    "Amazon.nl（賣家 anistores）": "Amazon.nl (verkoper anistores)",
+   "Amazon履約；搜尋40.10不是本次商品頁34.00": "verzonden door Amazon; zoekresultaat 40,10, productpagina 34,00",
+   "Amazon履約；訂閱顯示28.94另列，不疊返現；NL地址VAT可能變動；地區標籤官方映射待補": "verzonden door Amazon; abonnement 28,94 apart vermeld, geen cashback gestapeld; btw kan wijzigen bij een NL-adres; officiële koppeling van regionaal label in afwachting",
+   "B2C只見SK、B2B另CZ/HU；未見NL，不判全面不能寄": "B2C toont alleen SK; B2B ook CZ/HU; NL niet gezien; niet uitgesloten",
    "BackOrder（可預訂）": "BackOrder (vooruitbestellen mogelijk)",
    "BackOrder（可預訂）；11/06 記 €40.49": "BackOrder (vooruitbestellen mogelijk); genoteerd €€40,49 op 06-11",
    "Black Friday -30%（12x 原價 €19.99）": "Black Friday -30% (12x was €19,99)",
@@ -13084,7 +14620,10 @@
    "Cobalaplex 維生素 B12": "Cobalaplex vitamine B12",
    "De Kattensite（聯盟導購站，導向 zooplus 1578995；10/27 顯示 €12.99）": "De Kattensite (affiliatesite, verwijst naar zooplus 1578995; 10/27 toont €12,99)",
    "Dechra 標籤；賣家未解析": "Dechra-label; verkoper niet vastgesteld",
+   "Dômes Pharma TVM France 60caps；GTIN5027314498779": "Dômes Pharma TVM France 60caps; GTIN5027314498779",
+   "EAN4062911057135相同但不能僅依EAN消除7L/11L矛盾，故不算€/L、不更新最低": "Zelfde EAN 4062911057135, maar dat lost het 7L/11L-conflict niet op, dus geen €/L en geen nieuwe laagste prijs",
    "EUR已顯示、Netherlands已選；預估11/13–11/16 Europe/Amsterdam；非含運最低": "EUR getoond, Nederland geselecteerd; verwacht 13-11 – 16-11 (Amsterdamse tijd); niet de laagste inclusief verzending",
+   "Europe非fresh9EUR，未逐國列NL，維持待訪客配送選國核；不能稱NL含運32.20已證": "Europa niet-vers €9, NL niet apart vermeld; wacht op landcontrole bij gastafrekening; 32,20 incl. NL-verzending is niet geverifieerd",
    "Extra Hygiene（無香）": "Extra Hygiene (geurloos)",
    "FAQ不免運": "FAQ: geen gratis verzending",
    "Farmina 官方 eshop": "Farmina officiële eshop",
@@ -13096,21 +14635,31 @@
    "Kitten（Ocean／Prime）": "Kitten (Ocean/Prime)",
    "Medpets 定期訂購 -6%": "Medpets herhaalbestelling -6%",
    "Milo 定期配送 -5%": "Milo abonnement -5%",
+   "NL €5.99，€49免運": "NL €5,99, €49gratis verzending",
    "NL 運費固定 €6.26": "vaste NL-verzending €6,26",
+   "NL€5.99，€49免運": "NL€5,99, €49gratis verzending",
+   "NL未核不套免運門檻": "NL niet geverifieerd; drempel voor gratis verzending niet toegepast",
+   "NL運費未知，未加車；不宣稱含運最低": "NL-verzendkosten onbekend; niet in winkelwagen gezet; niet geclaimd als laagste incl. verzending",
+   "NL非冷凍品€6.99，€89免運": "NL niet-diepvries €6,99, gratis vanaf €89",
    "Newpharma RC €18.49＋運費 €7.19（只見於 kieskeurig）": "Newpharma RC €18,49 + verzending €7,19 (alleen gezien op kieskeurig)",
+   "Non disponibile；Europe from€11但NL未明列，不列可買新低": "Non disponibile; Europa vanaf €11 maar NL niet vermeld; niet als koopbare nieuwe laagste prijs getoond",
    "Original（Cat & Kitten）": "Original (Cat & Kitten)",
    "Pflanzen-Kölle MAC's €1.55（可能只寄德國）": "Pflanzen-Kölle MAC's €1,55 (levert mogelijk alleen in Duitsland)",
    "Pharmapets 首次訂閱 -10%": "Pharmapets eerste abonnement -10%",
    "Pharmapets（RC、ORIJEN）HTTP 403；Viata RC 403；Zoomalia（Ever Clean、ORIJEN Kitten）403；Amazon.nl B06XX1CSB1（ORIJEN Original 17kg）captcha；bol.com／kieskeurig 已知封鎖未試。Huisdieren.nl 價格部分僅見範圍／變體，Kitten 取 €40.49。": "Pharmapets (RC, ORIJEN) HTTP 403; Viata RC 403; Zoomalia (Ever Clean, ORIJEN Kitten) 403; Amazon.nl B06XX1CSB1 (ORIJEN Original 17kg) captcha; bol.com / kieskeurig bekend geblokkeerd, niet geprobeerd. Huisdieren.nl toonde alleen een bereik/varianten; Kitten genomen als €40,49,",
    "PostNL €7.20，免運 €75 起": "PostNL €7,20, gratis verzending vanaf €75",
+   "Prime Kitten 70g；每6週訂閱 -4%": "Prime Kitten 70g; abonnement elke 6 weken -4%",
    "Protexin 新增首搜缺口": "Protexin: hiaten in de eerste zoekronde",
    "Protexin 首搜第 2 輪缺口": "Protexin: hiaten in de tweede zoekronde",
    "RC Kitten Sterilised 12x85g 頁面 -15%；CashbackXL 新客 25% Felix 碼 WELCOMEFELIX": "RC Kitten Sterilised 12x85g pagina -15%; CashbackXL nieuwe klant 25% Felix-code WELCOMEFELIX",
+   "Sensitive Tofu 4.6kg；頁名7L與單價按11L矛盾": "Sensitive Tofu 4.6kg; paginanaam zegt 7L maar prijs per eenheid gaat uit van 11L",
    "Shopify .js：EAN 5027314500571 與原規格一致": "Shopify .js: EAN 5027314500571 komt overeen met het origineel",
    "Synbiotic D-C 益生菌": "Synbiotic D-C probioticum",
    "Synbiotic DC（VE-030）": "Synbiotic DC (VE-030)",
    "Tijdelijk uitverkocht；gtin 5027314500571": "Tijdelijk uitverkocht; gtin 5027314500571",
    "Tom&Co（比利時站 €20.09，是否寄荷蘭未確認）": "Tom&Co (Belgische site €20,09, levering in NL onbevestigd)",
+   "URL500g不對，實頁內文Formato50capsinblister；標題Synbiopet、H1SynbioticDC，需承接證據。NL未讀countryzone不能套ZONE1 9.90。低近期30.23不是當前31.71": "De 500g in de URL klopt niet; paginatekst zegt 50 capsules in blister; Titel 'Synbiopet', kop 'Synbiotic DC'; bewijs nodig. NL-zone niet gelezen, dus ZONE1 9,90 niet toegepast. Recente laagste 30,23 is niet de huidige 31,71",
+   "VET Soft honey gel 250g（不是Ointment）": "VET Soft honinggel 250g (niet de zalf)",
    "Vet Soft 蜂蜜傷口凝膠": "Vet Soft honingwondgel",
    "Vivapets（10/25 頁面 404）": "Vivapets (10/25 pagina 404)",
    "Woeffies & Friends、Paws and Belly：Mesitran Vet Soft 20g €10.50（只見於搜尋摘要）": "Woeffies & Friends, Paws and Belly: Mesitran Vet Soft 20g €10,50 (alleen gezien in zoekfragmenten)",
@@ -13169,6 +14718,11 @@
    "€59 起免運": "gratis verzending vanaf €59",
    "€65 起免運": "gratis verzending vanaf €65",
    "€69 起免運": "gratis verzending vanaf €69",
+   "一次價低於舊一次€1.154但不低於首訂€0.985；85g單包 vs12包EAN需官方包裝對照": "Eenmalige prijs onder de oude €1,154 maar niet onder eerste bestelling €0,985; EAN van 85g los vs 12-pack moet met officiële verpakking worden vergeleken",
+   "不是成人低價；未低於歷史€0.573/100g": "geen lage prijs voor volwassen; niet onder historisch €0,573/100g",
+   "不是更低；頁首西班牙免運條件不能套NL": "niet lager; Spaanse banner gratis verzending geldt niet voor NL",
+   "不能把國內€49免運套NL": "binnenlandse gratis verzending vanaf €49 geldt niet voor NL",
+   "主標60但UnitCount80、brand/manufacturerGenerico，不能拿.37/cap當正確；一次29.90、訂閱28.40分開。NL可送/運費未核": "Titel zegt 60 maar aantal 80 en merk Generico; €0,37/capsule niet betrouwbaar; Eenmalig 29,90 en abonnement 28,40 apart vermeld. NL-levering/verzendkosten niet geverifieerd",
    "乾飼料・無穀・全齡（含幼貓）": "Droogvoer · graanvrij · alle levensfasen (incl. kittens)",
    "乾飼料・無穀・成貓": "Droogvoer · graanvrij · volwassen katten",
    "乾飼料・無穀・紅肉配方": "Droogvoer · graanvrij · recept met rood vlees",
@@ -13178,22 +14732,38 @@
    "以既有客戶費率計算；返現多以未稅、不含運費的訂單金額計；定期配送／購物車折扣／Herhaalgemak 與返現不疊加（各平台未明示可疊加；Medpets 明示定期訂購無返現）": "Berekend met tarieven voor bestaande klanten; cashback geldt meestal over het orderbedrag excl. btw en verzending; abonnement, winkelwagenkorting en Herhaalgemak worden niet gecombineerd met cashback (geen platform meldt dat het kan; Medpets meldt dat herhaalbestellingen geen cashback krijgen).",
    "份": "pak",
    "依賣家/Amazon": "afhankelijk van verkoper/Amazon",
+   "僅商品價；庫存/NL官方配送未核，不套西班牙免運": "alleen productprijs; voorraad/NL-levering niet geverifieerd; Spaanse gratis verzending niet toegepast",
    "先前折扣已結束，回到原價": "eerdere korting afgelopen; terug naar adviesprijs",
    "免運": "gratis verzending",
    "免運 €40 起，否則 €4.95": "gratis verzending vanaf €40, anders €4,95",
    "免運 €59 起": "gratis verzending vanaf €59",
    "免運門檻見商店": "zie de winkel voor de gratis-verzendingdrempel",
    "免運（首單或滿 €25）": "gratis verzending (eerste bestelling of vanaf €25)",
+   "內文另一段FeedMyAnimal offer，不能混成同賣家。NL未選、VATcheckout可能變、首購free不能當一般NL免運；非更低": "Een apart FeedMyAnimal-aanbod is niet dezelfde verkoper. NL niet gekozen, btw kan wijzigen, gratis eerste verzending is geen algemene NL-gratis verzending; niet lager",
    "全齡配方（含幼貓）・6 種口味": "Voor alle levensfasen (incl. kittens) · 6 smaken",
    "動物用醫療級蜂蜜凝膠（非 Ointment 軟膏）": "Medische honinggel voor dieren (niet de Ointment-zalf)",
    "包": "zakje",
    "只剩 4 包": "nog maar 4 op voorraad",
+   "只讀到Península資訊，NL未核實": "alleen info voor Spaans vasteland; NL niet geverifieerd",
    "同EAN；條款§2 VAT；非全網最低宣告": "zelfde EAN; voorwaarden §2 btw; geen claim van de laagste prijs overal",
+   "同店NL取貨點0–5kg €6.50；運費不含於有效商品價": "zelfde winkel NL-afhaalpunt 0–5kg €6,50; verzendkosten niet inbegrepen in de prijs",
+   "含稅1.70；1.38是未稅。>50罐有貨，不低於PetBoutique": "1,70 incl. btw; 1,38 is excl. btw. >50 blikken op voorraad; niet lager dan PetBoutique",
+   "含稅一次購買顯示價；未測Rotterdam結帳/目的地VAT。商品單價低於舊€1.65，不宣稱含運最低": "getoonde eenmalige prijs incl. btw; Afrekenen/btw voor Rotterdam niet getest. Prijs onder de oude €1,65; niet geclaimd als laagste incl. verzending",
+   "含稅；較€50.95商品價低€0.96，但商品頁未有可讀庫存，不更新有效最低": "incl. btw; €0,96 onder €50,95, maar voorraad onleesbaar; laagste niet bijgewerkt",
    "含返現": "incl. cashback",
    "含運費": "incl. verzending",
+   "商品JSONLD20.80EUR InStock；條款仍寫BGN含VAT，頁面和政策年代不一致，NL候選待核，不合成NL總價": "gestructureerde data: €20,80, op voorraad; Voorwaarden tonen nog BGN incl. btw en zijn verouderd; NL in afwachting, geen NL-totaal berekend",
+   "商品價33.99/1.8=18.883333/kg，低於舊Pharmapets首訂34.52/1.8（一次比首訂仍低0.53）；舊原始USD34.49不當EUR。舊ref064992718848的340g/1.8kg映射仍待官方，不依此排除精確1.8kg頁": "33,99/1,8kg = 18,88/kg, onder Pharmapets' oude eerste bestelling 34,52 (eenmalig nog 0,53 lager); Oude USD 34,49 is geen EUR. Koppeling 340g/1,8kg van oude ref in afwachting; exacte 1,8kg-pagina niet uitgesloten",
+   "商品公開可讀24.62，後續保存遇403即停止該站，未繞。實際商家聯絡地址KaunasLT，不因.ee當Estonia實體。庫存/含稅/NL運費待核": "Openbare prijs 24,62; gestopt na een 403. Verkoper zit in Kaunas, Litouwen, niet Estland ondanks .ee. Voorraad/btw/NL-verzending in afwachting",
+   "商品標題瓶裝50但內文Scatolada10o50inblister、Size60，不取60粒也不把barattolo當官方確證。庫存/含稅/NL配送未知；非比Tradeinn低": "Titel zegt fles van 50 maar tekst zegt doosjes van 10 of 50 in blister, maat 60; niet bevestigd. Voorraad/btw/NL-levering onbekend; niet lager dan Tradeinn",
+   "商品頁低於PetBoutique1.40：1.247917/罐、1.782738/100g，但NL與含稅聲明待核，不更新NL有效最低": "Onder PetBoutique's 1,40 (1,2479/blik, 1,7827/100g), maar NL en btw in afwachting; NL-laagste niet bijgewerkt",
+   "商品頁已讀單瓶19.99；19.49為買2每瓶（總38.98），不當單瓶價。主頁可見下單model但未明讀InStock不猜。NL評論不等於官方配送政策，運費未知，後raw403停止": "productpagina toont losse fles 19,99; 19,49 is per fles bij 2 stuks (totaal 38,98), geen prijs per fles. Voorraad niet bevestigd; NL-reviews zijn geen verzendbeleid; verzendkosten onbekend",
+   "商品頁有貨；10罐€5.02/罐，仍不低於舊€3.79；NL站不等於已核本品寄Rotterdam運費": "op voorraad op productpagina; 10 blikken à €5,02/blik, nog steeds niet onder de oude €3,79; Een NL-site betekent niet dat verzending naar Rotterdam is geverifieerd",
    "單次購買": "eenmalige aankoop",
    "單罐 €1.69": "€€1,69 per blik",
    "單罐 €1.79": "€€1,79 per blik",
+   "官方比利時/NL政策：<39收3.99、≥39免；一盒依政策算22.78含運，未測購物車": "officieel BE/NL-beleid: €3,99 onder €39, gratis vanaf €39; één doos is 22,78 incl. verzending volgens beleid; winkelwagen niet getest",
+   "官方目前只寄Luxembourg，不套商品頁60免運到NL": "verzendt officieel nu alleen naar Luxemburg; gratis verzending vanaf 60 geldt niet voor NL",
    "定期訂購價": "herhaalbestelprijs",
    "定期配送價": "abonnementsprijs",
    "定期配送首單價": "abonnementsprijs 1e bestelling",
@@ -13220,15 +14790,23 @@
    "數量價 1–9 €2.89、10–23 €2.69、24+ €2.59": "staffelprijzen 1–9 €2,89, 10–23 €2,69, 24+ €2,59",
    "數量價 1–9 €4.25、10–23 €3.95、24+ €3.79": "staffelprijzen 1–9 €4,25, 10–23 €3,95, 24+ €3,79",
    "數量價 2 盒起每盒 €42.95；返現平台未見": "staffelprijs €42,95 per doos vanaf 2 dozen; geen cashbackplatform gevonden",
+   "新低價": "Nieuwe laagste prijs",
+   "新發現平台（西文頁但實際荷蘭商家，不能記為西班牙店）。頁面B12 .5mg/B9 .2mg/Preplex，JSONLD有貨67件；原廠明列Dechra NL代理，Dechra獸醫brochure4x15=60並標ADM Protexin商標，核心劑量同。EAN由零售頁確認，未冒稱原廠條碼映射已核；不因地區EAN不同排除，不宣稱所有舊版輔料完全一致。不疊返現": "Nieuwe winkel (Spaanstalige pagina maar Nederlandse verkoper). B12 0,5mg/B9 0,2mg/Preplex, 67 op voorraad; Fabrikant noemt Dechra als NL-distributeur; Dechra-brochure toont 4x15=60 met ADM Protexin-merk, zelfde kerndosis. EAN van winkelpagina; barcodekoppeling fabrikant niet geverifieerd; Niet uitgesloten om regionale EAN; hulpstoffen kunnen afwijken van oudere versies. Geen cashback gestapeld",
    "更正先前verified_policy_shipping觀測的NL推定；舊觀測保留，以本筆及research_corrections為準": "corrigeert de eerdere NL-aanname in de verified_policy_shipping-meting; oudere meting bewaard; deze meting en research_corrections gaan voor",
    "最低消費 €14.95": "minimale bestelling €14,95",
+   "未低於歷史€0.568/100g": "niet onder historisch €0,568/100g",
+   "未低於歷史大包單價；其他容量需選規格核實": "niet onder historische prijs grote verpakking; andere maten per variant controleren",
    "未用瀏覽器；Tradeinn、bol 未確認；Milo／Docvet 運費取自搜尋摘要；Brekz／Medpets 庫存訊號矛盾；Petcure、Diermedicatie 運費未查": "geen browser gebruikt; Tradeinn, bol onbevestigd; Verzending Milo / Docvet uit zoekfragmenten; Brekz / Medpets voorraadsignalen tegenstrijdig; Verzending Petcure, Diermedicatie niet gecontroleerd",
    "未確認": "onbevestigd",
+   "核心B12.5mg/B9.2mg/Preplex；頁brandOthers、無EAN；圖URL帶gemini_generated不選作產品卡照片，另用官方製造商圖": "kern B12 0,5mg/B9 0,2mg/Preplex; merk op pagina 'Others', geen EAN; AI-gegenereerde afbeelding niet gebruikt; officiële afbeelding van fabrikant gebruikt",
    "條": "tube",
+   "條款列Nizozemska；SI運費5.90/59.90免不能套NL；NL費未知": "voorwaarden noemen Nederland; SI-verzending 5,90/gratis vanaf 59,90 geldt niet voor NL; NL-kosten onbekend",
+   "條款含所有稅、運費另加，NL國家未明，不較舊低": "Voorwaarden incl. alle belastingen, verzending extra; NL onduidelijk; niet lager dan eerder",
    "植物豆腐砂 Sensitive（無香）": "Plantaardige tofukorrels Sensitive (geurloos)",
    "標價由 11/06 €49.89 升至 €57.19": "adviesprijs verhoogd van €49,89 op 06-11 naar €57,19",
    "歐洲政策€9；未逐國列NL、NL配送/運費未驗證": "Europees beleid €9; NL niet per land vermeld; levering/verzending naar NL niet geverifieerd",
    "歐洲非冷凍品€9，公開政策；Rotterdam購物車未測": "€9 voor niet-diepvries naar Europa, openbaar beleid; winkelwagen naar Rotterdam niet getest",
+   "每6週訂閱 -4%，不疊返現；每月 -3% 顯示€1.36": "abonnement elke 6 weken -4%, geen cashback gestapeld; maandelijks -3% toont €1,36",
    "比歷史低價高 0%": "0% boven laagste prijs ooit",
    "比歷史低價高 13%": "13% boven laagste prijs ooit",
    "比歷史低價高 6%": "6% boven laagste prijs ooit",
@@ -13251,10 +14829,17 @@
    "滿 €69 免運／運費 €4.95": "gratis verzending vanaf €69 / verzending €4,95",
    "滿 €69.95 免運": "gratis verzending vanaf €69,95",
    "無加碼：zooplus Woolsocks 1.33%／新客 8%、CashbackXL 1%／新客 10%；Medpets 4%；Petgamma 5%；Amazon 寵物 7.5%；Pets Place Woolsocks 4%；Newpharma 8%；bestpetfoods YesCashback 4%；Brekz 停用；Bitiba 無": "geen boost: zooplus Woolsocks 1,33%/nieuwe klant 8%, CashbackXL 1%/nieuwe klant 10%; Medpets 4%; Petgamma 5%; Amazon Huisdieren 7.5%; Pets Place Woolsocks 4%; Newpharma 8%; bestpetfoods YesCashback 4%; Brekz gestopt; Bitiba: geen",
+   "現頁明說5EUR是10粒一泡殼非50；摘要/slug50過時。每粒.50，5泡殼才50粒25EUR，仍須庫存/NL配送；不能宣稱5EUR/50粒新低": "pagina zegt dat €5 een blister van 10 capsules is, niet 50; Samenvatting/URL '50' is verouderd: €0,50/capsule, 5 blisters = 50 voor €25; voorraad/NL-levering in afwachting; €5/50 capsules kan niet als nieuwe laagste prijs gelden",
+   "當地3/5EUR與免運不可套NL": "lokale €3/€5 en gratis verzending gelden niet voor NL",
    "盒": "doos",
+   "真低商品價但不寄NL，因此不列可買最低。搜尋摘要18.75已過時，以商品頁19.39為準": "Echt lage prijs maar geen NL-levering, dus niet als koopbare laagste. Zoekfragment 18,75 verouderd; productpagina 19,39",
+   "真實低價€0.48/100g但NL不適用；不是以索引價排名": "echte lage prijs €0,48/100g maar geldt niet voor NL; niet gerangschikt op zoekindexprijs",
+   "符合條件€129免運": "gratis verzending vanaf €129 indien van toepassing",
+   "精確商品頁現價確認；庫存/含稅文字/NL官方配送均未核實，不能當可寄NL新低": "huidige prijs bevestigd op exacte productpagina; voorraad, btw en NL-levering niet geverifieerd; geen koopbare NL-laagste prijs",
    "結團礦砂・活性碳・無香": "Klonterende kleikorrels · actieve kool · geurloos",
    "結紮幼貓・肉汁餐包": "Gesteriliseerde kittens · zakjes in saus",
    "罐": "blik",
+   "舊38.00特價30.78，NL運費/含稅待核，不較Tradeinn商品價低": "Was 38,00, actie 30,78; NL-verzending/btw in afwachting; niet onder Tradeinn-prijs",
    "袋": "zak",
    "見商店": "zie de winkel",
    "訂閱首單 -10%": "eerste abonnementsbestelling -10%",
@@ -13271,6 +14856,7 @@
    "返現平台": "cashbackplatform",
    "返現確認可能要等幾個月": "Bevestiging van cashback kan een paar maanden duren",
    "運費 €0.00": "verzending €0,00",
+   "運費 €13.90": "verzending €13,90",
    "運費 €3.95": "verzending €3,95",
    "運費 €4.95": "verzending €4,95",
    "運費 €5.75": "verzending €5,75",
@@ -13283,8 +14869,12 @@
    "運費見 Pets Place": "zie Pets Place voor verzending",
    "運費見 Zoofera": "zie Zoofera voor verzending",
    "運費見商店": "zie de winkel voor verzending",
+   "配送只列Bulgaria/Speedy；條款提到出口由買家付費，沒有NL明列或運費，不能判已可寄/絕不寄": "levering noemt alleen Bulgarije/Speedy; voorwaarden zeggen dat koper export betaalt; NL en kosten niet vermeld, levering onbekend",
+   "重大更正：18.79確是Cobalaplex60，不是Synbiotic。官方MedVet ADM製造、B12/B9逐粒劑量一致、包裝60/12.6g/GTIN。法版HPMC與舊gelatin有輔料差異，作同產品地區variant比價，不宣稱每成分100%一樣。商品另見16.91但未將其作一次價；訂閱官方10%首訂可另核，不能疊返現。該頁成功WebFetch後raw保存403，停止raw重試，以逐段引文保存": "Belangrijke correctie: 18,79 is Cobalaplex 60, niet Synbiotic. Gemaakt door ADM, zelfde B12/B9 per capsule, verpakking 60/12,6g. Franse versie gebruikt HPMC i.p.v. gelatine, vergeleken als regionale variant, niet 100% identiek. Er staat ook 16,91 maar dat is niet de eenmalige prijs; Officieel 10% abonnement eerste bestelling apart te controleren; geen cashback gestapeld",
    "雞肉 185g 缺貨": "kip 185g uitverkocht",
    "需定期配送": "abonnement vereist",
+   "非18.79！另顯56.27疑首訂折扣未混為一次價。含稅62.52超39免政策，非最便宜": "Niet 18,79! 56,27 lijkt eerste-bestellingskorting, niet als eenmalig gebruikt. 62,52 incl. btw ligt boven €39 gratis verzending; niet goedkoopst",
+   "非更低；網站國家與實際倉庫不同已註記": "niet lager; land van site wijkt af van werkelijk magazijn (genoteerd)",
    "頁面 EAN 5027314499486；27.60＝未稅價": "pagina EAN 5027314499486; 27.60 = prijs excl. btw",
    "頁面 JSON price 31；EAN 未列；運費未查到；標籤是否 Dechra 未確認（網址含 dechra）": "pagina JSON price 31; EAN niet vermeld; verzendkosten niet gevonden; niet bevestigd of het label Dechra is (URL bevat dechra)",
    "頁面「Momenteel niet leverbaar」；標籤 Dômes Pharma": "pagina ‘Momenteel niet leverbaar’; label Dômes Pharma",
@@ -13292,6 +14882,8 @@
    "頁面寫 Levertijd 1-3 werkdagen；JSON-LD 標 PreOrder": "pagina zegt Levertijd 1-3 werkdagen; JSON-LD zegt PreOrder",
    "頁面已開：En stock €18.79（另見 €17.85）；不同品牌標籤、EAN 未列；成分寫法與 Protexin 不同，不可假定同配方；寄 Rotterdam 未確認 → 不排名": "pagina geopend: En stock €18,79 (ook gezien €17,85); ander merklabel, EAN niet vermeld; ingrediënten anders vermeld dan bij Protexin; niet uitgaan van dezelfde formule; verzending naar Rotterdam onbevestigd, dus niet gerangschikt",
    "頁面已開：Op voorraad €31.95；Herhaal 10%（未計，不疊返現）；EAN 與原規格不同，不與原標籤合併排名": "pagina geopend: Op voorraad €31,95; Herhaal 10% (niet meegeteld, niet te combineren met cashback); EAN wijkt af van het origineel; niet samen met het originele label gerangschikt",
+   "預設200g2.29只有5罐、400g3.59/800g5.49，各容量有貨量不同未核；800g單價0.68625/100g不低於既有大包。實體出貨Austria，不以.si判Slovenia實體": "standaard 200g 2,29 slechts 5 blikken; 400g 3,59/800g 5,49; voorraad per maat niet geverifieerd; 800g à 0,68625/100g, niet onder bestaande grote verpakkingen. Verzonden uit Oostenrijk, niet Slovenië ondanks .si",
+   "顯示免運不能當NL免運": "getoonde gratis verzending is geen NL-gratis verzending",
    "首次紀錄": "Eerste meting",
    "鯖魚羊肉、鯖魚 185g 庫存 0": "makreel & lam, makreel 185g 0 op voorraad",
    "鹿肉 24+ €4.25": "hert 24+ €4,25"

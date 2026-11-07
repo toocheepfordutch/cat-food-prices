@@ -269,7 +269,7 @@ def one_time_unit(o):
 def is_main(o):
     # verified_item_price_*：商品價已核實（例如運費未知），仍可排名；*_pending／policy 類不算
     st = o.get("status") or ""
-    return o.get("stock") == "in_stock" and (st == "verified" or st.startswith("verified_item_price_nl_shipping"))
+    return o.get("stock") == "in_stock" and (st == "verified" or st.startswith("verified_item_price_nl_shipping") or st == "verified_nl_policy_and_item_price")
 
 
 def unit_size(o, base):
@@ -358,7 +358,7 @@ def offer_view(o, unit_word, base="100g"):
         "tags": [t for t in tags if t["t"]],
         "new_customer": new_cust,
         "in_stock": o.get("stock") == "in_stock",
-        "verified": (o.get("status") or "") == "verified" or (o.get("status") or "").startswith("verified_item_price_nl_shipping"),
+        "verified": (o.get("status") or "") == "verified" or (o.get("status") or "").startswith("verified_item_price_nl_shipping") or (o.get("status") or "") == "verified_nl_policy_and_item_price",
         "status": o.get("status"),
         "url": o.get("url"),
         "detail": "；".join(x for x in (o.get("promo"), o.get("note")) if x),
