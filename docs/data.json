@@ -4,7 +4,7 @@
  "updated_zh": "2026年11月7日",
  "next_zh": "11月9日",
  "next": "2026-11-09",
- "generated_zh": "2026-11-07 21:27",
+ "generated_zh": "2026-11-07 21:32",
  "location": "鹿特丹",
  "feedback_url": "",
  "products": [
@@ -3721,14 +3721,19 @@
     "pb": 19.2694,
     "size": "1.8kg",
     "basis": "Medpets 定期訂購 -6%",
-    "autoship": false,
-    "one_time_unit": null,
+    "autoship": true,
+    "one_time_unit": 35.68,
     "one_time_per100g": null,
-    "one_time_pb": null,
+    "one_time_pb": 19.8222,
     "conditions": [
-     "滿 €69 免運・運費 €4.95・最低訂單 €14.95"
+     "滿 €69 免運・運費 €4.95・最低訂單 €14.95",
+     "需訂閱定期配送"
     ],
     "tags": [
+     {
+      "k": "sub",
+      "t": "需定期配送"
+     },
      {
       "k": "ship",
       "t": "滿 €69 免運／運費 €4.95"
@@ -3745,7 +3750,15 @@
     "url": "https://www.medpets.nl/orijen-kitten-droogvoer",
     "detail": ""
    },
-   "one_time_best": null,
+   "one_time_best": {
+    "shop": "Amazon.nl（賣家 Plein）",
+    "variant": "1x1.8kg",
+    "unit": 34.77,
+    "unit_g": 1800,
+    "url": "https://www.amazon.nl/dp/B09T9ZQ99T",
+    "per100g": null,
+    "pb": 19.3167
+   },
    "badge": {
     "kind": "above",
     "text": "比歷史低價高 0%",
@@ -3783,7 +3796,7 @@
      "unit": 34.685,
      "per100g": null,
      "pb": 19.2694,
-     "one_time_unit": 34.685
+     "one_time_unit": 34.77
     }
    ],
    "offers": [
@@ -3799,14 +3812,19 @@
      "pb": 19.2694,
      "size": "1.8kg",
      "basis": "Medpets 定期訂購 -6%",
-     "autoship": false,
-     "one_time_unit": null,
+     "autoship": true,
+     "one_time_unit": 35.68,
      "one_time_per100g": null,
-     "one_time_pb": null,
+     "one_time_pb": 19.8222,
      "conditions": [
-      "滿 €69 免運・運費 €4.95・最低訂單 €14.95"
+      "滿 €69 免運・運費 €4.95・最低訂單 €14.95",
+      "需訂閱定期配送"
      ],
      "tags": [
+      {
+       "k": "sub",
+       "t": "需定期配送"
+      },
       {
        "k": "ship",
        "t": "滿 €69 免運／運費 €4.95"
@@ -3880,14 +3898,19 @@
      "pb": 19.6611,
      "size": "1.8kg",
      "basis": "Medpets 定期訂購 -6%",
-     "autoship": false,
-     "one_time_unit": null,
+     "autoship": true,
+     "one_time_unit": 36.41,
      "one_time_per100g": null,
-     "one_time_pb": null,
+     "one_time_pb": 20.2278,
      "conditions": [
-      "最低訂單 €14.95"
+      "最低訂單 €14.95",
+      "需訂閱定期配送"
      ],
      "tags": [
+      {
+       "k": "sub",
+       "t": "需定期配送"
+      },
       {
        "k": "cond",
        "t": "最低消費 €14.95"
@@ -4516,14 +4539,19 @@
      "pb": 11.5935,
      "size": "5.4kg",
      "basis": "Medpets 定期訂購 -6%",
-     "autoship": false,
-     "one_time_unit": null,
+     "autoship": true,
+     "one_time_unit": 64.4,
      "one_time_per100g": null,
-     "one_time_pb": null,
+     "one_time_pb": 11.9259,
      "conditions": [
-      "滿 €69 免運・運費 €4.95・最低訂單 €14.95"
+      "滿 €69 免運・運費 €4.95・最低訂單 €14.95",
+      "需訂閱定期配送"
      ],
      "tags": [
+      {
+       "k": "sub",
+       "t": "需定期配送"
+      },
       {
        "k": "ship",
        "t": "滿 €69 免運／運費 €4.95"
@@ -4699,14 +4727,19 @@
      "pb": 11.8278,
      "size": "5.4kg",
      "basis": "Medpets 定期訂購 -6%",
-     "autoship": false,
-     "one_time_unit": null,
+     "autoship": true,
+     "one_time_unit": 65.7,
      "one_time_per100g": null,
-     "one_time_pb": null,
+     "one_time_pb": 12.1667,
      "conditions": [
-      "滿 €69 免運・運費 €4.95・最低訂單 €14.95"
+      "滿 €69 免運・運費 €4.95・最低訂單 €14.95",
+      "需訂閱定期配送"
      ],
      "tags": [
+      {
+       "k": "sub",
+       "t": "需定期配送"
+      },
       {
        "k": "ship",
        "t": "滿 €69 免運／運費 €4.95"
@@ -5061,14 +5094,19 @@
      "pb": 18.75,
      "size": "1.8kg",
      "basis": "Medpets 定期訂購 -6%",
-     "autoship": false,
-     "one_time_unit": null,
+     "autoship": true,
+     "one_time_unit": 34.71,
      "one_time_per100g": null,
-     "one_time_pb": null,
+     "one_time_pb": 19.2833,
      "conditions": [
-      "滿 €69 免運・運費 €4.95・最低訂單 €14.95"
+      "滿 €69 免運・運費 €4.95・最低訂單 €14.95",
+      "需訂閱定期配送"
      ],
      "tags": [
+      {
+       "k": "sub",
+       "t": "需定期配送"
+      },
       {
        "k": "ship",
        "t": "滿 €69 免運／運費 €4.95"
@@ -5592,14 +5630,19 @@
      "pb": 13.0463,
      "size": "5.4kg",
      "basis": "Medpets 定期訂購 -6%",
-     "autoship": false,
-     "one_time_unit": null,
+     "autoship": true,
+     "one_time_unit": 72.47,
      "one_time_per100g": null,
-     "one_time_pb": null,
+     "one_time_pb": 13.4204,
      "conditions": [
-      "滿 €69 免運・運費 €4.95・最低訂單 €14.95"
+      "滿 €69 免運・運費 €4.95・最低訂單 €14.95",
+      "需訂閱定期配送"
      ],
      "tags": [
+      {
+       "k": "sub",
+       "t": "需定期配送"
+      },
       {
        "k": "ship",
        "t": "滿 €69 免運／運費 €4.95"
@@ -5858,14 +5901,19 @@
      "pb": 20.8611,
      "size": "1.8kg",
      "basis": "Medpets 定期訂購 -6%",
-     "autoship": false,
-     "one_time_unit": null,
+     "autoship": true,
+     "one_time_unit": 38.63,
      "one_time_per100g": null,
-     "one_time_pb": null,
+     "one_time_pb": 21.4611,
      "conditions": [
-      "滿 €69 免運・運費 €4.95・最低訂單 €14.95"
+      "滿 €69 免運・運費 €4.95・最低訂單 €14.95",
+      "需訂閱定期配送"
      ],
      "tags": [
+      {
+       "k": "sub",
+       "t": "需定期配送"
+      },
       {
        "k": "ship",
        "t": "滿 €69 免運／運費 €4.95"
@@ -6306,14 +6354,19 @@
      "pb": 14.787,
      "size": "5.4kg",
      "basis": "Medpets 定期訂購 -6%",
-     "autoship": false,
-     "one_time_unit": null,
+     "autoship": true,
+     "one_time_unit": 82.14,
      "one_time_per100g": null,
-     "one_time_pb": null,
+     "one_time_pb": 15.2111,
      "conditions": [
-      "滿 €69 免運・運費 €4.95・最低訂單 €14.95"
+      "滿 €69 免運・運費 €4.95・最低訂單 €14.95",
+      "需訂閱定期配送"
      ],
      "tags": [
+      {
+       "k": "sub",
+       "t": "需定期配送"
+      },
       {
        "k": "ship",
        "t": "滿 €69 免運／運費 €4.95"
@@ -6540,14 +6593,19 @@
      "pb": 22.1944,
      "size": "1.8kg",
      "basis": "Medpets 定期訂購 -6%",
-     "autoship": false,
-     "one_time_unit": null,
+     "autoship": true,
+     "one_time_unit": 41.1,
      "one_time_per100g": null,
-     "one_time_pb": null,
+     "one_time_pb": 22.8333,
      "conditions": [
-      "滿 €69 免運・運費 €4.95・最低訂單 €14.95"
+      "滿 €69 免運・運費 €4.95・最低訂單 €14.95",
+      "需訂閱定期配送"
      ],
      "tags": [
+      {
+       "k": "sub",
+       "t": "需定期配送"
+      },
       {
        "k": "ship",
        "t": "滿 €69 免運／運費 €4.95"
@@ -6672,14 +6730,19 @@
      "pb": 14.4917,
      "size": "5.4kg",
      "basis": "Medpets 定期訂購 -6%",
-     "autoship": false,
-     "one_time_unit": null,
+     "autoship": true,
+     "one_time_unit": 80.5,
      "one_time_per100g": null,
-     "one_time_pb": null,
+     "one_time_pb": 14.9074,
      "conditions": [
-      "滿 €69 免運・運費 €4.95・最低訂單 €14.95"
+      "滿 €69 免運・運費 €4.95・最低訂單 €14.95",
+      "需訂閱定期配送"
      ],
      "tags": [
+      {
+       "k": "sub",
+       "t": "需定期配送"
+      },
       {
        "k": "ship",
        "t": "滿 €69 免運／運費 €4.95"
@@ -6980,14 +7043,19 @@
      "pb": 15.6574,
      "size": "5.4kg",
      "basis": "Medpets 定期訂購 -6%",
-     "autoship": false,
-     "one_time_unit": null,
+     "autoship": true,
+     "one_time_unit": 86.98,
      "one_time_per100g": null,
-     "one_time_pb": null,
+     "one_time_pb": 16.1074,
      "conditions": [
-      "滿 €69 免運・運費 €4.95・最低訂單 €14.95"
+      "滿 €69 免運・運費 €4.95・最低訂單 €14.95",
+      "需訂閱定期配送"
      ],
      "tags": [
+      {
+       "k": "sub",
+       "t": "需定期配送"
+      },
       {
        "k": "ship",
        "t": "滿 €69 免運／運費 €4.95"
@@ -7150,14 +7218,19 @@
      "pb": 23.4722,
      "size": "1.8kg",
      "basis": "Medpets 定期訂購 -6%",
-     "autoship": false,
-     "one_time_unit": null,
+     "autoship": true,
+     "one_time_unit": 43.46,
      "one_time_per100g": null,
-     "one_time_pb": null,
+     "one_time_pb": 24.1444,
      "conditions": [
-      "滿 €69 免運・運費 €4.95・最低訂單 €14.95"
+      "滿 €69 免運・運費 €4.95・最低訂單 €14.95",
+      "需訂閱定期配送"
      ],
      "tags": [
+      {
+       "k": "sub",
+       "t": "需定期配送"
+      },
       {
        "k": "ship",
        "t": "滿 €69 免運／運費 €4.95"
@@ -7560,14 +7633,19 @@
      "pb": 11.9324,
      "size": "5.4kg",
      "basis": "Medpets 定期訂購 -6%",
-     "autoship": false,
-     "one_time_unit": null,
+     "autoship": true,
+     "one_time_unit": 66.285,
      "one_time_per100g": null,
-     "one_time_pb": null,
+     "one_time_pb": 12.275,
      "conditions": [
-      "滿 €69 免運・運費 €4.95・最低訂單 €14.95"
+      "滿 €69 免運・運費 €4.95・最低訂單 €14.95",
+      "需訂閱定期配送"
      ],
      "tags": [
+      {
+       "k": "sub",
+       "t": "需定期配送"
+      },
       {
        "k": "ship",
        "t": "滿 €69 免運／運費 €4.95"
@@ -7673,14 +7751,19 @@
      "pb": 12.1759,
      "size": "5.4kg",
      "basis": "Medpets 定期訂購 -6%",
-     "autoship": false,
-     "one_time_unit": null,
+     "autoship": true,
+     "one_time_unit": 67.64,
      "one_time_per100g": null,
-     "one_time_pb": null,
+     "one_time_pb": 12.5259,
      "conditions": [
-      "滿 €69 免運・運費 €4.95・最低訂單 €14.95"
+      "滿 €69 免運・運費 €4.95・最低訂單 €14.95",
+      "需訂閱定期配送"
      ],
      "tags": [
+      {
+       "k": "sub",
+       "t": "需定期配送"
+      },
       {
        "k": "ship",
        "t": "滿 €69 免運／運費 €4.95"
@@ -7939,14 +8022,19 @@
      "pb": 20.2333,
      "size": "1.8kg",
      "basis": "Medpets 定期訂購 -6%",
-     "autoship": false,
-     "one_time_unit": null,
+     "autoship": true,
+     "one_time_unit": 37.47,
      "one_time_per100g": null,
-     "one_time_pb": null,
+     "one_time_pb": 20.8167,
      "conditions": [
-      "滿 €69 免運・運費 €4.95・最低訂單 €14.95"
+      "滿 €69 免運・運費 €4.95・最低訂單 €14.95",
+      "需訂閱定期配送"
      ],
      "tags": [
+      {
+       "k": "sub",
+       "t": "需定期配送"
+      },
       {
        "k": "ship",
        "t": "滿 €69 免運／運費 €4.95"
@@ -8266,14 +8354,19 @@
      "pb": 15.3433,
      "size": "4.5kg",
      "basis": "Medpets 定期訂購 -6%",
-     "autoship": false,
-     "one_time_unit": null,
+     "autoship": true,
+     "one_time_unit": 71.02,
      "one_time_per100g": null,
-     "one_time_pb": null,
+     "one_time_pb": 15.7822,
      "conditions": [
-      "滿 €69 免運・運費 €4.95・最低訂單 €14.95"
+      "滿 €69 免運・運費 €4.95・最低訂單 €14.95",
+      "需訂閱定期配送"
      ],
      "tags": [
+      {
+       "k": "sub",
+       "t": "需定期配送"
+      },
       {
        "k": "ship",
        "t": "滿 €69 免運／運費 €4.95"
@@ -8302,14 +8395,19 @@
      "pb": 15.6556,
      "size": "4.5kg",
      "basis": "Medpets 定期訂購 -6%",
-     "autoship": false,
-     "one_time_unit": null,
+     "autoship": true,
+     "one_time_unit": 72.47,
      "one_time_per100g": null,
-     "one_time_pb": null,
+     "one_time_pb": 16.1044,
      "conditions": [
-      "滿 €69 免運・運費 €4.95・最低訂單 €14.95"
+      "滿 €69 免運・運費 €4.95・最低訂單 €14.95",
+      "需訂閱定期配送"
      ],
      "tags": [
+      {
+       "k": "sub",
+       "t": "需定期配送"
+      },
       {
        "k": "ship",
        "t": "滿 €69 免運／運費 €4.95"
@@ -8645,14 +8743,19 @@
      "pb": 21.9056,
      "size": "1.8kg",
      "basis": "Medpets 定期訂購 -6%",
-     "autoship": false,
-     "one_time_unit": null,
+     "autoship": true,
+     "one_time_unit": 40.56,
      "one_time_per100g": null,
-     "one_time_pb": null,
+     "one_time_pb": 22.5333,
      "conditions": [
-      "滿 €69 免運・運費 €4.95・最低訂單 €14.95"
+      "滿 €69 免運・運費 €4.95・最低訂單 €14.95",
+      "需訂閱定期配送"
      ],
      "tags": [
+      {
+       "k": "sub",
+       "t": "需定期配送"
+      },
       {
        "k": "ship",
        "t": "滿 €69 免運／運費 €4.95"
@@ -10185,14 +10288,19 @@
     "pb": 0.4742,
     "size": "60 caps",
     "basis": "Milo 定期配送 -5%",
-    "autoship": false,
-    "one_time_unit": null,
+    "autoship": true,
+    "one_time_unit": 29.95,
     "one_time_per100g": null,
-    "one_time_pb": null,
+    "one_time_pb": 0.4992,
     "conditions": [
-     "滿 €49 免運・運費 €3.95"
+     "滿 €49 免運・運費 €3.95",
+     "需訂閱定期配送"
     ],
     "tags": [
+     {
+      "k": "sub",
+      "t": "需定期配送"
+     },
      {
       "k": "ship",
       "t": "滿 €49 免運／運費 €3.95"
@@ -10205,7 +10313,15 @@
     "url": "https://milo.nl/products/protexin-cobalaplex-hond-en-kat-60-capsules",
     "detail": "Yi 原始來源；Shopify .js 讀價格/庫存/EAN；SKU P-698019"
    },
-   "one_time_best": null,
+   "one_time_best": {
+    "shop": "Docvet",
+    "variant": "60 capsules（Dechra 標籤）",
+    "unit": 28.99,
+    "unit_g": null,
+    "url": "https://www.docvet.nl/kat/cobalaplex-60-capsules-vitamine-b12-hond-kat/",
+    "per100g": null,
+    "pb": 0.4832
+   },
    "badge": {
     "kind": "first",
     "text": "首次紀錄"
@@ -10221,7 +10337,7 @@
      "unit": 28.45,
      "per100g": null,
      "pb": 0.4742,
-     "one_time_unit": 28.45
+     "one_time_unit": 28.99
     }
    ],
    "offers": [
@@ -10237,14 +10353,19 @@
      "pb": 0.4742,
      "size": "60 caps",
      "basis": "Milo 定期配送 -5%",
-     "autoship": false,
-     "one_time_unit": null,
+     "autoship": true,
+     "one_time_unit": 29.95,
      "one_time_per100g": null,
-     "one_time_pb": null,
+     "one_time_pb": 0.4992,
      "conditions": [
-      "滿 €49 免運・運費 €3.95"
+      "滿 €49 免運・運費 €3.95",
+      "需訂閱定期配送"
      ],
      "tags": [
+      {
+       "k": "sub",
+       "t": "需定期配送"
+      },
       {
        "k": "ship",
        "t": "滿 €49 免運／運費 €3.95"
@@ -10714,14 +10835,19 @@
      "pb": 0.759,
      "size": "50 caps",
      "basis": "Milo 定期配送 -5%",
-     "autoship": false,
-     "one_time_unit": null,
+     "autoship": true,
+     "one_time_unit": 39.95,
      "one_time_per100g": null,
-     "one_time_pb": null,
+     "one_time_pb": 0.799,
      "conditions": [
-      "滿 €49 免運・運費 €3.95"
+      "滿 €49 免運・運費 €3.95",
+      "需訂閱定期配送"
      ],
      "tags": [
+      {
+       "k": "sub",
+       "t": "需定期配送"
+      },
       {
        "k": "ship",
        "t": "滿 €49 免運／運費 €3.95"

@@ -119,7 +119,7 @@ def basis_key(b):
     # 「autoship（zooplusGemak 首單 15%）」→ autoship；「訂閱首單 -10%（…）」→ 訂閱（需定期配送）
     if k.startswith("autoship"):
         return "autoship"
-    if k.startswith("訂閱"):
+    if k.startswith("訂閱") or "定期配送" in k or "定期訂購" in k or "subscription" in k:
         return "subscription"
     return k
 
