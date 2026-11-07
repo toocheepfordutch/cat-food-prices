@@ -38,8 +38,9 @@
   function unitW(p){return tr(p.unit_word);}
   function pB(p,v){return v==null?"—":'<b class="p100 num">'+eur(v,bd(p))+'<span class="u100">/'+bu(p)+'</span></b>';}
   // 比價單位：濕食每 100g；其他商品每 g（3 位小數）或每公升
-  var BASE_LBL={"100g":"100g","g":"g","kg":"kg","L":"L"}, BASE_KEY={"100g":"per_100g","g":"per_g","kg":"per_kg","L":"per_L"};
-  function bu(p){return BASE_LBL[p.base]||"100g";}
+  var BASE_LBL={"100g":"100g","g":"g","kg":"kg","L":"L"}, BASE_KEY={"100g":"per_100g","g":"per_g","kg":"per_kg","L":"per_L","capsule":"per_capsule"};
+  function bu(p){return p.base==="capsule"?t("u_capsule"):(BASE_LBL[p.base]||"100g");}
+  function sz(p,s){return (s&&p.base==="capsule")?s.replace(/ caps$/," "+t("u_capsule")):s;}
   function bz(p){return t(BASE_KEY[p.base]||"per_100g");}
   function bd(p){return p.base==="g"?3:2;}
   function pbv(o){return o.pb!=null?o.pb:o.per100g;}
@@ -338,7 +339,7 @@
       s += '<div class="where">'+esc(t("no_offer"))+'</div></div>';
     } else {
       s += '<div class="deal"><div class="price">'+(pbv(b)!=null
-        ? '<div class="lbl">'+esc(t("lowest_per_base",bz(p)))+'</div><div class="val num">'+eur(pbv(b),bd(p))+'<small>/'+bu(p)+'</small></div><div class="per num">'+eur(b.unit)+'/'+esc(u)+(b.size?PAR(esc(b.size)):'')+'</div>'
+        ? '<div class="lbl">'+esc(t("lowest_per_base",bz(p)))+'</div><div class="val num">'+eur(pbv(b),bd(p))+'<small>/'+bu(p)+'</small></div><div class="per num">'+eur(b.unit)+'/'+esc(u)+(b.size?PAR(esc(sz(p,b.size))):'')+'</div>'
         : '<div class="lbl">'+esc(t("lowest_per_unit",u))+'</div><div class="val num">'+eur(b.unit)+'<small>/'+esc(u)+'</small></div>')+'</div>';
       s += '<a class="buy" href="'+esc(b.url)+'" target="_blank" rel="noopener nofollow">'+esc(t("go_to",tr(b.shop)))+' '+ARROW+'</a></div>';
       s += '<div class="where"><b>'+esc(tr(b.shop))+'</b>'+DOT()+variant(b.variant)+DOT()+esc(tr(b.basis))+' <span class="num">'+eur(b.price)+'</span><div class="c">'+tagsHtml(b,p,!!p.one_time_best)+'</div></div>';
@@ -368,7 +369,7 @@
       var st = !o.in_stock ? t("st_oos") : (o.status==="partly_verified" ? t("st_partly") : (o.verified ? "" : t("st_unver")));
       var rest = g.items.slice(1).map(function(x){return variant(x.variant)+' '+(pbv(x)!=null?'<b class="num">'+eur(pbv(x),bd(p))+'</b>/'+bu(p):eur(x.unit)+'/'+esc(u));}).join(LSEP());
       var bigv = pbv(o)!=null ? eur(pbv(o),bd(p))+'<span class="h">/'+bu(p)+'</span>' : eur(o.unit)+'<span class="h">/'+esc(u)+'</span>';
-      var smallv = pbv(o)!=null ? eur(o.unit)+'/'+esc(u)+(o.size?PAR(esc(o.size)):'') : '';
+      var smallv = pbv(o)!=null ? eur(o.unit)+'/'+esc(u)+(o.size?PAR(esc(sz(p,o.size))):'') : '';
       s += '<li class="offer'+(main?'':' dim')+(main&&rank===1?' top':'')+'"'+(main?'':' hidden')+'>'+
         '<span class="rank">'+(main?rank:'–')+'</span>'+
         '<div class="o-name"><div class="s">'+esc(tr(o.shop))+(st?' <span class="st">'+esc(st)+'</span>':'')+'</div>'+

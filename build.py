@@ -27,9 +27,9 @@ BASIS_LABEL = {
 }
 AUTOSHIP_BASES = {"autoship", "herhaalgemak", "herhaal", "subscription"}
 # 比價單位：濕食＝每 100g；其他商品依 prices.json 的 products.<id>.unit_basis（g＝每克、kg＝每公斤、L＝每公升）
-BASE_FACTOR = {"100g": 100.0, "g": 1.0, "kg": 1.0, "L": 1.0}
+BASE_FACTOR = {"100g": 100.0, "g": 1.0, "kg": 1.0, "L": 1.0, "capsule": 1.0}
 # products.<id>.unit（"€/kg" 等）→ 比價單位；unit_basis 缺漏時的後備
-UNIT_TO_BASE = {"€/100g": "100g", "€/g": "g", "€/kg": "kg", "€/l": "L"}
+UNIT_TO_BASE = {"€/100g": "100g", "€/g": "g", "€/kg": "kg", "€/l": "L", "€/capsule": "capsule"}
 # 網站分區（依 products.<id>.category）：順序＝濕食、乾飼料、貓砂、護理；未知分類依比價單位推定
 CATEGORIES = ("wet", "dry", "litter", "care")
 BASE_TO_CATEGORY = {"100g": "wet", "kg": "dry", "L": "litter", "g": "care"}
@@ -267,13 +267,17 @@ def one_time_unit(o):
 
 
 def is_main(o):
-    return o.get("stock") == "in_stock" and o.get("status") == "verified"
+    # verified_item_price_*：商品價已核實（例如運費未知），仍可排名；*_pending／policy 類不算
+    st = o.get("status") or ""
+    return o.get("stock") == "in_stock" and (st == "verified" or st.startswith("verified_item_price_nl_shipping"))
 
 
 def unit_size(o, base):
     """每份的份量（g、kg 或 L），用來換算比價單位。"""
     if base == "L":
         return num(o.get("unit_l"))
+    if base == "capsule":
+        return num(o.get("unit_capsules"))
     g = num(o.get("unit_g"))
     if base == "kg":
         return g / 1000 if g else None
@@ -284,6 +288,8 @@ def size_label(o, base):
     v = unit_size(o, base)
     if v is None:
         return ""
+    if base == "capsule":
+        return f"{v:g} caps"
     if base == "kg":
         return f"{v:g}kg" if v >= 1 else f"{v * 1000:g}g"
     return f"{v:g}L" if base == "L" else f"{v:g}g"
@@ -352,7 +358,7 @@ def offer_view(o, unit_word, base="100g"):
         "tags": [t for t in tags if t["t"]],
         "new_customer": new_cust,
         "in_stock": o.get("stock") == "in_stock",
-        "verified": o.get("status") == "verified",
+        "verified": (o.get("status") or "") == "verified" or (o.get("status") or "").startswith("verified_item_price_nl_shipping"),
         "status": o.get("status"),
         "url": o.get("url"),
         "detail": "；".join(x for x in (o.get("promo"), o.get("note")) if x),
@@ -575,7 +581,7 @@ def build(src: Path):
         badge = None
         if best:
             prev = [h["pb"] for h in hist if h["date"] < cur_date and h["pb"]]
-            ever_key = {"100g": "eur_per_100g", "g": "eur_per_g", "kg": "eur_per_kg", "L": "eur_per_l"}[base]
+            ever_key = {"100g": "eur_per_100g", "g": "eur_per_g", "kg": "eur_per_kg", "L": "eur_per_l", "capsule": "eur_per_capsule"}[base]
             ever = num((pdata.get("lowest_unit_price_ever") or {}).get(ever_key))
             prev_min = min(prev) if prev else None
             if prev_min is None:

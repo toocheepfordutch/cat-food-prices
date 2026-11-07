@@ -470,6 +470,16 @@
       "{0} 個篩選條件",
       "{0} active",
       "{0} actief"
+    ],
+    "per_capsule": [
+      "每粒",
+      "per capsule",
+      "per capsule"
+    ],
+    "u_capsule": [
+      "粒",
+      "capsule",
+      "capsule"
     ]
   },
   "data": {
@@ -873,6 +883,58 @@
       "貓狗用益生菌＋益生元膠囊，幫助腸胃": [
         "Probiotic + prebiotic capsules for cats and dogs, supports digestion",
         "Probiotica + prebiotica capsules voor kat en hond, ondersteunt de spijsvertering"
+      ],
+      "EUR已顯示、Netherlands已選": [
+        "EUR shown, Netherlands selected",
+        "EUR getoond, Nederland geselecteerd"
+      ],
+      "FAQ不免運": [
+        "FAQ: no free shipping",
+        "FAQ: geen gratis verzending"
+      ],
+      "Rotterdam購物車未測": [
+        "Rotterdam checkout not tested",
+        "winkelwagen naar Rotterdam niet getest"
+      ],
+      "同EAN": [
+        "same EAN",
+        "zelfde EAN"
+      ],
+      "更正先前verified_policy_shipping觀測的NL推定": [
+        "corrects the earlier NL assumption in the verified_policy_shipping record",
+        "corrigeert de eerdere NL-aanname in de verified_policy_shipping-meting"
+      ],
+      "未逐國列NL、NL配送/運費未驗證": [
+        "NL not listed by country; NL delivery/shipping unverified",
+        "NL niet per land vermeld; levering/verzending naar NL niet geverifieerd"
+      ],
+      "條款§2 VAT": [
+        "terms §2 VAT",
+        "voorwaarden §2 btw"
+      ],
+      "歐洲政策€9": [
+        "European policy €9",
+        "Europees beleid €9"
+      ],
+      "歐洲非冷凍品€9，公開政策": [
+        "€9 for non-frozen goods to Europe, public policy",
+        "€9 voor niet-diepvries naar Europa, openbaar beleid"
+      ],
+      "舊觀測保留，以本筆及research_corrections為準": [
+        "older record kept; this entry and research_corrections take precedence",
+        "oudere meting bewaard; deze meting en research_corrections gaan voor"
+      ],
+      "非全網最低宣告": [
+        "not a claim of the lowest price anywhere",
+        "geen claim van de laagste prijs overal"
+      ],
+      "非含運最低": [
+        "not the lowest including shipping",
+        "niet de laagste inclusief verzending"
+      ],
+      "預估11/13–11/16 Europe/Amsterdam": [
+        "estimated 11/13–11/16 (Amsterdam time)",
+        "verwacht 13-11 – 16-11 (Amsterdamse tijd)"
       ]
     },
     "patterns": [
