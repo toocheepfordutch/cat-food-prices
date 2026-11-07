@@ -629,6 +629,250 @@
       "牛肉／魚肉盒庫存 0": [
         "beef / fish boxes: stock 0",
         "rund / vis dozen: voorraad 0"
+      ],
+      "2 盒起每盒": [
+        "per box from 2 boxes",
+        "per doos vanaf 2 dozen"
+      ],
+      "27.60＝未稅價": [
+        "27.60 = price excl. VAT",
+        "27.60 = prijs excl. btw"
+      ],
+      "50 capsules（頁面標題寫 50 tab）": [
+        "50 capsules (page title says 50 tab)",
+        "50 capsules (paginatitel zegt 50 tab)"
+      ],
+      "50 caps（Dômes Pharma 標籤）": [
+        "50 caps (Dômes Pharma label)",
+        "50 caps (Dômes Pharma-label)"
+      ],
+      "60 Capsules（頁面編號 570117044-6593＝Dechra 標籤 EAN": [
+        "60 Capsules (page number 570117044-6593 = Dechra label EAN",
+        "60 Capsules (paginanummer 570117044-6593 = EAN van Dechra-label"
+      ],
+      "60 capsules（Dechra 標籤）": [
+        "60 capsules (Dechra label)",
+        "60 capsules (Dechra-label)"
+      ],
+      "60 capsules（Protexin 標籤）": [
+        "60 capsules (Protexin label)",
+        "60 capsules (Protexin-label)"
+      ],
+      "60 stuks（網址標 Dechra）": [
+        "60 stuks (URL says Dechra)",
+        "60 stuks (URL noemt Dechra)"
+      ],
+      "Brekz 返現停用": [
+        "Brekz cashback paused",
+        "Brekz-cashback gepauzeerd"
+      ],
+      "Brekz／Medpets 庫存矛盾": [
+        "Brekz / Medpets stock info conflicts",
+        "Brekz / Medpets voorraadinfo tegenstrijdig"
+      ],
+      "Brekz／Medpets 庫存訊號矛盾": [
+        "Brekz / Medpets stock signals conflict",
+        "Brekz / Medpets voorraadsignalen tegenstrijdig"
+      ],
+      "Cobalaplex 60 Gélules（Dômes Pharma／TVM 標籤）": [
+        "Cobalaplex 60 Gélules (Dômes Pharma / TVM label)",
+        "Cobalaplex 60 Gélules (Dômes Pharma- / TVM-label)"
+      ],
+      "Dechra 標籤": [
+        "Dechra label",
+        "Dechra-label"
+      ],
+      "Dechra 標籤 EAN 與原規格不同，配方是否相同未經權威證據確認，不與原標籤合併排名": [
+        "The Dechra label has a different EAN; the same formula isn't confirmed by an authoritative source, so it isn't ranked together with the original label",
+        "Het Dechra-label heeft een andere EAN; dezelfde formule is niet door een betrouwbare bron bevestigd, dus het wordt niet samen met het originele label gerangschikt"
+      ],
+      "Docvet 運費頁未開（只搜尋摘要）、Pharmacy4pets/Brekz 未滿免運門檻運費、Petcure 運費": [
+        "Docvet shipping page not opened (search snippet only), Pharmacy4pets/Brekz shipping below the free-shipping threshold, Petcure shipping",
+        "Verzendpagina Docvet niet geopend (alleen zoekfragment), verzendkosten Pharmacy4pets/Brekz onder de gratis-verzendingsgrens, verzending Petcure"
+      ],
+      "EAN 未列": [
+        "EAN not listed",
+        "EAN niet vermeld"
+      ],
+      "EAN 與原規格不同，不與原標籤合併排名": [
+        "EAN differs from the original; not ranked together with the original label",
+        "EAN wijkt af van het origineel; niet samen met het originele label gerangschikt"
+      ],
+      "Google Shopping 需 JS": [
+        "Google Shopping needs JavaScript",
+        "Google Shopping vereist JavaScript"
+      ],
+      "Herhaal 10%（未計，不疊返現）": [
+        "Herhaal 10% (not counted, doesn't stack with cashback)",
+        "Herhaal 10% (niet meegeteld, niet te combineren met cashback)"
+      ],
+      "JSON-LD InStock / gtin 5027314499486，但頁面同時出現 uitverkocht 文字": [
+        "JSON-LD InStock / gtin 5027314499486, but the page also says uitverkocht",
+        "JSON-LD InStock / gtin 5027314499486, maar de pagina zegt ook uitverkocht"
+      ],
+      "JSON-LD InStock，但頁面同時有「到貨通知」文字": [
+        "JSON-LD InStock, but the page also shows a back-in-stock alert",
+        "JSON-LD InStock, maar de pagina toont ook een melding-bij-voorraad"
+      ],
+      "JSON-LD gtin13 5701170446593＝Dechra 標籤，非原 EAN": [
+        "JSON-LD gtin13 5701170446593 = Dechra label, not the original EAN",
+        "JSON-LD gtin13 5701170446593 = Dechra-label, niet de originele EAN"
+      ],
+      "Milo、Docvet、Pharmacy4pets、Diermedicatie、Dierapotheker、Petcure 返現：未確認（不是 0%）": [
+        "Milo, Docvet, Pharmacy4pets, Diermedicatie, Dierapotheker, Petcure cashback: unconfirmed (not 0%)",
+        "Cashback Milo, Docvet, Pharmacy4pets, Diermedicatie, Dierapotheker, Petcure: onbevestigd (niet 0%)"
+      ],
+      "Milo／Docvet 運費取自搜尋摘要": [
+        "Milo / Docvet shipping taken from search snippets",
+        "Verzending Milo / Docvet uit zoekfragmenten"
+      ],
+      "Petcure、Diermedicatie 運費未查": [
+        "Petcure, Diermedicatie shipping not checked",
+        "Verzending Petcure, Diermedicatie niet gecontroleerd"
+      ],
+      "Protexin Cobalaplex 60 capsules（貓狗 B12＋葉酸": [
+        "Protexin Cobalaplex 60 capsules (B12 + folic acid for cats and dogs",
+        "Protexin Cobalaplex 60 capsules (B12 + foliumzuur voor kat en hond"
+      ],
+      "Protexin Synbiotic D-C 50 capsules（貓狗益生菌": [
+        "Protexin Synbiotic D-C 50 capsules (probiotic for cats and dogs",
+        "Protexin Synbiotic D-C 50 capsules (probioticum voor kat en hond"
+      ],
+      "Protexin 新增首搜缺口": [
+        "Protexin: gaps in the first search",
+        "Protexin: hiaten in de eerste zoekronde"
+      ],
+      "Protexin 首搜第 2 輪缺口": [
+        "Protexin: gaps in the second search round",
+        "Protexin: hiaten in de tweede zoekronde"
+      ],
+      "Shopify .js 讀價格/庫存/EAN": [
+        "price/stock/EAN read via Shopify .js",
+        "prijs/voorraad/EAN gelezen via Shopify .js"
+      ],
+      "Shopify .js：EAN 5027314500571 與原規格一致": [
+        "Shopify .js: EAN 5027314500571 matches the original",
+        "Shopify .js: EAN 5027314500571 komt overeen met het origineel"
+      ],
+      "Tradeinn 商品頁未顯示": [
+        "Tradeinn product page didn't show it",
+        "Tradeinn-productpagina toonde het niet"
+      ],
+      "Tradeinn、bol 未確認": [
+        "Tradeinn, bol unconfirmed",
+        "Tradeinn, bol onbevestigd"
+      ],
+      "Yi 原始來源": [
+        "Yi's original source",
+        "Yi's oorspronkelijke bron"
+      ],
+      "beslist 新商店（Viata、Kaufland、Medpak、Notino、Pazzox、Westpharmacy、bol）開商品頁核價與運費": [
+        "new beslist shops (Viata, Kaufland, Medpak, Notino, Pazzox, Westpharmacy, bol): open product pages to check price and shipping",
+        "nieuwe beslist-winkels (Viata, Kaufland, Medpak, Notino, Pazzox, Westpharmacy, bol): productpagina's openen voor prijs en verzending"
+      ],
+      "zooplus.de／DE 藥局／pharmapets.be 寄 NL 證據": [
+        "evidence that zooplus.de / German pharmacies / pharmapets.be ship to NL",
+        "bewijs dat zooplus.de / Duitse apotheken / pharmapets.be naar NL verzenden"
+      ],
+      "不同品牌標籤、EAN 未列": [
+        "different brand label, EAN not listed",
+        "ander merklabel, EAN niet vermeld"
+      ],
+      "依賣家/Amazon": [
+        "depends on seller/Amazon",
+        "afhankelijk van verkoper/Amazon"
+      ],
+      "原標籤 EAN 5027314499486）": [
+        "original label EAN 5027314499486)",
+        "EAN origineel label 5027314499486)"
+      ],
+      "寄 Rotterdam 未確認 → 不排名": [
+        "shipping to Rotterdam unconfirmed, so not ranked",
+        "verzending naar Rotterdam onbevestigd, dus niet gerangschikt"
+      ],
+      "成分寫法與 Protexin 不同，不可假定同配方": [
+        "ingredients are listed differently from Protexin; don't assume the same formula",
+        "ingrediënten anders vermeld dan bij Protexin; niet uitgaan van dezelfde formule"
+      ],
+      "搜尋摘要舊價 €39.95": [
+        "old price in search snippet €39.95",
+        "oude prijs in zoekfragment €39,95"
+      ],
+      "數量價 2 盒起每盒 €42.95": [
+        "volume price €42.95 per box from 2 boxes",
+        "staffelprijs €42,95 per doos vanaf 2 dozen"
+      ],
+      "未用瀏覽器": [
+        "browser not used",
+        "geen browser gebruikt"
+      ],
+      "未確認": [
+        "unconfirmed",
+        "onbevestigd"
+      ],
+      "標籤 Dômes Pharma": [
+        "label Dômes Pharma",
+        "label Dômes Pharma"
+      ],
+      "標籤是否 Dechra 未確認（網址含 dechra）": [
+        "unconfirmed whether the label is Dechra (URL contains dechra)",
+        "niet bevestigd of het label Dechra is (URL bevat dechra)"
+      ],
+      "製造商 AST Farma）": [
+        "manufacturer AST Farma)",
+        "fabrikant AST Farma)"
+      ],
+      "賣家未解析": [
+        "seller not identified",
+        "verkoper niet vastgesteld"
+      ],
+      "返現 7.5% 是否適用第三方賣家未載明": [
+        "not stated whether the 7.5% cashback applies to third-party sellers",
+        "niet vermeld of de 7,5% cashback geldt voor externe verkopers"
+      ],
+      "返現平台未見": [
+        "no cashback portal found",
+        "geen cashbackplatform gevonden"
+      ],
+      "運費取自 Docvet 客服頁搜尋摘要": [
+        "shipping taken from a search snippet of Docvet's help page",
+        "verzending uit zoekfragment van Docvets klantenservicepagina"
+      ],
+      "運費未查到": [
+        "shipping not found",
+        "verzendkosten niet gevonden"
+      ],
+      "頁面已開：En stock €18.79（另見 €17.85）": [
+        "page opened: En stock €18.79 (also seen €17.85)",
+        "pagina geopend: En stock €18,79 (ook gezien €17,85)"
+      ],
+      "頁面已開：Op voorraad €31.95": [
+        "page opened: Op voorraad €31.95",
+        "pagina geopend: Op voorraad €31,95"
+      ],
+      "50 顆膠囊": [
+        "50 capsules",
+        "50 capsules"
+      ],
+      "60 顆膠囊": [
+        "60 capsules",
+        "60 capsules"
+      ],
+      "Cobalaplex 維生素 B12": [
+        "Cobalaplex vitamin B12",
+        "Cobalaplex vitamine B12"
+      ],
+      "Synbiotic D-C 益生菌": [
+        "Synbiotic D-C probiotic",
+        "Synbiotic D-C probioticum"
+      ],
+      "貓狗用 B12＋葉酸膠囊（可灑在食物上）": [
+        "B12 + folic acid capsules for cats and dogs (can be sprinkled on food)",
+        "B12 + foliumzuur capsules voor kat en hond (kan over het eten gestrooid worden)"
+      ],
+      "貓狗用益生菌＋益生元膠囊，幫助腸胃": [
+        "Probiotic + prebiotic capsules for cats and dogs, supports digestion",
+        "Probiotica + prebiotica capsules voor kat en hond, ondersteunt de spijsvertering"
       ]
     },
     "patterns": [

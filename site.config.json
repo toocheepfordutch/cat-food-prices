@@ -33,7 +33,9 @@
     "orijen_cat_dry_guardian8",
     "tigerino_tofu_sensitive",
     "ever_clean_extra_hygiene_unscented",
-    "l_mesitran_vet_soft"
+    "l_mesitran_vet_soft",
+    "protexin_cobalaplex_60",
+    "protexin_synbiotic_dc_50"
   ],
   "products": {
     "rc_kitten_sterilised_gravy": {
@@ -174,6 +176,24 @@
       "pack": "20L 袋／10L 盒／6L 盒",
       "unit_word": "份",
       "image": "assets/products/ever_clean_extra_hygiene_unscented.webp"
+    },
+    "protexin_cobalaplex_60": {
+      "brand": "Protexin",
+      "name": "Cobalaplex 維生素 B12",
+      "desc": "貓狗用 B12＋葉酸膠囊（可灑在食物上）",
+      "pack": "60 顆膠囊",
+      "unit_word": "盒",
+      "image": "assets/products/protexin_cobalaplex_60.webp",
+      "age": "all"
+    },
+    "protexin_synbiotic_dc_50": {
+      "brand": "Protexin",
+      "name": "Synbiotic D-C 益生菌",
+      "desc": "貓狗用益生菌＋益生元膠囊，幫助腸胃",
+      "pack": "50 顆膠囊",
+      "unit_word": "盒",
+      "image": "assets/products/protexin_synbiotic_dc_50.webp",
+      "age": "all"
     }
   },
   "_age_sources": "age：kitten／adult／all（篩選用）。ORIJEN 依官方 EU 商品頁（emea.orijenpetfoods.com：Original、Six Fish、Tundra、Regional Red 為 FEDIAF All Life Stages）；Guardian 8 為 Adult Maintenance（orijenpetfoods.co.uk／orijen.ie）；Fit & Trim 官方 FAQ 註明不適合幼貓（orijen.ie）。沒寫的商品由 build.py 依名稱推定。"
