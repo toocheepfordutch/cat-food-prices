@@ -530,6 +530,16 @@ def build(src: Path):
     cfg = json.loads((ROOT / "site.config.json").read_text(encoding="utf-8"))
     data = json.loads((src / "prices.json").read_text(encoding="utf-8"))
     obs = [o for o in data.get("observations", []) if o.get("product") and o.get("date")]
+    # 試吃組（乾糧＋罐頭混合）不能跟每 100g 罐頭價比：不排名、不進歷史低點
+    for o in obs:
+        if "試吃組" in (o.get("variant") or "") and not o.get("_sampler"):
+            o["_sampler"] = True
+            o["status"] = "sampler_not_comparable"
+            o["eur_per_100g"] = None
+            o["unit_g"] = None
+            for f in ("best_eur_per_100g", "best_eur_per_base", "after_cashback_eur_per_100g", "after_cashback_eur_per_base"):
+                o[f] = None
+            o["shipping"] = "試吃組（乾糧＋罐頭混合，限購 1 次），不能跟每 100g 價直接比；" + (o.get("shipping") or "")
     # 最新覆蓋：*_final_browser_verification_* 的 website_latest_offers 取代同日同商品同店的舊 offer（源歷史不動）
     for k, v in data.items():
         if "final_browser_verification" in k and isinstance(v, dict):

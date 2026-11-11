@@ -1407,9 +1407,185 @@
    "按此次車保留15，不外推單盒。保留條款含VAT，cart不另列稅額不等未稅。未知返現不扣。": [
     "15 kept for this cart only, not extrapolated to one box. Terms say VAT included; unknown cashback not deducted.",
     "15 alleen voor deze winkelwagen, niet doorgetrokken naar één doos. Voorwaarden: incl. btw; onbekende cashback niet afgetrokken."
+   ],
+   "11-09 README 已見此價但未入歷史最低，今日補入": [
+    "price seen on 11-09 but not added to the history low then; added today",
+    "prijs op 11-09 gezien maar toen niet als laagste opgenomen; vandaag toegevoegd"
+   ],
+   "2026-11-11 WebFetch：Cobalaplex 60 capsules（Dômes Pharma 標籤）€18.79 Op voorraad，1–2 工作日": [
+    "2026-11-11 WebFetch: Cobalaplex 60 capsules (Dômes Pharma label) €18.79 in stock, 1–2 working days",
+    "2026-11-11 WebFetch: Cobalaplex 60 capsules (Dômes Pharma-label) €18,79 op voorraad, 1–2 werkdagen"
+   ],
+   "2026-11-11 curl 403，改用 WebFetch 讀頁面 JSON-LD 價 €17.55（標價 €21.48 為廠商建議價": [
+    "2026-11-11 curl 403, read structured-data price €17.55 via WebFetch (list €21.48 is the RRP",
+    "2026-11-11 curl 403, gestructureerde prijs €17,55 gelezen via WebFetch (€21,48 is adviesprijs"
+   ],
+   "2026-11-11 curl 403，改用 WebFetch：JSON-LD €37.75 InStock（廠商建議價 €40.49）": [
+    "2026-11-11 curl 403, via WebFetch: €37.75 in stock (RRP €40.49)",
+    "2026-11-11 curl 403, via WebFetch: €37,75 op voorraad (adviesprijs €40,49)"
+   ],
+   "2026-11-11 新平台（先前資料未見）：JSON-LD €30.50 InStock，頁面文字「Tijdelijk 29,95」": [
+    "2026-11-11 new shop: €30.50 in stock; page text says 'Tijdelijk 29,95'",
+    "2026-11-11 nieuwe winkel: €30,50 op voorraad; paginatekst zegt 'Tijdelijk 29,95'"
+   ],
+   "2026-11-11：頁面 4752.2 數量價表「vanaf 2 → €49,95」（itemprop price/lowPrice 49.95，單條 €50.95）": [
+    "2026-11-11: quantity price 'vanaf 2 → €49,95' (single tube €50.95)",
+    "2026-11-11: staffelprijs 'vanaf 2 → €49,95' (losse tube €50,95)"
+   ],
+   "250g（買2條起每條 €49.95，2條合計）": [
+    "250g (€49.95 each from 2 tubes; total for 2)",
+    "250g (€49,95 per stuk vanaf 2 tubes; totaal voor 2)"
+   ],
+   "2條合計 €99.90＝€0.1998/g，庫存 InStock（頁面 JSON-LD）": [
+    "2 tubes €99.90 = €0.1998/g, in stock",
+    "2 tubes €99,90 = €0,1998/g, op voorraad"
+   ],
+   "Amazon 賣家／庫存文字解析不完整，標部分核實，不計入新低": [
+    "Amazon seller/stock text incomplete; partly verified, not counted as a new low",
+    "Amazon-verkoper/voorraad onvolledig; deels geverifieerd, niet als nieuwe laagste geteld"
+   ],
+   "Ausland≤31.5kg€14.95，但國家清單僅列Deutschland": [
+    "abroad ≤31.5kg €14.95, but the country list only shows Germany",
+    "buitenland ≤31,5kg €14,95, maar landenlijst toont alleen Duitsland"
+   ],
+   "Bitiba MAC's 6x800g Kitten Kalf & Kippenharten €28.49：Abonnement 折扣按 11/03–11/07 實測 -6% 推算，今日未直接核實折扣率": [
+    "Bitiba MAC's 6x800g Kitten €28.49: subscription discount estimated at -6% from 11/03–11/07; not checked today",
+    "Bitiba MAC's 6x800g Kitten €28,49: abonnementskorting geschat op -6% o.b.v. 03-11–07-11; vandaag niet gecontroleerd"
+   ],
+   "Dierapotheker Mesitran 250g：買2條起每條 €49.95＝€0.1998/g（舊紀錄只用單條 €50.95＝€0.2038，未計數量價": [
+    "Dierapotheker Mesitran 250g: €49.95 each from 2 = €0.1998/g (old record used single €50.95 = €0.2038, without quantity price",
+    "Dierapotheker Mesitran 250g: €49,95 per stuk vanaf 2 = €0,1998/g (oud record gebruikte los €50,95 = €0,2038, zonder staffelprijs"
+   ],
+   "Herhaalgemak -5%＝€16.67 未計）": [
+    "Herhaalgemak -5% = €16.67 not counted)",
+    "Herhaalgemak -5% = €16,67 niet meegeteld)"
+   ],
+   "NL 單盒運費 €3.99（11-07 實測，未重測）": [
+    "NL single-box shipping €3.99 (tested 11-07, not retested)",
+    "NL-verzending per doos €3,99 (getest 07-11, niet opnieuw)"
+   ],
+   "NL未確認": [
+    "NL not confirmed",
+    "NL niet bevestigd"
+   ],
+   "NL重量/服務費見同店官方政策，未測結帳": [
+    "NL weight/service fees per the shop's policy; checkout not tested",
+    "NL-gewicht/servicekosten volgens winkelbeleid; afrekenen niet getest"
+   ],
+   "ORIJEN 各款未重抓）、Pharmacy4pets、Zoomalia、bol.com、kieskeurig、Newpharma、Vetena（403）、Amazon.nl 多數ASIN（僅 Ever Clean 20L WebFetch 讀到 €41.55）、Petfooddiscount（僅 Ziwi 牛185g WebFetch：1-9 €4.25／10-23 €3.95／24+ €3.79）、Hondjekoek Ziwi 與 Mesitran 已用 ?format=json 重抓（見 observation 或未變）": [
+    "ORIJEN not re-fetched), Pharmacy4pets, Zoomalia, bol.com, kieskeurig, Newpharma, Vetena (403), most Amazon.nl items (only Ever Clean 20L read at €41.55), Petfooddiscount (only Ziwi beef 185g: 1-9 €4.25 / 10-23 €3.95 / 24+ €3.79); Hondjekoek Ziwi and Mesitran re-fetched",
+    "ORIJEN niet opnieuw opgehaald), Pharmacy4pets, Zoomalia, bol.com, kieskeurig, Newpharma, Vetena (403), meeste Amazon.nl-items (alleen Ever Clean 20L gelezen à €41,55), Petfooddiscount (alleen Ziwi rund 185g: 1-9 €4,25 / 10-23 €3,95 / 24+ €3,79); Hondjekoek Ziwi en Mesitran opnieuw opgehaald"
+   ],
+   "Pawz Deli L-Mesitran Vet Soft 250g €49.99（含BTW）：頁面無庫存顯示，NL運費 €6.99（€89 免運）": [
+    "Pawz Deli L-Mesitran Vet Soft 250g €49.99 (incl. VAT): no stock shown, NL shipping €6.99 (free from €89)",
+    "Pawz Deli L-Mesitran Vet Soft 250g €49,99 (incl. btw): geen voorraad getoond, NL-verzending €6,99 (gratis vanaf €89)"
+   ],
+   "Protexin 兩項11/7跨境缺口：本次只重抓可直接讀取的既有店（Milo、Barfus、Pharmapets.be、Medpets、Brekz、Docvet、Dierspullen、Zoolac、Soin et Nature、Tiershop），未新增逐國搜尋、未做瀏覽器購物車（Tradeinn NL運費、Barfus單盒運費、Vetena NL 仍待）": [
+    "Protexin cross-border gaps from 11/7: only directly readable shops re-fetched (Milo, Barfus, Pharmapets.be, Medpets, Brekz, Docvet, Dierspullen, Zoolac, Soin et Nature, Tiershop); no new country search or cart tests (Tradeinn NL shipping, Barfus single-box shipping, Vetena NL still pending)",
+    "Protexin-hiaten van 07-11: alleen direct leesbare winkels opnieuw opgehaald (Milo, Barfus, Pharmapets.be, Medpets, Brekz, Docvet, Dierspullen, Zoolac, Soin et Nature, Tiershop); geen nieuwe landenzoektocht of winkelwagentest (Tradeinn NL-verzending, Barfus per doos, Vetena NL nog open)"
+   ],
+   "Repeat 首單 15%（€35.27）因 NL 資格未核實，今日不計入（只計一次價）": [
+    "Repeat first order 15% (€35.27) not counted since NL eligibility is unverified (one-off price only)",
+    "Repeat eerste bestelling 15% (€35,27) niet meegeteld, NL-geschiktheid niet geverifieerd (alleen eenmalige prijs)"
+   ],
+   "Tradeinn/Bricoinn 兩頁：靜態抓取無法讀 NL/EUR 價與NL運費，需瀏覽器購物車，11/07 數值（Synbiotic €27.99、ORIJEN Kitten €33.99）本次未重核，未新增當日觀測": [
+    "Tradeinn/Bricoinn: NL/EUR price and NL shipping need a browser cart; 11/07 values (Synbiotic €27.99, ORIJEN Kitten €33.99) not rechecked, no new observation today",
+    "Tradeinn/Bricoinn: NL/EUR-prijs en NL-verzending vereisen een winkelwagen; waarden van 07-11 (Synbiotic €27,99, ORIJEN Kitten €33,99) niet opnieuw gecontroleerd"
+   ],
+   "Ziwi Peak 貓罐頭：僅標準數量價，無單品特價。ORIJEN 貓乾糧：無特價，僅 5.4kg／4.5kg 買2包 -5%。Ziwi Box 試吃組：原價 €41.30 → 現價 €36.30": [
+    "Ziwi Peak cat cans: standard quantity prices only, no sale. ORIJEN cat dry: no sale, only -5% for 2 bags of 5.4kg/4.5kg. Ziwi Box sampler: was €41.30, now €36.30",
+    "Ziwi Peak kattenblik: alleen staffelprijzen, geen actie. ORIJEN droogvoer: geen actie, alleen -5% bij 2 zakken 5,4kg/4,5kg. Ziwi Box proefpakket: was €41,30, nu €36,30"
+   ],
+   "full_sweep_completed_at 維持 null": [
+    "full sweep not yet completed",
+    "volledige controle nog niet voltooid"
+   ],
+   "不低於現有最低（Pharmapets.be €18.79）": [
+    "not below the current low (Pharmapets.be €18.79)",
+    "niet onder de huidige laagste (Pharmapets.be €18,79)"
+   ],
+   "僅 ORIJEN Kitten 1.8kg 以 WebFetch 讀到 €37.39）、Pharmapets NL（RC 12x85g 以 WebFetch 讀到 €18.75": [
+    "only ORIJEN Kitten 1.8kg read at €37.39), Pharmapets NL (RC 12x85g read at €18.75",
+    "alleen ORIJEN Kitten 1,8kg gelezen à €37,39), Pharmapets NL (RC 12x85g gelezen à €18,75"
+   ],
+   "全站「訂閱 -5%」「€50 起免運」。首頁／aanbiedingen 頁沒有 Ziwi／ORIJEN 專屬活動。": [
+    "Sitewide 'subscription -5%' and 'free shipping from €50'. No Ziwi/ORIJEN-specific deals on the homepage or deals page.",
+    "Sitebreed 'abonnement -5%' en 'gratis verzending vanaf €50'. Geen Ziwi/ORIJEN-acties op home- of aanbiedingenpagina."
+   ],
+   "商品價 €0.19996/g 略低於紀錄 €0.2038，但庫存未確認、含運 €0.2279/g，未列新低": [
+    "item price €0.19996/g is slightly below €0.2038, but stock unconfirmed and €0.2279/g incl. shipping; not a new low",
+    "productprijs €0,19996/g iets onder €0,2038, maar voorraad onbevestigd en €0,2279/g incl. verzending; geen nieuwe laagste"
+   ],
+   "未讀": [
+    "not read",
+    "niet gelezen"
+   ],
+   "缺貨不計新低": [
+    "out of stock, not counted as a new low",
+    "niet op voorraad, niet als nieuwe laagste geteld"
+   ],
+   "被擋或需JS、本次未重抓價：Petgamma（curl 403": [
+    "blocked or needs JS, not re-fetched: Petgamma (curl 403",
+    "geblokkeerd of JS nodig, niet opnieuw opgehaald: Petgamma (curl 403"
+   ],
+   "請 Yi 決定是否採計）": [
+    "for Yi to decide whether to count it)",
+    "Yi beslist of dit meetelt)"
+   ],
+   "返現未確認": [
+    "cashback not confirmed",
+    "cashback niet bevestigd"
+   ],
+   "運費免運 €50": [
+    "free shipping from €50",
+    "gratis verzending vanaf €50"
+   ],
+   "運費／NL 配送條件未讀": [
+    "shipping/NL delivery terms not read",
+    "verzend-/NL-leveringsvoorwaarden niet gelezen"
+   ],
+   "運費／促銷欄沿用上次未重核": [
+    "shipping/promo carried over, not rechecked",
+    "verzending/actie overgenomen, niet opnieuw gecontroleerd"
+   ],
+   "適用商品範圍未核實，今日價格已反映頁面實際標價，未另疊折扣碼": [
+    "eligible products not verified; today's price is the page price, no code stacked",
+    "geldige producten niet geverifieerd; prijs van vandaag is de paginaprijs, geen code gestapeld"
+   ],
+   "頁面可見 Black Friday 橫幅（Tradeinn 代碼 BLACK5 -5%）": [
+    "Black Friday banner on page (Tradeinn code BLACK5 -5%)",
+    "Black Friday-banner op pagina (Tradeinn-code BLACK5 -5%)"
+   ],
+   "試吃組（乾糧＋罐頭混合，限購 1 次），不能跟每 100g 價直接比": [
+    "sampler box (dry + cans mixed, limit 1), not comparable per 100g",
+    "proefpakket (droog + blik gemengd, max. 1), niet vergelijkbaar per 100g"
+   ],
+   "試吃組，不能跟每 100g 價直接比": [
+    "sampler box, not comparable per 100g",
+    "proefpakket, niet vergelijkbaar per 100g"
    ]
   },
   "patterns": [
+   [
+    "^較上次 (\\d{2})-(\\d{2})：同$",
+    "same as $1-$2",
+    "gelijk aan $2-$1"
+   ],
+   [
+    "^較上次 (\\d{2})-(\\d{2})：([\\d.]+)→([\\d.]+)$",
+    "vs $1-$2: $3 → $4",
+    "t.o.v. $2-$1: $3 → $4"
+   ],
+   [
+    "^(\\d{4}-\\d{2}-\\d{2}) 重新抓取（結構化資料）$",
+    "$1 re-fetched (structured data)",
+    "$1 opnieuw opgehaald (gestructureerde data)"
+   ],
+   [
+    "^(\\d{4}-\\d{2}-\\d{2}) 重新抓取（頁面meta價）$",
+    "$1 re-fetched (page meta price)",
+    "$1 opnieuw opgehaald (meta-prijs van pagina)"
+   ],
    [
     "^(\\d{4}-\\d{2}-\\d{2}) WebFetch 讀取（curl 403）$",
     "$1 read via WebFetch (curl 403)",
