@@ -1563,6 +1563,86 @@
    "試吃組，不能跟每 100g 價直接比": [
     "sampler box, not comparable per 100g",
     "proefpakket, niet vergelijkbaar per 100g"
+   ],
+   "2026-11-13 重新抓取（zooplus/Bitiba 變體 sku 價）": [
+    "2026-11-13 re-fetched (zooplus/Bitiba variant SKU price)",
+    "2026-11-13 opnieuw opgehaald (zooplus/Bitiba variant-sku-prijs)"
+   ],
+   "2026-11-13 重新抓取（頁面 HTML 仍含同價字串，非結構化價核實，庫存沿用上次）": [
+    "2026-11-13 re-fetched (page HTML still contains the same price string; not verified via structured price; stock carried over from last time)",
+    "2026-11-13 opnieuw opgehaald (pagina-HTML bevat nog dezelfde prijstekst; niet geverifieerd via gestructureerde prijs; voorraad overgenomen van vorige keer)"
+   ],
+   "2026-11-13 重新抓取（頁面 data-price／數量價表）": [
+    "2026-11-13 re-fetched (page data-price / quantity price table)",
+    "2026-11-13 opnieuw opgehaald (data-price van pagina / staffelprijstabel)"
+   ],
+   "RC Kitten Sterilised 12x85g 頁面 -15% 限時價 €16.82，頁面標「Aanbieding eindigt op 17 november」": [
+    "RC Kitten Sterilised 12x85g: page shows a limited-time -15% price of €16.82, marked \"Aanbieding eindigt op 17 november\"",
+    "RC Kitten Sterilised 12x85g: pagina toont tijdelijke -15%-prijs van €16.82, met \"Aanbieding eindigt op 17 november\""
+   ],
+   "Supersales.nl（價格比較／賣場，賣家未知）": [
+    "Supersales.nl (price comparison / marketplace, seller unknown)",
+    "Supersales.nl (prijsvergelijker / marktplaats, verkoper onbekend)"
+   ],
+   "curl/WebFetch 皆被 Cloudflare 403，未能開頁核實實際賣家、庫存、NL 運費、返現": [
+    "curl/WebFetch both got Cloudflare 403, so the actual seller, stock, NL shipping and cashback could not be verified",
+    "curl/WebFetch kregen beide Cloudflare 403, dus de daadwerkelijke verkoper, voorraad, NL-verzendkosten en cashback konden niet worden geverifieerd"
+   ],
+   "不計入最低價排名，下次優先用瀏覽器核實。同時搜尋摘要稱 Medpets €13.85（-30%），但 Medpets 頁面實抓仍是 €18.10，摘要過期": [
+    "Not counted in the lowest-price ranking; verify with a browser next time. A search snippet claims Medpets €13.85 (-30%), but the Medpets page still shows €18.10, so the snippet is outdated",
+    "Telt niet mee in de laagste-prijsranglijst; volgende keer met een browser verifiëren. Een zoekfragment noemt Medpets €13.85 (-30%), maar de Medpets-pagina toont nog steeds €18.10, dus het fragment is verouderd"
+   ],
+   "僅標準價與訂閱 -5%。Ziwi Box kat Kip 試吃組 €36.30。首頁／aanbiedingen 頁無 Ziwi／ORIJEN 項目。": [
+    "Only the standard price and subscription -5%. Ziwi Box cat Chicken tasting set €36.30. No Ziwi/ORIJEN items on the homepage or the aanbiedingen page.",
+    "Alleen standaardprijs en abonnement -5%. Ziwi Box kat Kip proefpakket €36,30. Geen Ziwi/ORIJEN-items op de homepage of de aanbiedingenpagina."
+   ],
+   "另列 €17,55、€18,40、€19,89、€23,45": [
+    "Also listed: €17,55, €18,40, €19,89, €23,45",
+    "Ook vermeld: €17,55, €18,40, €19,89, €23,45"
+   ],
+   "搜尋摘要價 €16.49／€18.95／€16.95／€20.99／€21.45，均高於已核實最低一次價": [
+    "Search snippet prices €16.49 / €18.95 / €16.95 / €20.99 / €21.45, all higher than the lowest verified one-off price",
+    "Prijzen uit zoekfragmenten €16.49 / €18.95 / €16.95 / €20.99 / €21.45, allemaal hoger dan de laagste geverifieerde eenmalige prijs"
+   ],
+   "搜尋結果摘要顯示 12x85g（EAN 9003579007129）€12,90（≈€1.075/包，含稅未含運": [
+    "Search snippet shows 12x85g (EAN 9003579007129) €12,90 (≈€1.075 per pouch, incl. VAT, excl. shipping",
+    "Zoekfragment toont 12x85g (EAN 9003579007129) €12,90 (≈€1,075 per pouch, incl. btw, excl. verzending"
+   ],
+   "無：Ziwi Peak 與 ORIJEN 無單品特價／促銷": [
+    "None: no single-item sale or promotion on Ziwi Peak and ORIJEN",
+    "Geen: geen aanbieding of promotie op losse Ziwi Peak- en ORIJEN-producten"
+   ],
+   "買2起每件 €42.95 見 11-11）": [
+    "€42.95 each when buying 2 or more, see 11-11)",
+    "€42,95 per stuk bij aankoop van 2 of meer, zie 11-11)"
+   ],
+   "較 11-11：11.19→11.49": [
+    "vs 11-11: 11.19→11.49",
+    "t.o.v. 11-11: 11.19→11.49"
+   ],
+   "較 11-11：29.95→30.5": [
+    "vs 11-11: 29.95→30.5",
+    "t.o.v. 11-11: 29.95→30.5"
+   ],
+   "較 11-11：42.95→43.85": [
+    "vs 11-11: 42.95→43.85",
+    "t.o.v. 11-11: 42.95→43.85"
+   ],
+   "較 11-11：同": [
+    "vs 11-11: unchanged",
+    "t.o.v. 11-11: ongewijzigd"
+   ],
+   "返現率沿用 11-11 並於 11-13 重查入口頁未變": [
+    "Cashback rate carried over from 11-11; portal page re-checked on 11-13, unchanged",
+    "Cashbackpercentage overgenomen van 11-11; portalpagina op 11-13 opnieuw gecontroleerd, ongewijzigd"
+   ],
+   "返現率沿用 11-11 並於 11-13 重查入口頁未變（單件頁價 €43.85": [
+    "Cashback rate carried over from 11-11; portal page re-checked on 11-13, unchanged (single-item page price €43.85",
+    "Cashbackpercentage overgenomen van 11-11; portalpagina op 11-13 opnieuw gecontroleerd, ongewijzigd (prijs losse pagina €43,85"
+   ],
+   "頁面列 €2,99 運費選項）": [
+    "page lists a €2,99 shipping option)",
+    "pagina vermeldt een verzendoptie van €2,99)"
    ]
   },
   "patterns": [
