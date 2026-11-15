@@ -1643,6 +1643,106 @@
    "頁面列 €2,99 運費選項）": [
     "page lists a €2,99 shipping option)",
     "pagina vermeldt een verzendoptie van €2,99)"
+   ],
+   "11-13 摘要 €12,90 已證實過期：WebFetch 取得即時頁，最低價 €14.48（圖片來源 Brekz，運費 €4.99）、€17.55（運費 €4.95）、€18.10（Medpets）、€22.11。": [
+    "11-13 summary: €12,90 confirmed expired: live page via WebFetch, lowest prices €14.48 (image source Brekz, shipping €4.99), €17.55 (shipping €4.95), €18.10 (Medpets), €22.11.",
+    "11-13 samenvatting: €12,90 bevestigd verlopen: live pagina via WebFetch, laagste prijzen €14,48 (afbeeldingsbron Brekz, verzending €4,99), €17,55 (verzending €4,95), €18,10 (Medpets), €22,11."
+   ],
+   "2026-11-15 curl 重抓頁面，確認頁面仍含上次價格字串（未逐變體結構化解析、庫存／運費／促銷沿用 11-13）": [
+    "2026-11-15 re-fetched the page with curl; it still contains the previous price string (variants not parsed individually; stock / shipping / promotions carried over from 11-13)",
+    "2026-11-15 pagina opnieuw opgehaald met curl; bevat nog de vorige prijstekst (varianten niet afzonderlijk geparsed; voorraad / verzending / acties overgenomen van 13-11)"
+   ],
+   "2026-11-15 頁面實抓 JSON-LD：€1.69→€1.79（CutieCat 無返現）": [
+    "2026-11-15 JSON-LD read from the page: €1.69→€1.79 (CutieCat, no cashback)",
+    "2026-11-15 JSON-LD van de pagina: €1,69→€1,79 (CutieCat, geen cashback)"
+   ],
+   "2026-11-15 頁面實抓 JSON-LD：€39.6→€39.99（CutieCat 無返現）": [
+    "2026-11-15 JSON-LD read from the page: €39.6→€39.99 (CutieCat, no cashback)",
+    "2026-11-15 JSON-LD van de pagina: €39,6→€39,99 (CutieCat, geen cashback)"
+   ],
+   "Agriservicebouwhuis.nl（牛蹄修整師的小店，JouwWeb）": [
+    "Agriservicebouwhuis.nl (a hoof trimmer's small shop, JouwWeb)",
+    "Agriservicebouwhuis.nl (webwinkeltje van een klauwverzorger, JouwWeb)"
+   ],
+   "Amianimal.com／Beanimals.com（西班牙）": [
+    "Amianimal.com / Beanimals.com (Spain)",
+    "Amianimal.com / Beanimals.com (Spanje)"
+   ],
+   "Beanimals 單包 €1.18（-5%，EAN 9003579007136 與本品 EAN 不同，規格未核實）": [
+    "Beanimals single pouch €1.18 (-5%; EAN 9003579007136 differs from this product's EAN, spec unverified)",
+    "Beanimals los zakje €1,18 (-5%; EAN 9003579007136 wijkt af van de EAN van dit product, specificatie niet geverifieerd)"
+   ],
+   "CashbackXL 頁為 JS 未能讀取＝未確認）": [
+    "CashbackXL page is JS-rendered and could not be read = unconfirmed)",
+    "CashbackXL-pagina is JS-gerenderd en kon niet gelezen worden = onbevestigd)"
+   ],
+   "RC 12x85g -15% 限時價（至 11/17）11-13 記錄": [
+    "RC 12x85g -15% limited-time price (until 11/17), recorded 11-13",
+    "RC 12x85g -15% tijdelijke prijs (t/m 17/11), genoteerd op 13-11"
+   ],
+   "Supersales.nl（比價站）": [
+    "Supersales.nl (price comparison site)",
+    "Supersales.nl (prijsvergelijker)"
+   ],
+   "今日 zooplus 頁價仍含 €16.82 字串": [
+    "today's zooplus page still contains the €16.82 string",
+    "de zooplus-pagina van vandaag bevat nog de tekst €16,82"
+   ],
+   "價格視為同 11-13": [
+    "price treated as the same as 11-13",
+    "prijs beschouwd als gelijk aan 13-11"
+   ],
+   "即使成立亦高於 €1.083/包": [
+    "even if valid, still above €1.083/pack",
+    "ook als het klopt, nog steeds hoger dan €1,083/stuk"
+   ],
+   "品名相符）": [
+    "product name matches)",
+    "productnaam komt overeen)"
+   ],
+   "寄往荷蘭未核實": [
+    "shipping to the Netherlands unverified",
+    "verzending naar Nederland niet geverifieerd"
+   ],
+   "搜尋摘要：Amianimal 12x85g €15.00（€1.25/包，西班牙境內免運）": [
+    "Search snippet: Amianimal 12x85g €15.00 (€1.25/pack, free shipping within Spain)",
+    "Zoekfragment: Amianimal 12x85g €15,00 (€1,25/stuk, gratis verzending binnen Spanje)"
+   ],
+   "搜尋摘要：Farmina Prime Kitten 雞肉 24x70g €36.99（€2.20/100g，高於 PetBoutique.it 歷史低 €1.914）": [
+    "Search snippet: Farmina Prime Kitten chicken 24x70g €36.99 (€2.20/100g, above the PetBoutique.it record low of €1.914)",
+    "Zoekfragment: Farmina Prime Kitten kip 24x70g €36,99 (€2,20/100g, boven het laagste punt ooit bij PetBoutique.it van €1,914)"
+   ],
+   "最低 €14.48＝€1.207/包，高於目標 €1.083": [
+    "lowest €14.48 = €1.207/pack, above the €1.083 target",
+    "laagste €14,48 = €1,207/stuk, boven het doel van €1,083"
+   ],
+   "標準價與 12罐/24罐數量價頁面仍在": [
+    "standard price and 12-can / 24-can volume prices are still on the page",
+    "standaardprijs en staffelprijzen voor 12/24 blikken staan nog op de pagina"
+   ],
+   "訂閱 -5%。Ziwi Box kat Kip／Rund／Vis 試吃組皆 €36.30。": [
+    "Subscription -5%. Ziwi Box cat Chicken / Beef / Fish tasting sets are all €36.30.",
+    "Abonnement -5%. Ziwi Box kat Kip / Rund / Vis proefpakketten zijn allemaal €36,30."
+   ],
+   "返現率沿用（Woolsocks zooplus 1.33%/新客8%、Medpets 4%、Brekz 3.5%、YesCashback bestpetfoods 4% 今日重查未變": [
+    "cashback rates carried over (Woolsocks zooplus 1.33% / new customers 8%, Medpets 4%, Brekz 3.5%, YesCashback bestpetfoods 4%; rechecked today, unchanged",
+    "cashbackpercentages overgenomen (Woolsocks zooplus 1,33% / nieuwe klanten 8%, Medpets 4%, Brekz 3,5%, YesCashback bestpetfoods 4%; vandaag opnieuw gecontroleerd, ongewijzigd"
+   ],
+   "需電話/聯絡核實（0641431142）。運費 < €7.45 時才會勝過現歷史最低 €49.95。不計入排名。Vetinal.nl €44.50 為批發商（€53.85 含稅價的未稅價），不計。": [
+    "Needs phone/contact verification (0641431142). Only beats the current record low of €49.95 if shipping is < €7.45. Not counted in the ranking. Vetinal.nl €44.50 is a wholesaler (the ex-VAT price of €53.85 incl. VAT); not counted.",
+    "Telefonisch/contact verifiëren nodig (0641431142). Verslaat het huidige laagste punt van €49,95 alleen als de verzending < €7,45 is. Telt niet mee in de ranglijst. Vetinal.nl €44,50 is een groothandel (de prijs excl. btw van €53,85 incl. btw); telt niet mee."
+   ],
+   "非新低": [
+    "not a new low",
+    "geen nieuw laagste punt"
+   ],
+   "頁面實抓：L-Mesitran VET Soft Wondgel 250 gram €42,50（≈€0.170/g，低於現歷史最低 €0.1998/g）": [
+    "Read from the page: L-Mesitran VET Soft Wondgel 250 gram €42,50 (≈€0.170/g, below the current record low of €0.1998/g)",
+    "Van de pagina gelezen: L-Mesitran VET Soft Wondgel 250 gram €42,50 (≈€0,170/g, onder het huidige laagste punt van €0,1998/g)"
+   ],
+   "頁面無庫存、運費、含稅與是否寄鹿特丹資訊，也未確認是否為 Soft 蜂蜜凝膠（與 Dierapotheker 4752.2 同為 250g Vet Soft": [
+    "The page gives no stock, shipping, VAT or Rotterdam delivery information, and it isn't confirmed to be the Soft honey gel (same 250g Vet Soft as Dierapotheker 4752.2",
+    "De pagina geeft geen voorraad, verzending, btw of bezorging naar Rotterdam, en het is niet bevestigd dat het de Soft honinggel is (dezelfde 250g Vet Soft als Dierapotheker 4752.2"
    ]
   },
   "patterns": [
