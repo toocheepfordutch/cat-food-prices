@@ -340,6 +340,7 @@ def offer_view(o, unit_word, base="100g"):
             new_cust["per100g"] = None
     return {
         "shop": o.get("shop"),
+        "date": o.get("date"),
         "variant": o.get("variant"),
         "units": o.get("units"),
         "unit_g": o.get("unit_g"),
@@ -573,9 +574,20 @@ def build(src: Path):
         pdates = sorted({o["date"] for o in pobs})
         cur_date = pdates[-1]
         cur = [offer_view(o, unit_word, base) for o in pobs if o["date"] == cur_date]
+        # 補回最新查價日未重查的店家（2026-11-16 慕斯接手修訂）：取該店自己最近一日的報價，
+        # 標 carried 並附原查價日期顯示，不參與最佳價／新低排名，避免整間店因未重查就從網站消失。
+        latest_shops = {o.get("shop") for o in pobs if o["date"] == cur_date}
+        older = [o for o in pobs if o["date"] != cur_date and o.get("shop") not in latest_shops]
+        for shop in {o.get("shop") for o in older}:
+            last = max(o["date"] for o in older if o.get("shop") == shop)
+            for o in older:
+                if o.get("shop") == shop and o["date"] == last:
+                    v = offer_view(o, unit_word, base)
+                    v["carried"] = True
+                    cur.append(v)
         cur = [c for c in cur if c["unit"] is not None]
-        cur.sort(key=lambda c: (not (c["in_stock"] and c["verified"]), c["pb"] if c["pb"] is not None else 9e9))
-        main = [c for c in cur if c["in_stock"] and c["verified"]]
+        cur.sort(key=lambda c: (bool(c.get("carried")), not (c["in_stock"] and c["verified"]), c["pb"] if c["pb"] is not None else 9e9))
+        main = [c for c in cur if c["in_stock"] and c["verified"] and not c.get("carried")]
         best = main[0] if main else None
 
         # 價格歷史：每日 in_stock+verified 最低有效單價
