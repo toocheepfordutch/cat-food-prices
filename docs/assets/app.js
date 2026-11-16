@@ -350,12 +350,12 @@
       }
       s += '</div>';
     }
-    var others = p.offers.filter(function(o){return !(o.in_stock&&o.verified);}).length;
+    var others = p.offers.filter(function(o){return !(o.in_stock&&o.verified)||o.carried;}).length;
     s += '<button class="toggle" type="button" aria-expanded="false">'+esc(t("compare",p.shop_count))+CHEV+'</button>';
     s += '<div class="drill">'+chart(p)+'<h4>'+esc(t("rank_h",bz(p)))+'</h4><ol class="offers">';
     var groups=[], byShop={};
     p.offers.forEach(function(o){
-      var main=o.in_stock&&o.verified;
+      var main=o.in_stock&&o.verified&&!o.carried;
       if(!main){ groups.push({main:false,items:[o]}); return; }
       if(!byShop[o.shop]){ byShop[o.shop]={main:true,items:[]}; groups.push(byShop[o.shop]); }
       byShop[o.shop].items.push(o);
@@ -367,6 +367,7 @@
       if(main) rank++;
       var tags = tagsHtml(o,p);
       var st = !o.in_stock ? t("st_oos") : (o.status==="partly_verified" ? t("st_partly") : (o.verified ? "" : t("st_unver")));
+      if(o.carried && o.date){ st=(st?st+" · ":"")+shortDate(o.date); }
       var rest = g.items.slice(1).map(function(x){return variant(x.variant)+' '+(pbv(x)!=null?'<b class="num">'+eur(pbv(x),bd(p))+'</b>/'+bu(p):eur(x.unit)+'/'+esc(u));}).join(LSEP());
       var bigv = pbv(o)!=null ? eur(pbv(o),bd(p))+'<span class="h">/'+bu(p)+'</span>' : eur(o.unit)+'<span class="h">/'+esc(u)+'</span>';
       var smallv = pbv(o)!=null ? eur(o.unit)+'/'+esc(u)+(o.size?PAR(esc(sz(p,o.size))):'') : '';
