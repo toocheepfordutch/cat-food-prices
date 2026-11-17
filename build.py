@@ -574,17 +574,39 @@ def build(src: Path):
         pdates = sorted({o["date"] for o in pobs})
         cur_date = pdates[-1]
         cur = [offer_view(o, unit_word, base) for o in pobs if o["date"] == cur_date]
-        # 補回最新查價日未重查的店家（2026-11-16 慕斯接手修訂）：取該店自己最近一日的報價，
-        # 標 carried 並附原查價日期顯示，不參與最佳價／新低排名，避免整間店因未重查就從網站消失。
-        latest_shops = {o.get("shop") for o in pobs if o["date"] == cur_date}
-        older = [o for o in pobs if o["date"] != cur_date and o.get("shop") not in latest_shops]
+        # 補回最新查價日未重查的規格（2026-11-17 慕斯修訂）：以（店家，規格）為鍵。
+        # 規則一：取上一查價日有、今天沒有的鍵（同店只重查部分規格時其餘規格不消失；
+        # 2026-11-17 原店家級邏輯曾使 MAC's 28→11、MjAMjAM 34→18）。
+        # 規則二：上一輪也整間沒出現的店家，取該店自己最近一日的報價（2026-11-16 舊行為）。
+        # 兩者皆標 carried 並附原查價日期，不參與最佳價／新低排名；不從全部歷史撈
+        # （規格文字會漂移，全歷史會把已死規格也撈回來，MAC's 曾膨脹到 50 筆）。
+        def _key(o):
+            return (o.get("shop"), o.get("variant"))
+        cur_keys = {_key(o) for o in pobs if o["date"] == cur_date}
+        # 上一輪取「該商品觀測數 ≥10 的最近一日」（避免 11/16 這種只補 1 筆的零星日
+        # 佔住上一輪位置，導致 11/15 的整輪規格補不回來；MjAMjAM 曾因此只剩 18 筆）。
+        prev_cands = [d for d in pdates[:-1] if sum(1 for o in pobs if o["date"] == d) >= 10]
+        prev_date = prev_cands[-1] if prev_cands else (pdates[-2] if len(pdates) >= 2 else None)
+        carried_obs = []
+        if prev_date:
+            prev_keys = {_key(o) for o in pobs if o["date"] == prev_date}
+            for o in pobs:
+                if o["date"] == prev_date and _key(o) not in cur_keys:
+                    carried_obs.append(o)
+            seen_keys = cur_keys | prev_keys
+        else:
+            seen_keys = cur_keys
+        seen_shops = {o.get("shop") for o in pobs if o["date"] in (cur_date, prev_date)}
+        older = [o for o in pobs if o["date"] != cur_date and o.get("shop") not in seen_shops]
         for shop in {o.get("shop") for o in older}:
             last = max(o["date"] for o in older if o.get("shop") == shop)
             for o in older:
-                if o.get("shop") == shop and o["date"] == last:
-                    v = offer_view(o, unit_word, base)
-                    v["carried"] = True
-                    cur.append(v)
+                if o.get("shop") == shop and o["date"] == last and _key(o) not in seen_keys:
+                    carried_obs.append(o)
+        for o in carried_obs:
+            v = offer_view(o, unit_word, base)
+            v["carried"] = True
+            cur.append(v)
         cur = [c for c in cur if c["unit"] is not None]
         cur.sort(key=lambda c: (bool(c.get("carried")), not (c["in_stock"] and c["verified"]), c["pb"] if c["pb"] is not None else 9e9))
         main = [c for c in cur if c["in_stock"] and c["verified"] and not c.get("carried")]
