@@ -24,25 +24,9 @@
   "winix-zero-s",
   "philips-ac4221",
   "iqair-healthpro-250",
-  "levoit-core-600s",
-  "bad-heilbrunner-anti-stress-tea"
+  "levoit-core-600s"
  ],
  "products": {
-  "bad-heilbrunner-anti-stress-tea": {
-   "blocked_platforms": {
-    "Aponeo": "僅寄德國／奧地利・不寄荷蘭",
-    "Medpex": "僅寄德國・不寄荷蘭",
-    "Mycare": "僅寄德國／瑞士・不寄荷蘭",
-    "Shop-Apotheke": "僅寄德國・不寄荷蘭",
-    "SparMed (Delmed)": "僅寄德國・不寄荷蘭",
-    "bad-heilbrunner.de 官方": "僅寄德國・不寄荷蘭",
-    "dm.de": "僅寄德國・不寄荷蘭"
-   },
-   "brand": "Bad Heilbrunner",
-   "desc": "EAN 4008137002351・8×1.75g（14g）・勿混 12 包裝",
-   "image": "images/bad-heilbrunner-anti-stress-tea.jpg",
-   "name": "Anti-Stress Tee（抗壓茶）"
-  },
   "iqair-healthpro-250": {
    "brand": "IQAir",
    "desc": "EAN 7640145092114・HyperHEPA・勿混 100／150／250 XE",
@@ -90,7 +74,7 @@
   }
  },
  "sheet_id": "1oVQqCf49EtMfD7McS9ec4w76M7pYXM54Y1QXDmvL5Fg",
- "site_sub": "空氣清淨機＋抗壓茶・寄送鹿特丹・每天更新",
+ "site_sub": "空氣清淨機・寄送鹿特丹・每天更新",
  "site_title": "追蹤價格（其他）",
  "source_dir": "/home/hatch/workspace/price-tracker-handoff",
  "update_interval_days": 1
