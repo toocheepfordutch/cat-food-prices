@@ -263,3 +263,7 @@ a.tag-link:hover{text-decoration:underline}
   .grid{grid-template-columns:1fr}
 }
 @media (min-width:1060px){ .grid{grid-template-columns:1fr 1fr} }
+
+/* 母子站互連導覽 */
+.sister-nav{padding:12px 16px 0;font-size:14px}
+.sister-nav a{color:inherit;text-decoration:underline}
