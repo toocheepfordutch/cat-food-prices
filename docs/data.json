@@ -4,7 +4,7 @@
  "updated_zh": "2026年11月18日",
  "next_zh": "11月20日",
  "next": "2026-11-20",
- "generated_zh": "2026-11-18 10:20",
+ "generated_zh": "2026-11-18 17:53",
  "location": "鹿特丹",
  "feedback_url": "",
  "products": [
@@ -1622,53 +1622,6 @@
     {
      "shop": "zooplus.nl",
      "date": "2026-11-17",
-     "variant": "6x200g Kitten (Kalkoen, Rund, Eend) [444155.0]",
-     "units": 6,
-     "unit_g": 200,
-     "list_price": 12.19,
-     "price": 12.06,
-     "unit": 2.01,
-     "per100g": 1.005,
-     "pb": 1.005,
-     "size": "200g",
-     "basis": "含返現",
-     "autoship": false,
-     "one_time_unit": null,
-     "one_time_per100g": null,
-     "one_time_pb": null,
-     "conditions": [
-      "滿 €29 免運・運費 €2.99",
-      "經 Woolsocks 返現 €0.13"
-     ],
-     "tags": [
-      {
-       "k": "cash",
-       "p": "Woolsocks",
-       "t": "Woolsocks 返現 €0.13"
-      },
-      {
-       "k": "ship",
-       "t": "滿 €29 免運／運費 €2.99"
-      }
-     ],
-     "new_customer": {
-      "portal": "CashbackXL",
-      "rate_pct": 10.0,
-      "unit": 1.863,
-      "price": 11.18,
-      "per100g": 0.931,
-      "pb": 0.931
-     },
-     "in_stock": true,
-     "verified": true,
-     "status": "verified",
-     "url": "https://www.zooplus.nl/shop/katten/kattenvoer_blik/macs_s/mac_s_blikken/444155",
-     "detail": "2026-11-17 live browser：6x200g Kitten 火雞／牛／鴨 €12.19，有貨；與 2026-11-15 相同，無變化。",
-     "carried": true
-    },
-    {
-     "shop": "zooplus.nl",
-     "date": "2026-11-17",
      "variant": "6x200g Kitten (Kalkoen & Konijn) [444155.13]",
      "units": 6,
      "unit_g": 200,
@@ -1711,6 +1664,53 @@
      "status": "verified",
      "url": "https://www.zooplus.nl/shop/katten/kattenvoer_blik/macs_s/mac_s_blikken/444155",
      "detail": "2026-11-17 live browser：6x200g Kitten 火雞＋兔 €12.19，有貨；與 2026-11-15 相同，無變化。",
+     "carried": true
+    },
+    {
+     "shop": "zooplus.nl",
+     "date": "2026-11-17",
+     "variant": "6x200g Kitten (Kalkoen, Rund, Eend) [444155.0]",
+     "units": 6,
+     "unit_g": 200,
+     "list_price": 12.19,
+     "price": 12.06,
+     "unit": 2.01,
+     "per100g": 1.005,
+     "pb": 1.005,
+     "size": "200g",
+     "basis": "含返現",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "滿 €29 免運・運費 €2.99",
+      "經 Woolsocks 返現 €0.13"
+     ],
+     "tags": [
+      {
+       "k": "cash",
+       "p": "Woolsocks",
+       "t": "Woolsocks 返現 €0.13"
+      },
+      {
+       "k": "ship",
+       "t": "滿 €29 免運／運費 €2.99"
+      }
+     ],
+     "new_customer": {
+      "portal": "CashbackXL",
+      "rate_pct": 10.0,
+      "unit": 1.863,
+      "price": 11.18,
+      "per100g": 0.931,
+      "pb": 0.931
+     },
+     "in_stock": true,
+     "verified": true,
+     "status": "verified",
+     "url": "https://www.zooplus.nl/shop/katten/kattenvoer_blik/macs_s/mac_s_blikken/444155",
+     "detail": "2026-11-17 live browser：6x200g Kitten 火雞／牛／鴨 €12.19，有貨；與 2026-11-15 相同，無變化。",
      "carried": true
     },
     {
