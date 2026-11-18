@@ -1,0 +1,44 @@
+name: Build price-tracker from Google Sheet
+
+# 資料來源：Google Sheet「追蹤價格（其他）資料」（price-tracker/site.config.json 的 sheet_id）
+# 觸發：手動（workflow_dispatch，Write 協作者可按）＋ 每日定時兩次兜底
+# 注意：本 repo 同時是貓站的家。這個 workflow 只寫 docs/price-tracker/，
+# 絕不碰 docs/ 根目錄（貓站的 index.html／data.json／assets/），兩站互不影響。
+on:
+  workflow_dispatch:
+  schedule:
+    # 09:20 與 15:20 UTC ≈ 阿姆斯特丹 10:20/11:20 與 16:20/17:20（冬/夏令時間）
+    - cron: "20 9,15 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-price-tracker
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build price-tracker from Google Sheet
+        run: python3 price-tracker/build.py --source sheet
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "price-tracker-bot"
+          git config user.email "actions@github.com"
+          git add docs/price-tracker
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "Auto build price-tracker from Google Sheet ($(date -u +%Y-%m-%dT%H:%MZ))"
+            git pull --rebase
+            git push
+          fi
