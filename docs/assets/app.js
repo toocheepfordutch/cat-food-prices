@@ -187,6 +187,7 @@
     var links=[];
     if(D.feedback_url) links.push('<a class="fb-btn" href="'+esc(D.feedback_url)+'" target="_blank" rel="noopener">'+esc(t("feedback"))+'</a>');
     links.push('<a class="tip-link" href="'+TIP_URL+'" target="_blank" rel="noopener">'+esc(t("tip_link"))+'</a>');
+    links.push('<a href="privacy.html">Privacy</a> <a href="affiliate-disclosure.html">Affiliate disclosure</a> <a href="over-ons.html">Over ons / 聯絡</a>');
     $("#foot").innerHTML = '<div class="foot-links">'+links.join("")+'</div><p>'+esc(t("foot1"))+'</p><p>'+esc(t("foot2",D.generated_zh))+'</p>';
 
     var app=$("#app");
