@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://toocheepfordutch.github.io/cat-food-prices/sitemap.xml
