@@ -129,9 +129,26 @@ class SheetError(RuntimeError):
     """Sheet 抓取或驗證失敗：呼叫端應以非零碼結束，不覆寫任何輸出。"""
 
 
+# 各分頁在試算表裡的固定 gid（export 端點用 gid 指定分頁）。
+# 來源：spreadsheets.get（2026-11-26）。分頁改名不影響 gid，刪了重建才會變。
+SHEET_GIDS = {
+    "levoit-core-400s": 682139108,
+    "philips-ac3033": 305566180,
+    "winix-zero-s": 1970894080,
+    "philips-ac4221": 1647458201,
+    "iqair-healthpro-250": 388923362,
+    "levoit-core-600s": 2137096918,
+    "platforms": 892275402,
+}
+
+
 def fetch_sheet_tab(sheet_id, tab):
+    # 2026-11-26 改走 export 端點：gviz（tqx=out:csv）對這張表回傳的是壞掉的快照——
+    # 第 1 列標頭被塞進 11/08–11/19 的舊值、資料列只剩 11/20 起，導致 validate
+    # 自 11/20 起每次都失敗；同一時間 Sheets API 與 export 端點讀到的都是乾淨、
+    # 完整的即時資料。gid 是各分頁在試算表裡的固定編號。
     url = ("https://docs.google.com/spreadsheets/d/" + sheet_id +
-           "/gviz/tq?tqx=out:csv&sheet=" + urllib.parse.quote(tab))
+           "/export?format=csv&gid=" + str(SHEET_GIDS[tab]))
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (price-tracker build)"})
     try:
         with urllib.request.urlopen(req, timeout=60) as resp:
@@ -255,6 +272,11 @@ def assess(row, blocked):
     if not is_verified(row) or num(row["net_total"]) is None:
         return False, None
     text = row["note"]
+    # 查價員在 note 明寫「不計入…最佳價」的列（翻新機、只寄德國等）不參與最佳價，
+    # 但仍列在比較表下方供參考。2026-11-26 首現：AC4221 翻新機 €192、
+    # IQAir galuft.de €1,199（只寄德國）。
+    if "不計入" in text and "最佳價" in text:
+        return False, "不計入最佳價"
     low = text.lower()
     neg = any(m in low for m in NEG_MARKERS)
     if not neg:
