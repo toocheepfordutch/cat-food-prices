@@ -4,12 +4,13 @@
  "updated_zh": "2026年11月26日",
  "next_zh": "11月28日",
  "next": "2026-11-28",
- "generated_zh": "2026-11-26 10:36",
+ "generated_zh": "2026-11-26 21:57",
  "location": "鹿特丹",
  "feedback_url": "",
  "products": [
   {
    "id": "rc_kitten_sterilised_gravy",
+   "page": "product/rc_kitten_sterilised_gravy/",
    "brand": "Royal Canin",
    "chip": "",
    "name": "Kitten Sterilised in Gravy",
@@ -1149,6 +1150,7 @@
   },
   {
    "id": "macs_kitten",
+   "page": "product/macs_kitten/",
    "brand": "MAC's",
    "chip": "",
    "name": "Kitten",
@@ -1726,6 +1728,7 @@
   },
   {
    "id": "mjamjam_kitten",
+   "page": "product/mjamjam_kitten/",
    "brand": "MjAMjAM",
    "chip": "",
    "name": "Kitten",
@@ -2700,6 +2703,7 @@
   },
   {
    "id": "farmina_nd_ocean_kitten",
+   "page": "product/farmina_nd_ocean_kitten/",
    "brand": "Farmina N&D",
    "chip": "",
    "name": "Kitten（Ocean／Prime）",
@@ -3462,6 +3466,7 @@
   },
   {
    "id": "orijen_cat_dry_kitten",
+   "page": "product/orijen_cat_dry_kitten/",
    "brand": "ORIJEN",
    "chip": "Kitten",
    "name": "Kitten",
@@ -4197,6 +4202,7 @@
   },
   {
    "id": "orijen_cat_dry_original",
+   "page": "product/orijen_cat_dry_original/",
    "brand": "ORIJEN",
    "chip": "Original",
    "name": "Original（Cat & Kitten）",
@@ -5146,6 +5152,7 @@
   },
   {
    "id": "orijen_cat_dry_six_fish",
+   "page": "product/orijen_cat_dry_six_fish/",
    "brand": "ORIJEN",
    "chip": "Six Fish",
    "name": "Six Fish",
@@ -5805,6 +5812,7 @@
   },
   {
    "id": "orijen_cat_dry_regional_red",
+   "page": "product/orijen_cat_dry_regional_red/",
    "brand": "ORIJEN",
    "chip": "Regional Red",
    "name": "Regional Red",
@@ -6557,6 +6565,7 @@
   },
   {
    "id": "orijen_cat_dry_tundra",
+   "page": "product/orijen_cat_dry_tundra/",
    "brand": "ORIJEN",
    "chip": "Tundra",
    "name": "Tundra",
@@ -7197,40 +7206,6 @@
      "carried": true
     },
     {
-     "shop": "Brekz",
-     "date": "2026-11-15",
-     "variant": "1x1.8kg",
-     "units": 1,
-     "unit_g": 1800,
-     "list_price": 44.25,
-     "price": 44.25,
-     "unit": 44.25,
-     "per100g": null,
-     "pb": 24.5833,
-     "size": "1.8kg",
-     "basis": "單次購買",
-     "autoship": false,
-     "one_time_unit": null,
-     "one_time_per100g": null,
-     "one_time_pb": null,
-     "conditions": [
-      "滿 €35 免運"
-     ],
-     "tags": [
-      {
-       "k": "ship",
-       "t": "滿 €35 免運"
-      }
-     ],
-     "new_customer": null,
-     "in_stock": true,
-     "verified": false,
-     "status": "partly_verified",
-     "url": "https://www.brekz.nl/orijen-kattenvoer/orijen-tundra-kattenvoer.html",
-     "detail": "2026-11-15 curl 重抓頁面，確認頁面仍含上次價格字串（未逐變體結構化解析、庫存／運費／促銷沿用 11-13）；價格視為同 11-13；返現率沿用（Woolsocks zooplus 1.33%/新客8%、Medpets 4%、Brekz 3.5%、YesCashback bestpetfoods 4% 今日重查未變；CashbackXL 頁為 JS 未能讀取＝未確認）",
-     "carried": true
-    },
-    {
      "shop": "Huisdieren.nl",
      "date": "2026-11-15",
      "variant": "1x1.8kg",
@@ -7261,6 +7236,40 @@
      "verified": false,
      "status": "partly_verified",
      "url": "https://www.huisdieren.nl/shop/orijen-whole-prey-tundra-cat-18-kg/",
+     "detail": "2026-11-15 curl 重抓頁面，確認頁面仍含上次價格字串（未逐變體結構化解析、庫存／運費／促銷沿用 11-13）；價格視為同 11-13；返現率沿用（Woolsocks zooplus 1.33%/新客8%、Medpets 4%、Brekz 3.5%、YesCashback bestpetfoods 4% 今日重查未變；CashbackXL 頁為 JS 未能讀取＝未確認）",
+     "carried": true
+    },
+    {
+     "shop": "Brekz",
+     "date": "2026-11-15",
+     "variant": "1x1.8kg",
+     "units": 1,
+     "unit_g": 1800,
+     "list_price": 44.25,
+     "price": 44.25,
+     "unit": 44.25,
+     "per100g": null,
+     "pb": 24.5833,
+     "size": "1.8kg",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "滿 €35 免運"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "滿 €35 免運"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": false,
+     "status": "partly_verified",
+     "url": "https://www.brekz.nl/orijen-kattenvoer/orijen-tundra-kattenvoer.html",
      "detail": "2026-11-15 curl 重抓頁面，確認頁面仍含上次價格字串（未逐變體結構化解析、庫存／運費／促銷沿用 11-13）；價格視為同 11-13；返現率沿用（Woolsocks zooplus 1.33%/新客8%、Medpets 4%、Brekz 3.5%、YesCashback bestpetfoods 4% 今日重查未變；CashbackXL 頁為 JS 未能讀取＝未確認）",
      "carried": true
     },
@@ -7305,6 +7314,7 @@
   },
   {
    "id": "orijen_cat_dry_fit_trim",
+   "page": "product/orijen_cat_dry_fit_trim/",
    "brand": "ORIJEN",
    "chip": "Fit & Trim",
    "name": "Fit & Trim",
@@ -8052,6 +8062,7 @@
   },
   {
    "id": "orijen_cat_dry_guardian8",
+   "page": "product/orijen_cat_dry_guardian8/",
    "brand": "ORIJEN",
    "chip": "Guardian 8",
    "name": "Guardian 8",
@@ -8793,6 +8804,7 @@
   },
   {
    "id": "tigerino_tofu_sensitive",
+   "page": "product/tigerino_tofu_sensitive/",
    "brand": "Tigerino",
    "chip": "",
    "name": "植物豆腐砂 Sensitive（無香）",
@@ -9161,6 +9173,7 @@
   },
   {
    "id": "ever_clean_extra_hygiene_unscented",
+   "page": "product/ever_clean_extra_hygiene_unscented/",
    "brand": "Ever Clean",
    "chip": "Ever Clean",
    "name": "Extra Hygiene（無香）",
@@ -9633,6 +9646,7 @@
   },
   {
    "id": "catsan_hygiene_plus",
+   "page": "product/catsan_hygiene_plus/",
    "brand": "Catsan",
    "chip": "Catsan",
    "name": "Hygiene Plus",
@@ -10268,6 +10282,7 @@
   },
   {
    "id": "l_mesitran_vet_soft",
+   "page": "product/l_mesitran_vet_soft/",
    "brand": "L-Mesitran",
    "chip": "",
    "name": "Vet Soft 蜂蜜傷口凝膠",
@@ -10842,40 +10857,6 @@
      "carried": true
     },
     {
-     "shop": "Pawz Deli (BE)",
-     "date": "2026-11-09",
-     "variant": "250g",
-     "units": 1,
-     "unit_g": 250,
-     "list_price": 49.99,
-     "price": 49.99,
-     "unit": 49.99,
-     "per100g": null,
-     "pb": 0.2,
-     "size": "250g",
-     "basis": "單次購買",
-     "autoship": false,
-     "one_time_unit": null,
-     "one_time_per100g": null,
-     "one_time_pb": null,
-     "conditions": [
-      "NL 包裹 €6.99，€89 起免運；含運 €56.98＝€0.2279/g"
-     ],
-     "tags": [
-      {
-       "k": "ship",
-       "t": "NL 包裹 €6.99，€89 起免運（官方 shipping 頁）"
-      }
-     ],
-     "new_customer": null,
-     "in_stock": false,
-     "verified": false,
-     "status": "partly_verified",
-     "url": "https://www.pawzdeli.eu/a-89008113/l-mesitran-wondzalf-honingzalf/l-mesitran-vet-soft-250g-grote-verpakking-honing-gel/",
-     "detail": "5件；實際商家BorneNL。沒有EUR或匯率證據，未換匯；NL運費未讀，待核；2026-11-09 頁面價 €49.99（含 BTW）；頁面未顯示庫存 → stock=unknown、status=partly_verified，不計入新低；商品價 €0.19996/g 略低於 Dierapotheker €0.2038，但含運較高",
-     "carried": true
-    },
-    {
      "shop": "Pawz Deli",
      "date": "2026-11-07",
      "variant": "VET Soft honey gel 250g（不是Ointment）",
@@ -10907,6 +10888,40 @@
      "status": "verified_price_stock_pending",
      "url": "https://www.pawzdeli.eu/a-89008113/l-mesitran-wondzalf-honingzalf/l-mesitran-vet-soft-250g-grote-verpakking-honing-gel/",
      "detail": "含稅；較€50.95商品價低€0.96，但商品頁未有可讀庫存，不更新有效最低",
+     "carried": true
+    },
+    {
+     "shop": "Pawz Deli (BE)",
+     "date": "2026-11-09",
+     "variant": "250g",
+     "units": 1,
+     "unit_g": 250,
+     "list_price": 49.99,
+     "price": 49.99,
+     "unit": 49.99,
+     "per100g": null,
+     "pb": 0.2,
+     "size": "250g",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "NL 包裹 €6.99，€89 起免運；含運 €56.98＝€0.2279/g"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "NL 包裹 €6.99，€89 起免運（官方 shipping 頁）"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": false,
+     "verified": false,
+     "status": "partly_verified",
+     "url": "https://www.pawzdeli.eu/a-89008113/l-mesitran-wondzalf-honingzalf/l-mesitran-vet-soft-250g-grote-verpakking-honing-gel/",
+     "detail": "5件；實際商家BorneNL。沒有EUR或匯率證據，未換匯；NL運費未讀，待核；2026-11-09 頁面價 €49.99（含 BTW）；頁面未顯示庫存 → stock=unknown、status=partly_verified，不計入新低；商品價 €0.19996/g 略低於 Dierapotheker €0.2038，但含運較高",
      "carried": true
     },
     {
@@ -11052,6 +11067,7 @@
   },
   {
    "id": "protexin_cobalaplex_60",
+   "page": "product/protexin_cobalaplex_60/",
    "brand": "Protexin",
    "chip": "",
    "name": "Cobalaplex 維生素 B12",
@@ -12046,6 +12062,7 @@
   },
   {
    "id": "protexin_synbiotic_dc_50",
+   "page": "product/protexin_synbiotic_dc_50/",
    "brand": "Protexin",
    "chip": "",
    "name": "Synbiotic D-C 益生菌",
@@ -12723,6 +12740,7 @@
   },
   {
    "id": "ziwi_peak_cat_steam_dried",
+   "page": "product/ziwi_peak_cat_steam_dried/",
    "brand": "ZIWI Peak",
    "chip": "ZIWI Steam-Dried",
    "name": "Steam-Dried（蒸乾糧）",
@@ -13725,6 +13743,7 @@
   },
   {
    "id": "ziwi_peak_cat_wet",
+   "page": "product/ziwi_peak_cat_wet/",
    "brand": "ZIWI Peak",
    "chip": "",
    "name": "貓罐頭",
