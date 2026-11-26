@@ -187,7 +187,6 @@
     var links=[];
     if(D.feedback_url) links.push('<a class="fb-btn" href="'+esc(D.feedback_url)+'" target="_blank" rel="noopener">'+esc(t("feedback"))+'</a>');
     links.push('<a class="tip-link" href="'+TIP_URL+'" target="_blank" rel="noopener">'+esc(t("tip_link"))+'</a>');
-    links.push('<a href="privacy.html">Privacy</a> <a href="affiliate-disclosure.html">Affiliate disclosure</a> <a href="over-ons.html">Over ons / 聯絡</a>');
     $("#foot").innerHTML = '<div class="foot-links">'+links.join("")+'</div><p>'+esc(t("foot1"))+'</p><p>'+esc(t("foot2",D.generated_zh))+'</p>';
 
     var app=$("#app");
@@ -329,10 +328,11 @@
   function card(p,i){
     var b=p.best, u=unitW(p), name=tr(p.name);
     var img = p.image ? esc(p.image) : PLACEHOLDER;
+    var page = p.page ? esc(p.page) : null;
     var s = '<article class="card" id="'+esc(p.id)+'" data-pid="'+esc(p.id)+'">';
     s += '<div class="card-main">';
-    s += '<div class="thumb"><img src="'+img+'" alt="'+esc(t("img_alt",p.brand+" "+name))+'" width="112" height="112" '+(i>1?'loading="lazy" ':'')+'decoding="async"></div>';
-    s += '<div class="ptitle"><div class="brandname">'+esc(p.brand)+'</div><h3>'+esc(name)+'</h3><div class="desc">'+esc(tr(p.desc))+(p.pack?DOT()+esc(tr(p.pack)):'')+'</div>';
+    s += '<div class="thumb">'+(page?'<a href="'+page+'">':'')+'<img src="'+img+'" alt="'+esc(t("img_alt",p.brand+" "+name))+'" width="112" height="112" '+(i>1?'loading="lazy" ':'')+'decoding="async">'+(page?'</a>':'')+'</div>';
+    s += '<div class="ptitle"><div class="brandname">'+esc(p.brand)+'</div><h3>'+(page?'<a href="'+page+'">'+esc(name)+'</a>':esc(name))+'</h3><div class="desc">'+esc(tr(p.desc))+(p.pack?DOT()+esc(tr(p.pack)):'')+'</div>';
     var dropb = p.drop>0 ? '<span class="badge dropb">'+esc(t("drop_badge",Math.round(p.drop)))+'</span>' : '';
     if(p.badge||dropb) s += '<div class="badges">'+(p.badge?'<span class="badge '+esc(p.badge.kind)+'">'+esc(tr(p.badge.text))+'</span>':'')+dropb+'</div>';
     s += '</div>';
