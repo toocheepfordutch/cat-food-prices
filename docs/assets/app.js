@@ -3,7 +3,17 @@
   var D = JSON.parse(document.getElementById("site-data").textContent);
   var $ = function(s){return document.querySelector(s);};
   function esc(s){return String(s==null?"":s).replace(/[&<>"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c];});}
-
+  // ── Amazon 導購標籤：render 時依站台補 tag（保留原有參數、既有 tag 會被換成正式值）；非 Amazon 連結原樣 ──
+    var AMAZON_TAGS = {"amazon.nl":"toocheepfor01-21","amazon.de":"toocheepfordu-21","amazon.com":"tcfd0b-20"};
+    function affUrl(u){
+          if(!u) return u;
+          try{
+                  var a = new URL(u), tag = AMAZON_TAGS[a.hostname.toLowerCase().replace(/^www\./,"")];
+                  if(!tag) return u;
+                  a.searchParams.set("tag", tag);
+                  return a.toString();
+          }catch(e){ return u; }
+    }
   // ── 語言：中文（繁體）／English／Nederlands ─────────────────────────────
   // 預設依裝置語言（navigator.languages 中第一個 zh／nl／en），手動選擇存在 localStorage（catfood.lang.v1）
   var LKEY="catfood.lang.v1", LANGS=["zh","en","nl"], HTML_LANG={zh:"zh-Hant-TW",en:"en",nl:"nl"}, SHORT={zh:"中",en:"EN",nl:"NL"};
@@ -186,6 +196,7 @@
 
     var links=[];
     if(D.feedback_url) links.push('<a class="fb-btn" href="'+esc(D.feedback_url)+'" target="_blank" rel="noopener">'+esc(t("feedback"))+'</a>');
+        links.push('<a href="privacy.html">Privacy</a> <a href="affiliate-disclosure.html">Affiliate disclosure</a> <a href="over-ons.html">Over ons / 聯絡</a>');
     links.push('<a class="tip-link" href="'+TIP_URL+'" target="_blank" rel="noopener">'+esc(t("tip_link"))+'</a>');
     $("#foot").innerHTML = '<div class="foot-links">'+links.join("")+'</div><p>'+esc(t("foot1"))+'</p><p>'+esc(t("foot2",D.generated_zh))+'</p>';
 
@@ -342,12 +353,12 @@
       s += '<div class="deal"><div class="price">'+(pbv(b)!=null
         ? '<div class="lbl">'+esc(t("lowest_per_base",bz(p)))+'</div><div class="val num">'+eur(pbv(b),bd(p))+'<small>/'+bu(p)+'</small></div><div class="per num">'+eur(b.unit)+'/'+esc(u)+(b.size?PAR(esc(sz(p,b.size))):'')+'</div>'
         : '<div class="lbl">'+esc(t("lowest_per_unit",u))+'</div><div class="val num">'+eur(b.unit)+'<small>/'+esc(u)+'</small></div>')+'</div>';
-      s += '<a class="buy" href="'+esc(b.url)+'" target="_blank" rel="noopener nofollow">'+esc(t("go_to",tr(b.shop)))+' '+ARROW+'</a></div>';
+      s += '<a class="buy" href="'+esc(affUrl(b.url))+'" target="_blank" rel="noopener nofollow">'+esc(t("go_to",tr(b.shop)))+' '+ARROW+'</a></div>';
       s += '<div class="where"><b>'+esc(tr(b.shop))+'</b>'+DOT()+variant(b.variant)+DOT()+esc(tr(b.basis))+' <span class="num">'+eur(b.price)+'</span><div class="c">'+tagsHtml(b,p,!!p.one_time_best)+'</div></div>';
       s += levelHtml(p);
       if(p.one_time_best){
         var o=p.one_time_best;
-        s += '<div class="alt">'+esc(t("alt_once"))+(LANG==="zh"?"":" ")+'<a href="'+esc(o.url)+'" target="_blank" rel="noopener nofollow">'+esc(tr(o.shop))+'</a> '+variant(o.variant)+' '+(pbv(o)!=null?pB(p,pbv(o)):'<span class="num">'+eur(o.unit)+'</span>/'+esc(u))+'</div>';
+        s += '<div class="alt">'+esc(t("alt_once"))+(LANG==="zh"?"":" ")+'<a href="'+esc(affUrl(o.url))+'" target="_blank" rel="noopener nofollow">'+esc(tr(o.shop))+'</a> '+variant(o.variant)+' '+(pbv(o)!=null?pB(p,pbv(o)):'<span class="num">'+eur(o.unit)+'</span>/'+esc(u))+'</div>';
       }
       s += '</div>';
     }
@@ -379,7 +390,7 @@
         '<div class="c">'+tags+'</div>'+
         (rest?'<div class="r">'+esc(t("other_sizes"))+rest+'</div>':'')+'</div>'+
         '<div class="o-price"><div class="u num">'+bigv+'</div><div class="h num">'+smallv+'</div>'+
-        '<a href="'+esc(o.url)+'" target="_blank" rel="noopener nofollow">'+esc(t("go"))+'</a></div></li>';
+        '<a href="'+esc(affUrl(o.url))+'" target="_blank" rel="noopener nofollow">'+esc(t("go"))+'</a></div></li>';
     });
     s += '</ol>';
     if(others>0){ var lbl=t("more",others); s += '<button class="more" type="button" data-label="'+esc(lbl)+'">'+esc(lbl)+'</button>'; }
