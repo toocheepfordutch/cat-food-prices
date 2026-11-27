@@ -1,11 +1,11 @@
 {
  "title": "追蹤價格（其他）",
  "site_sub": "空氣清淨機・寄送鹿特丹・每天更新",
- "updated": "2026-11-26",
- "updated_zh": "2026年11月26日",
- "next": "2026-11-27",
- "next_zh": "11月27日",
- "generated_zh": "2026-11-26 20:08",
+ "updated": "2026-11-27",
+ "updated_zh": "2026年11月27日",
+ "next": "2026-11-28",
+ "next_zh": "11月28日",
+ "generated_zh": "2026-11-27 20:03",
  "location": "鹿特丹",
  "products": [
   {
@@ -14,24 +14,28 @@
    "name": "Core 400S Smart WiFi 空氣清淨機",
    "desc": "EAN 0810043373685・CADR 400・適用 83 m²",
    "image": "images/levoit-core-400s.jpg",
-   "date": "2026-11-26",
+   "date": "2026-11-27",
    "best": {
-    "shop": "Galaxus.nl",
-    "seller": "Galaxus",
-    "variant": "Core 400S（EAN 0810043373685）",
-    "date": "2026-11-26",
-    "url": "https://www.galaxus.nl/en/s2/product/levoit-core-400s-83-m-air-purifier-21641268",
-    "price": 241.58,
-    "shipping": "0",
-    "shipping_label": "免運",
-    "net": 241.58,
+    "shop": "Proshop.nl",
+    "seller": "Proshop",
+    "variant": "Core 400S",
+    "date": "2026-11-27",
+    "url": "https://www.proshop.nl/Klimaat-ventilator-en-airconditioning/Levoit-Core-400S-Smart-HEPA-Air-Purifier/3512638",
+    "price": 179.9,
+    "shipping": "6.99",
+    "shipping_label": "運費 €6.99",
+    "net": 186.89,
     "verified": true,
     "verified_text": "yes",
-    "note": "不變：仍€241.58；到貨窗 12/02–12/05（與昨相同），available in a few days（非即時現貨）；頁面顯示 2 件已訂購",
+    "note": "新低核實：€179.90（未稅 €148.68），Cloudflare 驗證通過後核實；今日無現貨，預計 12/02 到貨；依「有貨」定義不計入今日最低價，Galaxus €241.58 仍為今日最低；含運總價 €186.89 為預訂價",
     "tags": [
      {
       "k": "ship",
-      "t": "免運"
+      "t": "運費 €6.99"
+     },
+     {
+      "k": "deal",
+      "t": "促銷價至 2026-12-06 23:59，每位客戶限購 4 件"
      }
     ],
     "purchasable": true,
@@ -41,20 +45,20 @@
    },
    "badge": {
     "kind": "above",
-    "text": "比歷史低價高 31%",
+    "text": "比歷史低價高 2%",
     "prev": 183.92
    },
    "level": {
     "status": "ok",
-    "n": 19,
-    "level": "high",
-    "cur": 241.58,
+    "n": 20,
+    "level": "low",
+    "cur": 186.89,
     "min": 183.92,
-    "p25": 230.79,
+    "p25": 218.19,
     "p75": 241.58,
     "max": 251.87
    },
-   "drop": 4.1,
+   "drop": 25.8,
    "history": [
     {
      "date": "2026-11-08",
@@ -131,14 +135,46 @@
     {
      "date": "2026-11-26",
      "net": 241.58
+    },
+    {
+     "date": "2026-11-27",
+     "net": 186.89
     }
    ],
    "offers": [
     {
+     "shop": "Proshop.nl",
+     "seller": "Proshop",
+     "variant": "Core 400S",
+     "date": "2026-11-27",
+     "url": "https://www.proshop.nl/Klimaat-ventilator-en-airconditioning/Levoit-Core-400S-Smart-HEPA-Air-Purifier/3512638",
+     "price": 179.9,
+     "shipping": "6.99",
+     "shipping_label": "運費 €6.99",
+     "net": 186.89,
+     "verified": true,
+     "verified_text": "yes",
+     "note": "新低核實：€179.90（未稅 €148.68），Cloudflare 驗證通過後核實；今日無現貨，預計 12/02 到貨；依「有貨」定義不計入今日最低價，Galaxus €241.58 仍為今日最低；含運總價 €186.89 為預訂價",
+     "tags": [
+      {
+       "k": "ship",
+       "t": "運費 €6.99"
+      },
+      {
+       "k": "deal",
+       "t": "促銷價至 2026-12-06 23:59，每位客戶限購 4 件"
+      }
+     ],
+     "purchasable": true,
+     "blocked_reason": "",
+     "status_text": "",
+     "carried": false
+    },
+    {
      "shop": "Galaxus.nl",
      "seller": "Galaxus",
      "variant": "Core 400S（EAN 0810043373685）",
-     "date": "2026-11-26",
+     "date": "2026-11-27",
      "url": "https://www.galaxus.nl/en/s2/product/levoit-core-400s-83-m-air-purifier-21641268",
      "price": 241.58,
      "shipping": "0",
@@ -146,7 +182,7 @@
      "net": 241.58,
      "verified": true,
      "verified_text": "yes",
-     "note": "不變：仍€241.58；到貨窗 12/02–12/05（與昨相同），available in a few days（非即時現貨）；頁面顯示 2 件已訂購",
+     "note": "不變：仍€241.58；到貨窗 12/02–12/05，available in a few days（非即時現貨）",
      "tags": [
       {
        "k": "ship",
@@ -162,7 +198,7 @@
      "shop": "bol.com",
      "seller": "De Online Retailer",
      "variant": "Core 400S",
-     "date": "2026-11-26",
+     "date": "2026-11-27",
      "url": "https://www.bol.com/nl/nl/p/levoit-core-400s-smart-hepa-luchtreiniger/9300000052331904/",
      "price": 265.0,
      "shipping": "0",
@@ -170,7 +206,7 @@
      "net": 265.0,
      "verified": true,
      "verified_text": "yes",
-     "note": "不變：仍€265；有貨，15:00前下單明日 11/27 到貨；賣家 De Online Retailer（8/10）；30 天免費退貨",
+     "note": "不變：仍€265；有貨，15:00前下單明日 11/28 到貨；賣家 De Online Retailer（8.8）",
      "tags": [
       {
        "k": "ship",
@@ -184,25 +220,6 @@
      "purchasable": true,
      "blocked_reason": "",
      "status_text": "",
-     "carried": false
-    },
-    {
-     "shop": "Proshop.nl",
-     "seller": "Proshop",
-     "variant": "Core 400S",
-     "date": "2026-11-26",
-     "url": "https://www.proshop.nl/Klimaat-ventilator-en-airconditioning/Levoit-Core-400S-Smart-HEPA-Air-Purifier/3512638",
-     "price": null,
-     "shipping": "",
-     "shipping_label": "",
-     "net": null,
-     "verified": false,
-     "verified_text": "no",
-     "note": "未核實：Cloudflare「Just a moment」驗證牆，全站性阻擋，多次點核取方塊／重載／首頁進入皆重置；昨日 €249＋運€6.99 不作今日價",
-     "tags": [],
-     "purchasable": false,
-     "blocked_reason": "",
-     "status_text": "未核實",
      "carried": false
     },
     {
@@ -433,6 +450,86 @@
     }
    ],
    "rows": [
+    {
+     "shop": "Galaxus.nl",
+     "seller": "Galaxus",
+     "variant": "Core 400S（EAN 0810043373685）",
+     "date": "2026-11-27",
+     "url": "https://www.galaxus.nl/en/s2/product/levoit-core-400s-83-m-air-purifier-21641268",
+     "price": 241.58,
+     "shipping": "0",
+     "shipping_label": "免運",
+     "net": 241.58,
+     "verified": true,
+     "verified_text": "yes",
+     "note": "不變：仍€241.58；到貨窗 12/02–12/05，available in a few days（非即時現貨）",
+     "tags": [
+      {
+       "k": "ship",
+       "t": "免運"
+      }
+     ],
+     "purchasable": true,
+     "blocked_reason": "",
+     "status_text": "",
+     "carried": false
+    },
+    {
+     "shop": "Proshop.nl",
+     "seller": "Proshop",
+     "variant": "Core 400S",
+     "date": "2026-11-27",
+     "url": "https://www.proshop.nl/Klimaat-ventilator-en-airconditioning/Levoit-Core-400S-Smart-HEPA-Air-Purifier/3512638",
+     "price": 179.9,
+     "shipping": "6.99",
+     "shipping_label": "運費 €6.99",
+     "net": 186.89,
+     "verified": true,
+     "verified_text": "yes",
+     "note": "新低核實：€179.90（未稅 €148.68），Cloudflare 驗證通過後核實；今日無現貨，預計 12/02 到貨；依「有貨」定義不計入今日最低價，Galaxus €241.58 仍為今日最低；含運總價 €186.89 為預訂價",
+     "tags": [
+      {
+       "k": "ship",
+       "t": "運費 €6.99"
+      },
+      {
+       "k": "deal",
+       "t": "促銷價至 2026-12-06 23:59，每位客戶限購 4 件"
+      }
+     ],
+     "purchasable": true,
+     "blocked_reason": "",
+     "status_text": "",
+     "carried": false
+    },
+    {
+     "shop": "bol.com",
+     "seller": "De Online Retailer",
+     "variant": "Core 400S",
+     "date": "2026-11-27",
+     "url": "https://www.bol.com/nl/nl/p/levoit-core-400s-smart-hepa-luchtreiniger/9300000052331904/",
+     "price": 265.0,
+     "shipping": "0",
+     "shipping_label": "免運",
+     "net": 265.0,
+     "verified": true,
+     "verified_text": "yes",
+     "note": "不變：仍€265；有貨，15:00前下單明日 11/28 到貨；賣家 De Online Retailer（8.8）",
+     "tags": [
+      {
+       "k": "ship",
+       "t": "免運"
+      },
+      {
+       "k": "cond",
+       "t": "含運"
+      }
+     ],
+     "purchasable": true,
+     "blocked_reason": "",
+     "status_text": "",
+     "carried": false
+    },
     {
      "shop": "Galaxus.nl",
      "seller": "Galaxus",
@@ -2021,9 +2118,9 @@
      "carried": false
     }
    ],
-   "record_count": 64,
-   "shop_count": 2,
-   "main_count": 2
+   "record_count": 67,
+   "shop_count": 3,
+   "main_count": 3
   },
   {
    "id": "philips-ac3033",
@@ -2031,12 +2128,12 @@
    "name": "AC3033/10（Series 3000i）空氣清淨機",
    "desc": "EAN 8720389002069・勿混 AC3039",
    "image": "images/philips-ac3033.jpg",
-   "date": "2026-11-26",
+   "date": "2026-11-27",
    "best": {
     "shop": "bol.com",
     "seller": "CHEAPOLOCO",
     "variant": "AC3033/10（EAN 8720389002069）灰白",
-    "date": "2026-11-26",
+    "date": "2026-11-27",
     "url": "https://www.bol.com/nl/nl/p/philips-luchtzuiveraar-zuivert-de-lucht-in-ruimten-tot-135-m/9200000115917234/",
     "price": 349.0,
     "shipping": "0",
@@ -2044,7 +2141,7 @@
     "net": 349.0,
     "verified": true,
     "verified_text": "yes",
-    "note": "不變：仍€349；灰白有貨，15:00前下單週六 11/28 到貨；純白仍 Niet leverbaar；今日 AC3033 唯一可買 offer",
+    "note": "不變：仍€349；灰白有貨，15:00前下單週一 11/30 到貨；純白仍 Niet leverbaar；今日 AC3033 唯一可買 offer",
     "tags": [
      {
       "k": "ship",
@@ -2066,7 +2163,7 @@
    },
    "level": {
     "status": "ok",
-    "n": 12,
+    "n": 13,
     "level": "typical",
     "cur": 349.0,
     "min": 349.0,
@@ -2123,6 +2220,10 @@
     {
      "date": "2026-11-26",
      "net": 349.0
+    },
+    {
+     "date": "2026-11-27",
+     "net": 349.0
     }
    ],
    "offers": [
@@ -2130,7 +2231,7 @@
      "shop": "bol.com",
      "seller": "CHEAPOLOCO",
      "variant": "AC3033/10（EAN 8720389002069）灰白",
-     "date": "2026-11-26",
+     "date": "2026-11-27",
      "url": "https://www.bol.com/nl/nl/p/philips-luchtzuiveraar-zuivert-de-lucht-in-ruimten-tot-135-m/9200000115917234/",
      "price": 349.0,
      "shipping": "0",
@@ -2138,7 +2239,7 @@
      "net": 349.0,
      "verified": true,
      "verified_text": "yes",
-     "note": "不變：仍€349；灰白有貨，15:00前下單週六 11/28 到貨；純白仍 Niet leverbaar；今日 AC3033 唯一可買 offer",
+     "note": "不變：仍€349；灰白有貨，15:00前下單週一 11/30 到貨；純白仍 Niet leverbaar；今日 AC3033 唯一可買 offer",
      "tags": [
       {
        "k": "ship",
@@ -2158,7 +2259,7 @@
      "shop": "MediaMarkt NL",
      "seller": "MediaMarkt自營",
      "variant": "AC3033/10",
-     "date": "2026-11-26",
+     "date": "2026-11-27",
      "url": "https://www.mediamarkt.nl/nl/product/_philips-3000i-series-ac303310-wit-grijs-1752626.html",
      "price": 277.77,
      "shipping": "",
@@ -2182,7 +2283,7 @@
      "shop": "Philips 官方NL商店",
      "seller": "",
      "variant": "AC3033/10",
-     "date": "2026-11-26",
+     "date": "2026-11-27",
      "url": "https://www.philips.nl/c-p/AC3033_10/3000i-series-luchtreiniger",
      "price": null,
      "shipping": "",
@@ -2293,6 +2394,77 @@
     }
    ],
    "rows": [
+    {
+     "shop": "bol.com",
+     "seller": "CHEAPOLOCO",
+     "variant": "AC3033/10（EAN 8720389002069）灰白",
+     "date": "2026-11-27",
+     "url": "https://www.bol.com/nl/nl/p/philips-luchtzuiveraar-zuivert-de-lucht-in-ruimten-tot-135-m/9200000115917234/",
+     "price": 349.0,
+     "shipping": "0",
+     "shipping_label": "免運",
+     "net": 349.0,
+     "verified": true,
+     "verified_text": "yes",
+     "note": "不變：仍€349；灰白有貨，15:00前下單週一 11/30 到貨；純白仍 Niet leverbaar；今日 AC3033 唯一可買 offer",
+     "tags": [
+      {
+       "k": "ship",
+       "t": "免運"
+      },
+      {
+       "k": "cond",
+       "t": "含運（由 bol 出貨）"
+      }
+     ],
+     "purchasable": true,
+     "blocked_reason": "",
+     "status_text": "",
+     "carried": false
+    },
+    {
+     "shop": "MediaMarkt NL",
+     "seller": "MediaMarkt自營",
+     "variant": "AC3033/10",
+     "date": "2026-11-27",
+     "url": "https://www.mediamarkt.nl/nl/product/_philips-3000i-series-ac303310-wit-grijs-1752626.html",
+     "price": 277.77,
+     "shipping": "",
+     "shipping_label": "",
+     "net": 277.77,
+     "verified": true,
+     "verified_text": "yes",
+     "note": "不變：仍€277.77標價，無貨不可訂購／配送／取貨",
+     "tags": [
+      {
+       "k": "deal",
+       "t": "Laatste kans標價（Meestal €349.99）"
+      }
+     ],
+     "purchasable": false,
+     "blocked_reason": "",
+     "status_text": "缺貨／不可訂",
+     "carried": false
+    },
+    {
+     "shop": "Philips 官方NL商店",
+     "seller": "",
+     "variant": "AC3033/10",
+     "date": "2026-11-27",
+     "url": "https://www.philips.nl/c-p/AC3033_10/3000i-series-luchtreiniger",
+     "price": null,
+     "shipping": "",
+     "shipping_label": "",
+     "net": null,
+     "verified": true,
+     "verified_text": "yes",
+     "note": "不變：仍404下架（轉址至 home-appliances.philips 後顯示找不到頁面）",
+     "tags": [],
+     "purchasable": false,
+     "blocked_reason": "",
+     "status_text": "無報價",
+     "carried": false
+    },
     {
      "shop": "bol.com",
      "seller": "CHEAPOLOCO",
@@ -3588,7 +3760,7 @@
      "carried": false
     }
    ],
-   "record_count": 56,
+   "record_count": 59,
    "shop_count": 1,
    "main_count": 1
   },
@@ -3598,12 +3770,12 @@
    "name": "Zero S 空氣清淨機（白）",
    "desc": "EAN 8809490584234・CADR 410 m³/h・約 99–100 m²・勿混 Zero／Zero Pro",
    "image": "images/winix-zero-s.jpg",
-   "date": "2026-11-26",
+   "date": "2026-11-27",
    "best": {
     "shop": "Coolblue",
     "seller": "Coolblue",
     "variant": "Zero S 白",
-    "date": "2026-11-26",
+    "date": "2026-11-27",
     "url": "https://www.coolblue.nl/product/916681/winix-zero-s.html",
     "price": 239.0,
     "shipping": "0",
@@ -3629,7 +3801,7 @@
    },
    "level": {
     "status": "ok",
-    "n": 18,
+    "n": 19,
     "level": "low",
     "cur": 239.0,
     "min": 239.0,
@@ -3710,6 +3882,10 @@
     {
      "date": "2026-11-26",
      "net": 239.0
+    },
+    {
+     "date": "2026-11-27",
+     "net": 239.0
     }
    ],
    "offers": [
@@ -3717,7 +3893,7 @@
      "shop": "Coolblue",
      "seller": "Coolblue",
      "variant": "Zero S 白",
-     "date": "2026-11-26",
+     "date": "2026-11-27",
      "url": "https://www.coolblue.nl/product/916681/winix-zero-s.html",
      "price": 239.0,
      "shipping": "0",
@@ -3741,7 +3917,7 @@
      "shop": "Galaxus.nl",
      "seller": "Galaxus",
      "variant": "Zero S 白",
-     "date": "2026-11-26",
+     "date": "2026-11-27",
      "url": "https://www.galaxus.nl/en/s2/product/winix-zero-s-99-m-air-purifier-34854869",
      "price": 239.0,
      "shipping": "0",
@@ -3749,7 +3925,7 @@
      "net": 239.0,
      "verified": true,
      "verified_text": "yes",
-     "note": "不變：仍€239；到貨窗提前至 12/10–12/12（昨 12/18–2027/01/05）；available in a few weeks；供應商現貨10件以上",
+     "note": "不變：仍€239；到貨窗 12/10–12/12；available in a few weeks；供應商現貨10件以上",
      "tags": [
       {
        "k": "ship",
@@ -3765,7 +3941,7 @@
      "shop": "bol.com",
      "seller": "—",
      "variant": "Zero S 白",
-     "date": "2026-11-26",
+     "date": "2026-11-27",
      "url": "https://www.bol.com/nl/nl/p/winix-luchtreiniger-zero-s-luchtreiniger-met-hepa-filter-en-plasmawave-technologie-410m3-h/9300000144873227/",
      "price": null,
      "shipping": "",
@@ -3910,6 +4086,73 @@
     }
    ],
    "rows": [
+    {
+     "shop": "Coolblue",
+     "seller": "Coolblue",
+     "variant": "Zero S 白",
+     "date": "2026-11-27",
+     "url": "https://www.coolblue.nl/product/916681/winix-zero-s.html",
+     "price": 239.0,
+     "shipping": "0",
+     "shipping_label": "免運",
+     "net": 239.0,
+     "verified": true,
+     "verified_text": "yes",
+     "note": "不變：仍€239免費送貨，Op voorraad 有貨可訂；頁面未顯示具體到貨日",
+     "tags": [
+      {
+       "k": "ship",
+       "t": "免運"
+      }
+     ],
+     "purchasable": true,
+     "blocked_reason": "",
+     "status_text": "",
+     "carried": false
+    },
+    {
+     "shop": "Galaxus.nl",
+     "seller": "Galaxus",
+     "variant": "Zero S 白",
+     "date": "2026-11-27",
+     "url": "https://www.galaxus.nl/en/s2/product/winix-zero-s-99-m-air-purifier-34854869",
+     "price": 239.0,
+     "shipping": "0",
+     "shipping_label": "免運",
+     "net": 239.0,
+     "verified": true,
+     "verified_text": "yes",
+     "note": "不變：仍€239；到貨窗 12/10–12/12；available in a few weeks；供應商現貨10件以上",
+     "tags": [
+      {
+       "k": "ship",
+       "t": "免運"
+      }
+     ],
+     "purchasable": true,
+     "blocked_reason": "",
+     "status_text": "",
+     "carried": false
+    },
+    {
+     "shop": "bol.com",
+     "seller": "—",
+     "variant": "Zero S 白",
+     "date": "2026-11-27",
+     "url": "https://www.bol.com/nl/nl/p/winix-luchtreiniger-zero-s-luchtreiniger-met-hepa-filter-en-plasmawave-technologie-410m3-h/9300000144873227/",
+     "price": null,
+     "shipping": "",
+     "shipping_label": "",
+     "net": null,
+     "verified": true,
+     "verified_text": "yes",
+     "note": "不變：390 與 410 m³/h 兩款皆 Niet leverbaar，無價無賣家",
+     "tags": [],
+     "purchasable": false,
+     "blocked_reason": "",
+     "status_text": "無報價",
+     "carried": false
+    },
     {
      "shop": "Coolblue",
      "seller": "Coolblue",
@@ -5367,7 +5610,7 @@
      "carried": false
     }
    ],
-   "record_count": 60,
+   "record_count": 63,
    "shop_count": 2,
    "main_count": 2
   },
@@ -5377,20 +5620,20 @@
    "name": "PureProtect Pro 4200 AC4221/11（金屬黑）",
    "desc": "EAN 8720389039379（Beslist 刊載）・156 m²・54 W・勿混 AC4220/12 銀色／AC4221/11R1",
    "image": "images/philips-ac4221.jpg",
-   "date": "2026-11-26",
+   "date": "2026-11-27",
    "best": {
     "shop": "Galaxus.nl",
     "seller": "Galaxus",
     "variant": "AC4221/11 金屬黑",
-    "date": "2026-11-26",
+    "date": "2026-11-27",
     "url": "https://www.galaxus.nl/en/s2/product/philips-4000i-series-156-m-air-purifier-49872555",
-    "price": 513.06,
+    "price": 384.34,
     "shipping": "0",
     "shipping_label": "免運",
-    "net": 513.06,
+    "net": 384.34,
     "verified": true,
     "verified_text": "yes",
-    "note": "新平台：今日完整搜尋新發現；黑色 €513.06 全新機（銀色 €449.99 為頁面同商品顏色選項，是否為 AC4220/12 待確認）；供應商現貨 5 件，到貨 12/28–2027/01/12；Kaufland 未核實，今日唯一已核實可寄荷蘭的全新黑機 offer",
+    "note": "大跌：€513.06→€384.34（-€128.72，原價€469，-18%）；供應商現貨 >10 件，到貨 12/09–12/12（昨 12/28–2027/01/12，大幅提前）；今日唯一已核實可寄荷蘭的全新黑機 offer，為今日 AC4221 最低價；銀色款另確認為 AC4220/12 €449.99，非本款",
     "tags": [
      {
       "k": "ship",
@@ -5403,21 +5646,21 @@
     "carried": false
    },
    "badge": {
-    "kind": "above",
-    "text": "比歷史低價高 13%",
+    "kind": "new_low",
+    "text": "新低價",
     "prev": 452.2
    },
    "level": {
     "status": "ok",
-    "n": 8,
-    "level": "high",
-    "cur": 513.06,
-    "min": 452.2,
+    "n": 9,
+    "level": "low",
+    "cur": 384.34,
+    "min": 384.34,
     "p25": 452.2,
     "p75": 452.2,
     "max": 513.06
    },
-   "drop": 0.0,
+   "drop": 25.1,
    "history": [
     {
      "date": "2026-11-18",
@@ -5450,6 +5693,10 @@
     {
      "date": "2026-11-26",
      "net": 513.06
+    },
+    {
+     "date": "2026-11-27",
+     "net": 384.34
     }
    ],
    "offers": [
@@ -5457,15 +5704,15 @@
      "shop": "Galaxus.nl",
      "seller": "Galaxus",
      "variant": "AC4221/11 金屬黑",
-     "date": "2026-11-26",
+     "date": "2026-11-27",
      "url": "https://www.galaxus.nl/en/s2/product/philips-4000i-series-156-m-air-purifier-49872555",
-     "price": 513.06,
+     "price": 384.34,
      "shipping": "0",
      "shipping_label": "免運",
-     "net": 513.06,
+     "net": 384.34,
      "verified": true,
      "verified_text": "yes",
-     "note": "新平台：今日完整搜尋新發現；黑色 €513.06 全新機（銀色 €449.99 為頁面同商品顏色選項，是否為 AC4220/12 待確認）；供應商現貨 5 件，到貨 12/28–2027/01/12；Kaufland 未核實，今日唯一已核實可寄荷蘭的全新黑機 offer",
+     "note": "大跌：€513.06→€384.34（-€128.72，原價€469，-18%）；供應商現貨 >10 件，到貨 12/09–12/12（昨 12/28–2027/01/12，大幅提前）；今日唯一已核實可寄荷蘭的全新黑機 offer，為今日 AC4221 最低價；銀色款另確認為 AC4220/12 €449.99，非本款",
      "tags": [
       {
        "k": "ship",
@@ -5475,6 +5722,96 @@
      "purchasable": true,
      "blocked_reason": "",
      "status_text": "",
+     "carried": false
+    },
+    {
+     "shop": "Galaxus.nl",
+     "seller": "Galaxus",
+     "variant": "AC4220/12 銀色（非本款）",
+     "date": "2026-11-27",
+     "url": "https://www.galaxus.nl/en/s2/product/philips-4000i-series-156-m-air-purifier-49872555",
+     "price": 449.99,
+     "shipping": "0",
+     "shipping_label": "免運",
+     "net": 449.99,
+     "verified": true,
+     "verified_text": "yes",
+     "note": "非本款：銀色為 AC4220/12，不計入 AC4221/11 最低價；供應商僅 4 件，到貨 12/09–12/19",
+     "tags": [
+      {
+       "k": "ship",
+       "t": "免運"
+      }
+     ],
+     "purchasable": true,
+     "blocked_reason": "",
+     "status_text": "",
+     "carried": false
+    },
+    {
+     "shop": "Philips 官網 DE",
+     "seller": "Philips (Versuni DE)",
+     "variant": "AC4221/11 金屬黑",
+     "date": "2026-11-27",
+     "url": "https://www.home-appliances.philips/de/de/p/AC4221_11",
+     "price": 349.99,
+     "shipping": "DE境內滿€40免運",
+     "shipping_label": "DE境內滿€40免運",
+     "net": 349.99,
+     "verified": true,
+     "verified_text": "yes",
+     "note": "不變：仍€349.99（原價€391.99）；可訂購，交期4–6工作天；只寄德國、不列可下單至荷蘭",
+     "tags": [
+      {
+       "k": "ship",
+       "t": "DE境內滿€40免運"
+      },
+      {
+       "k": "deal",
+       "t": "Black Friday -10%"
+      }
+     ],
+     "purchasable": false,
+     "blocked_reason": "僅寄德國・不寄荷蘭",
+     "status_text": "僅寄德國・不寄荷蘭",
+     "carried": false
+    },
+    {
+     "shop": "Kaufland.nl",
+     "seller": "Arboremedia",
+     "variant": "AC4221/11 金屬黑",
+     "date": "2026-11-27",
+     "url": "https://www.kaufland.nl/product/515643659/",
+     "price": null,
+     "shipping": "",
+     "shipping_label": "",
+     "net": null,
+     "verified": false,
+     "verified_text": "no",
+     "note": "未核實：Cloudflare「Toegang geblokkeerd」整站封鎖，重載／首頁／等候60秒皆仍被擋；昨日 €452.20 不作今日價",
+     "tags": [],
+     "purchasable": false,
+     "blocked_reason": "",
+     "status_text": "未核實",
+     "carried": false
+    },
+    {
+     "shop": "Amazon",
+     "seller": "Amazon.nl",
+     "variant": "AC4221/11",
+     "date": "2026-11-27",
+     "url": "https://www.amazon.nl/dp/B0D3VCF5P2",
+     "price": null,
+     "shipping": "",
+     "shipping_label": "",
+     "net": null,
+     "verified": false,
+     "verified_text": "no",
+     "note": "Amazon.nl本日未直接開頁重查（已知全站錯誤）；Beslist刊載 Amazon Partners €410.10（未核實）",
+     "tags": [],
+     "purchasable": false,
+     "blocked_reason": "",
+     "status_text": "未核實",
      "carried": false
     },
     {
@@ -5499,73 +5836,7 @@
      "purchasable": false,
      "blocked_reason": "不計入最佳價",
      "status_text": "不計入最佳價",
-     "carried": false
-    },
-    {
-     "shop": "Philips 官網 DE",
-     "seller": "Philips (Versuni DE)",
-     "variant": "AC4221/11 金屬黑",
-     "date": "2026-11-26",
-     "url": "https://www.home-appliances.philips/de/de/p/AC4221_11",
-     "price": 349.99,
-     "shipping": "DE境內滿€40免運",
-     "shipping_label": "DE境內滿€40免運",
-     "net": 349.99,
-     "verified": true,
-     "verified_text": "yes",
-     "note": "不變：仍€349.99（原價€391.99）；可訂購，交期4–6工作天；只寄德國（11-18 AGB 已確認，今日商品頁未重核寄送範圍），不列可下單至荷蘭",
-     "tags": [
-      {
-       "k": "ship",
-       "t": "DE境內滿€40免運"
-      },
-      {
-       "k": "deal",
-       "t": "Black Friday -10%"
-      }
-     ],
-     "purchasable": false,
-     "blocked_reason": "僅寄德國・不寄荷蘭",
-     "status_text": "僅寄德國・不寄荷蘭",
-     "carried": false
-    },
-    {
-     "shop": "Kaufland.nl",
-     "seller": "Arboremedia",
-     "variant": "AC4221/11 金屬黑",
-     "date": "2026-11-26",
-     "url": "https://www.kaufland.nl/product/515643659/",
-     "price": null,
-     "shipping": "",
-     "shipping_label": "",
-     "net": null,
-     "verified": false,
-     "verified_text": "no",
-     "note": "未核實：Cloudflare「Toegang geblokkeerd」整站封鎖，重載／首頁／等候60秒皆仍被擋，無可互動驗證元件；昨日 €452.20 不作今日價",
-     "tags": [],
-     "purchasable": false,
-     "blocked_reason": "",
-     "status_text": "未核實",
-     "carried": false
-    },
-    {
-     "shop": "Amazon",
-     "seller": "Amazon.nl",
-     "variant": "AC4221/11",
-     "date": "2026-11-26",
-     "url": "https://www.amazon.nl/dp/B0D3VCF5P2",
-     "price": null,
-     "shipping": "",
-     "shipping_label": "",
-     "net": null,
-     "verified": false,
-     "verified_text": "no",
-     "note": "Amazon.nl本日未直接開頁重查（已知全站錯誤）；Beslist刊載 Amazon Partners €410.10（未核實）",
-     "tags": [],
-     "purchasable": false,
-     "blocked_reason": "",
-     "status_text": "未核實",
-     "carried": false
+     "carried": true
     },
     {
      "shop": "Beslist刊載",
@@ -5755,6 +6026,120 @@
     }
    ],
    "rows": [
+    {
+     "shop": "Philips 官網 DE",
+     "seller": "Philips (Versuni DE)",
+     "variant": "AC4221/11 金屬黑",
+     "date": "2026-11-27",
+     "url": "https://www.home-appliances.philips/de/de/p/AC4221_11",
+     "price": 349.99,
+     "shipping": "DE境內滿€40免運",
+     "shipping_label": "DE境內滿€40免運",
+     "net": 349.99,
+     "verified": true,
+     "verified_text": "yes",
+     "note": "不變：仍€349.99（原價€391.99）；可訂購，交期4–6工作天；只寄德國、不列可下單至荷蘭",
+     "tags": [
+      {
+       "k": "ship",
+       "t": "DE境內滿€40免運"
+      },
+      {
+       "k": "deal",
+       "t": "Black Friday -10%"
+      }
+     ],
+     "purchasable": false,
+     "blocked_reason": "僅寄德國・不寄荷蘭",
+     "status_text": "僅寄德國・不寄荷蘭",
+     "carried": false
+    },
+    {
+     "shop": "Kaufland.nl",
+     "seller": "Arboremedia",
+     "variant": "AC4221/11 金屬黑",
+     "date": "2026-11-27",
+     "url": "https://www.kaufland.nl/product/515643659/",
+     "price": null,
+     "shipping": "",
+     "shipping_label": "",
+     "net": null,
+     "verified": false,
+     "verified_text": "no",
+     "note": "未核實：Cloudflare「Toegang geblokkeerd」整站封鎖，重載／首頁／等候60秒皆仍被擋；昨日 €452.20 不作今日價",
+     "tags": [],
+     "purchasable": false,
+     "blocked_reason": "",
+     "status_text": "未核實",
+     "carried": false
+    },
+    {
+     "shop": "Galaxus.nl",
+     "seller": "Galaxus",
+     "variant": "AC4221/11 金屬黑",
+     "date": "2026-11-27",
+     "url": "https://www.galaxus.nl/en/s2/product/philips-4000i-series-156-m-air-purifier-49872555",
+     "price": 384.34,
+     "shipping": "0",
+     "shipping_label": "免運",
+     "net": 384.34,
+     "verified": true,
+     "verified_text": "yes",
+     "note": "大跌：€513.06→€384.34（-€128.72，原價€469，-18%）；供應商現貨 >10 件，到貨 12/09–12/12（昨 12/28–2027/01/12，大幅提前）；今日唯一已核實可寄荷蘭的全新黑機 offer，為今日 AC4221 最低價；銀色款另確認為 AC4220/12 €449.99，非本款",
+     "tags": [
+      {
+       "k": "ship",
+       "t": "免運"
+      }
+     ],
+     "purchasable": true,
+     "blocked_reason": "",
+     "status_text": "",
+     "carried": false
+    },
+    {
+     "shop": "Galaxus.nl",
+     "seller": "Galaxus",
+     "variant": "AC4220/12 銀色（非本款）",
+     "date": "2026-11-27",
+     "url": "https://www.galaxus.nl/en/s2/product/philips-4000i-series-156-m-air-purifier-49872555",
+     "price": 449.99,
+     "shipping": "0",
+     "shipping_label": "免運",
+     "net": 449.99,
+     "verified": true,
+     "verified_text": "yes",
+     "note": "非本款：銀色為 AC4220/12，不計入 AC4221/11 最低價；供應商僅 4 件，到貨 12/09–12/19",
+     "tags": [
+      {
+       "k": "ship",
+       "t": "免運"
+      }
+     ],
+     "purchasable": true,
+     "blocked_reason": "",
+     "status_text": "",
+     "carried": false
+    },
+    {
+     "shop": "Amazon",
+     "seller": "Amazon.nl",
+     "variant": "AC4221/11",
+     "date": "2026-11-27",
+     "url": "https://www.amazon.nl/dp/B0D3VCF5P2",
+     "price": null,
+     "shipping": "",
+     "shipping_label": "",
+     "net": null,
+     "verified": false,
+     "verified_text": "no",
+     "note": "Amazon.nl本日未直接開頁重查（已知全站錯誤）；Beslist刊載 Amazon Partners €410.10（未核實）",
+     "tags": [],
+     "purchasable": false,
+     "blocked_reason": "",
+     "status_text": "未核實",
+     "carried": false
+    },
     {
      "shop": "Philips 官網 DE",
      "seller": "Philips (Versuni DE)",
@@ -7286,9 +7671,9 @@
      "carried": false
     }
    ],
-   "record_count": 68,
+   "record_count": 73,
    "shop_count": 1,
-   "main_count": 1
+   "main_count": 2
   },
   {
    "id": "iqair-healthpro-250",
@@ -7296,12 +7681,12 @@
    "name": "HealthPro 250（歐洲名 HealthPro Plus）",
    "desc": "EAN 7640145092114・HyperHEPA・勿混 100／150／250 XE",
    "image": "images/iqair-healthpro-250.jpg",
-   "date": "2026-11-26",
+   "date": "2026-11-27",
    "best": {
     "shop": "IQAir 歐洲官網",
     "seller": "IQAir",
     "variant": "HealthPro 250 (EU Plug Type C)",
-    "date": "2026-11-26",
+    "date": "2026-11-27",
     "url": "https://www.iqair.com/eu/products/air-purifiers/healthpro-plus?Style=EU+Plug+Type+C",
     "price": 1399.0,
     "shipping": "未明示",
@@ -7327,7 +7712,7 @@
    },
    "level": {
     "status": "ok",
-    "n": 15,
+    "n": 16,
     "level": "typical",
     "cur": 1399.0,
     "min": 1399.0,
@@ -7396,6 +7781,10 @@
     {
      "date": "2026-11-26",
      "net": 1399.0
+    },
+    {
+     "date": "2026-11-27",
+     "net": 1399.0
     }
    ],
    "offers": [
@@ -7403,7 +7792,7 @@
      "shop": "IQAir 歐洲官網",
      "seller": "IQAir",
      "variant": "HealthPro 250 (EU Plug Type C)",
-     "date": "2026-11-26",
+     "date": "2026-11-27",
      "url": "https://www.iqair.com/eu/products/air-purifiers/healthpro-plus?Style=EU+Plug+Type+C",
      "price": 1399.0,
      "shipping": "未明示",
@@ -7427,7 +7816,7 @@
      "shop": "Aeropure (BE)",
      "seller": "Aeropure",
      "variant": "HealthPro 250",
-     "date": "2026-11-26",
+     "date": "2026-11-27",
      "url": "https://aeropure.be/product/iqair-healthpro-250/",
      "price": 1399.0,
      "shipping": "未明示",
@@ -7445,6 +7834,68 @@
      "purchasable": true,
      "blocked_reason": "",
      "status_text": "",
+     "carried": false
+    },
+    {
+     "shop": "AllergieShop.nl",
+     "seller": "AllergieShop",
+     "variant": "HealthPro 250",
+     "date": "2026-11-27",
+     "url": "https://www.allergieshop.nl/iqair-healthpro-250-ne/",
+     "price": 1399.0,
+     "shipping": "滿€70免運",
+     "shipping_label": "滿€70免運",
+     "net": 1399.0,
+     "verified": true,
+     "verified_text": "yes",
+     "note": "變化：由缺貨改為預訂，Beschikbaar in 14 dagen，Levertijd 3 至 4 週；今日仍非現貨，價格不變",
+     "tags": [
+      {
+       "k": "ship",
+       "t": "滿€70免運"
+      }
+     ],
+     "purchasable": true,
+     "blocked_reason": "",
+     "status_text": "",
+     "carried": false
+    },
+    {
+     "shop": "bol",
+     "seller": "—",
+     "variant": "HealthPro 250",
+     "date": "2026-11-27",
+     "url": "https://www.bol.com/nl/nl/p/iqair-healthpro-250/9200000080424390/",
+     "price": null,
+     "shipping": "",
+     "shipping_label": "",
+     "net": null,
+     "verified": true,
+     "verified_text": "yes",
+     "note": "不變：Niet leverbaar缺貨無賣家；僅到貨通知按鈕",
+     "tags": [],
+     "purchasable": false,
+     "blocked_reason": "",
+     "status_text": "無報價",
+     "carried": false
+    },
+    {
+     "shop": "Amazon",
+     "seller": "Amazon.nl",
+     "variant": "HealthPro 250",
+     "date": "2026-11-27",
+     "url": "https://www.amazon.nl/dp/B002VXDCHW",
+     "price": null,
+     "shipping": "",
+     "shipping_label": "",
+     "net": null,
+     "verified": false,
+     "verified_text": "no",
+     "note": "Amazon.nl本日未直接開頁重查（已知全站錯誤）；Beslist刊載€1,399（未核實）",
+     "tags": [],
+     "purchasable": false,
+     "blocked_reason": "",
+     "status_text": "未核實",
      "carried": false
     },
     {
@@ -7469,69 +7920,7 @@
      "purchasable": false,
      "blocked_reason": "不計入最佳價",
      "status_text": "不計入最佳價",
-     "carried": false
-    },
-    {
-     "shop": "AllergieShop.nl",
-     "seller": "AllergieShop",
-     "variant": "HealthPro 250",
-     "date": "2026-11-26",
-     "url": "https://www.allergieshop.nl/iqair-healthpro-250-ne/",
-     "price": 1399.0,
-     "shipping": "滿€70免運",
-     "shipping_label": "滿€70免運",
-     "net": 1399.0,
-     "verified": true,
-     "verified_text": "yes",
-     "note": "不變：仍€1,399但缺貨，僅到貨通知；滿€70免運",
-     "tags": [
-      {
-       "k": "ship",
-       "t": "滿€70免運"
-      }
-     ],
-     "purchasable": false,
-     "blocked_reason": "",
-     "status_text": "缺貨／不可訂",
-     "carried": false
-    },
-    {
-     "shop": "bol",
-     "seller": "—",
-     "variant": "HealthPro 250",
-     "date": "2026-11-26",
-     "url": "https://www.bol.com/nl/nl/p/iqair-healthpro-250/9200000080424390/",
-     "price": null,
-     "shipping": "",
-     "shipping_label": "",
-     "net": null,
-     "verified": true,
-     "verified_text": "yes",
-     "note": "不變：Niet leverbaar缺貨無賣家；僅到貨通知按鈕",
-     "tags": [],
-     "purchasable": false,
-     "blocked_reason": "",
-     "status_text": "無報價",
-     "carried": false
-    },
-    {
-     "shop": "Amazon",
-     "seller": "Amazon.nl",
-     "variant": "HealthPro 250",
-     "date": "2026-11-26",
-     "url": "https://www.amazon.nl/dp/B002VXDCHW",
-     "price": null,
-     "shipping": "",
-     "shipping_label": "",
-     "net": null,
-     "verified": false,
-     "verified_text": "no",
-     "note": "Amazon.nl本日未直接開頁重查（已知全站錯誤）；Beslist刊載€1,399（未核實）",
-     "tags": [],
-     "purchasable": false,
-     "blocked_reason": "",
-     "status_text": "未核實",
-     "carried": false
+     "carried": true
     },
     {
      "shop": "Intimus International",
@@ -7616,6 +8005,116 @@
     }
    ],
    "rows": [
+    {
+     "shop": "IQAir 歐洲官網",
+     "seller": "IQAir",
+     "variant": "HealthPro 250 (EU Plug Type C)",
+     "date": "2026-11-27",
+     "url": "https://www.iqair.com/eu/products/air-purifiers/healthpro-plus?Style=EU+Plug+Type+C",
+     "price": 1399.0,
+     "shipping": "未明示",
+     "shipping_label": "未明示",
+     "net": 1399.0,
+     "verified": true,
+     "verified_text": "yes",
+     "note": "不變：仍€1,399含稅；可加購物車；寄鹿特丹運費／交期頁面未明示",
+     "tags": [
+      {
+       "k": "ship",
+       "t": "未明示"
+      }
+     ],
+     "purchasable": true,
+     "blocked_reason": "",
+     "status_text": "",
+     "carried": false
+    },
+    {
+     "shop": "Aeropure (BE)",
+     "seller": "Aeropure",
+     "variant": "HealthPro 250",
+     "date": "2026-11-27",
+     "url": "https://aeropure.be/product/iqair-healthpro-250/",
+     "price": 1399.0,
+     "shipping": "未明示",
+     "shipping_label": "未明示",
+     "net": 1399.0,
+     "verified": true,
+     "verified_text": "yes",
+     "note": "不變：仍€1,399含BTW；可訂購；交期2-3工作天；運費頁面未明示",
+     "tags": [
+      {
+       "k": "ship",
+       "t": "未明示"
+      }
+     ],
+     "purchasable": true,
+     "blocked_reason": "",
+     "status_text": "",
+     "carried": false
+    },
+    {
+     "shop": "AllergieShop.nl",
+     "seller": "AllergieShop",
+     "variant": "HealthPro 250",
+     "date": "2026-11-27",
+     "url": "https://www.allergieshop.nl/iqair-healthpro-250-ne/",
+     "price": 1399.0,
+     "shipping": "滿€70免運",
+     "shipping_label": "滿€70免運",
+     "net": 1399.0,
+     "verified": true,
+     "verified_text": "yes",
+     "note": "變化：由缺貨改為預訂，Beschikbaar in 14 dagen，Levertijd 3 至 4 週；今日仍非現貨，價格不變",
+     "tags": [
+      {
+       "k": "ship",
+       "t": "滿€70免運"
+      }
+     ],
+     "purchasable": true,
+     "blocked_reason": "",
+     "status_text": "",
+     "carried": false
+    },
+    {
+     "shop": "bol",
+     "seller": "—",
+     "variant": "HealthPro 250",
+     "date": "2026-11-27",
+     "url": "https://www.bol.com/nl/nl/p/iqair-healthpro-250/9200000080424390/",
+     "price": null,
+     "shipping": "",
+     "shipping_label": "",
+     "net": null,
+     "verified": true,
+     "verified_text": "yes",
+     "note": "不變：Niet leverbaar缺貨無賣家；僅到貨通知按鈕",
+     "tags": [],
+     "purchasable": false,
+     "blocked_reason": "",
+     "status_text": "無報價",
+     "carried": false
+    },
+    {
+     "shop": "Amazon",
+     "seller": "Amazon.nl",
+     "variant": "HealthPro 250",
+     "date": "2026-11-27",
+     "url": "https://www.amazon.nl/dp/B002VXDCHW",
+     "price": null,
+     "shipping": "",
+     "shipping_label": "",
+     "net": null,
+     "verified": false,
+     "verified_text": "no",
+     "note": "Amazon.nl本日未直接開頁重查（已知全站錯誤）；Beslist刊載€1,399（未核實）",
+     "tags": [],
+     "purchasable": false,
+     "blocked_reason": "",
+     "status_text": "未核實",
+     "carried": false
+    },
     {
      "shop": "IQAir 歐洲官網",
      "seller": "IQAir",
@@ -9377,9 +9876,9 @@
      "carried": false
     }
    ],
-   "record_count": 80,
-   "shop_count": 2,
-   "main_count": 2
+   "record_count": 85,
+   "shop_count": 3,
+   "main_count": 3
   },
   {
    "id": "levoit-core-600s",
@@ -9387,12 +9886,12 @@
    "name": "Core 600S 空氣清淨機",
    "desc": "雙 EAN 並存：0810123679584／0810043375214（後者疑 120V 美規，下單前確認電壓）・147 m²",
    "image": "images/levoit-core-600s.jpg",
-   "date": "2026-11-26",
+   "date": "2026-11-27",
    "best": {
     "shop": "Galaxus",
     "seller": "Galaxus.nl",
     "variant": "Core 600S (147 m²)",
-    "date": "2026-11-26",
+    "date": "2026-11-27",
     "url": "https://www.galaxus.nl/en/s2/product/levoit-core-600s-147-m-air-purifier-31309214",
     "price": 329.43,
     "shipping": "0",
@@ -9400,7 +9899,7 @@
     "net": 329.43,
     "verified": true,
     "verified_text": "yes",
-    "note": "不變：仍€329.43免運；到貨窗 12/03–12/05；available in a few days（非即時現貨）；頁面未顯示 EAN",
+    "note": "不變：仍€329.43免運；到貨窗 12/04–12/08（昨 12/03–12/05，延後）；available in a few days（非即時現貨）；MPN LAP-C601S-WEU 白色；規格頁未顯示 EAN",
     "tags": [
      {
       "k": "ship",
@@ -9418,7 +9917,7 @@
    },
    "level": {
     "status": "ok",
-    "n": 15,
+    "n": 16,
     "level": "typical",
     "cur": 329.43,
     "min": 329.43,
@@ -9487,6 +9986,10 @@
     {
      "date": "2026-11-26",
      "net": 329.43
+    },
+    {
+     "date": "2026-11-27",
+     "net": 329.43
     }
    ],
    "offers": [
@@ -9494,7 +9997,7 @@
      "shop": "Galaxus",
      "seller": "Galaxus.nl",
      "variant": "Core 600S (147 m²)",
-     "date": "2026-11-26",
+     "date": "2026-11-27",
      "url": "https://www.galaxus.nl/en/s2/product/levoit-core-600s-147-m-air-purifier-31309214",
      "price": 329.43,
      "shipping": "0",
@@ -9502,7 +10005,7 @@
      "net": 329.43,
      "verified": true,
      "verified_text": "yes",
-     "note": "不變：仍€329.43免運；到貨窗 12/03–12/05；available in a few days（非即時現貨）；頁面未顯示 EAN",
+     "note": "不變：仍€329.43免運；到貨窗 12/04–12/08（昨 12/03–12/05，延後）；available in a few days（非即時現貨）；MPN LAP-C601S-WEU 白色；規格頁未顯示 EAN",
      "tags": [
       {
        "k": "ship",
@@ -9518,7 +10021,7 @@
      "shop": "bol",
      "seller": "RoboHome",
      "variant": "Core 600S LAP-C601S",
-     "date": "2026-11-26",
+     "date": "2026-11-27",
      "url": "https://www.bol.com/nl/nl/p/levoit-smart-luchtreiniger-core-600s-lap-c601s/9300000098586396/",
      "price": 399.0,
      "shipping": "0",
@@ -9526,7 +10029,7 @@
      "net": 399.0,
      "verified": true,
      "verified_text": "yes",
-     "note": "變化：由缺貨變有貨，€399；有貨，15:00前下單週二 12/01 到貨；賣家 RoboHome（9.1），由 bol 出貨；EAN 0810043375214，規格標 AC 120V 60Hz／59 m²，疑美規款，與 Galaxus 147 m² 歐規款分開列、不比價",
+     "note": "不變：仍€399；有貨，15:00前下單週三 12/02 到貨；賣家 RoboHome（9.1），由 bol 出貨；EAN 0810043375214，規格標 AC 120V 60Hz／59 m²，疑美規款，與 Galaxus 147 m² 歐規款分開列、不比價",
      "tags": [
       {
        "k": "ship",
@@ -9546,7 +10049,7 @@
      "shop": "Levoit 官網 DE",
      "seller": "Levoit (levoit.de)",
      "variant": "Core 600S 歐規 220-240V",
-     "date": "2026-11-26",
+     "date": "2026-11-27",
      "url": "https://levoit.de/products/levoit-core-600s-luftreiniger",
      "price": 299.99,
      "shipping": "DE境內免運",
@@ -9554,7 +10057,7 @@
      "net": 299.99,
      "verified": true,
      "verified_text": "yes",
-     "note": "不變：仍€299.99；商店目錄顯示有貨；運費／寄送範圍今日未核實（目錄未提供），不計入荷蘭最佳價；11-12「不寄德國以外」今日無法以目錄確認",
+     "note": "不變：仍€299.99；商店目錄顯示有貨（歐規 CADR 697 m³/h、147 m²）；運費／寄送範圍今日未核實，不計入荷蘭最佳價；11-12「不寄德國以外」今日無法以目錄確認",
      "tags": [
       {
        "k": "ship",
@@ -9570,7 +10073,7 @@
      "shop": "Kaufland.nl",
      "seller": "NetworkTechnologies",
      "variant": "Core 600S 米白 LAP-C601S-WEU（EAN 0810123679584）",
-     "date": "2026-11-26",
+     "date": "2026-11-27",
      "url": "https://www.kaufland.nl/product/577466135/",
      "price": null,
      "shipping": "",
@@ -9586,6 +10089,25 @@
      "carried": false
     },
     {
+     "shop": "Coolblue",
+     "seller": "Coolblue",
+     "variant": "Core 600S",
+     "date": "2026-11-27",
+     "url": "https://www.coolblue.nl/zoeken?query=Levoit+Core+600S",
+     "price": null,
+     "shipping": "",
+     "shipping_label": "",
+     "net": null,
+     "verified": true,
+     "verified_text": "yes(搜尋頁實查)",
+     "note": "不變：搜尋0結果，無此商品",
+     "tags": [],
+     "purchasable": false,
+     "blocked_reason": "",
+     "status_text": "無報價",
+     "carried": false
+    },
+    {
      "shop": "bol",
      "seller": "—",
      "variant": "Core 600S LAP-C601S",
@@ -9598,25 +10120,6 @@
      "verified": true,
      "verified_text": "yes",
      "note": "變化：今日已缺貨，Niet leverbaar，僅到貨通知（昨 RoboHome €399 含運有貨，今日已無；即時瀏覽器核實）；EAN 0810043375214 描述標 AC 120V 60Hz 疑美規",
-     "tags": [],
-     "purchasable": false,
-     "blocked_reason": "",
-     "status_text": "無報價",
-     "carried": true
-    },
-    {
-     "shop": "Coolblue",
-     "seller": "Coolblue",
-     "variant": "Core 600S",
-     "date": "2026-11-25",
-     "url": "https://www.coolblue.nl/zoeken?query=Levoit+Core+600S",
-     "price": null,
-     "shipping": "",
-     "shipping_label": "",
-     "net": null,
-     "verified": true,
-     "verified_text": "yes(搜尋頁實查)",
-     "note": "不變：搜尋0結果，無此商品（即時瀏覽器核實）",
      "tags": [],
      "purchasable": false,
      "blocked_reason": "",
@@ -9773,6 +10276,120 @@
     }
    ],
    "rows": [
+    {
+     "shop": "Galaxus",
+     "seller": "Galaxus.nl",
+     "variant": "Core 600S (147 m²)",
+     "date": "2026-11-27",
+     "url": "https://www.galaxus.nl/en/s2/product/levoit-core-600s-147-m-air-purifier-31309214",
+     "price": 329.43,
+     "shipping": "0",
+     "shipping_label": "免運",
+     "net": 329.43,
+     "verified": true,
+     "verified_text": "yes",
+     "note": "不變：仍€329.43免運；到貨窗 12/04–12/08（昨 12/03–12/05，延後）；available in a few days（非即時現貨）；MPN LAP-C601S-WEU 白色；規格頁未顯示 EAN",
+     "tags": [
+      {
+       "k": "ship",
+       "t": "免運"
+      }
+     ],
+     "purchasable": true,
+     "blocked_reason": "",
+     "status_text": "",
+     "carried": false
+    },
+    {
+     "shop": "Levoit 官網 DE",
+     "seller": "Levoit (levoit.de)",
+     "variant": "Core 600S 歐規 220-240V",
+     "date": "2026-11-27",
+     "url": "https://levoit.de/products/levoit-core-600s-luftreiniger",
+     "price": 299.99,
+     "shipping": "DE境內免運",
+     "shipping_label": "DE境內免運",
+     "net": 299.99,
+     "verified": true,
+     "verified_text": "yes",
+     "note": "不變：仍€299.99；商店目錄顯示有貨（歐規 CADR 697 m³/h、147 m²）；運費／寄送範圍今日未核實，不計入荷蘭最佳價；11-12「不寄德國以外」今日無法以目錄確認",
+     "tags": [
+      {
+       "k": "ship",
+       "t": "DE境內免運"
+      }
+     ],
+     "purchasable": false,
+     "blocked_reason": "不寄德國以外 EU",
+     "status_text": "不寄德國以外 EU",
+     "carried": false
+    },
+    {
+     "shop": "bol",
+     "seller": "RoboHome",
+     "variant": "Core 600S LAP-C601S",
+     "date": "2026-11-27",
+     "url": "https://www.bol.com/nl/nl/p/levoit-smart-luchtreiniger-core-600s-lap-c601s/9300000098586396/",
+     "price": 399.0,
+     "shipping": "0",
+     "shipping_label": "免運",
+     "net": 399.0,
+     "verified": true,
+     "verified_text": "yes",
+     "note": "不變：仍€399；有貨，15:00前下單週三 12/02 到貨；賣家 RoboHome（9.1），由 bol 出貨；EAN 0810043375214，規格標 AC 120V 60Hz／59 m²，疑美規款，與 Galaxus 147 m² 歐規款分開列、不比價",
+     "tags": [
+      {
+       "k": "ship",
+       "t": "免運"
+      },
+      {
+       "k": "cond",
+       "t": "含運"
+      }
+     ],
+     "purchasable": true,
+     "blocked_reason": "",
+     "status_text": "",
+     "carried": false
+    },
+    {
+     "shop": "Kaufland.nl",
+     "seller": "NetworkTechnologies",
+     "variant": "Core 600S 米白 LAP-C601S-WEU（EAN 0810123679584）",
+     "date": "2026-11-27",
+     "url": "https://www.kaufland.nl/product/577466135/",
+     "price": null,
+     "shipping": "",
+     "shipping_label": "",
+     "net": null,
+     "verified": false,
+     "verified_text": "no",
+     "note": "未核實：Cloudflare 整站封鎖（與 AC4221 同一封鎖）；昨日 €355.25＋運€3.99＝€359.24 不作今日價",
+     "tags": [],
+     "purchasable": false,
+     "blocked_reason": "",
+     "status_text": "未核實",
+     "carried": false
+    },
+    {
+     "shop": "Coolblue",
+     "seller": "Coolblue",
+     "variant": "Core 600S",
+     "date": "2026-11-27",
+     "url": "https://www.coolblue.nl/zoeken?query=Levoit+Core+600S",
+     "price": null,
+     "shipping": "",
+     "shipping_label": "",
+     "net": null,
+     "verified": true,
+     "verified_text": "yes(搜尋頁實查)",
+     "note": "不變：搜尋0結果，無此商品",
+     "tags": [],
+     "purchasable": false,
+     "blocked_reason": "",
+     "status_text": "無報價",
+     "carried": false
+    },
     {
      "shop": "Galaxus",
      "seller": "Galaxus.nl",
@@ -11451,7 +12068,7 @@
      "carried": false
     }
    ],
-   "record_count": 74,
+   "record_count": 79,
    "shop_count": 2,
    "main_count": 2
   }
