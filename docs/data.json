@@ -1,10 +1,10 @@
 {
  "title": "幼貓飼料比價",
- "updated": "2026-11-27",
- "updated_zh": "2026年11月27日",
- "next_zh": "11月29日",
- "next": "2026-11-29",
- "generated_zh": "2026-11-27 10:04",
+ "updated": "2026-11-28",
+ "updated_zh": "2026年11月28日",
+ "next_zh": "11月30日",
+ "next": "2026-11-30",
+ "generated_zh": "2026-11-28 10:05",
  "location": "鹿特丹",
  "feedback_url": "",
  "products": [
@@ -23,10 +23,10 @@
    "deal": true,
    "drop": 36.5,
    "image": "assets/products/rc_kitten_sterilised_gravy.webp",
-   "date": "2026-11-27",
+   "date": "2026-11-28",
    "best": {
     "shop": "Medpets",
-    "date": "2026-11-27",
+    "date": "2026-11-28",
     "variant": "12x85g",
     "units": 12,
     "unit_g": 85,
@@ -60,7 +60,7 @@
     "verified": true,
     "status": "verified",
     "url": "https://www.medpets.nl/royal-canin-kitten-sterilised-gravy-maaltijdzakje",
-    "detail": "原價 €18.10 劃線特價 €12.65；2026-11-27 live browser：12x85g €12.65 一次價／Herhaal €11.90，價格不變，有貨，仍為最佳價。注意：頁面今日顯示「Snel weer leverbaar」（可下單，週一到貨），非「Op voorraad」，明日留意是否轉為缺貨。免運 €69。"
+    "detail": "原價 €18.10 劃線特價 €12.65；2026-11-28 live browser：12x85g €12.65 一次價／Herhaal €11.90，價格不變，仍為最佳價。頁面仍顯示「Snel weer leverbaar」（可下單，「Nu besteld, woensdag in huis」），非「Op voorraad」，明日留意是否轉為缺貨。免運 €69。"
    },
    "one_time_best": {
     "shop": "Medpets",
@@ -78,7 +78,7 @@
    },
    "level": {
     "status": "ok",
-    "n": 23,
+    "n": 24,
     "level": "low",
     "cur": 1.1667,
     "min": 1.159,
@@ -248,12 +248,19 @@
      "per100g": 1.167,
      "pb": 1.1667,
      "one_time_unit": 1.019
+    },
+    {
+     "date": "2026-11-28",
+     "unit": 0.992,
+     "per100g": 1.167,
+     "pb": 1.1667,
+     "one_time_unit": 1.019
     }
    ],
    "offers": [
     {
      "shop": "Medpets",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "12x85g",
      "units": 12,
      "unit_g": 85,
@@ -287,11 +294,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.medpets.nl/royal-canin-kitten-sterilised-gravy-maaltijdzakje",
-     "detail": "原價 €18.10 劃線特價 €12.65；2026-11-27 live browser：12x85g €12.65 一次價／Herhaal €11.90，價格不變，有貨，仍為最佳價。注意：頁面今日顯示「Snel weer leverbaar」（可下單，週一到貨），非「Op voorraad」，明日留意是否轉為缺貨。免運 €69。"
+     "detail": "原價 €18.10 劃線特價 €12.65；2026-11-28 live browser：12x85g €12.65 一次價／Herhaal €11.90，價格不變，仍為最佳價。頁面仍顯示「Snel weer leverbaar」（可下單，「Nu besteld, woensdag in huis」），非「Op voorraad」，明日留意是否轉為缺貨。免運 €69。"
     },
     {
      "shop": "Brekz",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "48x85g",
      "units": 48,
      "unit_g": 85,
@@ -320,11 +327,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.brekz.nl/royal-canin-nat-kattenvoer/royal-canin-kitten-sterilised-in-gravy-natvoer-kat-85-g.html",
-     "detail": "2026-11-27 live browser：48x85g €55.29（€1.152/包），價格不變；同頁 12x85g €14.48。Black Friday 標籤；免運 €35；1–3 工作天。"
+     "detail": "2026-11-28 live browser：48x85g €55.29（€1.152/包），價格不變；同頁 12x85g €14.48。Black Friday 標籤；免運 €35；1–3 工作天。"
     },
     {
      "shop": "Brekz",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "24x85g",
      "units": 24,
      "unit_g": 85,
@@ -353,11 +360,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.brekz.nl/royal-canin-nat-kattenvoer/royal-canin-kitten-sterilised-in-gravy-natvoer-kat-85-g.html",
-     "detail": "2026-11-27 live browser：24x85g €28.39（€1.183/包），價格不變；同頁 12x85g €14.48。Black Friday 標籤；免運 €35；1–3 工作天。"
+     "detail": "2026-11-28 live browser：24x85g €28.39（€1.183/包），價格不變；同頁 12x85g €14.48。Black Friday 標籤；免運 €35；1–3 工作天。"
     },
     {
      "shop": "Brekz",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "12x85g",
      "units": 12,
      "unit_g": 85,
@@ -386,11 +393,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.brekz.nl/royal-canin-nat-kattenvoer/royal-canin-kitten-sterilised-in-gravy-natvoer-kat-85-g.html",
-     "detail": "Black Friday -30%（原價 €20.69）；2026-11-27 live browser：12x85g €14.48（原 €20.69，-30%），價格不變，有貨；同頁 24x €28.39、48x €55.29。Black Friday 標籤；免運 €35；初次開啟遇 Cloudflare，換環境後清除並核實。"
+     "detail": "Black Friday -30%（原價 €20.69）；2026-11-28 live browser：12x85g €14.48（原 €20.69，-30%），價格不變，有貨；同頁 24x €28.39、48x €55.29。Black Friday 標籤；免運 €35；初次開啟遇 Cloudflare，換環境後清除並核實。"
     },
     {
      "shop": "Diebo",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "12x85g",
      "units": 12,
      "unit_g": 85,
@@ -419,11 +426,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.diebo.nl/royal-canin-kattenvoer-kitten-sterilised-gravy-12-x-85-gr",
-     "detail": "2026-11-27 live browser：12x85g €15.95 有貨，價格不變。2+1 gratis 促銷至 2026-12-01（不折入單價，僅註記）。"
+     "detail": "2026-11-28 live browser：12x85g €15.95 有貨，價格不變。2+1 gratis 促銷至 2026-12-01（不折入單價，僅註記）。"
     },
     {
      "shop": "zooplus.nl",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "12x85g",
      "units": 12,
      "unit_g": 85,
@@ -452,11 +459,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.zooplus.nl/shop/katten/kattenvoer_blik/royal_canin/kitten/1200123",
-     "detail": "2026-11-27 live browser：12x85g €19.79 一次價不變／Gemak 仍 -15% €16.82，有貨；優惠至 11 月 28 日止。免運門檻 €29。"
+     "detail": "2026-11-28 live browser：12x85g €19.79 一次價不變／Gemak 仍 -15% €16.82，有貨；Gemak -15% 優惠今日（11/28）仍顯示有效。免運門檻 €29。"
     },
     {
      "shop": "Zooveel",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "12x85g",
      "units": 12,
      "unit_g": 85,
@@ -485,11 +492,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.zooveel.nl/kat/natvoer/royal-canin-kattenvoer-kitten-sterilised-gravy-12-x-85-gr",
-     "detail": "2 + 1 gratis 至 01-12-2026；2026-11-27 live browser：12x85g €16.95，有貨；「2 + 1 gratis」效期至 01-12-2026（不折入單價，僅註記）；「Op voorraad，Levertijd: 1 tot 2 werkdagen」；荷蘭境內滿 €75 免運，可到店自取。"
+     "detail": "2 + 1 gratis 至 01-12-2026；2026-11-28 live browser：12x85g €16.95，有貨；「2 + 1 gratis」效期至 01-12-2026（不折入單價，僅註記）；「Op voorraad，Levertijd: 1 tot 2 werkdagen」；荷蘭境內滿 €75 免運，可到店自取。"
     },
     {
      "shop": "Intratuin",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "12x85g",
      "units": 12,
      "unit_g": 85,
@@ -518,11 +525,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.intratuin.nl/royal-canin-kattenvoer-in-saus-gesteriliseerde-kittens-85-g-12-stuks.html",
-     "detail": "2026-11-27 live browser：12x85g €19.99，價格不變，有貨（22 間門市）；免運 €40 起，否則 €4.95。"
+     "detail": "2026-11-28 live browser：12x85g €19.99，價格不變，有貨（23 間門市）；免運 €40 起，否則 €4.95。"
     },
     {
      "shop": "Pharmapets",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "12x85g",
      "units": 12,
      "unit_g": 85,
@@ -551,7 +558,7 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.pharmapets.nl/royal-canin-kitten-sterilised-12x-85gr.html",
-     "detail": "原價 €18.75，-30%；2026-11-27 live browser：12x85g €13.13（原 €18.75，-30%），價格不變，仍缺貨「Momenteel niet leverbaar」；訂閱首單 €11.82（-10%）。"
+     "detail": "原價 €18.75，-30%；2026-11-28 live browser：12x85g €13.13（原 €18.75，-30%），價格不變，仍缺貨「Momenteel niet leverbaar」；訂閱首單 €11.82（-10%）。"
     },
     {
      "shop": "Petgamma",
@@ -1170,10 +1177,10 @@
    "deal": false,
    "drop": 35.1,
    "image": "assets/products/macs_kitten.webp",
-   "date": "2026-11-27",
+   "date": "2026-11-28",
    "best": {
     "shop": "CutieCat",
-    "date": "2026-11-27",
+    "date": "2026-11-28",
     "variant": "1x800g Kitten 小牛＋雞心",
     "units": 1,
     "unit_g": 800,
@@ -1202,7 +1209,7 @@
     "verified": true,
     "status": "verified",
     "url": "https://cutiecat.nl/product/macs-kittenvoer-blikjes-800g/",
-    "detail": "2026-11-27 live browser：1x800g 小牛＋雞心 €4.55，價格不變，有貨，仍為最佳價；同頁另有火雞＋兔肉 €4.58、火雞／牛／鴨 €4.61。"
+    "detail": "2026-11-28 live browser：1x800g 小牛＋雞心 €4.55，價格不變，有貨，仍為最佳價；同頁另有火雞＋兔肉 €4.58、火雞／牛／鴨 €4.61。"
    },
    "one_time_best": null,
    "badge": {
@@ -1212,7 +1219,7 @@
    },
    "level": {
     "status": "ok",
-    "n": 22,
+    "n": 23,
     "level": "typical",
     "cur": 0.5687,
     "min": 0.558,
@@ -1375,12 +1382,19 @@
      "per100g": 0.569,
      "pb": 0.5687,
      "one_time_unit": 1.845
+    },
+    {
+     "date": "2026-11-28",
+     "unit": 4.55,
+     "per100g": 0.569,
+     "pb": 0.5687,
+     "one_time_unit": 1.772
     }
    ],
    "offers": [
     {
      "shop": "CutieCat",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "1x800g Kitten 小牛＋雞心",
      "units": 1,
      "unit_g": 800,
@@ -1409,11 +1423,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://cutiecat.nl/product/macs-kittenvoer-blikjes-800g/",
-     "detail": "2026-11-27 live browser：1x800g 小牛＋雞心 €4.55，價格不變，有貨，仍為最佳價；同頁另有火雞＋兔肉 €4.58、火雞／牛／鴨 €4.61。"
+     "detail": "2026-11-28 live browser：1x800g 小牛＋雞心 €4.55，價格不變，有貨，仍為最佳價；同頁另有火雞＋兔肉 €4.58、火雞／牛／鴨 €4.61。"
     },
     {
      "shop": "CutieCat",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "1x800g Kitten 火雞＋兔肉",
      "units": 1,
      "unit_g": 800,
@@ -1442,11 +1456,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://cutiecat.nl/product/macs-kittenvoer-blikjes-800g/",
-     "detail": "2026-11-27 live browser：1x800g 火雞＋兔肉 €4.58，價格不變，有貨；同頁小牛＋雞心 €4.55。"
+     "detail": "2026-11-28 live browser：1x800g 火雞＋兔肉 €4.58，價格不變，有貨；同頁小牛＋雞心 €4.55。"
     },
     {
      "shop": "CutieCat",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "1x800g Kitten 火雞／牛／鴨",
      "units": 1,
      "unit_g": 800,
@@ -1475,11 +1489,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://cutiecat.nl/product/macs-kittenvoer-blikjes-800g/",
-     "detail": "2026-11-27 live browser：1x800g 火雞／牛／鴨 €4.61，價格不變，有貨；同頁小牛＋雞心 €4.55。"
+     "detail": "2026-11-28 live browser：1x800g 火雞／牛／鴨 €4.61，價格不變，有貨；同頁小牛＋雞心 €4.55。"
     },
     {
      "shop": "Bitiba",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "6x200g Kitten Kalf & Kippenharten [579519.6]",
      "units": 6,
      "unit_g": 200,
@@ -1513,35 +1527,29 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.bitiba.nl/shop/katten/kattenvoer_blik/macs/249562/579519",
-     "detail": "2026-11-27 live browser：6x200g 小牛＋雞心 €11.19 一次價／訂閱 €10.52，價格不變，有貨。"
+     "detail": "2026-11-28 live browser：6x200g 小牛＋雞心 €11.19 一次價／訂閱 €10.52，價格不變，有貨。"
     },
     {
      "shop": "zooplus.nl",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "6x200g Kitten Kalf & Kippenharten [444155.11]",
      "units": 6,
      "unit_g": 200,
      "list_price": 11.19,
-     "price": 11.07,
-     "unit": 1.845,
-     "per100g": 0.9225,
-     "pb": 0.9225,
+     "price": 10.63,
+     "unit": 1.7717,
+     "per100g": 0.8858,
+     "pb": 0.8858,
      "size": "200g",
-     "basis": "含返現",
+     "basis": "折扣 -5%",
      "autoship": false,
      "one_time_unit": null,
      "one_time_per100g": null,
      "one_time_pb": null,
      "conditions": [
-      "滿 €29 免運・運費 €2.99",
-      "經 Woolsocks 返現 €0.12"
+      "滿 €29 免運・運費 €2.99"
      ],
      "tags": [
-      {
-       "k": "cash",
-       "p": "Woolsocks",
-       "t": "Woolsocks 返現 €0.12"
-      },
       {
        "k": "ship",
        "t": "滿 €29 免運／運費 €2.99"
@@ -1559,11 +1567,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.zooplus.nl/shop/katten/kattenvoer_blik/macs_s/mac_s_blikken/444155",
-     "detail": "2026-11-27 live browser：6x200g 小牛＋雞心 €11.19，價格不變，有貨；同頁火雞＋兔肉 €12.19、火雞／牛／鴨 €12.19（火雞／牛／鴨今日首次單獨記錄）。"
+     "detail": "2026-11-28 live browser：6x200g 小牛＋雞心 €11.19 一次價不變，有貨；頁面已無 Gemak 標示，改為勾選「-5% Extra korting」後 €10.63（較昨日 Gemak 價 €11.07 便宜 €0.44），以優惠券價計最佳；返現未重核，沿用 11-27 核實值。同頁火雞＋兔肉 €12.19、火雞／牛／鴨 €12.19。"
     },
     {
      "shop": "Bitiba",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "6x200g Kitten (kalkoen & konijn) [579519.12]",
      "units": 6,
      "unit_g": 200,
@@ -1597,11 +1605,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.bitiba.nl/shop/katten/kattenvoer_blik/macs/249562/579519?variantId=579519.6",
-     "detail": "2026-11-27 live browser：6x200g 火雞＋兔肉 €12.19 一次價／訂閱 €11.46，價格不變，有貨。"
+     "detail": "2026-11-28 live browser：6x200g 火雞＋兔肉 €12.19 一次價／訂閱 €11.46，價格不變，有貨。"
     },
     {
      "shop": "zooplus.nl",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "6x200g Kitten 火雞／牛／鴨",
      "units": 6,
      "unit_g": 200,
@@ -1630,7 +1638,7 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.zooplus.nl/shop/katten/kattenvoer_blik/macs_s/mac_s_blikken/444155",
-     "detail": "2026-11-27 live browser：6x200g 火雞／牛／鴨 €12.19，今日首次單獨記錄；同頁小牛＋雞心 €11.19、火雞＋兔肉 €12.19。返現未針對此口味核實，最佳價暫以一次價計。"
+     "detail": "2026-11-28 live browser：6x200g 火雞／牛／鴨 €12.19，價格不變，有貨；同頁小牛＋雞心 €11.19、火雞＋兔肉 €12.19。返現未針對此口味核實，最佳價暫以一次價計。"
     },
     {
      "shop": "zooplus.com",
@@ -1788,10 +1796,10 @@
    "deal": true,
    "drop": 0.0,
    "image": "assets/products/mjamjam_kitten.webp",
-   "date": "2026-11-27",
+   "date": "2026-11-28",
    "best": {
     "shop": "Bitiba",
-    "date": "2026-11-27",
+    "date": "2026-11-28",
     "variant": "6x200g Mix (2 soorten) [1750481.0]",
     "units": 6,
     "unit_g": 200,
@@ -1825,7 +1833,7 @@
     "verified": true,
     "status": "verified",
     "url": "https://www.bitiba.nl/shop/katten/kattenvoer_blik/mjamjam/1750481",
-    "detail": "2026-11-27 live browser：Mixpack 6x200g €13.79 一次價／訂閱 €12.96，價格不變，有貨，仍為最佳價。免運 €29 起；滿 €100 全場 5% korting。"
+    "detail": "2026-11-28 live browser：Mixpack 6x200g €13.79 一次價／訂閱 €12.96，價格不變，有貨，仍為最佳價。免運 €29 起；滿 €100 全場 5% korting。"
    },
    "one_time_best": {
     "shop": "CutieCat",
@@ -1843,11 +1851,11 @@
    },
    "level": {
     "status": "ok",
-    "n": 22,
+    "n": 23,
     "level": "high",
     "cur": 1.08,
     "min": 0.573,
-    "p25": 0.606,
+    "p25": 0.608,
     "p75": 1.08,
     "max": 1.08,
     "since": "2026-10-25"
@@ -2006,12 +2014,19 @@
      "per100g": 1.08,
      "pb": 1.08,
      "one_time_unit": 2.25
+    },
+    {
+     "date": "2026-11-28",
+     "unit": 2.16,
+     "per100g": 1.08,
+     "pb": 1.08,
+     "one_time_unit": 2.25
     }
    ],
    "offers": [
     {
      "shop": "Bitiba",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "6x200g Mix (2 soorten) [1750481.0]",
      "units": 6,
      "unit_g": 200,
@@ -2045,11 +2060,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.bitiba.nl/shop/katten/kattenvoer_blik/mjamjam/1750481",
-     "detail": "2026-11-27 live browser：Mixpack 6x200g €13.79 一次價／訂閱 €12.96，價格不變，有貨，仍為最佳價。免運 €29 起；滿 €100 全場 5% korting。"
+     "detail": "2026-11-28 live browser：Mixpack 6x200g €13.79 一次價／訂閱 €12.96，價格不變，有貨，仍為最佳價。免運 €29 起；滿 €100 全場 5% korting。"
     },
     {
      "shop": "Bitiba",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "24x200g Voortreffelijk kalfsvlees met zalmolie",
      "units": 24,
      "unit_g": 200,
@@ -2083,11 +2098,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.bitiba.nl/shop/katten/kattenvoer_blik/mjamjam/1750480",
-     "detail": "2026-11-27 live browser：小牛肉 24x200g €57.19 一次價／訂閱 €53.76（-6%），價格不變，有貨；單買價 €59.16（€57.19 為 -3.33% 後）。"
+     "detail": "2026-11-28 live browser：小牛肉 24x200g €57.19 一次價／訂閱 €53.76（-6%），價格不變，有貨；單買價 €59.16（€57.19 為 -3.33% 後）。"
     },
     {
      "shop": "Bitiba",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "24x200g Sappige kip met zalmolie",
      "units": 24,
      "unit_g": 200,
@@ -2121,11 +2136,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.bitiba.nl/shop/katten/kattenvoer_blik/mjamjam/1750480",
-     "detail": "2026-11-27 live browser：雞肉 24x200g €57.19 一次價／訂閱 €53.76（-6%），價格不變，有貨；同頁小牛肉 24x200g 同價。單買價 €59.16（€57.19 為 -3.33% 後）。"
+     "detail": "2026-11-28 live browser：雞肉 24x200g €57.19 一次價／訂閱 €53.76（-6%），價格不變，有貨；同頁小牛肉 24x200g 同價。單買價 €59.16（€57.19 為 -3.33% 後）。"
     },
     {
      "shop": "CutieCat",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "1x200g",
      "units": 1,
      "unit_g": 200,
@@ -2154,11 +2169,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://cutiecat.nl/product/mjamjam-kitten-blikje-200g/",
-     "detail": "2026-11-27 live browser：1x200g €2.25，四口味皆同價，價格不變，有貨；免運 €45。"
+     "detail": "2026-11-28 live browser：1x200g €2.25，四口味皆同價，價格不變，有貨；免運 €45。"
     },
     {
      "shop": "Bitiba",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "6x200g Sappige kip met zalmolie 6x200g [1750480.1]",
      "units": 6,
      "unit_g": 200,
@@ -2192,11 +2207,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.bitiba.nl/shop/katten/kattenvoer_blik/mjamjam/1750480",
-     "detail": "2026-11-27 live browser：Sappige kip 6x200g €14.79 一次價／訂閱 €13.90，價格不變，有貨。"
+     "detail": "2026-11-28 live browser：Sappige kip 6x200g €14.79 一次價／訂閱 €13.90，價格不變，有貨。"
     },
     {
      "shop": "Bitiba",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "6x200g Voortreffelijk kalfsvlees met zalmolie 6x200g [1750480.3]",
      "units": 6,
      "unit_g": 200,
@@ -2230,11 +2245,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.bitiba.nl/shop/katten/kattenvoer_blik/mjamjam/1750480",
-     "detail": "2026-11-27 live browser：小牛肉 6x200g €14.79 一次價／訂閱 €13.90，價格不變，有貨。"
+     "detail": "2026-11-28 live browser：小牛肉 6x200g €14.79 一次價／訂閱 €13.90，價格不變，有貨。"
     },
     {
      "shop": "zooplus.nl",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "24x200g Voortreffelijk kalfsvlees met zalmolie",
      "units": 24,
      "unit_g": 200,
@@ -2270,11 +2285,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.zooplus.nl/shop/katten/kattenvoer_blik/mjamjam_natvoer/1578995",
-     "detail": "2026-11-27 live browser：小牛肉 24x200g €57.49，價格不變，有貨；同頁雞肉 6x200g €14.79、小牛肉 6x200g €14.79。單買價 €59.16。"
+     "detail": "2026-11-28 live browser：小牛肉 24x200g €57.49，價格不變，有貨；同頁雞肉 6x200g €14.79、小牛肉 6x200g €14.79。單買價 €59.16。"
     },
     {
      "shop": "zooplus.nl",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "6x200g Sappige kip met zalmolie 6x200g [1578995.3]",
      "units": 6,
      "unit_g": 200,
@@ -2316,11 +2331,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.zooplus.nl/shop/katten/kattenvoer_blik/mjamjam_natvoer/1578995",
-     "detail": "2026-11-27 live browser：6x200g Sappige kip €14.79，價格不變，有貨；同頁小牛肉 6x200g €14.79、24x €57.49。本頁未顯示 Gemak 價。"
+     "detail": "2026-11-28 live browser：6x200g Sappige kip €14.79，價格不變，有貨；同頁小牛肉 6x200g €14.79、24x €57.49。本頁未顯示 Gemak 價。"
     },
     {
      "shop": "zooplus.com",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "Kitten Veal & Salmon Oil 6x800g",
      "units": 6,
      "unit_g": 800,
@@ -2349,7 +2364,7 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.zooplus.com/shop/cats/canned_cat_food_pouches/mjamjam/1584158",
-     "detail": "2026-11-27 live browser：Kitten Veal & Salmon Oil 6x800g €28.99，價格不變，仍缺貨 Sold out。"
+     "detail": "2026-11-28 live browser：Kitten Veal & Salmon Oil 6x800g €28.99，價格不變，仍缺貨 Sold out。"
     },
     {
      "shop": "Füttern mit Spaß",
@@ -2768,20 +2783,20 @@
    "category": "wet",
    "age": "kitten",
    "deal": false,
-   "drop": 48.8,
+   "drop": 13.8,
    "image": "assets/products/farmina_nd_ocean_kitten.webp",
-   "date": "2026-11-27",
+   "date": "2026-11-28",
    "best": {
-    "shop": "PetBoutique.it",
-    "date": "2026-11-27",
-    "variant": "Prime Chicken/Pomegranate Kitten 70g",
-    "units": 1,
+    "shop": "CutieCat",
+    "date": "2026-11-28",
+    "variant": "24x70g Prime Kitten 雞＋石榴",
+    "units": 24,
     "unit_g": 70,
-    "list_price": 0.99,
-    "price": 0.99,
-    "unit": 0.99,
-    "per100g": 1.4143,
-    "pb": 1.4143,
+    "list_price": 39.99,
+    "price": 39.99,
+    "unit": 1.6663,
+    "per100g": 2.3804,
+    "pb": 2.3804,
     "size": "70g",
     "basis": "單次購買",
     "autoship": false,
@@ -2789,34 +2804,35 @@
     "one_time_per100g": null,
     "one_time_pb": null,
     "conditions": [
-     "NL取貨點0–5kg €6.50；宅配0–5kg €9.00"
+     "運費見 CutieCat；常見免運門檻較高"
     ],
     "tags": [
      {
       "k": "ship",
-      "t": "NL取貨點0–5kg €6.50；宅配0–5kg €9.00"
+      "t": "常見免運門檻較高"
      }
     ],
     "new_customer": null,
     "in_stock": true,
     "verified": true,
     "status": "verified",
-    "url": "https://petboutique.it/products/farmina-n-d-prime-n-d-cat-prime-pollo-e-melograno-kitten",
-    "detail": "2026-11-27 商店目錄核實：Prime 雞＋石榴 Kitten 70g €0.99（原價 €1.65），價格不變，有貨，仍為最佳價。運費未重測，沿用 11-09 政策（取貨點 €6.50／宅配 €9.00）。"
+    "url": "https://cutiecat.nl/product/farmina-nd-prime-kitten-natvoer-70g/",
+    "detail": "2026-11-28 live browser：24x70g Prime €39.99（原 €42.96），價格不變，有貨；單罐 €1.79。PetBoutique.it 今日轉缺貨後，本品成為 Farmina 有貨最佳價。"
    },
    "one_time_best": null,
    "badge": {
-    "kind": "at_low",
-    "text": "持平歷史低價"
+    "kind": "above",
+    "text": "比歷史低價高 68%",
+    "prev": 1.4143
    },
    "level": {
     "status": "ok",
-    "n": 25,
-    "level": "low",
-    "cur": 1.4143,
+    "n": 26,
+    "level": "high",
+    "cur": 2.3804,
     "min": 1.4143,
-    "p25": 1.9143,
-    "p75": 2.357,
+    "p25": 1.9357,
+    "p75": 2.3742,
     "max": 2.762,
     "since": "2026-10-25"
    },
@@ -2995,45 +3011,19 @@
      "per100g": 1.414,
      "pb": 1.4143,
      "one_time_unit": 0.99
+    },
+    {
+     "date": "2026-11-28",
+     "unit": 1.666,
+     "per100g": 2.38,
+     "pb": 2.3804,
+     "one_time_unit": 1.666
     }
    ],
    "offers": [
     {
-     "shop": "PetBoutique.it",
-     "date": "2026-11-27",
-     "variant": "Prime Chicken/Pomegranate Kitten 70g",
-     "units": 1,
-     "unit_g": 70,
-     "list_price": 0.99,
-     "price": 0.99,
-     "unit": 0.99,
-     "per100g": 1.4143,
-     "pb": 1.4143,
-     "size": "70g",
-     "basis": "單次購買",
-     "autoship": false,
-     "one_time_unit": null,
-     "one_time_per100g": null,
-     "one_time_pb": null,
-     "conditions": [
-      "NL取貨點0–5kg €6.50；宅配0–5kg €9.00"
-     ],
-     "tags": [
-      {
-       "k": "ship",
-       "t": "NL取貨點0–5kg €6.50；宅配0–5kg €9.00"
-      }
-     ],
-     "new_customer": null,
-     "in_stock": true,
-     "verified": true,
-     "status": "verified",
-     "url": "https://petboutique.it/products/farmina-n-d-prime-n-d-cat-prime-pollo-e-melograno-kitten",
-     "detail": "2026-11-27 商店目錄核實：Prime 雞＋石榴 Kitten 70g €0.99（原價 €1.65），價格不變，有貨，仍為最佳價。運費未重測，沿用 11-09 政策（取貨點 €6.50／宅配 €9.00）。"
-    },
-    {
      "shop": "CutieCat",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "24x70g Prime Kitten 雞＋石榴",
      "units": 24,
      "unit_g": 70,
@@ -3062,11 +3052,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://cutiecat.nl/product/farmina-nd-prime-kitten-natvoer-70g/",
-     "detail": "2026-11-27 live browser：24x70g Prime €39.99（原 €42.96），價格不變，有貨；單罐 €1.79。"
+     "detail": "2026-11-28 live browser：24x70g Prime €39.99（原 €42.96），價格不變，有貨；單罐 €1.79。PetBoutique.it 今日轉缺貨後，本品成為 Farmina 有貨最佳價。"
     },
     {
      "shop": "CutieCat",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "24x70g Ocean Kitten",
      "units": 24,
      "unit_g": 70,
@@ -3095,11 +3085,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://cutiecat.nl/product/farmina-nd-ocean-kitten-natvoer/",
-     "detail": "2026-11-27 live browser：24x70g Ocean €39.99，價格不變，有貨。"
+     "detail": "2026-11-28 live browser：24x70g Ocean €39.99，價格不變，有貨。"
     },
     {
      "shop": "Catsclusive",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "24x70g Ocean",
      "units": 24,
      "unit_g": 70,
@@ -3128,11 +3118,44 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.catsclusive.nl/farmina-natvoer/nd-ocean-kitten-tonijn-kabeljauw-garnaal-pompoen-24-x-70-gram",
-     "detail": "2026-11-27 live browser：24x70g Ocean €48.00，價格不變，有貨；免運 €65。"
+     "detail": "2026-11-28 live browser：24x70g Ocean €48.00，價格不變，有貨；免運 €65。"
     },
     {
      "shop": "PetBoutique.it",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
+     "variant": "Prime Chicken/Pomegranate Kitten 70g",
+     "units": 1,
+     "unit_g": 70,
+     "list_price": 0.99,
+     "price": 0.99,
+     "unit": 0.99,
+     "per100g": 1.4143,
+     "pb": 1.4143,
+     "size": "70g",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "NL取貨點0–5kg €6.50；宅配0–5kg €9.00"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "NL取貨點0–5kg €6.50；宅配0–5kg €9.00"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": false,
+     "verified": true,
+     "status": "verified",
+     "url": "https://petboutique.it/products/farmina-n-d-prime-n-d-cat-prime-pollo-e-melograno-kitten",
+     "detail": "2026-11-28 商店目錄核實：Prime 雞＋石榴 Kitten 70g €0.99（原價 €1.65），價格不變，但由有貨轉為缺貨；缺貨故不再是最佳價，Farmina 有貨最佳改為 CutieCat 24x70g €39.99。運費未重測，沿用 11-09 政策（取貨點 €6.50／宅配 €9.00）。"
+    },
+    {
+     "shop": "PetBoutique.it",
+     "date": "2026-11-28",
      "variant": "Ocean Tuna/Cod/Shrimp/Pumpkin Kitten 70g",
      "units": 1,
      "unit_g": 70,
@@ -3161,7 +3184,7 @@
      "verified": true,
      "status": "verified",
      "url": "https://petboutique.it/products/farmina-n-d-ocean-n-d-cat-ocean-tonno-merluzzo-gamberetti-e-zucca-kitten",
-     "detail": "2026-11-27 商店目錄核實：Ocean 鮪魚／鱈魚／蝦／南瓜 Kitten 70g €0.99（原價 €1.65），價格不變，仍缺貨；缺貨故不是最佳價。運費未重測，沿用 11-09 政策。"
+     "detail": "2026-11-28 商店目錄核實：Ocean 鮪魚／鱈魚／蝦／南瓜 Kitten 70g €0.99（原價 €1.65），價格不變，仍缺貨；缺貨故不是最佳價。運費未重測，沿用 11-09 政策。"
     },
     {
      "shop": "Zoomalia.nl",
@@ -3521,8 +3544,8 @@
      "carried": true
     }
    ],
-   "main_count": 4,
-   "shop_count": 3,
+   "main_count": 3,
+   "shop_count": 2,
    "mixed_sizes": false
   },
   {
@@ -3540,10 +3563,10 @@
    "deal": false,
    "drop": 16.1,
    "image": "assets/products/orijen_cat_dry_kitten.webp",
-   "date": "2026-11-27",
+   "date": "2026-11-28",
    "best": {
     "shop": "Tradeinn/Bricoinn",
-    "date": "2026-11-27",
+    "date": "2026-11-28",
     "variant": "Kitten1.8kg Netherlands/EUR selected one-time",
     "units": 1,
     "unit_g": 1800,
@@ -3572,7 +3595,7 @@
     "verified": true,
     "status": "verified",
     "url": "https://www.tradeinn.com/bricoinn/nl/orijen-feline-kitten-1.8kg-kattenvoer/140763248/p",
-    "detail": "2026-11-27 live browser：Kitten 1.8kg €33.99（建議售價 €45.10，-25%），價格不變，有貨，仍為最佳價；預計送達 12 月 3–7 日。寄荷蘭運費仍未核實（須加車後才在購物車顯示，未加車）。頁面黑五碼 BF15（最高 -15%），未測試，不計入。"
+    "detail": "2026-11-28 live browser：Kitten 1.8kg €33.99（建議售價 €45.10，-25%），價格不變，有貨，仍為最佳價；預計送達 12 月 3–8 日。寄荷蘭運費仍未核實（須加車後才在購物車顯示，未加車）。頁面黑五碼 BF15（最高 -15%）仍顯示，未測試，不計入。"
    },
    "one_time_best": null,
    "badge": {
@@ -3581,7 +3604,7 @@
    },
    "level": {
     "status": "ok",
-    "n": 19,
+    "n": 20,
     "level": "low",
     "cur": 18.8833,
     "min": 18.8833,
@@ -3723,12 +3746,19 @@
      "per100g": null,
      "pb": 18.8833,
      "one_time_unit": 33.99
+    },
+    {
+     "date": "2026-11-28",
+     "unit": 33.99,
+     "per100g": null,
+     "pb": 18.8833,
+     "one_time_unit": 33.99
     }
    ],
    "offers": [
     {
      "shop": "Tradeinn/Bricoinn",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "Kitten1.8kg Netherlands/EUR selected one-time",
      "units": 1,
      "unit_g": 1800,
@@ -3757,11 +3787,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.tradeinn.com/bricoinn/nl/orijen-feline-kitten-1.8kg-kattenvoer/140763248/p",
-     "detail": "2026-11-27 live browser：Kitten 1.8kg €33.99（建議售價 €45.10，-25%），價格不變，有貨，仍為最佳價；預計送達 12 月 3–7 日。寄荷蘭運費仍未核實（須加車後才在購物車顯示，未加車）。頁面黑五碼 BF15（最高 -15%），未測試，不計入。"
+     "detail": "2026-11-28 live browser：Kitten 1.8kg €33.99（建議售價 €45.10，-25%），價格不變，有貨，仍為最佳價；預計送達 12 月 3–8 日。寄荷蘭運費仍未核實（須加車後才在購物車顯示，未加車）。頁面黑五碼 BF15（最高 -15%）仍顯示，未測試，不計入。"
     },
     {
      "shop": "Medpets",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "1x1.8kg",
      "units": 1,
      "unit_g": 1800,
@@ -3795,11 +3825,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.medpets.nl/orijen-kitten-droogvoer",
-     "detail": "2026-11-27 live browser：Kitten 1.8kg €38.70 一次價／Herhaal €36.40（-6%），價格不變，有貨；免運 €69。"
+     "detail": "2026-11-28 live browser：Kitten 1.8kg €38.70 一次價／Herhaal €36.40（-6%），價格不變，有貨；免運 €69。"
     },
     {
      "shop": "Petfooddiscount.nl",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "1x1.8kg",
      "units": 1,
      "unit_g": 1800,
@@ -3828,7 +3858,7 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.petfooddiscount.nl/product/6207/orijen-kitten-1-8-kg",
-     "detail": "2026-11-27 live browser：Kitten 1.8kg €36.95（建議價 €40.49），價格不變，有貨；免運 €49。"
+     "detail": "2026-11-28 live browser：Kitten 1.8kg €36.95（建議價 €40.49），價格不變，有貨；免運 €49。"
     },
     {
      "shop": "Zoomalia.nl",
@@ -4280,23 +4310,23 @@
    "base": "kg",
    "category": "dry",
    "age": "all",
-   "deal": true,
-   "drop": 12.1,
+   "deal": false,
+   "drop": 2.4,
    "image": "assets/products/orijen_cat_dry_original.webp",
-   "date": "2026-11-27",
+   "date": "2026-11-28",
    "best": {
     "shop": "Huisdieren.nl",
-    "date": "2026-11-27",
+    "date": "2026-11-28",
     "variant": "1x1.8kg",
     "units": 1,
     "unit_g": 1800,
     "list_price": 32.95,
-    "price": 29.66,
-    "unit": 29.66,
+    "price": 32.95,
+    "unit": 32.95,
     "per100g": null,
-    "pb": 16.4778,
+    "pb": 18.3056,
     "size": "1.8kg",
-    "basis": "Black Friday code BLACKFRIDAY2026 -10%",
+    "basis": "單次購買",
     "autoship": false,
     "one_time_unit": null,
     "one_time_per100g": null,
@@ -4315,22 +4345,22 @@
     "verified": true,
     "status": "verified",
     "url": "https://www.huisdieren.nl/shop/orijen-original-cat/",
-    "detail": "Black Friday code BLACKFRIDAY2026：全站額外 -10%（11-21～11-27）；2026-11-27 live browser：1.8kg €32.95（原 €37.49）一次價不變，有貨；黑五碼 BLACKFRIDAY2026 全站額外 -10% 今日最後一天（11-21～11-27），折後 €29.66（按 -10% 計算，未加車驗證結帳價），仍為最佳價。€59 以下運 €6.95。"
+    "detail": "2026-11-28 live browser：1.8kg €32.95（原 €37.49）一次價不變，有貨；黑五碼 BLACKFRIDAY2026 已失效（活動期 11-21～11-27，今日商品頁與首頁皆無黑五標示），最佳價由昨日折後 €29.66 回到一次價 €32.95。€59 以下運 €6.95。"
    },
    "one_time_best": null,
    "badge": {
     "kind": "above",
-    "text": "比歷史低價高 87%",
+    "text": "比歷史低價高 107%",
     "prev": 8.8259
    },
    "level": {
     "status": "ok",
-    "n": 18,
+    "n": 19,
     "level": "high",
-    "cur": 16.4778,
+    "cur": 18.3056,
     "min": 8.8259,
     "p25": 9.7029,
-    "p75": 16.4778,
+    "p75": 17.3917,
     "max": 18.75,
     "since": "2026-11-02"
    },
@@ -4460,22 +4490,29 @@
      "per100g": null,
      "pb": 16.4778,
      "one_time_unit": 29.66
+    },
+    {
+     "date": "2026-11-28",
+     "unit": 32.95,
+     "per100g": null,
+     "pb": 18.3056,
+     "one_time_unit": 32.95
     }
    ],
    "offers": [
     {
      "shop": "Huisdieren.nl",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "1x1.8kg",
      "units": 1,
      "unit_g": 1800,
      "list_price": 32.95,
-     "price": 29.66,
-     "unit": 29.66,
+     "price": 32.95,
+     "unit": 32.95,
      "per100g": null,
-     "pb": 16.4778,
+     "pb": 18.3056,
      "size": "1.8kg",
-     "basis": "Black Friday code BLACKFRIDAY2026 -10%",
+     "basis": "單次購買",
      "autoship": false,
      "one_time_unit": null,
      "one_time_per100g": null,
@@ -4494,7 +4531,7 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.huisdieren.nl/shop/orijen-original-cat/",
-     "detail": "Black Friday code BLACKFRIDAY2026：全站額外 -10%（11-21～11-27）；2026-11-27 live browser：1.8kg €32.95（原 €37.49）一次價不變，有貨；黑五碼 BLACKFRIDAY2026 全站額外 -10% 今日最後一天（11-21～11-27），折後 €29.66（按 -10% 計算，未加車驗證結帳價），仍為最佳價。€59 以下運 €6.95。"
+     "detail": "2026-11-28 live browser：1.8kg €32.95（原 €37.49）一次價不變，有貨；黑五碼 BLACKFRIDAY2026 已失效（活動期 11-21～11-27，今日商品頁與首頁皆無黑五標示），最佳價由昨日折後 €29.66 回到一次價 €32.95。€59 以下運 €6.95。"
     },
     {
      "shop": "Petgamma",
@@ -5237,57 +5274,57 @@
    "base": "kg",
    "category": "dry",
    "age": "all",
-   "deal": true,
-   "drop": 13.1,
+   "deal": false,
+   "drop": 9.6,
    "image": "assets/products/orijen_cat_dry_six_fish.webp",
-   "date": "2026-11-27",
+   "date": "2026-11-28",
    "best": {
-    "shop": "Huisdieren.nl",
-    "date": "2026-11-27",
+    "shop": "Petfooddiscount.nl",
+    "date": "2026-11-28",
     "variant": "1x1.8kg",
     "units": 1,
     "unit_g": 1800,
-    "list_price": 36.25,
-    "price": 32.63,
-    "unit": 32.63,
+    "list_price": 33.95,
+    "price": 33.95,
+    "unit": 33.95,
     "per100g": null,
-    "pb": 18.1278,
+    "pb": 18.8611,
     "size": "1.8kg",
-    "basis": "Black Friday code BLACKFRIDAY2026 -10%",
+    "basis": "單次購買",
     "autoship": false,
     "one_time_unit": null,
     "one_time_per100g": null,
     "one_time_pb": null,
     "conditions": [
-     "滿 €59 免運・運費 €6.95"
+     "運費 €4.95"
     ],
     "tags": [
      {
       "k": "ship",
-      "t": "滿 €59 免運／運費 €6.95"
+      "t": "運費 €4.95"
      }
     ],
     "new_customer": null,
     "in_stock": true,
     "verified": true,
     "status": "verified",
-    "url": "https://www.huisdieren.nl/shop/orijen-whole-prey-6-fish-cat-2/",
-    "detail": "Black Friday code BLACKFRIDAY2026：全站額外 -10%（11-21～11-27）；2026-11-27 live browser：1.8kg €36.25（原 €40.49）一次價不變，有貨；黑五碼 BLACKFRIDAY2026 全站額外 -10% 今日最後一天，折後 €32.63（按 -10% 計算，未加車驗證結帳價），仍為最佳價。€59 以下運 €6.95。"
+    "url": "https://www.petfooddiscount.nl/product/2297/orijen-cat-6-fish-whole-prey-1-8-kg-kattenvoer",
+    "detail": "2026-11-28 live browser：Six Fish 1.8kg €33.95（建議價 €40.49），價格不變，有貨；黑五碼失效後成為本品最佳價；免運 €49。"
    },
    "one_time_best": null,
    "badge": {
     "kind": "above",
-    "text": "比歷史低價高 47%",
+    "text": "比歷史低價高 53%",
     "prev": 12.337
    },
    "level": {
     "status": "ok",
-    "n": 18,
+    "n": 19,
     "level": "high",
-    "cur": 18.1278,
+    "cur": 18.8611,
     "min": 12.337,
     "p25": 12.7759,
-    "p75": 18.1278,
+    "p75": 18.4945,
     "max": 20.8611,
     "since": "2026-11-02"
    },
@@ -5417,45 +5454,19 @@
      "per100g": null,
      "pb": 18.1278,
      "one_time_unit": 32.63
+    },
+    {
+     "date": "2026-11-28",
+     "unit": 33.95,
+     "per100g": null,
+     "pb": 18.8611,
+     "one_time_unit": 33.95
     }
    ],
    "offers": [
     {
-     "shop": "Huisdieren.nl",
-     "date": "2026-11-27",
-     "variant": "1x1.8kg",
-     "units": 1,
-     "unit_g": 1800,
-     "list_price": 36.25,
-     "price": 32.63,
-     "unit": 32.63,
-     "per100g": null,
-     "pb": 18.1278,
-     "size": "1.8kg",
-     "basis": "Black Friday code BLACKFRIDAY2026 -10%",
-     "autoship": false,
-     "one_time_unit": null,
-     "one_time_per100g": null,
-     "one_time_pb": null,
-     "conditions": [
-      "滿 €59 免運・運費 €6.95"
-     ],
-     "tags": [
-      {
-       "k": "ship",
-       "t": "滿 €59 免運／運費 €6.95"
-      }
-     ],
-     "new_customer": null,
-     "in_stock": true,
-     "verified": true,
-     "status": "verified",
-     "url": "https://www.huisdieren.nl/shop/orijen-whole-prey-6-fish-cat-2/",
-     "detail": "Black Friday code BLACKFRIDAY2026：全站額外 -10%（11-21～11-27）；2026-11-27 live browser：1.8kg €36.25（原 €40.49）一次價不變，有貨；黑五碼 BLACKFRIDAY2026 全站額外 -10% 今日最後一天，折後 €32.63（按 -10% 計算，未加車驗證結帳價），仍為最佳價。€59 以下運 €6.95。"
-    },
-    {
      "shop": "Petfooddiscount.nl",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "1x1.8kg",
      "units": 1,
      "unit_g": 1800,
@@ -5484,7 +5495,40 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.petfooddiscount.nl/product/2297/orijen-cat-6-fish-whole-prey-1-8-kg-kattenvoer",
-     "detail": "2026-11-27 live browser：Six Fish 1.8kg €33.95（建議價 €40.49），價格不變，有貨；黑五標籤；免運 €49。"
+     "detail": "2026-11-28 live browser：Six Fish 1.8kg €33.95（建議價 €40.49），價格不變，有貨；黑五碼失效後成為本品最佳價；免運 €49。"
+    },
+    {
+     "shop": "Huisdieren.nl",
+     "date": "2026-11-28",
+     "variant": "1x1.8kg",
+     "units": 1,
+     "unit_g": 1800,
+     "list_price": 36.25,
+     "price": 36.25,
+     "unit": 36.25,
+     "per100g": null,
+     "pb": 20.1389,
+     "size": "1.8kg",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "滿 €59 免運・運費 €6.95"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "滿 €59 免運／運費 €6.95"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": true,
+     "verified": true,
+     "status": "verified",
+     "url": "https://www.huisdieren.nl/shop/orijen-whole-prey-6-fish-cat-2/",
+     "detail": "2026-11-28 live browser：1.8kg €36.25（原 €40.49）一次價不變，有貨；黑五碼 BLACKFRIDAY2026 已失效，最佳價由昨日折後 €32.63 改為 Petfooddiscount.nl €33.95。€59 以下運 €6.95。"
     },
     {
      "shop": "Petgamma",
@@ -5907,10 +5951,10 @@
    "deal": true,
    "drop": 0.0,
    "image": "assets/products/orijen_cat_dry_regional_red.webp",
-   "date": "2026-11-27",
+   "date": "2026-11-28",
    "best": {
     "shop": "Medpets",
-    "date": "2026-11-27",
+    "date": "2026-11-28",
     "variant": "1x1.8kg",
     "units": 1,
     "unit_g": 1800,
@@ -5948,7 +5992,7 @@
     "verified": true,
     "status": "verified",
     "url": "https://www.medpets.nl/orijen-regional-red-cat-whole-prey",
-    "detail": "2026-11-27 live browser：Regional Red 1.8kg €42.50 一次價／Herhaal €39.95，價格不變，有貨，仍為最佳價；免運 €69。"
+    "detail": "2026-11-28 live browser：Regional Red 1.8kg €42.50 一次價／Herhaal €39.95，價格不變，有貨，仍為最佳價；免運 €69。"
    },
    "one_time_best": {
     "shop": "Medpets",
@@ -5966,7 +6010,7 @@
    },
    "level": {
     "status": "ok",
-    "n": 18,
+    "n": 19,
     "level": "high",
     "cur": 22.1944,
     "min": 13.5796,
@@ -6101,12 +6145,19 @@
      "per100g": null,
      "pb": 22.1944,
      "one_time_unit": 41.1
+    },
+    {
+     "date": "2026-11-28",
+     "unit": 39.95,
+     "per100g": null,
+     "pb": 22.1944,
+     "one_time_unit": 41.1
     }
    ],
    "offers": [
     {
      "shop": "Medpets",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "1x1.8kg",
      "units": 1,
      "unit_g": 1800,
@@ -6144,7 +6195,7 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.medpets.nl/orijen-regional-red-cat-whole-prey",
-     "detail": "2026-11-27 live browser：Regional Red 1.8kg €42.50 一次價／Herhaal €39.95，價格不變，有貨，仍為最佳價；免運 €69。"
+     "detail": "2026-11-28 live browser：Regional Red 1.8kg €42.50 一次價／Herhaal €39.95，價格不變，有貨，仍為最佳價；免運 €69。"
     },
     {
      "shop": "Petgamma",
@@ -6667,10 +6718,10 @@
    "deal": false,
    "drop": 0.0,
    "image": "assets/products/orijen_cat_dry_tundra.webp",
-   "date": "2026-11-27",
+   "date": "2026-11-28",
    "best": {
     "shop": "Petfooddiscount.nl",
-    "date": "2026-11-27",
+    "date": "2026-11-28",
     "variant": "1x1.8kg",
     "units": 1,
     "unit_g": 1800,
@@ -6699,7 +6750,7 @@
     "verified": true,
     "status": "verified",
     "url": "https://www.petfooddiscount.nl/product/2301/orijen-cat-kitten-tundra-1-8-kg-kattenvoer",
-    "detail": "2026-11-27 live browser：Tundra 1.8kg €43.95（建議價 €49.99），價格不變，有貨；免運 €49。"
+    "detail": "2026-11-28 live browser：Tundra 1.8kg €43.95（建議價 €49.99），價格不變，有貨；免運 €49。"
    },
    "one_time_best": null,
    "badge": {
@@ -6709,7 +6760,7 @@
    },
    "level": {
     "status": "ok",
-    "n": 18,
+    "n": 19,
     "level": "high",
     "cur": 24.4167,
     "min": 13.9259,
@@ -6844,12 +6895,19 @@
      "per100g": null,
      "pb": 24.4167,
      "one_time_unit": 43.95
+    },
+    {
+     "date": "2026-11-28",
+     "unit": 43.95,
+     "per100g": null,
+     "pb": 24.4167,
+     "one_time_unit": 43.95
     }
    ],
    "offers": [
     {
      "shop": "Petfooddiscount.nl",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "1x1.8kg",
      "units": 1,
      "unit_g": 1800,
@@ -6878,7 +6936,7 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.petfooddiscount.nl/product/2301/orijen-cat-kitten-tundra-1-8-kg-kattenvoer",
-     "detail": "2026-11-27 live browser：Tundra 1.8kg €43.95（建議價 €49.99），價格不變，有貨；免運 €49。"
+     "detail": "2026-11-28 live browser：Tundra 1.8kg €43.95（建議價 €49.99），價格不變，有貨；免運 €49。"
     },
     {
      "shop": "Pharmapets",
@@ -7420,23 +7478,23 @@
    "base": "kg",
    "category": "dry",
    "age": "adult",
-   "deal": true,
-   "drop": 12.3,
+   "deal": false,
+   "drop": 2.6,
    "image": "assets/products/orijen_cat_dry_fit_trim.webp",
-   "date": "2026-11-27",
+   "date": "2026-11-28",
    "best": {
     "shop": "Huisdieren.nl",
-    "date": "2026-11-27",
+    "date": "2026-11-28",
     "variant": "1x1.8kg",
     "units": 1,
     "unit_g": 1800,
     "list_price": 35.49,
-    "price": 31.94,
-    "unit": 31.94,
+    "price": 35.49,
+    "unit": 35.49,
     "per100g": null,
-    "pb": 17.7444,
+    "pb": 19.7167,
     "size": "1.8kg",
-    "basis": "Black Friday code BLACKFRIDAY2026 -10%",
+    "basis": "單次購買",
     "autoship": false,
     "one_time_unit": null,
     "one_time_per100g": null,
@@ -7455,22 +7513,22 @@
     "verified": true,
     "status": "verified",
     "url": "https://www.huisdieren.nl/shop/orijen-whole-prey-fit-trim-cat-18-kg/",
-    "detail": "Black Friday code BLACKFRIDAY2026：全站額外 -10%（11-21～11-27）；2026-11-27 live browser：Fit & Trim 1.8kg €35.49（原 €38.99），價格不變，有貨；黑五碼 BLACKFRIDAY2026 全站額外 -10% 今日最後一天，折後 €31.94（按 -10% 計算，未加車驗證結帳價），仍為最佳價。免運門檻 €59。"
+    "detail": "2026-11-28 live browser：Fit & Trim 1.8kg €35.49（原 €38.99），一次價不變，有貨；黑五碼 BLACKFRIDAY2026 已失效，最佳價由昨日折後 €31.94 回到一次價 €35.49。免運門檻 €59。"
    },
    "one_time_best": null,
    "badge": {
     "kind": "above",
-    "text": "比歷史低價高 52%",
+    "text": "比歷史低價高 68%",
     "prev": 11.7074
    },
    "level": {
     "status": "ok",
-    "n": 14,
+    "n": 15,
     "level": "high",
-    "cur": 17.7444,
+    "cur": 19.7167,
     "min": 11.7074,
-    "p25": 11.7412,
-    "p75": 17.7444,
+    "p25": 11.775,
+    "p75": 18.7306,
     "max": 20.2333,
     "since": "2026-11-02"
    },
@@ -7572,22 +7630,29 @@
      "per100g": null,
      "pb": 17.7444,
      "one_time_unit": 31.94
+    },
+    {
+     "date": "2026-11-28",
+     "unit": 35.49,
+     "per100g": null,
+     "pb": 19.7167,
+     "one_time_unit": 35.49
     }
    ],
    "offers": [
     {
      "shop": "Huisdieren.nl",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "1x1.8kg",
      "units": 1,
      "unit_g": 1800,
      "list_price": 35.49,
-     "price": 31.94,
-     "unit": 31.94,
+     "price": 35.49,
+     "unit": 35.49,
      "per100g": null,
-     "pb": 17.7444,
+     "pb": 19.7167,
      "size": "1.8kg",
-     "basis": "Black Friday code BLACKFRIDAY2026 -10%",
+     "basis": "單次購買",
      "autoship": false,
      "one_time_unit": null,
      "one_time_per100g": null,
@@ -7606,7 +7671,7 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.huisdieren.nl/shop/orijen-whole-prey-fit-trim-cat-18-kg/",
-     "detail": "Black Friday code BLACKFRIDAY2026：全站額外 -10%（11-21～11-27）；2026-11-27 live browser：Fit & Trim 1.8kg €35.49（原 €38.99），價格不變，有貨；黑五碼 BLACKFRIDAY2026 全站額外 -10% 今日最後一天，折後 €31.94（按 -10% 計算，未加車驗證結帳價），仍為最佳價。免運門檻 €59。"
+     "detail": "2026-11-28 live browser：Fit & Trim 1.8kg €35.49（原 €38.99），一次價不變，有貨；黑五碼 BLACKFRIDAY2026 已失效，最佳價由昨日折後 €31.94 回到一次價 €35.49。免運門檻 €59。"
     },
     {
      "shop": "Petgamma",
@@ -8178,10 +8243,10 @@
    "deal": false,
    "drop": 8.9,
    "image": "assets/products/orijen_cat_dry_guardian8.webp",
-   "date": "2026-11-27",
+   "date": "2026-11-28",
    "best": {
     "shop": "Petfooddiscount.nl",
-    "date": "2026-11-27",
+    "date": "2026-11-28",
     "variant": "1x1.8kg",
     "units": 1,
     "unit_g": 1800,
@@ -8210,7 +8275,7 @@
     "verified": true,
     "status": "verified",
     "url": "https://www.petfooddiscount.nl/product/6206/orijen-cat-guardian-8-adult-1-8-kg",
-    "detail": "2026-11-27 live browser：Guardian 8 1.8kg €35.95（建議價 €41.99），價格不變，有貨；黑五標籤；免運 €49。"
+    "detail": "2026-11-28 live browser：Guardian 8 1.8kg €35.95（建議價 €41.99），價格不變，有貨；免運 €49。"
    },
    "one_time_best": null,
    "badge": {
@@ -8220,7 +8285,7 @@
    },
    "level": {
     "status": "ok",
-    "n": 18,
+    "n": 19,
     "level": "high",
     "cur": 19.9722,
     "min": 15.1889,
@@ -8355,12 +8420,19 @@
      "per100g": null,
      "pb": 19.9722,
      "one_time_unit": 35.95
+    },
+    {
+     "date": "2026-11-28",
+     "unit": 35.95,
+     "per100g": null,
+     "pb": 19.9722,
+     "one_time_unit": 35.95
     }
    ],
    "offers": [
     {
      "shop": "Petfooddiscount.nl",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "1x1.8kg",
      "units": 1,
      "unit_g": 1800,
@@ -8389,7 +8461,7 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.petfooddiscount.nl/product/6206/orijen-cat-guardian-8-adult-1-8-kg",
-     "detail": "2026-11-27 live browser：Guardian 8 1.8kg €35.95（建議價 €41.99），價格不變，有貨；黑五標籤；免運 €49。"
+     "detail": "2026-11-28 live browser：Guardian 8 1.8kg €35.95（建議價 €41.99），價格不變，有貨；免運 €49。"
     },
     {
      "shop": "Petgamma",
@@ -8927,10 +8999,10 @@
    "deal": true,
    "drop": 20.1,
    "image": "assets/products/tigerino_tofu_sensitive.webp",
-   "date": "2026-11-27",
+   "date": "2026-11-28",
    "best": {
     "shop": "Bitiba",
-    "date": "2026-11-27",
+    "date": "2026-11-28",
     "variant": "3x11L [2189740.2]",
     "units": 3,
     "unit_g": null,
@@ -8964,7 +9036,7 @@
     "verified": true,
     "status": "verified",
     "url": "https://www.bitiba.nl/shop/katten/kattenbakvulling/tigerino/tigerino_plantaardig/2189740?activeVariant=2189740.2",
-    "detail": "2026-11-27 live browser：3x11L €33.19 一次價／訂閱 €29.87，價格不變，有貨；滿 €100 全站 5%；免運 €29。"
+    "detail": "2026-11-28 live browser：3x11L €33.19 一次價／訂閱 €29.87，價格不變，有貨；滿 €100 全站 5%；免運 €29。"
    },
    "one_time_best": {
     "shop": "Bitiba",
@@ -8981,7 +9053,7 @@
    },
    "level": {
     "status": "ok",
-    "n": 20,
+    "n": 21,
     "level": "low",
     "cur": 0.9052,
     "min": 0.9052,
@@ -9130,12 +9202,19 @@
      "per100g": null,
      "pb": 0.9052,
      "one_time_unit": 11.063
+    },
+    {
+     "date": "2026-11-28",
+     "unit": 9.957,
+     "per100g": null,
+     "pb": 0.9052,
+     "one_time_unit": 11.063
     }
    ],
    "offers": [
     {
      "shop": "Bitiba",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "3x11L [2189740.2]",
      "units": 3,
      "unit_g": null,
@@ -9169,11 +9248,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.bitiba.nl/shop/katten/kattenbakvulling/tigerino/tigerino_plantaardig/2189740?activeVariant=2189740.2",
-     "detail": "2026-11-27 live browser：3x11L €33.19 一次價／訂閱 €29.87，價格不變，有貨；滿 €100 全站 5%；免運 €29。"
+     "detail": "2026-11-28 live browser：3x11L €33.19 一次價／訂閱 €29.87，價格不變，有貨；滿 €100 全站 5%；免運 €29。"
     },
     {
      "shop": "Bitiba",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "1x11L",
      "units": 1,
      "unit_g": null,
@@ -9207,11 +9286,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.bitiba.nl/shop/katten/kattenbakvulling/tigerino/tigerino_plantaardig/2189740",
-     "detail": "原價 €14.99，-20.01%；2026-11-27 live browser：1x11L €11.99（原價 €14.99，-20.01%）一次價／訂閱 €10.79，價格不變，有貨。"
+     "detail": "原價 €14.99，-20.01%；2026-11-28 live browser：1x11L €11.99（原價 €14.99，-20.01%）一次價／訂閱 €10.79，價格不變，有貨。"
     },
     {
      "shop": "zooplus.nl",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "1x11L [2189648.0]",
      "units": 1,
      "unit_g": null,
@@ -9247,7 +9326,7 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.zooplus.nl/shop/katten/kattenbakvulling/tigerino/tigerino_plantaardig/2189648",
-     "detail": "2026-11-27 live browser：1x11L €15.49 一次價不變／Gemak 仍 -15% €13.17，有貨；免運 €29。注意勿與 Bitiba 2189740 混淆。"
+     "detail": "2026-11-28 live browser：1x11L €15.49 一次價不變／Gemak 仍 -15% €13.17，有貨；免運 €29。注意勿與 Bitiba 2189740 混淆。"
     },
     {
      "shop": "zooplus.com",
@@ -9303,10 +9382,10 @@
    "deal": true,
    "drop": 2.9,
    "image": "assets/products/ever_clean_extra_hygiene_unscented.webp",
-   "date": "2026-11-27",
+   "date": "2026-11-28",
    "best": {
     "shop": "Bitiba",
-    "date": "2026-11-27",
+    "date": "2026-11-28",
     "variant": "1x10L [1346690.0]",
     "units": 1,
     "unit_g": null,
@@ -9340,7 +9419,7 @@
     "verified": true,
     "status": "verified",
     "url": "https://www.bitiba.nl/shop/katten/kattenbakvulling/everclean/1346690",
-    "detail": "2026-11-27 live browser：1x10L €33.99 一次價／訂閱 €31.95，價格不變，有貨，仍為最佳價。頁面標題仍寫 Extra Strong Parfumvrij，料號 1346690 對照無誤，商品圖顯示 Extra Hygiene Unscented，佐證為同款更名。滿 €29 免運。"
+    "detail": "2026-11-28 live browser：1x10L €33.99 一次價／訂閱 €31.95，價格不變，有貨，仍為最佳價。頁面標題仍寫 Extra Strong Parfumvrij，料號 1346690 對照無誤，商品圖顯示 Extra Hygiene Unscented，佐證為同款更名。滿 €29 免運。"
    },
    "one_time_best": {
     "shop": "Bitiba",
@@ -9358,11 +9437,11 @@
    },
    "level": {
     "status": "ok",
-    "n": 18,
+    "n": 19,
     "level": "high",
     "cur": 3.195,
     "min": 1.9485,
-    "p25": 1.98,
+    "p25": 2.0115,
     "p75": 3.195,
     "max": 3.289,
     "since": "2026-11-02"
@@ -9493,12 +9572,19 @@
      "per100g": null,
      "pb": 3.195,
      "one_time_unit": 33.99
+    },
+    {
+     "date": "2026-11-28",
+     "unit": 31.95,
+     "per100g": null,
+     "pb": 3.195,
+     "one_time_unit": 33.99
     }
    ],
    "offers": [
     {
      "shop": "Bitiba",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "1x10L [1346690.0]",
      "units": 1,
      "unit_g": null,
@@ -9532,7 +9618,7 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.bitiba.nl/shop/katten/kattenbakvulling/everclean/1346690",
-     "detail": "2026-11-27 live browser：1x10L €33.99 一次價／訂閱 €31.95，價格不變，有貨，仍為最佳價。頁面標題仍寫 Extra Strong Parfumvrij，料號 1346690 對照無誤，商品圖顯示 Extra Hygiene Unscented，佐證為同款更名。滿 €29 免運。"
+     "detail": "2026-11-28 live browser：1x10L €33.99 一次價／訂閱 €31.95，價格不變，有貨，仍為最佳價。頁面標題仍寫 Extra Strong Parfumvrij，料號 1346690 對照無誤，商品圖顯示 Extra Hygiene Unscented，佐證為同款更名。滿 €29 免運。"
     },
     {
      "shop": "zooplus.com",
@@ -9783,10 +9869,10 @@
    "deal": true,
    "drop": 0.0,
    "image": "assets/products/catsan_hygiene_plus.webp",
-   "date": "2026-11-27",
+   "date": "2026-11-28",
    "best": {
     "shop": "zooplus.nl",
-    "date": "2026-11-27",
+    "date": "2026-11-28",
     "variant": "2x18L [178051.6]",
     "units": 2,
     "unit_g": null,
@@ -9820,7 +9906,7 @@
     "verified": true,
     "status": "verified",
     "url": "https://www.zooplus.nl/shop/katten/kattenbakvulling/catsan/catsan/178051?activeVariant=178051.6",
-    "detail": "2026-11-27 live browser：2x18L 一次價 €30.49 不變／Gemak 仍 -15% €25.92（€0.72/L），有貨，仍為本品最佳價（€0.72/L）。"
+    "detail": "2026-11-28 live browser：2x18L 一次價 €30.49 不變／Gemak 仍 -15% €25.92（€0.72/L），有貨，仍為本品最佳價（€0.72/L）。"
    },
    "one_time_best": {
     "shop": "Bitiba",
@@ -9836,9 +9922,15 @@
     "text": "持平歷史低價"
    },
    "level": {
-    "status": "collecting",
-    "n": 6,
-    "need": 7
+    "status": "ok",
+    "n": 7,
+    "level": "high",
+    "cur": 0.72,
+    "min": 0.6775,
+    "p25": 0.72,
+    "p75": 0.72,
+    "max": 0.72,
+    "since": "2026-11-22"
    },
    "history": [
     {
@@ -9882,12 +9974,19 @@
      "per100g": null,
      "pb": 0.72,
      "one_time_unit": 11.5
+    },
+    {
+     "date": "2026-11-28",
+     "unit": 12.96,
+     "per100g": null,
+     "pb": 0.72,
+     "one_time_unit": 11.5
     }
    ],
    "offers": [
     {
      "shop": "zooplus.nl",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "2x18L [178051.6]",
      "units": 2,
      "unit_g": null,
@@ -9921,11 +10020,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.zooplus.nl/shop/katten/kattenbakvulling/catsan/catsan/178051?activeVariant=178051.6",
-     "detail": "2026-11-27 live browser：2x18L 一次價 €30.49 不變／Gemak 仍 -15% €25.92（€0.72/L），有貨，仍為本品最佳價（€0.72/L）。"
+     "detail": "2026-11-28 live browser：2x18L 一次價 €30.49 不變／Gemak 仍 -15% €25.92（€0.72/L），有貨，仍為本品最佳價（€0.72/L）。"
     },
     {
      "shop": "zooplus.nl",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "1x18L [178051.5]",
      "units": 1,
      "unit_g": null,
@@ -9959,11 +10058,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.zooplus.nl/shop/katten/kattenbakvulling/catsan/catsan/178051?activeVariant=178051.5",
-     "detail": "2026-11-27 live browser：1x18L €15.99 一次價不變／Gemak 仍 -15% €13.59，有貨。"
+     "detail": "2026-11-28 live browser：1x18L €15.99 一次價不變／Gemak 仍 -15% €13.59，有貨。"
     },
     {
      "shop": "Bitiba",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "2x18L [398457.7]",
      "units": 2,
      "unit_g": null,
@@ -9992,11 +10091,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.bitiba.nl/shop/katten/kattenbakvulling/catsan/398457?activeVariant=398457.7",
-     "detail": "2026-11-27 live browser：2x18L €29.49 一次價／訂閱 €27.72，價格不變，有貨。"
+     "detail": "2026-11-28 live browser：2x18L €29.49 一次價／訂閱 €27.72，價格不變，有貨。"
     },
     {
      "shop": "Huisdieren.nl",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "1x20L",
      "units": 1,
      "unit_g": null,
@@ -10025,11 +10124,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.huisdieren.nl/shop/catsan-hygiene-plus/",
-     "detail": "原價 €22.75；2026-11-27 live browser：1x20L €15.50（原價 €22.75），價格不變，有貨但僅剩 9 件（昨日 10 件）。黑五碼 BLACKFRIDAY2026 今日最後一天（11-21～11-27），按標價算術約 €13.95，非頁面標價，不計入最佳價。€59 以下運 €6.95；當日 20:00 前下單當日出貨。"
+     "detail": "原價 €22.75；2026-11-28 live browser：1x20L €15.50（原價 €22.75），價格不變，有貨，庫存仍 9 件。黑五碼 BLACKFRIDAY2026 已失效（活動期 11-21～11-27），昨日按標價算術約 €13.95 不再適用。€59 以下運 €6.95；當日 20:00 前下單當日出貨。"
     },
     {
      "shop": "Bitiba",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "1x18L [398457.6]",
      "units": 1,
      "unit_g": null,
@@ -10058,11 +10157,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.bitiba.nl/shop/katten/kattenbakvulling/catsan/398457?activeVariant=398457.6",
-     "detail": "2026-11-27 live browser：1x18L €15.49 一次價／訂閱 €14.56，價格不變，有貨。"
+     "detail": "2026-11-28 live browser：1x18L €15.49 一次價／訂閱 €14.56，價格不變，有貨。"
     },
     {
      "shop": "Medpets",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "2x20L",
      "units": 2,
      "unit_g": null,
@@ -10096,11 +10195,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.medpets.nl/catsan-hygiene-plus-kattenbakvulling",
-     "detail": "2026-11-27 live browser：2x20L €34.50 一次價不變／Herhaal €32.45（昨日 €32.43，漲 €0.02，頁面明示），有貨（頁面顯示「Snel weer leverbaar」，可下單、週一到貨）。"
+     "detail": "2026-11-28 live browser：2x20L €34.50 一次價不變／Herhaal €32.45，價格不變，有貨。"
     },
     {
      "shop": "Medpets",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "1x20L",
      "units": 1,
      "unit_g": null,
@@ -10129,11 +10228,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.medpets.nl/catsan-hygiene-plus-kattenbakvulling",
-     "detail": "2026-11-27 live browser：20L €17.60 一次價／Herhaal €16.55，價格不變，有貨（頁面顯示「Snel weer leverbaar」，可下單、週一到貨）。"
+     "detail": "2026-11-28 live browser：20L €17.60 一次價／Herhaal €16.55，價格不變，有貨。"
     },
     {
      "shop": "Pharmapets",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "1x18L",
      "units": 1,
      "unit_g": null,
@@ -10167,11 +10266,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.pharmapets.nl/kattenbakvulling-catsan-hygiene-18l.html",
-     "detail": "2026-11-27 live browser：1x18L €16.95，價格不變，Direct leverbaar；訂閱首單 €15.25（-10%，其後 -5%）；免運 €39。"
+     "detail": "2026-11-28 live browser：1x18L €16.95，價格不變，Direct leverbaar；訂閱首單 €15.25（-10%，其後 -5%）；免運 €39。"
     },
     {
      "shop": "Pets Place",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "1x20L",
      "units": 1,
      "unit_g": null,
@@ -10200,11 +10299,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.petsplace.nl/catsan-hygiene-plus-kattenbakvulling-m-4008429095115-pps",
-     "detail": "2026-11-27 live browser：1x20L €17.69，價格不變，有貨；額外運輸附加費 €1.95／件；免運 €39。"
+     "detail": "2026-11-28 live browser：1x20L €17.69，價格不變，有貨；額外運輸附加費 €1.95／件；免運 €39。"
     },
     {
      "shop": "Zeeuwse Pootjes",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "1x20L",
      "units": 1,
      "unit_g": null,
@@ -10233,11 +10332,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://zeeuwsepootjes.nl/product/catsan-hygiene-plus/",
-     "detail": "2026-11-27 live browser：選「20 liter」變體後顯示 €17.69、5 op voorraad，價格不變，有貨；11.5L 為 €10.69。"
+     "detail": "2026-11-28 live browser：選「20 liter」變體後顯示 €17.69、5 op voorraad，價格不變，有貨；11.5L 為 €10.69。"
     },
     {
      "shop": "Medpets",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "1x11.5L",
      "units": 1,
      "unit_g": null,
@@ -10271,11 +10370,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.medpets.nl/catsan-hygiene-plus-kattenbakvulling",
-     "detail": "2026-11-27 live browser：11.5L €11.50 一次價／Herhaal €10.80，價格不變，有貨（頁面顯示「Snel weer leverbaar」，可下單、週一到貨）。"
+     "detail": "2026-11-28 live browser：11.5L €11.50 一次價／Herhaal €10.80，價格不變，有貨。"
     },
     {
      "shop": "Zeeuwse Pootjes",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "1x11.5L",
      "units": 1,
      "unit_g": null,
@@ -10304,11 +10403,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://zeeuwsepootjes.nl/product/catsan-hygiene-plus/",
-     "detail": "2026-11-27 live browser：選「11.5 liter」變體後顯示 €10.69，價格不變，有貨；20L €17.69。"
+     "detail": "2026-11-28 live browser：選「11.5 liter」變體後顯示 €10.69，價格不變，有貨；20L €17.69。"
     },
     {
      "shop": "De Welpenhoeve",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "2x18L",
      "units": 2,
      "unit_g": null,
@@ -10337,11 +10436,11 @@
      "verified": false,
      "status": "partly_verified",
      "url": "https://www.de-welpenhoeve.nl/Catsan-Hygiene-Plus-2x-18-liter-11428/",
-     "detail": "2026-11-27 live browser：2x18L €25.00，價格不變；Beschikbaar；出貨 1–5 工作天。頁內寫法不一：標題／網址寫 2x18 liter，但頁內變體連結寫「Catsan Hygiëne Plus 2x20 liter」；僅供參考，不進排名。"
+     "detail": "2026-11-28 live browser：2x18L €25.00，價格不變；Beschikbaar；出貨 1–5 工作天。頁內寫法不一：標題／網址寫 2x18 liter，但頁內品項行寫「Catsan Hygiëne Plus 2x20 liter」、商品圖為 20L 包裝；僅供參考，不進排名。"
     },
     {
      "shop": "petfooddiscount.nl",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "Catsan Hygiene korrels 1x11.5L",
      "units": 1,
      "unit_g": null,
@@ -10370,7 +10469,7 @@
      "verified": false,
      "status": "partly_verified",
      "url": "https://www.petfooddiscount.nl/product/5191/catsan-hygiene-korrels-10-liter",
-     "detail": "建議價 €10.69；2026-11-27 live browser：Catsan hygiene korrels 11.5 liter €9.99（建議價 €10.69），價格不變，有貨；免運 €49。注意：標題未寫 Hygiene Plus，描述寫「Inhoud: 10 liter」，但商品圖袋身顯示 Hygiene Plus。"
+     "detail": "建議價 €10.69；2026-11-28 live browser：Catsan hygiene korrels 11.5 liter €9.99（建議價 €10.69），價格不變，有貨；免運 €49。注意：標題未寫 Hygiene Plus，描述寫「Inhoud: 10 liter」，但商品圖袋身顯示 Hygiene Plus；規格存疑，不進排名。"
     },
     {
      "shop": "bol.com",
@@ -10426,10 +10525,10 @@
    "deal": false,
    "drop": 18.2,
    "image": "assets/products/l_mesitran_vet_soft.webp",
-   "date": "2026-11-27",
+   "date": "2026-11-28",
    "best": {
     "shop": "Agriservicebouwhuis.nl",
-    "date": "2026-11-27",
+    "date": "2026-11-28",
     "variant": "250g",
     "units": 1,
     "unit_g": 250,
@@ -10458,7 +10557,7 @@
     "verified": true,
     "status": "verified",
     "url": "https://www.agriservicebouwhuis.nl/product/17406683/l-mesitran-vet-soft-wondgel-250-gram",
-    "detail": "2026-11-27 live browser：250g €42.50 價格不變，有貨，仍為 L-Mesitran 250g 最佳價。頁面仍無明確庫存標示、無寄 Rotterdam 運費資訊，運費未核實；店家位於荷蘭 Hasselt。"
+    "detail": "2026-11-28 live browser：250g €42.50 價格不變，有貨，仍為 L-Mesitran 250g 最佳價。頁面仍無明確庫存標示、無寄 Rotterdam 運費資訊，運費未核實；店家位於荷蘭 Hasselt。"
    },
    "one_time_best": null,
    "badge": {
@@ -10467,7 +10566,7 @@
    },
    "level": {
     "status": "ok",
-    "n": 21,
+    "n": 22,
     "level": "low",
     "cur": 0.17,
     "min": 0.17,
@@ -10623,12 +10722,19 @@
      "per100g": null,
      "pb": 0.17,
      "one_time_unit": 9.95
+    },
+    {
+     "date": "2026-11-28",
+     "unit": 42.5,
+     "per100g": null,
+     "pb": 0.17,
+     "one_time_unit": 9.95
     }
    ],
    "offers": [
     {
      "shop": "Agriservicebouwhuis.nl",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "250g",
      "units": 1,
      "unit_g": 250,
@@ -10657,11 +10763,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.agriservicebouwhuis.nl/product/17406683/l-mesitran-vet-soft-wondgel-250-gram",
-     "detail": "2026-11-27 live browser：250g €42.50 價格不變，有貨，仍為 L-Mesitran 250g 最佳價。頁面仍無明確庫存標示、無寄 Rotterdam 運費資訊，運費未核實；店家位於荷蘭 Hasselt。"
+     "detail": "2026-11-28 live browser：250g €42.50 價格不變，有貨，仍為 L-Mesitran 250g 最佳價。頁面仍無明確庫存標示、無寄 Rotterdam 運費資訊，運費未核實；店家位於荷蘭 Hasselt。"
     },
     {
      "shop": "Dierapotheker",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "250g",
      "units": 1,
      "unit_g": 250,
@@ -10690,11 +10796,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.dierapotheker.nl/l-mesitran-vet-soft-honinggel/4752.2/",
-     "detail": "2026-11-27 live browser：250g €50.95，價格不變，非現貨（預計 05-12-2026 到貨）；買 2 件以上 2% 折扣；黑五 Dubbelslag：買 2 件相同商品第 2 件 -10%，至 11 月 30 日；免運 €59。注意：Agriservicebouwhuis 同規格 €42.50 仍為本品最佳價。"
+     "detail": "2026-11-28 live browser：250g €50.95，價格不變，今日頁面顯示 Direct leverbaar（昨日寫預計 05-12-2026 到貨）；買 2 件以上 2% 折扣；黑五 Dubbelslag：買 2 件相同商品第 2 件 -10%，至 11 月 30 日；免運 €59。注意：Agriservicebouwhuis 同規格 €42.50 仍為本品最佳價。"
     },
     {
      "shop": "Petssupermart",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "250g",
      "units": 1,
      "unit_g": 250,
@@ -10723,11 +10829,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.petssupermart.com/rundvee/wondverzorging/https--wwwpetssupermartcom-rundvee-wondverzorging-l-mesitran",
-     "detail": "2026-11-27 live browser：250g €51.95，價格不變，可加購；NL 運費今日產品頁全文仍未見運費文字，€6.26 仍未核實。"
+     "detail": "2026-11-28 live browser：250g €51.95，價格不變，可加購；NL 運費今日產品頁全文仍未見運費文字，€6.26 仍未核實。"
     },
     {
      "shop": "Petssupermart",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "60g",
      "units": 1,
      "unit_g": 60,
@@ -10756,11 +10862,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.petssupermart.com/rundvee/wondverzorging/https--wwwpetssupermartcom-rundvee-wondverzorging-l-mesitran",
-     "detail": "2026-11-27 live browser：60g €19.49，價格不變，可加購；頁面無明確庫存標示，商品頁無運費資訊。"
+     "detail": "2026-11-28 live browser：60g €19.49，價格不變，可加購；頁面無明確庫存標示，商品頁無運費資訊。"
     },
     {
      "shop": "Petssupermart",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "20g",
      "units": 1,
      "unit_g": 20,
@@ -10789,11 +10895,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.petssupermart.com/rundvee/wondverzorging/https--wwwpetssupermartcom-rundvee-wondverzorging-l-mesitran",
-     "detail": "2026-11-27 live browser：20g €9.95，價格不變，可加購；頁面無明確庫存標示，商品頁無運費資訊。"
+     "detail": "2026-11-28 live browser：20g €9.95，價格不變，可加購；頁面無明確庫存標示，商品頁無運費資訊。"
     },
     {
      "shop": "Dierapotheker",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "20g",
      "units": 1,
      "unit_g": 20,
@@ -10822,11 +10928,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.dierapotheker.nl/l-mesitran-vet-soft-honinggel/4752.4/",
-     "detail": "2026-11-27 live browser：20g €10.15，價格不變，Direct leverbaar；買 2 件以上 2% 折扣；黑五 Dubbelslag：買 2 件相同商品第 2 件 -10%，至 11 月 30 日；免運 €59。"
+     "detail": "2026-11-28 live browser：20g €10.15，價格不變，Direct leverbaar；買 2 件以上 2% 折扣；黑五 Dubbelslag：買 2 件相同商品第 2 件 -10%，至 11 月 30 日；免運 €59。"
     },
     {
      "shop": "Cool4pets.be",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "20g",
      "units": 1,
      "unit_g": 20,
@@ -10855,7 +10961,7 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.cool4pets.be/en/l-mesitran-vet-soft-honing-wondgel-20-g",
-     "detail": "2026-11-27 live browser：20g €10.75，價格不變，Stock: 36，有貨；Benelux 滿 €59 免運；效期至 29/08/2031。"
+     "detail": "2026-11-28 live browser：20g €10.75，價格不變，Stock: 36，有貨；Benelux 滿 €59 免運；效期至 29/08/2031。"
     },
     {
      "shop": "Hondjekoek",
@@ -11217,10 +11323,10 @@
    "deal": false,
    "drop": 5.6,
    "image": "assets/products/protexin_cobalaplex_60.webp",
-   "date": "2026-11-27",
+   "date": "2026-11-28",
    "best": {
     "shop": "Pharmapets.be",
-    "date": "2026-11-27",
+    "date": "2026-11-28",
     "variant": "Dômes Pharma/TVM60caps regional package; one-time Achat unique",
     "units": 1,
     "unit_g": null,
@@ -11249,7 +11355,7 @@
     "verified": true,
     "status": "verified",
     "url": "https://www.pharmapets.be/fr/cobalaplex-60-gelules.html",
-    "detail": "2026-11-27 live browser：60 粒 €18.79，價格不變，有貨，仍為最佳價；訂閱首購 €16.91（-10%，其後每單 -5%），滿 €39 免運。單盒合計 €22.78（未滿 €39 運 €3.99）。"
+    "detail": "2026-11-28 live browser：60 粒 €18.79，價格不變，有貨，仍為最佳價；訂閱首購 €16.91（-10%，其後每單 -5%），滿 €39 免運。單盒合計 €22.78（未滿 €39 運 €3.99）。"
    },
    "one_time_best": null,
    "badge": {
@@ -11258,7 +11364,7 @@
    },
    "level": {
     "status": "ok",
-    "n": 15,
+    "n": 16,
     "level": "low",
     "cur": 0.3132,
     "min": 0.3132,
@@ -11372,12 +11478,19 @@
      "per100g": null,
      "pb": 0.3132,
      "one_time_unit": 18.79
+    },
+    {
+     "date": "2026-11-28",
+     "unit": 18.79,
+     "per100g": null,
+     "pb": 0.3132,
+     "one_time_unit": 18.79
     }
    ],
    "offers": [
     {
      "shop": "Pharmapets.be",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "Dômes Pharma/TVM60caps regional package; one-time Achat unique",
      "units": 1,
      "unit_g": null,
@@ -11406,11 +11519,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.pharmapets.be/fr/cobalaplex-60-gelules.html",
-     "detail": "2026-11-27 live browser：60 粒 €18.79，價格不變，有貨，仍為最佳價；訂閱首購 €16.91（-10%，其後每單 -5%），滿 €39 免運。單盒合計 €22.78（未滿 €39 運 €3.99）。"
+     "detail": "2026-11-28 live browser：60 粒 €18.79，價格不變，有貨，仍為最佳價；訂閱首購 €16.91（-10%，其後每單 -5%），滿 €39 免運。單盒合計 €22.78（未滿 €39 運 €3.99）。"
     },
     {
      "shop": "Barfus.lv",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "60caps paper packaging; regional identity evidence retained",
      "units": 1,
      "unit_g": null,
@@ -11439,11 +11552,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.barfus.lv/en/product/protexin-cobalaplex/",
-     "detail": "2026-11-27 live browser：60 粒 €23.20，漲價 €3.48（昨日 €19.72 的 -15% 折扣結束，回到原價 €23.20），有貨；仍高於最佳價 Pharmapets.be €18.79。運費：商品頁未寫；單盒結帳實測 €15.00（11-20）未重跑，單盒合計 €38.20 為按實測運費推算（官網 €9.00 說法與結帳不符，以結帳為準）。返現未核實。"
+     "detail": "2026-11-28 live browser：60 粒 €23.20，價格不變，有貨；仍高於最佳價 Pharmapets.be €18.79。運費：商品頁未寫；單盒結帳實測 €15.00（11-20）未重跑，單盒合計 €38.20 為按實測運費推算（官網 €9.00 說法與結帳不符，以結帳為準）。返現未核實。"
     },
     {
      "shop": "Milo",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "60 capsules（Protexin 標籤）",
      "units": 1,
      "unit_g": null,
@@ -11477,11 +11590,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://milo.nl/products/protexin-cobalaplex-hond-en-kat-60-capsules",
-     "detail": "2026-11-27 live browser：60 粒 €29.95 一次價不變，有貨；定期配送 €28.45（-5%）今日於商品頁再核實。免運 €49（未滿運 €3.95）。"
+     "detail": "2026-11-28 店內目錄核實：60 粒 €29.95 一次價不變，有貨；定期配送 -5% €28.45 沿用 2026-11-24 商品頁核實折扣率推算，今日店內目錄未顯示訂閱價，未重核。免運 €49（未滿運 €3.95）。"
     },
     {
      "shop": "Zoolac",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "1x60 capsules Dechra/NL regional label; single purchase",
      "units": 1,
      "unit_g": null,
@@ -11510,11 +11623,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.zoolac.nl/es/protexin-cobalaplex-perro-gato.html",
-     "detail": "2026-11-27 live browser：60 粒 €28.95（原 €32.95），價格不變，有貨；買 2 件 €28.08（-3%）、買 3 件 €27.21（-6%）；荷蘭境內滿 €75 免運（最高 14kg）。"
+     "detail": "2026-11-28 live browser：60 粒 €28.95（原 €32.95），價格不變，有貨；買 2 件 €28.08（-3%）、買 3 件 €27.21（-6%）；荷蘭境內滿 €75 免運（最高 14kg）。"
     },
     {
      "shop": "Docvet",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "60 capsules（Dechra 標籤）",
      "units": 1,
      "unit_g": null,
@@ -11543,11 +11656,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.docvet.nl/kat/cobalaplex-60-capsules-vitamine-b12-hond-kat/",
-     "detail": "2026-11-27 live browser：60 粒 €28.99，價格不變，37 op voorraad，有貨；滿 €60 免運。"
+     "detail": "2026-11-28 live browser：60 粒 €28.99，價格不變，37 op voorraad，有貨；滿 €60 免運。"
     },
     {
      "shop": "Soin et Nature",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "Dômes Pharma TVM France 60caps；GTIN5027314498779",
      "units": 1,
      "unit_g": null,
@@ -11576,7 +11689,7 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.soin-et-nature.com/en/28102-cobalaplex-vitamins-b9-b12-dog-cat-60-capsules.html",
-     "detail": "2026-11-27 live browser：60 粒 €19.90（含稅；未稅 €16.58），價格不變，缺貨，顯示「Replenishment in progress」且可 Pre-order；滿 €129 免運（BE、LU、DE、NL、ES、IT、AT、IE）。"
+     "detail": "2026-11-28 live browser：60 粒 €19.90（含稅；未稅 €16.58），價格不變，缺貨，顯示「Replenishment in progress」且可 Pre-order；滿 €129 免運（BE、LU、DE、NL、ES、IT、AT、IE）。"
     },
     {
      "shop": "Diermedicatie.nl",
@@ -12219,10 +12332,10 @@
    "deal": false,
    "drop": 26.2,
    "image": "assets/products/protexin_synbiotic_dc_50.webp",
-   "date": "2026-11-27",
+   "date": "2026-11-28",
    "best": {
     "shop": "Tradeinn/Bricoinn",
-    "date": "2026-11-27",
+    "date": "2026-11-28",
     "variant": "50 Cap",
     "units": 1,
     "unit_g": null,
@@ -12251,7 +12364,7 @@
     "verified": true,
     "status": "verified",
     "url": "https://www.tradeinn.com/bricoinn/nl/protexin-synbiotic-dc-50-cap-huisdiersupplement/143360462/p",
-    "detail": "站內黑五橫幅 BLACK FRIDAY -15% CODE: BF15（適用性未驗證）；2026-11-27 live browser：50 粒 €27.99 有貨（Beschikbaar，預計 12 月 3–7 日送達），昨日確認下架、今日恢復上架，成為有貨最便宜（原最佳 Milo 訂閱 €37.95），為 Synbiotic 新最佳價。運費未核實；頁面黑五碼 BF15 最高 -15% 未測試，不計入。"
+    "detail": "站內黑五橫幅 BLACK FRIDAY -15% CODE: BF15（適用性未驗證）；2026-11-28 live browser：50 粒 €27.99，價格不變，有貨（Beschikbaar，預計 12 月 3–8 日送達），仍為最佳價。運費未核實；頁面黑五碼 BF15 最高 -15% 未測試，不計入。"
    },
    "one_time_best": null,
    "badge": {
@@ -12261,12 +12374,12 @@
    },
    "level": {
     "status": "ok",
-    "n": 15,
+    "n": 16,
     "level": "typical",
     "cur": 0.5598,
     "min": 0.428,
     "p25": 0.428,
-    "p75": 0.6594,
+    "p75": 0.6096,
     "max": 0.759,
     "since": "2026-11-07"
    },
@@ -12375,12 +12488,19 @@
      "per100g": null,
      "pb": 0.5598,
      "one_time_unit": 27.99
+    },
+    {
+     "date": "2026-11-28",
+     "unit": 27.99,
+     "per100g": null,
+     "pb": 0.5598,
+     "one_time_unit": 27.99
     }
    ],
    "offers": [
     {
      "shop": "Tradeinn/Bricoinn",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "50 Cap",
      "units": 1,
      "unit_g": null,
@@ -12409,11 +12529,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.tradeinn.com/bricoinn/nl/protexin-synbiotic-dc-50-cap-huisdiersupplement/143360462/p",
-     "detail": "站內黑五橫幅 BLACK FRIDAY -15% CODE: BF15（適用性未驗證）；2026-11-27 live browser：50 粒 €27.99 有貨（Beschikbaar，預計 12 月 3–7 日送達），昨日確認下架、今日恢復上架，成為有貨最便宜（原最佳 Milo 訂閱 €37.95），為 Synbiotic 新最佳價。運費未核實；頁面黑五碼 BF15 最高 -15% 未測試，不計入。"
+     "detail": "站內黑五橫幅 BLACK FRIDAY -15% CODE: BF15（適用性未驗證）；2026-11-28 live browser：50 粒 €27.99，價格不變，有貨（Beschikbaar，預計 12 月 3–8 日送達），仍為最佳價。運費未核實；頁面黑五碼 BF15 最高 -15% 未測試，不計入。"
     },
     {
      "shop": "Milo",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "50 capsules（頁面標題寫 50 tab）",
      "units": 1,
      "unit_g": null,
@@ -12447,11 +12567,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://milo.nl/products/protexin-synbiotic-d-c",
-     "detail": "2026-11-27 live browser：50 粒 €39.95 一次價不變，有貨；定期配送 -5% €37.95 今日於商品頁再核實。運費 €3.95 未滿 €49，免運門檻 €49。注意：Tradeinn 今日回貨 €27.99，成為有貨最便宜，Milo 不再是最佳。"
+     "detail": "2026-11-28 店內目錄核實：50 粒 €39.95 一次價不變，有貨；定期配送 -5% €37.95 沿用 2026-11-24 商品頁核實折扣率推算，今日店內目錄未顯示訂閱價，未重核。運費 €3.95 未滿 €49，免運門檻 €49。"
     },
     {
      "shop": "Medpets",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "50 capsules",
      "units": 1,
      "unit_g": null,
@@ -12489,11 +12609,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.medpets.nl/protexin-synbiotic-dc",
-     "detail": "2026-11-27 live browser：50 粒 €44.45 一次價／Herhaal €41.80，價格不變，仍缺貨「Onbekende levertijd」；免運 €69。"
+     "detail": "2026-11-28 live browser：50 粒 €44.45 一次價／Herhaal €41.80，價格不變，仍缺貨「Onbekende levertijd」；免運 €69。"
     },
     {
      "shop": "Soin et Nature",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "Dômes TVM France50 GTIN5027314504098",
      "units": 1,
      "unit_g": null,
@@ -12522,7 +12642,7 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.soin-et-nature.com/nl/29041-synbiotic-d-c-digestive-comfort-kat-hond-50-capsules.html",
-     "detail": "2026-11-27 live browser：50 粒 €58.99（含稅），價格不變，缺貨，顯示「Aanvulling bezig」；滿 €129 免運。"
+     "detail": "2026-11-28 live browser：50 粒 €58.99（含稅），價格不變，缺貨，顯示「Aanvulling bezig」；滿 €129 免運。"
     },
     {
      "shop": "Tiershop.de",
@@ -12924,10 +13044,10 @@
    "deal": true,
    "drop": 0.0,
    "image": "assets/products/ziwi_peak_cat_steam_dried.webp",
-   "date": "2026-11-27",
+   "date": "2026-11-28",
    "best": {
     "shop": "Medpets",
-    "date": "2026-11-27",
+    "date": "2026-11-28",
     "variant": "Chicken 2.2kg",
     "units": 1,
     "unit_g": 2200,
@@ -12961,7 +13081,7 @@
     "verified": true,
     "status": "verified",
     "url": "https://www.medpets.nl/ziwi-steam-dried-kattenvoeding-kip",
-    "detail": "2026-11-27 live browser：Chicken 2.2kg €83.30 一次價／Herhaal €78.30，價格不變，有貨，仍為最佳價（雞肉 2.2kg Herhaal €78.30＝€35.59/kg）。滿 €69 免運。"
+    "detail": "2026-11-28 live browser：Chicken 2.2kg €83.30 一次價／Herhaal €78.30，價格不變，有貨，仍為最佳價（雞肉 2.2kg Herhaal €78.30＝€35.59/kg）。滿 €69 免運。"
    },
    "one_time_best": {
     "shop": "petfooddiscount.nl",
@@ -12977,9 +13097,15 @@
     "text": "持平歷史低價"
    },
    "level": {
-    "status": "collecting",
-    "n": 6,
-    "need": 7
+    "status": "ok",
+    "n": 7,
+    "level": "typical",
+    "cur": 35.5909,
+    "min": 35.5909,
+    "p25": 35.5909,
+    "p75": 35.5909,
+    "max": 35.5909,
+    "since": "2026-11-22"
    },
    "history": [
     {
@@ -13023,12 +13149,19 @@
      "per100g": null,
      "pb": 35.5909,
      "one_time_unit": 29.95
+    },
+    {
+     "date": "2026-11-28",
+     "unit": 78.3,
+     "per100g": null,
+     "pb": 35.5909,
+     "one_time_unit": 29.95
     }
    ],
    "offers": [
     {
      "shop": "Medpets",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "Chicken 2.2kg",
      "units": 1,
      "unit_g": 2200,
@@ -13062,11 +13195,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.medpets.nl/ziwi-steam-dried-kattenvoeding-kip",
-     "detail": "2026-11-27 live browser：Chicken 2.2kg €83.30 一次價／Herhaal €78.30，價格不變，有貨，仍為最佳價（雞肉 2.2kg Herhaal €78.30＝€35.59/kg）。滿 €69 免運。"
+     "detail": "2026-11-28 live browser：Chicken 2.2kg €83.30 一次價／Herhaal €78.30，價格不變，有貨，仍為最佳價（雞肉 2.2kg Herhaal €78.30＝€35.59/kg）。滿 €69 免運。"
     },
     {
      "shop": "Medpets",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "Fish 2.2kg",
      "units": 1,
      "unit_g": 2200,
@@ -13100,11 +13233,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.medpets.nl/ziwi-peak-steam-dried-kattenvoeding-vis?sku=MP44823",
-     "detail": "2026-11-27 live browser：Fish 2.2kg €83.30 一次價／Herhaal €78.30，價格不變，有貨。注意：舊網址 ziwi-steam-dried-kattenvoeding-vis 已 404，商品已移至 ziwi-peak-steam-dried-kattenvoeding-vis（本站已用新網址）。免運 €69。"
+     "detail": "2026-11-28 live browser：Fish 2.2kg €83.30 一次價／Herhaal €78.30，價格不變，有貨。免運 €69。"
     },
     {
      "shop": "petfooddiscount.nl",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "Chicken 2.2kg",
      "units": 1,
      "unit_g": 2200,
@@ -13133,11 +13266,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.petfooddiscount.nl/product/7332/ziwi-peak-cat-steam-dried-chicken-2-2kg",
-     "detail": "建議價 €89.95；2026-11-27 live browser：Chicken 2.2kg €79.95（建議價 €89.95），價格不變，有貨；免運 €49。"
+     "detail": "建議價 €89.95；2026-11-28 live browser：Chicken 2.2kg €79.95（建議價 €89.95），價格不變，有貨；免運 €49。"
     },
     {
      "shop": "petfooddiscount.nl",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "Beef 2.2kg",
      "units": 1,
      "unit_g": 2200,
@@ -13166,11 +13299,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.petfooddiscount.nl/product/7334/ziwi-peak-cat-steam-dried-beef-2-2kg",
-     "detail": "2026-11-27 live browser：Beef 2.2kg €79.95（建議價 €89.95），價格不變，有貨；免運 €49。"
+     "detail": "2026-11-28 live browser：Beef 2.2kg €79.95（建議價 €89.95），價格不變，有貨；免運 €49。"
     },
     {
      "shop": "petfooddiscount.nl",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "Fish 2.2kg",
      "units": 1,
      "unit_g": 2200,
@@ -13199,11 +13332,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.petfooddiscount.nl/product/7356/ziwi-peak-cat-steam-dried-fish-2-2kg",
-     "detail": "2026-11-27 live browser：Fish 2.2kg €79.95（建議價 €89.95），價格不變，有貨；免運 €49。"
+     "detail": "2026-11-28 live browser：Fish 2.2kg €79.95（建議價 €89.95），價格不變，有貨；免運 €49。"
     },
     {
      "shop": "petfooddiscount.nl",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "Chicken 800g",
      "units": 1,
      "unit_g": 800,
@@ -13232,11 +13365,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.petfooddiscount.nl/product/7331/ziwi-peak-cat-steam-dried-chicken-800gr",
-     "detail": "建議價 €34.95；2026-11-27 live browser：Chicken 800g €29.95（建議價 €34.95），價格不變，有貨；免運 €49。"
+     "detail": "建議價 €34.95；2026-11-28 live browser：Chicken 800g €29.95（建議價 €34.95），價格不變，有貨；免運 €49。"
     },
     {
      "shop": "petfooddiscount.nl",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "Beef 800g",
      "units": 1,
      "unit_g": 800,
@@ -13265,11 +13398,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.petfooddiscount.nl/product/7333/ziwi-peak-cat-steam-dried-beef-800gr",
-     "detail": "2026-11-27 live browser：Beef 800g €29.95（建議價 €34.95），價格不變，有貨；免運 €49。"
+     "detail": "2026-11-28 live browser：Beef 800g €29.95（建議價 €34.95），價格不變，有貨；免運 €49。"
     },
     {
      "shop": "petfooddiscount.nl",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "Fish 800g",
      "units": 1,
      "unit_g": 800,
@@ -13298,11 +13431,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.petfooddiscount.nl/product/7357/ziwi-peak-cat-steam-dried-fish-800gr",
-     "detail": "2026-11-27 live browser：Fish 800g €29.95（建議價 €34.95），價格不變，有貨；免運 €49。"
+     "detail": "2026-11-28 live browser：Fish 800g €29.95（建議價 €34.95），價格不變，有貨；免運 €49。"
     },
     {
      "shop": "Medpets",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "Beef 2.2kg",
      "units": 1,
      "unit_g": 2200,
@@ -13331,11 +13464,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.medpets.nl/ziwi-peak-steam-dried-kattenvoeding-rund?sku=MP44820",
-     "detail": "2026-11-27 live browser：Beef 2.2kg €83.30 一次價不變，有貨；Herhaal 價今日商品頁未顯示（昨日 €78.30），未能重核，最佳價暫以一次價 €83.30 計。免運 €69。"
+     "detail": "2026-11-28 live browser：Beef 2.2kg €83.30 一次價不變，有貨；Herhaal 價今日商品頁仍未顯示（昨日 €78.30），未能重核，最佳價暫以一次價 €83.30 計。免運 €69。"
     },
     {
      "shop": "Coolshop.nl",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "Chicken 2.2kg",
      "units": 1,
      "unit_g": 2200,
@@ -13364,11 +13497,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.coolshop.nl/product/ziwipeak-steam-dried-chicken-cat-2-2-kg-zp073/23NM9Z/",
-     "detail": "2026-11-27 live browser：Chicken 2.2kg €83.50，價格不變，OP VOORRAAD；滿 €21.99 免運；預計送達 3–6 工作天。"
+     "detail": "2026-11-28 live browser：Chicken 2.2kg €83.50，價格不變，OP VOORRAAD；滿 €21.99 免運；預計送達 3–6 工作天。"
     },
     {
      "shop": "CutieCat",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "Chicken 2.2kg",
      "units": 1,
      "unit_g": 2200,
@@ -13397,11 +13530,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://cutiecat.nl/product/ziwipeak-steamed-dried-kattenvoer/",
-     "detail": "2026-11-27 live browser：Chicken 2.2kg €84.50，價格不變，有貨；免運 €45（BE €59）。"
+     "detail": "2026-11-28 live browser：Chicken 2.2kg €84.50，價格不變，有貨；免運 €45（BE €59）。"
     },
     {
      "shop": "Poezenparadijs.nl",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "Chicken 2.2kg",
      "units": 1,
      "unit_g": 2200,
@@ -13430,11 +13563,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://poezenparadijs.nl/product/ziwi-peak-steam-dried-chicken-droogvoer-kat/",
-     "detail": "2026-11-27 live browser：Chicken 2.2kg €84.50，價格不變，有貨；送貨 1–2 werkdagen。"
+     "detail": "2026-11-28 live browser：Chicken 2.2kg €84.50，價格不變，有貨；送貨 1–2 werkdagen。"
     },
     {
      "shop": "CutieCat",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "Beef 2.2kg",
      "units": 1,
      "unit_g": 2200,
@@ -13463,11 +13596,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://cutiecat.nl/product/ziwipeak-steamed-dried-kattenvoer/",
-     "detail": "2026-11-27 live browser：Beef 2.2kg €84.50，價格不變，有貨。"
+     "detail": "2026-11-28 live browser：Beef 2.2kg €84.50，價格不變，有貨。"
     },
     {
      "shop": "CutieCat",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "Fish 2.2kg",
      "units": 1,
      "unit_g": 2200,
@@ -13496,11 +13629,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://cutiecat.nl/product/ziwipeak-steamed-dried-kattenvoer/",
-     "detail": "2026-11-27 live browser：Fish 2.2kg €84.50，價格不變，有貨。"
+     "detail": "2026-11-28 live browser：Fish 2.2kg €84.50，價格不變，有貨。"
     },
     {
      "shop": "CutieCat",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "Chicken 800g",
      "units": 1,
      "unit_g": 800,
@@ -13529,11 +13662,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://cutiecat.nl/product/ziwipeak-steamed-dried-kattenvoer/",
-     "detail": "2026-11-27 live browser：Chicken 800g €32.50，價格不變，有貨。"
+     "detail": "2026-11-28 live browser：Chicken 800g €32.50，價格不變，有貨。"
     },
     {
      "shop": "Poezenparadijs.nl",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "Chicken 800g",
      "units": 1,
      "unit_g": 800,
@@ -13562,11 +13695,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://poezenparadijs.nl/product/ziwi-peak-steam-dried-chicken-droogvoer-kat/",
-     "detail": "2026-11-27 live browser：Chicken 800g €32.50，價格不變，有貨。"
+     "detail": "2026-11-28 live browser：Chicken 800g €32.50，價格不變，有貨。"
     },
     {
      "shop": "CutieCat",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "Beef 800g",
      "units": 1,
      "unit_g": 800,
@@ -13595,11 +13728,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://cutiecat.nl/product/ziwipeak-steamed-dried-kattenvoer/",
-     "detail": "2026-11-27 live browser：Beef 800g €32.50，價格不變，有貨。"
+     "detail": "2026-11-28 live browser：Beef 800g €32.50，價格不變，有貨。"
     },
     {
      "shop": "CutieCat",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "Fish 800g",
      "units": 1,
      "unit_g": 800,
@@ -13628,11 +13761,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://cutiecat.nl/product/ziwipeak-steamed-dried-kattenvoer/",
-     "detail": "2026-11-27 live browser：Fish 800g €32.50，價格不變，有貨。"
+     "detail": "2026-11-28 live browser：Fish 800g €32.50，價格不變，有貨。"
     },
     {
      "shop": "Medpets",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "Chicken 800g",
      "units": 1,
      "unit_g": 800,
@@ -13666,11 +13799,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.medpets.nl/ziwi-steam-dried-kattenvoeding-kip",
-     "detail": "2026-11-27 live browser：Chicken 800g €31.20 一次價／Herhaal €29.35，價格不變，仍缺貨「Snel weer leverbaar」（可下單、寫明日到貨，但未顯示「Op voorraad」；與昨日文字相同，非今日新變動）。"
+     "detail": "2026-11-28 live browser：Chicken 800g €31.20 一次價／Herhaal €29.35，價格不變，仍缺貨；今日頁面只顯示「Onbekende levertijd」，未顯示到貨日期（昨日預計 09-12-2026）。"
     },
     {
      "shop": "Medpets",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "Beef 800g",
      "units": 1,
      "unit_g": 800,
@@ -13704,11 +13837,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.medpets.nl/ziwi-peak-steam-dried-kattenvoeding-rund?sku=MP44820",
-     "detail": "2026-11-27 live browser：Beef 800g €31.20 一次價／Herhaal €29.35，價格不變，仍缺貨「Snel weer leverbaar」，預計 09-12-2026 到貨。"
+     "detail": "2026-11-28 live browser：Beef 800g €31.20 一次價／Herhaal €29.35，價格不變，仍缺貨「Snel weer leverbaar」，預計 09-12-2026 到貨。"
     },
     {
      "shop": "Medpets",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "Fish 800g",
      "units": 1,
      "unit_g": 800,
@@ -13742,7 +13875,7 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.medpets.nl/ziwi-peak-steam-dried-kattenvoeding-vis?sku=MP44823",
-     "detail": "2026-11-27 live browser：Fish 800g €31.20 一次價／Herhaal €29.35，價格不變；庫存由昨日回貨轉為再度缺貨「Snel weer leverbaar」，預計 09-12-2026 到貨。注意：舊網址 ziwi-steam-dried-kattenvoeding-vis 已 404，商品已移至 ziwi-peak-steam-dried-kattenvoeding-vis（本站已用新網址）。"
+     "detail": "2026-11-28 live browser：Fish 800g €31.20 一次價／Herhaal €29.35，價格不變，仍缺貨「Snel weer leverbaar」，預計 09-12-2026 到貨。"
     },
     {
      "shop": "bol.com (Best Petfoods)",
@@ -13934,10 +14067,10 @@
    "deal": false,
    "drop": 0.0,
    "image": "assets/products/ziwi_peak_cat_wet.webp",
-   "date": "2026-11-27",
+   "date": "2026-11-28",
    "best": {
     "shop": "Petfooddiscount.nl",
-    "date": "2026-11-27",
+    "date": "2026-11-28",
     "variant": "1x185g 牛肉／鯖魚",
     "units": 1,
     "unit_g": 185,
@@ -13966,7 +14099,7 @@
     "verified": true,
     "status": "verified",
     "url": "https://www.petfooddiscount.nl/product/7349/ziwi-peak-daily-cat-cuisine-blik-beef-185gr",
-    "detail": "2026-11-27 live browser：牛肉／鯖魚 1x185g €4.25（建議價 €4.40），價格不變，有貨；10–23 罐 €3.95、24 罐以上 €3.79；免運 €49。"
+    "detail": "2026-11-28 live browser：牛肉／鯖魚 1x185g €4.25（建議價 €4.40），價格不變，有貨；10–23 罐 €3.95、24 罐以上 €3.79；免運 €49。"
    },
    "one_time_best": null,
    "badge": {
@@ -13976,11 +14109,11 @@
    },
    "level": {
     "status": "ok",
-    "n": 18,
+    "n": 19,
     "level": "high",
     "cur": 2.2973,
     "min": 2.049,
-    "p25": 2.0685,
+    "p25": 2.088,
     "p75": 2.2973,
     "max": 2.2973,
     "since": "2026-11-02"
@@ -14111,12 +14244,19 @@
      "per100g": 2.297,
      "pb": 2.2973,
      "one_time_unit": 4.25
+    },
+    {
+     "date": "2026-11-28",
+     "unit": 4.25,
+     "per100g": 2.297,
+     "pb": 2.2973,
+     "one_time_unit": 4.25
     }
    ],
    "offers": [
     {
      "shop": "Petfooddiscount.nl",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "1x185g 牛肉／鯖魚",
      "units": 1,
      "unit_g": 185,
@@ -14145,11 +14285,11 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.petfooddiscount.nl/product/7349/ziwi-peak-daily-cat-cuisine-blik-beef-185gr",
-     "detail": "2026-11-27 live browser：牛肉／鯖魚 1x185g €4.25（建議價 €4.40），價格不變，有貨；10–23 罐 €3.95、24 罐以上 €3.79；免運 €49。"
+     "detail": "2026-11-28 live browser：牛肉／鯖魚 1x185g €4.25（建議價 €4.40），價格不變，有貨；10–23 罐 €3.95、24 罐以上 €3.79；免運 €49。"
     },
     {
      "shop": "bestpetfoods",
-     "date": "2026-11-27",
+     "date": "2026-11-28",
      "variant": "1x185g 雞肉／牛肉",
      "units": 1,
      "unit_g": 185,
@@ -14184,7 +14324,40 @@
      "verified": true,
      "status": "verified",
      "url": "https://www.bestpetfoods.nl/product/ziwi-peak-natvoeding-voor-de-kat-kip-185-gr",
-     "detail": "2026-11-27 live browser：雞肉／牛肉 1x185g €4.40，價格不變，仍缺貨「Jammer! Dit product is niet op voorraad」；訂閱 €4.18（-5%）；免運 €50，否則 €5.95；黑五出貨延遲提示。"
+     "detail": "2026-11-28 live browser：雞肉／牛肉 1x185g €4.40，價格不變，仍缺貨「Jammer! Dit product is niet op voorraad」；訂閱 €4.18（-5%）；免運 €50，否則 €5.95。Ziwi Box 試吃組三款皆 €36.30（原 €41.30），皆缺貨；站頂橫幅僅稱 Black Friday 送貨繁忙。"
+    },
+    {
+     "shop": "Petfooddiscount.nl",
+     "date": "2026-11-28",
+     "variant": "1x185g 雞肉",
+     "units": 1,
+     "unit_g": 185,
+     "list_price": 4.25,
+     "price": 4.25,
+     "unit": 4.25,
+     "per100g": 2.2973,
+     "pb": 2.2973,
+     "size": "185g",
+     "basis": "單次購買",
+     "autoship": false,
+     "one_time_unit": null,
+     "one_time_per100g": null,
+     "one_time_pb": null,
+     "conditions": [
+      "運費 €4.95"
+     ],
+     "tags": [
+      {
+       "k": "ship",
+       "t": "運費 €4.95"
+      }
+     ],
+     "new_customer": null,
+     "in_stock": false,
+     "verified": true,
+     "status": "verified",
+     "url": "https://www.petfooddiscount.nl/product/7347/ziwi-peak-daily-cat-cuisine-blik-chicken-185gr",
+     "detail": "2026-11-28 live browser：雞肉 1x185g €4.25（建議價 €4.40），今日首次單獨記錄；缺貨「Dit product is tijdelijk niet verkrijgbaar」；10–23 罐 €3.95、24 罐以上 €3.79；免運 €49。"
     },
     {
      "shop": "Hondjekoek",
@@ -14671,18 +14844,18 @@
  "promos": [
   {
    "shop": "Huisdieren.nl",
-   "text": "Black Friday code BLACKFRIDAY2026：全站額外 -10%。ORIJEN 三款最佳價已按 -10% 折算；Catsan 不計入最佳價"
+   "text": "Black Friday code BLACKFRIDAY2026 已失效。ORIJEN 三款最佳價回到一次價"
   },
   {
    "shop": "zooplus.nl",
-   "text": "Gemak 定期配送折扣維持 -15%；RC 優惠至 11 月 28 日止"
+   "text": "Gemak 定期配送折扣維持 -15%；RC 優惠至 11 月 28 日止；MAC's 小牛＋雞心頁面 Gemak 標示改為 -5% 優惠券 €10.63"
   }
  ],
  "details": {
   "promos_other": [
    {
     "shop": "Tradeinn/Bricoinn",
-    "text": "Black Friday code BF15（最高 -15%），未測試，不計入；倒數約 14 小時（09:53 查得），今日到期",
+    "text": "Black Friday code BF15（最高 -15%），仍顯示，未測試，不計入",
     "status": "unverified"
    }
   ],
@@ -15343,7 +15516,11 @@
    "2026-11-27：Medpets ZIWI Steam-Dried 牛 2.2kg Herhaal 價今日商品頁未顯示（昨日 €78.30），未能重核；最佳價暫以一次價 €83.30 計",
    "2026-11-27：Brekz RC 商品頁初次開啟遇 Cloudflare Turnstile，換環境後清除並核實價格（非未核實）",
    "2026-11-27：Barfus.lv Synbiotic D-C 仍未恢復上架；Barfus 單盒運費仍未核實；Agriservicebouwhuis.nl L-Mesitran 250g 運費仍未核實；Protexin 兩款返現仍未核實到可用返現",
-   "2026-11-27：Medpets RC 12x85g 與 Catsan 三規格頁面顯示「Snel weer leverbaar」（可下單、週一到貨），非「Op voorraad」，明日留意是否轉為缺貨"
+   "2026-11-27：Medpets RC 12x85g 與 Catsan 三規格頁面顯示「Snel weer leverbaar」（可下單、週一到貨），非「Op voorraad」，明日留意是否轉為缺貨",
+   "2026-11-28：Medpets ZIWI Steam-Dried 牛 2.2kg Herhaal 價今日商品頁仍未顯示（昨日 €78.30），未能重核；最佳價暫以一次價 €83.30 計",
+   "2026-11-28：Brekz RC 商品頁初次開啟遇 Cloudflare Turnstile，換環境後清除並核實價格（非未核實）",
+   "2026-11-28：Barfus.lv Synbiotic D-C 仍未恢復上架；Barfus 單盒運費仍未核實；Agriservicebouwhuis.nl L-Mesitran 250g 運費仍未核實；Protexin 兩款返現仍未核實到可用返現；Milo 兩品項訂閱價今日店內目錄未顯示，未重核",
+   "2026-11-28：Medpets RC 12x85g 頁面仍顯示「Snel weer leverbaar」（可下單、週三到貨），非「Op voorraad」，明日留意是否轉為缺貨；Medpets ZIWI Steam-Dried 雞肉 800g 今日只顯示「Onbekende levertijd」，未顯示到貨日期"
   ],
   "assumptions": "以既有客戶費率計算；返現多以未稅、不含運費的訂單金額計；定期配送／購物車折扣／Herhaalgemak 與返現不疊加（各平台未明示可疊加；Medpets 明示定期訂購無返現）"
  },
@@ -15868,7 +16045,7 @@
    "1x800g Kitten 火雞／牛／鴨": "1x800g Kitten turkey/beef/duck",
    "1x85g 牛肉": "1x85g beef",
    "1x85g 雞肉": "1x85g chicken",
-   "2 + 1 gratis 至 01-12-2026；2026-11-27 live browser：12x85g €16.95，有貨；「2 + 1 gratis」效期至 01-12-2026（不折入單價，僅註記）；「Op voorraad，Levertijd: 1 tot 2 werkdagen」；荷蘭境內滿 €75 免運，可到店自取。": "2 + 1 gratis 至 01-12-2026; 2026-11-27 live browser：12x85g €16.95，有貨; 「2 + 1 gratis」效期至 01-12-2026（不折入單價，僅註記）; “Op voorraad, Levertijd: 1 tot 2 werkdagen”; 荷蘭境內滿 €75 免運，可到店自取。",
+   "2 + 1 gratis 至 01-12-2026；2026-11-28 live browser：12x85g €16.95，有貨；「2 + 1 gratis」效期至 01-12-2026（不折入單價，僅註記）；「Op voorraad，Levertijd: 1 tot 2 werkdagen」；荷蘭境內滿 €75 免運，可到店自取。": "2 + 1 gratis 至 01-12-2026; 2026-11-28 live browser：12x85g €16.95，有貨; 「2 + 1 gratis」效期至 01-12-2026（不折入單價，僅註記）; “Op voorraad, Levertijd: 1 tot 2 werkdagen”; 荷蘭境內滿 €75 免運，可到店自取。",
    "2 盒起每盒": "per box from 2 boxes",
    "200g／400g／800g 罐": "200g/400g/800g can",
    "2026-11-01：Intratuin Woolsocks 原頁 404，5% 只見於 GotCashback": "2026-11-01: Intratuin Woolsocks original page 404, 5% only seen on GotCashback",
@@ -15990,68 +16167,75 @@
    "2026-11-25 live browser：搜尋頁顯示「Tut uns Leid! … technischer Fehler aufgetreten」，經首頁連結與重試後仍相同；價格與是否寄荷蘭皆無法確認。": "2026-11-25 live browser：搜尋頁顯示「Tut uns Leid! … technischer Fehler aufgetreten」，經首頁連結與重試後仍相同; 價格與是否寄荷蘭皆無法確認。",
    "2026-11-25 商店目錄核實：Prime 雞＋石榴 Kitten 70g €0.99（原價 €1.65）由缺貨恢復有貨（variant available=true）；有貨最便宜由 CutieCat 24x70g €39.99（€1.67/罐）回歸 PetBoutique €0.99/罐，與 2026-11-21～22 有貨價相同，非新低。Ocean 仍缺貨。": "2026-11-25 商店目錄核實：Prime 雞＋石榴 Kitten 70g €0.99（原價 €1.65）由缺貨恢復有貨（variant available=true）; 有貨最便宜由 CutieCat 24x70g €39.99（€1.67/罐）回歸 PetBoutique €0.99/罐，與 2026-11-21～22 有貨價相同，非新低。Ocean 仍缺貨。",
    "2026-11-25 未重試（前日 500 錯誤）；價格與庫存未核實，明日重試。": "2026-11-25 未重試（前日 500 錯誤）; 價格與庫存未核實，明日重試。",
-   "2026-11-27 live browser：12x85g €19.79 一次價不變／Gemak 仍 -15% €16.82，有貨；優惠至 11 月 28 日止。免運門檻 €29。": "2026-11-27 live browser：12x85g €19.79 一次價不變／Gemak 仍 -15% €16.82，有貨; 優惠至 11 月 28 日止。免運門檻 €29。",
-   "2026-11-27 live browser：12x85g €19.99，價格不變，有貨（22 間門市）；免運 €40 起，否則 €4.95。": "2026-11-27 live browser：12x85g €19.99，價格不變，有貨（22 間門市）; free shipping from €40, otherwise €4.95。",
-   "2026-11-27 live browser：1x11L €15.49 一次價不變／Gemak 仍 -15% €13.17，有貨；免運 €29。注意勿與 Bitiba 2189740 混淆。": "2026-11-27 live browser：1x11L €15.49 一次價不變／Gemak 仍 -15% €13.17，有貨; 免運 €29。注意勿與 Bitiba 2189740 混淆。",
-   "2026-11-27 live browser：1x18L €16.95，價格不變，Direct leverbaar；訂閱首單 €15.25（-10%，其後 -5%）；免運 €39。": "2026-11-27 live browser：1x18L €16.95，價格不變，Direct leverbaar; 訂閱首單 €15.25（-10%，其後 -5%）; free shipping €39。",
-   "2026-11-27 live browser：1x200g €2.25，四口味皆同價，價格不變，有貨；免運 €45。": "2026-11-27 live browser：1x200g €2.25，四口味皆同價，價格不變，有貨; free shipping €45。",
-   "2026-11-27 live browser：1x20L €17.69，價格不變，有貨；額外運輸附加費 €1.95／件；免運 €39。": "2026-11-27 live browser：1x20L €17.69，價格不變，有貨; 額外運輸附加費 €1.95／件; free shipping €39。",
-   "2026-11-27 live browser：1x800g 小牛＋雞心 €4.55，價格不變，有貨，仍為最佳價；同頁另有火雞＋兔肉 €4.58、火雞／牛／鴨 €4.61。": "2026-11-27 live browser：1x800g 小牛＋雞心 €4.55，價格不變，有貨，仍為最佳價; 同頁另有火雞＋兔肉 €4.58、火雞／牛／鴨 €4.61。",
-   "2026-11-27 live browser：1x800g 火雞＋兔肉 €4.58，價格不變，有貨；同頁小牛＋雞心 €4.55。": "2026-11-27 live browser：1x800g 火雞＋兔肉 €4.58，價格不變，有貨; 同頁小牛＋雞心 €4.55。",
-   "2026-11-27 live browser：1x800g 火雞／牛／鴨 €4.61，價格不變，有貨；同頁小牛＋雞心 €4.55。": "2026-11-27 live browser：1x800g 火雞／牛／鴨 €4.61，價格不變，有貨; 同頁小牛＋雞心 €4.55。",
-   "2026-11-27 live browser：20g €10.15，價格不變，Direct leverbaar；買 2 件以上 2% 折扣；黑五 Dubbelslag：買 2 件相同商品第 2 件 -10%，至 11 月 30 日；免運 €59。": "2026-11-27 live browser：20g €10.15，價格不變，Direct leverbaar; 買 2 件以上 2% 折扣; 黑五 Dubbelslag：買 2 件相同商品第 2 件 -10%，至 11 月 30 日; free shipping €59。",
-   "2026-11-27 live browser：20g €10.75，價格不變，Stock: 36，有貨；Benelux 滿 €59 免運；效期至 29/08/2031。": "2026-11-27 live browser：20g €10.75，價格不變，Stock: 36，有貨; Benelux free shipping from €59; 效期至 29/08/2031。",
-   "2026-11-27 live browser：20g €9.95，價格不變，可加購；頁面無明確庫存標示，商品頁無運費資訊。": "2026-11-27 live browser：20g €9.95，價格不變，可加購; 頁面無明確庫存標示，商品頁無運費資訊。",
-   "2026-11-27 live browser：24x70g Ocean €48.00，價格不變，有貨；免運 €65。": "2026-11-27 live browser：24x70g Ocean €48.00，價格不變，有貨; free shipping €65。",
-   "2026-11-27 live browser：24x70g Prime €39.99（原 €42.96），價格不變，有貨；單罐 €1.79。": "2026-11-27 live browser：24x70g Prime €39.99（原 €42.96），價格不變，有貨; 單罐 €1.79。",
-   "2026-11-27 live browser：24x85g €28.39（€1.183/包），價格不變；同頁 12x85g €14.48。Black Friday 標籤；免運 €35；1–3 工作天。": "2026-11-27 live browser：24x85g €28.39（€1.183/包），價格不變; 同頁 12x85g €14.48。Black Friday 標籤; free shipping €35; 1–3 工作天。",
-   "2026-11-27 live browser：250g €42.50 價格不變，有貨，仍為 L-Mesitran 250g 最佳價。頁面仍無明確庫存標示、無寄 Rotterdam 運費資訊，運費未核實；店家位於荷蘭 Hasselt。": "2026-11-27 live browser：250g €42.50 價格不變，有貨，仍為 L-Mesitran 250g 最佳價。頁面仍無明確庫存標示、無寄 Rotterdam 運費資訊，運費未核實; 店家位於荷蘭 Hasselt。",
-   "2026-11-27 live browser：250g €50.95，價格不變，非現貨（預計 05-12-2026 到貨）；買 2 件以上 2% 折扣；黑五 Dubbelslag：買 2 件相同商品第 2 件 -10%，至 11 月 30 日；免運 €59。注意：Agriservicebouwhuis 同規格 €42.50 仍為本品最佳價。": "2026-11-27 live browser：250g €50.95，價格不變，非現貨（預計 05-12-2026 到貨）; 買 2 件以上 2% 折扣; 黑五 Dubbelslag：買 2 件相同商品第 2 件 -10%，至 11 月 30 日; 免運 €59。注意：Agriservicebouwhuis 同規格 €42.50 仍為本品最佳價。",
-   "2026-11-27 live browser：250g €51.95，價格不變，可加購；NL 運費今日產品頁全文仍未見運費文字，€6.26 仍未核實。": "2026-11-27 live browser：250g €51.95，價格不變，可加購; NL 運費今日產品頁全文仍未見運費文字，€6.26 仍未核實。",
-   "2026-11-27 live browser：2x18L €25.00，價格不變；Beschikbaar；出貨 1–5 工作天。頁內寫法不一：標題／網址寫 2x18 liter，但頁內變體連結寫「Catsan Hygiëne Plus 2x20 liter」；僅供參考，不進排名。": "2026-11-27 live browser：2x18L €25.00，價格不變; Beschikbaar; 出貨 1–5 工作天。頁內寫法不一：標題／網址寫 2x18 liter，但頁內變體連結寫「Catsan Hygiëne Plus 2x20 liter」; 僅供參考，不進排名。",
-   "2026-11-27 live browser：3x11L €33.19 一次價／訂閱 €29.87，價格不變，有貨；滿 €100 全站 5%；免運 €29。": "2026-11-27 live browser：3x11L €33.19 一次價／訂閱 €29.87，價格不變，有貨; 滿 €100 全站 5%; free shipping €29。",
-   "2026-11-27 live browser：48x85g €55.29（€1.152/包），價格不變；同頁 12x85g €14.48。Black Friday 標籤；免運 €35；1–3 工作天。": "2026-11-27 live browser：48x85g €55.29（€1.152/包），價格不變; 同頁 12x85g €14.48。Black Friday 標籤; free shipping €35; 1–3 工作天。",
-   "2026-11-27 live browser：50 粒 €39.95 一次價不變，有貨；定期配送 -5% €37.95 今日於商品頁再核實。運費 €3.95 未滿 €49，免運門檻 €49。注意：Tradeinn 今日回貨 €27.99，成為有貨最便宜，Milo 不再是最佳。": "2026-11-27 live browser：50 粒 €39.95 一次價不變，有貨; 定期配送 -5% €37.95 今日於商品頁再核實。運費 €3.95 未滿 €49，免運門檻 €49。注意：Tradeinn 今日回貨 €27.99，成為有貨最便宜，Milo 不再是最佳。",
-   "2026-11-27 live browser：50 粒 €44.45 一次價／Herhaal €41.80，價格不變，仍缺貨「Onbekende levertijd」；免運 €69。": "2026-11-27 live browser：50 粒 €44.45 一次價／Herhaal €41.80，價格不變，仍缺貨「Onbekende levertijd」; free shipping €69。",
-   "2026-11-27 live browser：50 粒 €58.99（含稅），價格不變，缺貨，顯示「Aanvulling bezig」；滿 €129 免運。": "2026-11-27 live browser：50 粒 €58.99（含稅），價格不變，缺貨，顯示「Aanvulling bezig」; free shipping from €129。",
-   "2026-11-27 live browser：60 粒 €18.79，價格不變，有貨，仍為最佳價；訂閱首購 €16.91（-10%，其後每單 -5%），滿 €39 免運。單盒合計 €22.78（未滿 €39 運 €3.99）。": "2026-11-27 live browser：60 粒 €18.79，價格不變，有貨，仍為最佳價; 訂閱首購 €16.91（-10%，其後每單 -5%），滿 €39 免運。單盒合計 €22.78（未滿 €39 運 €3.99）。",
-   "2026-11-27 live browser：60 粒 €19.90（含稅；未稅 €16.58），價格不變，缺貨，顯示「Replenishment in progress」且可 Pre-order；滿 €129 免運（BE、LU、DE、NL、ES、IT、AT、IE）。": "2026-11-27 live browser：60 粒 €19.90（含稅; 未稅 €16.58），價格不變，缺貨，顯示「Replenishment in progress」且可 Pre-order; free shipping from €129 (BE, LU, DE, NL, ES, IT, AT, IE) 。",
-   "2026-11-27 live browser：60 粒 €23.20，漲價 €3.48（昨日 €19.72 的 -15% 折扣結束，回到原價 €23.20），有貨；仍高於最佳價 Pharmapets.be €18.79。運費：商品頁未寫；單盒結帳實測 €15.00（11-20）未重跑，單盒合計 €38.20 為按實測運費推算（官網 €9.00 說法與結帳不符，以結帳為準）。返現未核實。": "2026-11-27 live browser：60 粒 €23.20，漲價 €3.48（昨日 €19.72 的 -15% 折扣結束，回到原價 €23.20），有貨; 仍高於最佳價 Pharmapets.be €18.79。運費：商品頁未寫; 單盒結帳實測 €15.00（11-20）未重跑，單盒合計 €38.20 為按實測運費推算（官網 €9.00 說法與結帳不符，以結帳為準）。返現未核實。",
-   "2026-11-27 live browser：60 粒 €28.95（原 €32.95），價格不變，有貨；買 2 件 €28.08（-3%）、買 3 件 €27.21（-6%）；荷蘭境內滿 €75 免運（最高 14kg）。": "2026-11-27 live browser：60 粒 €28.95（原 €32.95），價格不變，有貨; 買 2 件 €28.08（-3%）、買 3 件 €27.21（-6%）; 荷蘭境內滿 €75 免運（最高 14kg）。",
-   "2026-11-27 live browser：60 粒 €28.99，價格不變，37 op voorraad，有貨；滿 €60 免運。": "2026-11-27 live browser：60 粒 €28.99，價格不變，37 op voorraad，有貨; free shipping from €60。",
-   "2026-11-27 live browser：60 粒 €29.95 一次價不變，有貨；定期配送 €28.45（-5%）今日於商品頁再核實。免運 €49（未滿運 €3.95）。": "2026-11-27 live browser：60 粒 €29.95 一次價不變，有貨; 定期配送 €28.45（-5%）今日於商品頁再核實。免運 €49（未滿運 €3.95）。",
-   "2026-11-27 live browser：60g €19.49，價格不變，可加購；頁面無明確庫存標示，商品頁無運費資訊。": "2026-11-27 live browser：60g €19.49，價格不變，可加購; 頁面無明確庫存標示，商品頁無運費資訊。",
-   "2026-11-27 live browser：6x200g Sappige kip €14.79，價格不變，有貨；同頁小牛肉 6x200g €14.79、24x €57.49。本頁未顯示 Gemak 價。": "2026-11-27 live browser：6x200g Sappige kip €14.79，價格不變，有貨; 同頁小牛肉 6x200g €14.79、24x €57.49。本頁未顯示 Gemak 價。",
-   "2026-11-27 live browser：6x200g 小牛＋雞心 €11.19，價格不變，有貨；同頁火雞＋兔肉 €12.19、火雞／牛／鴨 €12.19（火雞／牛／鴨今日首次單獨記錄）。": "2026-11-27 live browser：6x200g 小牛＋雞心 €11.19，價格不變，有貨; 同頁火雞＋兔肉 €12.19、火雞／牛／鴨 €12.19（火雞／牛／鴨今日首次單獨記錄）。",
-   "2026-11-27 live browser：6x200g 火雞／牛／鴨 €12.19，今日首次單獨記錄；同頁小牛＋雞心 €11.19、火雞＋兔肉 €12.19。返現未針對此口味核實，最佳價暫以一次價計。": "2026-11-27 live browser：6x200g 火雞／牛／鴨 €12.19，今日首次單獨記錄; 同頁小牛＋雞心 €11.19、火雞＋兔肉 €12.19。返現未針對此口味核實，最佳價暫以一次價計。",
-   "2026-11-27 live browser：Beef 2.2kg €79.95（建議價 €89.95），價格不變，有貨；免運 €49。": "2026-11-27 live browser：Beef 2.2kg €79.95（建議價 €89.95），價格不變，有貨; free shipping €49。",
-   "2026-11-27 live browser：Beef 2.2kg €83.30 一次價不變，有貨；Herhaal 價今日商品頁未顯示（昨日 €78.30），未能重核，最佳價暫以一次價 €83.30 計。免運 €69。": "2026-11-27 live browser：Beef 2.2kg €83.30 一次價不變，有貨; Herhaal 價今日商品頁未顯示（昨日 €78.30），未能重核，最佳價暫以一次價 €83.30 計。免運 €69。",
-   "2026-11-27 live browser：Beef 800g €29.95（建議價 €34.95），價格不變，有貨；免運 €49。": "2026-11-27 live browser：Beef 800g €29.95（建議價 €34.95），價格不變，有貨; free shipping €49。",
-   "2026-11-27 live browser：Chicken 2.2kg €83.50，價格不變，OP VOORRAAD；滿 €21.99 免運；預計送達 3–6 工作天。": "2026-11-27 live browser：Chicken 2.2kg €83.50，價格不變，OP VOORRAAD; free shipping from €21.99; 預計送達 3–6 工作天。",
-   "2026-11-27 live browser：Chicken 2.2kg €84.50，價格不變，有貨；免運 €45（BE €59）。": "2026-11-27 live browser：Chicken 2.2kg €84.50，價格不變，有貨; free shipping €45 (BE €59) 。",
-   "2026-11-27 live browser：Chicken 2.2kg €84.50，價格不變，有貨；送貨 1–2 werkdagen。": "2026-11-27 live browser：Chicken 2.2kg €84.50，價格不變，有貨; 送貨 1–2 werkdagen。",
-   "2026-11-27 live browser：Chicken 800g €31.20 一次價／Herhaal €29.35，價格不變，仍缺貨「Snel weer leverbaar」（可下單、寫明日到貨，但未顯示「Op voorraad」；與昨日文字相同，非今日新變動）。": "2026-11-27 live browser：Chicken 800g €31.20 一次價／Herhaal €29.35，價格不變，仍缺貨「Snel weer leverbaar」（可下單、寫明日到貨，但未顯示「Op voorraad」; 與昨日文字相同，非今日新變動）。",
-   "2026-11-27 live browser：Fish 2.2kg €79.95（建議價 €89.95），價格不變，有貨；免運 €49。": "2026-11-27 live browser：Fish 2.2kg €79.95（建議價 €89.95），價格不變，有貨; free shipping €49。",
-   "2026-11-27 live browser：Fish 800g €29.95（建議價 €34.95），價格不變，有貨；免運 €49。": "2026-11-27 live browser：Fish 800g €29.95（建議價 €34.95），價格不變，有貨; free shipping €49。",
-   "2026-11-27 live browser：Fish 800g €31.20 一次價／Herhaal €29.35，價格不變；庫存由昨日回貨轉為再度缺貨「Snel weer leverbaar」，預計 09-12-2026 到貨。注意：舊網址 ziwi-steam-dried-kattenvoeding-vis 已 404，商品已移至 ziwi-peak-steam-dried-kattenvoeding-vis（本站已用新網址）。": "2026-11-27 live browser：Fish 800g €31.20 一次價／Herhaal €29.35，價格不變; 庫存由昨日回貨轉為再度缺貨「Snel weer leverbaar」，預計 09-12-2026 到貨。注意：舊網址 ziwi-steam-dried-kattenvoeding-vis 已 404，商品已移至 ziwi-peak-steam-dried-kattenvoeding-vis（本站已用新網址）。",
-   "2026-11-27 live browser：Guardian 8 1.8kg €35.95（建議價 €41.99），價格不變，有貨；黑五標籤；免運 €49。": "2026-11-27 live browser：Guardian 8 1.8kg €35.95（建議價 €41.99），價格不變，有貨; 黑五標籤; free shipping €49。",
-   "2026-11-27 live browser：Kitten 1.8kg €33.99（建議售價 €45.10，-25%），價格不變，有貨，仍為最佳價；預計送達 12 月 3–7 日。寄荷蘭運費仍未核實（須加車後才在購物車顯示，未加車）。頁面黑五碼 BF15（最高 -15%），未測試，不計入。": "2026-11-27 live browser：Kitten 1.8kg €33.99（建議售價 €45.10，-25%），價格不變，有貨，仍為最佳價; 預計送達 12 月 3–7 日。寄荷蘭運費仍未核實（須加車後才在購物車顯示，未加車）。頁面黑五碼 BF15（最高 -15%），未測試，不計入。",
-   "2026-11-27 live browser：Kitten 1.8kg €36.95（建議價 €40.49），價格不變，有貨；免運 €49。": "2026-11-27 live browser：Kitten 1.8kg €36.95（建議價 €40.49），價格不變，有貨; free shipping €49。",
-   "2026-11-27 live browser：Kitten 1.8kg €38.70 一次價／Herhaal €36.40（-6%），價格不變，有貨；免運 €69。": "2026-11-27 live browser：Kitten 1.8kg €38.70 一次價／Herhaal €36.40（-6%），價格不變，有貨; free shipping €69。",
-   "2026-11-27 live browser：Mixpack 6x200g €13.79 一次價／訂閱 €12.96，價格不變，有貨，仍為最佳價。免運 €29 起；滿 €100 全場 5% korting。": "2026-11-27 live browser：Mixpack 6x200g €13.79 一次價／訂閱 €12.96，價格不變，有貨，仍為最佳價。免運 €29 起; 滿 €100 全場 5% korting。",
-   "2026-11-27 live browser：Regional Red 1.8kg €42.50 一次價／Herhaal €39.95，價格不變，有貨，仍為最佳價；免運 €69。": "2026-11-27 live browser：Regional Red 1.8kg €42.50 一次價／Herhaal €39.95，價格不變，有貨，仍為最佳價; free shipping €69。",
-   "2026-11-27 live browser：Six Fish 1.8kg €33.95（建議價 €40.49），價格不變，有貨；黑五標籤；免運 €49。": "2026-11-27 live browser：Six Fish 1.8kg €33.95（建議價 €40.49），價格不變，有貨; 黑五標籤; free shipping €49。",
-   "2026-11-27 live browser：Tundra 1.8kg €43.95（建議價 €49.99），價格不變，有貨；免運 €49。": "2026-11-27 live browser：Tundra 1.8kg €43.95（建議價 €49.99），價格不變，有貨; free shipping €49。",
-   "2026-11-27 live browser：小牛肉 24x200g €57.19 一次價／訂閱 €53.76（-6%），價格不變，有貨；單買價 €59.16（€57.19 為 -3.33% 後）。": "2026-11-27 live browser：小牛肉 24x200g €57.19 一次價／訂閱 €53.76（-6%），價格不變，有貨; 單買價 €59.16（€57.19 為 -3.33% 後）。",
-   "2026-11-27 live browser：小牛肉 24x200g €57.49，價格不變，有貨；同頁雞肉 6x200g €14.79、小牛肉 6x200g €14.79。單買價 €59.16。": "2026-11-27 live browser：小牛肉 24x200g €57.49，價格不變，有貨; 同頁雞肉 6x200g €14.79、小牛肉 6x200g €14.79。單買價 €59.16。",
-   "2026-11-27 live browser：牛肉／鯖魚 1x185g €4.25（建議價 €4.40），價格不變，有貨；10–23 罐 €3.95、24 罐以上 €3.79；免運 €49。": "2026-11-27 live browser：牛肉／鯖魚 1x185g €4.25（建議價 €4.40），價格不變，有貨; 10–23 罐 €3.95、24 罐以上 €3.79; free shipping €49。",
-   "2026-11-27 live browser：選「11.5 liter」變體後顯示 €10.69，價格不變，有貨；20L €17.69。": "2026-11-27 live browser：選「11.5 liter」變體後顯示 €10.69，價格不變，有貨; 20L €17.69。",
-   "2026-11-27 live browser：選「20 liter」變體後顯示 €17.69、5 op voorraad，價格不變，有貨；11.5L 為 €10.69。": "2026-11-27 live browser：選「20 liter」變體後顯示 €17.69、5 op voorraad，價格不變，有貨; 11.5L 為 €10.69。",
-   "2026-11-27 live browser：雞肉 24x200g €57.19 一次價／訂閱 €53.76（-6%），價格不變，有貨；同頁小牛肉 24x200g 同價。單買價 €59.16（€57.19 為 -3.33% 後）。": "2026-11-27 live browser：雞肉 24x200g €57.19 一次價／訂閱 €53.76（-6%），價格不變，有貨; 同頁小牛肉 24x200g 同價。單買價 €59.16（€57.19 為 -3.33% 後）。",
-   "2026-11-27 live browser：雞肉／牛肉 1x185g €4.40，價格不變，仍缺貨「Jammer! Dit product is niet op voorraad」；訂閱 €4.18（-5%）；免運 €50，否則 €5.95；黑五出貨延遲提示。": "2026-11-27 live browser：雞肉／牛肉 1x185g €4.40，價格不變，仍缺貨「Jammer! Dit product is niet op voorraad」; subscription €4.18 (-5%); free shipping €50, otherwise €5.95; 黑五出貨延遲提示。",
-   "2026-11-27 商店目錄核實：Ocean 鮪魚／鱈魚／蝦／南瓜 Kitten 70g €0.99（原價 €1.65），價格不變，仍缺貨；缺貨故不是最佳價。運費未重測，沿用 11-09 政策。": "2026-11-27 商店目錄核實：Ocean 鮪魚／鱈魚／蝦／南瓜 Kitten 70g €0.99（原價 €1.65），價格不變，仍缺貨; 缺貨故不是最佳價。運費未重測，沿用 11-09 政策。",
    "2026-11-27：Barfus.lv Synbiotic D-C 仍未恢復上架；Barfus 單盒運費仍未核實；Agriservicebouwhuis.nl L-Mesitran 250g 運費仍未核實；Protexin 兩款返現仍未核實到可用返現": "2026-11-27：Barfus.lv Synbiotic D-C 仍未恢復上架; Barfus 單盒運費仍未核實; Agriservicebouwhuis.nl L-Mesitran 250g 運費仍未核實; Protexin 兩款返現仍未核實到可用返現",
    "2026-11-27：Medpets ZIWI Steam-Dried 牛 2.2kg Herhaal 價今日商品頁未顯示（昨日 €78.30），未能重核；最佳價暫以一次價 €83.30 計": "2026-11-27：Medpets ZIWI Steam-Dried 牛 2.2kg Herhaal 價今日商品頁未顯示（昨日 €78.30），未能重核; 最佳價暫以一次價 €83.30 計",
+   "2026-11-28 live browser：1.8kg €32.95（原 €37.49）一次價不變，有貨；黑五碼 BLACKFRIDAY2026 已失效（活動期 11-21～11-27，今日商品頁與首頁皆無黑五標示），最佳價由昨日折後 €29.66 回到一次價 €32.95。€59 以下運 €6.95。": "2026-11-28 live browser：1.8kg €32.95（原 €37.49）一次價不變，有貨; 黑五碼 BLACKFRIDAY2026 已失效（活動期 11-21～11-27，今日商品頁與首頁皆無黑五標示），最佳價由昨日折後 €29.66 回到一次價 €32.95。€59 以下運 €6.95。",
+   "2026-11-28 live browser：1.8kg €36.25（原 €40.49）一次價不變，有貨；黑五碼 BLACKFRIDAY2026 已失效，最佳價由昨日折後 €32.63 改為 Petfooddiscount.nl €33.95。€59 以下運 €6.95。": "2026-11-28 live browser：1.8kg €36.25（原 €40.49）一次價不變，有貨; 黑五碼 BLACKFRIDAY2026 已失效，最佳價由昨日折後 €32.63 改為 Petfooddiscount.nl €33.95。€59 以下運 €6.95。",
+   "2026-11-28 live browser：12x85g €19.79 一次價不變／Gemak 仍 -15% €16.82，有貨；Gemak -15% 優惠今日（11/28）仍顯示有效。免運門檻 €29。": "2026-11-28 live browser：12x85g €19.79 一次價不變／Gemak 仍 -15% €16.82，有貨; Gemak -15% 優惠今日（11/28）仍顯示有效。免運門檻 €29。",
+   "2026-11-28 live browser：12x85g €19.99，價格不變，有貨（23 間門市）；免運 €40 起，否則 €4.95。": "2026-11-28 live browser：12x85g €19.99，價格不變，有貨（23 間門市）; free shipping from €40, otherwise €4.95。",
+   "2026-11-28 live browser：1x11L €15.49 一次價不變／Gemak 仍 -15% €13.17，有貨；免運 €29。注意勿與 Bitiba 2189740 混淆。": "2026-11-28 live browser：1x11L €15.49 一次價不變／Gemak 仍 -15% €13.17，有貨; 免運 €29。注意勿與 Bitiba 2189740 混淆。",
+   "2026-11-28 live browser：1x18L €16.95，價格不變，Direct leverbaar；訂閱首單 €15.25（-10%，其後 -5%）；免運 €39。": "2026-11-28 live browser：1x18L €16.95，價格不變，Direct leverbaar; 訂閱首單 €15.25（-10%，其後 -5%）; free shipping €39。",
+   "2026-11-28 live browser：1x200g €2.25，四口味皆同價，價格不變，有貨；免運 €45。": "2026-11-28 live browser：1x200g €2.25，四口味皆同價，價格不變，有貨; free shipping €45。",
+   "2026-11-28 live browser：1x20L €17.69，價格不變，有貨；額外運輸附加費 €1.95／件；免運 €39。": "2026-11-28 live browser：1x20L €17.69，價格不變，有貨; 額外運輸附加費 €1.95／件; free shipping €39。",
+   "2026-11-28 live browser：1x800g 小牛＋雞心 €4.55，價格不變，有貨，仍為最佳價；同頁另有火雞＋兔肉 €4.58、火雞／牛／鴨 €4.61。": "2026-11-28 live browser：1x800g 小牛＋雞心 €4.55，價格不變，有貨，仍為最佳價; 同頁另有火雞＋兔肉 €4.58、火雞／牛／鴨 €4.61。",
+   "2026-11-28 live browser：1x800g 火雞＋兔肉 €4.58，價格不變，有貨；同頁小牛＋雞心 €4.55。": "2026-11-28 live browser：1x800g 火雞＋兔肉 €4.58，價格不變，有貨; 同頁小牛＋雞心 €4.55。",
+   "2026-11-28 live browser：1x800g 火雞／牛／鴨 €4.61，價格不變，有貨；同頁小牛＋雞心 €4.55。": "2026-11-28 live browser：1x800g 火雞／牛／鴨 €4.61，價格不變，有貨; 同頁小牛＋雞心 €4.55。",
+   "2026-11-28 live browser：20g €10.15，價格不變，Direct leverbaar；買 2 件以上 2% 折扣；黑五 Dubbelslag：買 2 件相同商品第 2 件 -10%，至 11 月 30 日；免運 €59。": "2026-11-28 live browser：20g €10.15，價格不變，Direct leverbaar; 買 2 件以上 2% 折扣; 黑五 Dubbelslag：買 2 件相同商品第 2 件 -10%，至 11 月 30 日; free shipping €59。",
+   "2026-11-28 live browser：20g €10.75，價格不變，Stock: 36，有貨；Benelux 滿 €59 免運；效期至 29/08/2031。": "2026-11-28 live browser：20g €10.75，價格不變，Stock: 36，有貨; Benelux free shipping from €59; 效期至 29/08/2031。",
+   "2026-11-28 live browser：20g €9.95，價格不變，可加購；頁面無明確庫存標示，商品頁無運費資訊。": "2026-11-28 live browser：20g €9.95，價格不變，可加購; 頁面無明確庫存標示，商品頁無運費資訊。",
+   "2026-11-28 live browser：24x70g Ocean €48.00，價格不變，有貨；免運 €65。": "2026-11-28 live browser：24x70g Ocean €48.00，價格不變，有貨; free shipping €65。",
+   "2026-11-28 live browser：24x70g Prime €39.99（原 €42.96），價格不變，有貨；單罐 €1.79。PetBoutique.it 今日轉缺貨後，本品成為 Farmina 有貨最佳價。": "2026-11-28 live browser：24x70g Prime €39.99（原 €42.96），價格不變，有貨; 單罐 €1.79。PetBoutique.it 今日轉缺貨後，本品成為 Farmina 有貨最佳價。",
+   "2026-11-28 live browser：24x85g €28.39（€1.183/包），價格不變；同頁 12x85g €14.48。Black Friday 標籤；免運 €35；1–3 工作天。": "2026-11-28 live browser：24x85g €28.39（€1.183/包），價格不變; 同頁 12x85g €14.48。Black Friday 標籤; free shipping €35; 1–3 工作天。",
+   "2026-11-28 live browser：250g €42.50 價格不變，有貨，仍為 L-Mesitran 250g 最佳價。頁面仍無明確庫存標示、無寄 Rotterdam 運費資訊，運費未核實；店家位於荷蘭 Hasselt。": "2026-11-28 live browser：250g €42.50 價格不變，有貨，仍為 L-Mesitran 250g 最佳價。頁面仍無明確庫存標示、無寄 Rotterdam 運費資訊，運費未核實; 店家位於荷蘭 Hasselt。",
+   "2026-11-28 live browser：250g €50.95，價格不變，今日頁面顯示 Direct leverbaar（昨日寫預計 05-12-2026 到貨）；買 2 件以上 2% 折扣；黑五 Dubbelslag：買 2 件相同商品第 2 件 -10%，至 11 月 30 日；免運 €59。注意：Agriservicebouwhuis 同規格 €42.50 仍為本品最佳價。": "2026-11-28 live browser：250g €50.95，價格不變，今日頁面顯示 Direct leverbaar（昨日寫預計 05-12-2026 到貨）; 買 2 件以上 2% 折扣; 黑五 Dubbelslag：買 2 件相同商品第 2 件 -10%，至 11 月 30 日; 免運 €59。注意：Agriservicebouwhuis 同規格 €42.50 仍為本品最佳價。",
+   "2026-11-28 live browser：250g €51.95，價格不變，可加購；NL 運費今日產品頁全文仍未見運費文字，€6.26 仍未核實。": "2026-11-28 live browser：250g €51.95，價格不變，可加購; NL 運費今日產品頁全文仍未見運費文字，€6.26 仍未核實。",
+   "2026-11-28 live browser：2x18L €25.00，價格不變；Beschikbaar；出貨 1–5 工作天。頁內寫法不一：標題／網址寫 2x18 liter，但頁內品項行寫「Catsan Hygiëne Plus 2x20 liter」、商品圖為 20L 包裝；僅供參考，不進排名。": "2026-11-28 live browser：2x18L €25.00，價格不變; Beschikbaar; 出貨 1–5 工作天。頁內寫法不一：標題／網址寫 2x18 liter，但頁內品項行寫「Catsan Hygiëne Plus 2x20 liter」、商品圖為 20L 包裝; 僅供參考，不進排名。",
+   "2026-11-28 live browser：3x11L €33.19 一次價／訂閱 €29.87，價格不變，有貨；滿 €100 全站 5%；免運 €29。": "2026-11-28 live browser：3x11L €33.19 一次價／訂閱 €29.87，價格不變，有貨; 滿 €100 全站 5%; free shipping €29。",
+   "2026-11-28 live browser：48x85g €55.29（€1.152/包），價格不變；同頁 12x85g €14.48。Black Friday 標籤；免運 €35；1–3 工作天。": "2026-11-28 live browser：48x85g €55.29（€1.152/包），價格不變; 同頁 12x85g €14.48。Black Friday 標籤; free shipping €35; 1–3 工作天。",
+   "2026-11-28 live browser：50 粒 €44.45 一次價／Herhaal €41.80，價格不變，仍缺貨「Onbekende levertijd」；免運 €69。": "2026-11-28 live browser：50 粒 €44.45 一次價／Herhaal €41.80，價格不變，仍缺貨「Onbekende levertijd」; free shipping €69。",
+   "2026-11-28 live browser：50 粒 €58.99（含稅），價格不變，缺貨，顯示「Aanvulling bezig」；滿 €129 免運。": "2026-11-28 live browser：50 粒 €58.99（含稅），價格不變，缺貨，顯示「Aanvulling bezig」; free shipping from €129。",
+   "2026-11-28 live browser：60 粒 €18.79，價格不變，有貨，仍為最佳價；訂閱首購 €16.91（-10%，其後每單 -5%），滿 €39 免運。單盒合計 €22.78（未滿 €39 運 €3.99）。": "2026-11-28 live browser：60 粒 €18.79，價格不變，有貨，仍為最佳價; 訂閱首購 €16.91（-10%，其後每單 -5%），滿 €39 免運。單盒合計 €22.78（未滿 €39 運 €3.99）。",
+   "2026-11-28 live browser：60 粒 €19.90（含稅；未稅 €16.58），價格不變，缺貨，顯示「Replenishment in progress」且可 Pre-order；滿 €129 免運（BE、LU、DE、NL、ES、IT、AT、IE）。": "2026-11-28 live browser：60 粒 €19.90（含稅; 未稅 €16.58），價格不變，缺貨，顯示「Replenishment in progress」且可 Pre-order; free shipping from €129 (BE, LU, DE, NL, ES, IT, AT, IE) 。",
+   "2026-11-28 live browser：60 粒 €23.20，價格不變，有貨；仍高於最佳價 Pharmapets.be €18.79。運費：商品頁未寫；單盒結帳實測 €15.00（11-20）未重跑，單盒合計 €38.20 為按實測運費推算（官網 €9.00 說法與結帳不符，以結帳為準）。返現未核實。": "2026-11-28 live browser：60 粒 €23.20，價格不變，有貨; 仍高於最佳價 Pharmapets.be €18.79。運費：商品頁未寫; 單盒結帳實測 €15.00（11-20）未重跑，單盒合計 €38.20 為按實測運費推算（官網 €9.00 說法與結帳不符，以結帳為準）。返現未核實。",
+   "2026-11-28 live browser：60 粒 €28.95（原 €32.95），價格不變，有貨；買 2 件 €28.08（-3%）、買 3 件 €27.21（-6%）；荷蘭境內滿 €75 免運（最高 14kg）。": "2026-11-28 live browser：60 粒 €28.95（原 €32.95），價格不變，有貨; 買 2 件 €28.08（-3%）、買 3 件 €27.21（-6%）; 荷蘭境內滿 €75 免運（最高 14kg）。",
+   "2026-11-28 live browser：60 粒 €28.99，價格不變，37 op voorraad，有貨；滿 €60 免運。": "2026-11-28 live browser：60 粒 €28.99，價格不變，37 op voorraad，有貨; free shipping from €60。",
+   "2026-11-28 live browser：60g €19.49，價格不變，可加購；頁面無明確庫存標示，商品頁無運費資訊。": "2026-11-28 live browser：60g €19.49，價格不變，可加購; 頁面無明確庫存標示，商品頁無運費資訊。",
+   "2026-11-28 live browser：6x200g Sappige kip €14.79，價格不變，有貨；同頁小牛肉 6x200g €14.79、24x €57.49。本頁未顯示 Gemak 價。": "2026-11-28 live browser：6x200g Sappige kip €14.79，價格不變，有貨; 同頁小牛肉 6x200g €14.79、24x €57.49。本頁未顯示 Gemak 價。",
+   "2026-11-28 live browser：6x200g 小牛＋雞心 €11.19 一次價不變，有貨；頁面已無 Gemak 標示，改為勾選「-5% Extra korting」後 €10.63（較昨日 Gemak 價 €11.07 便宜 €0.44），以優惠券價計最佳；返現未重核，沿用 11-27 核實值。同頁火雞＋兔肉 €12.19、火雞／牛／鴨 €12.19。": "2026-11-28 live browser：6x200g 小牛＋雞心 €11.19 一次價不變，有貨; 頁面已無 Gemak 標示，改為勾選「-5% Extra korting」後 €10.63（較昨日 Gemak 價 €11.07 便宜 €0.44），以優惠券價計最佳; 返現未重核，沿用 11-27 核實值。同頁火雞＋兔肉 €12.19、火雞／牛／鴨 €12.19。",
+   "2026-11-28 live browser：6x200g 火雞／牛／鴨 €12.19，價格不變，有貨；同頁小牛＋雞心 €11.19、火雞＋兔肉 €12.19。返現未針對此口味核實，最佳價暫以一次價計。": "2026-11-28 live browser：6x200g 火雞／牛／鴨 €12.19，價格不變，有貨; 同頁小牛＋雞心 €11.19、火雞＋兔肉 €12.19。返現未針對此口味核實，最佳價暫以一次價計。",
+   "2026-11-28 live browser：Beef 2.2kg €79.95（建議價 €89.95），價格不變，有貨；免運 €49。": "2026-11-28 live browser：Beef 2.2kg €79.95（建議價 €89.95），價格不變，有貨; free shipping €49。",
+   "2026-11-28 live browser：Beef 2.2kg €83.30 一次價不變，有貨；Herhaal 價今日商品頁仍未顯示（昨日 €78.30），未能重核，最佳價暫以一次價 €83.30 計。免運 €69。": "2026-11-28 live browser：Beef 2.2kg €83.30 一次價不變，有貨; Herhaal 價今日商品頁仍未顯示（昨日 €78.30），未能重核，最佳價暫以一次價 €83.30 計。免運 €69。",
+   "2026-11-28 live browser：Beef 800g €29.95（建議價 €34.95），價格不變，有貨；免運 €49。": "2026-11-28 live browser：Beef 800g €29.95（建議價 €34.95），價格不變，有貨; free shipping €49。",
+   "2026-11-28 live browser：Chicken 2.2kg €83.50，價格不變，OP VOORRAAD；滿 €21.99 免運；預計送達 3–6 工作天。": "2026-11-28 live browser：Chicken 2.2kg €83.50，價格不變，OP VOORRAAD; free shipping from €21.99; 預計送達 3–6 工作天。",
+   "2026-11-28 live browser：Chicken 2.2kg €84.50，價格不變，有貨；免運 €45（BE €59）。": "2026-11-28 live browser：Chicken 2.2kg €84.50，價格不變，有貨; free shipping €45 (BE €59) 。",
+   "2026-11-28 live browser：Chicken 2.2kg €84.50，價格不變，有貨；送貨 1–2 werkdagen。": "2026-11-28 live browser：Chicken 2.2kg €84.50，價格不變，有貨; 送貨 1–2 werkdagen。",
+   "2026-11-28 live browser：Chicken 800g €31.20 一次價／Herhaal €29.35，價格不變，仍缺貨；今日頁面只顯示「Onbekende levertijd」，未顯示到貨日期（昨日預計 09-12-2026）。": "2026-11-28 live browser：Chicken 800g €31.20 一次價／Herhaal €29.35，價格不變，仍缺貨; 今日頁面只顯示「Onbekende levertijd」，未顯示到貨日期（昨日預計 09-12-2026）。",
+   "2026-11-28 live browser：Fish 2.2kg €79.95（建議價 €89.95），價格不變，有貨；免運 €49。": "2026-11-28 live browser：Fish 2.2kg €79.95（建議價 €89.95），價格不變，有貨; free shipping €49。",
+   "2026-11-28 live browser：Fish 800g €29.95（建議價 €34.95），價格不變，有貨；免運 €49。": "2026-11-28 live browser：Fish 800g €29.95（建議價 €34.95），價格不變，有貨; free shipping €49。",
+   "2026-11-28 live browser：Fit & Trim 1.8kg €35.49（原 €38.99），一次價不變，有貨；黑五碼 BLACKFRIDAY2026 已失效，最佳價由昨日折後 €31.94 回到一次價 €35.49。免運門檻 €59。": "2026-11-28 live browser：Fit & Trim 1.8kg €35.49（原 €38.99），一次價不變，有貨; 黑五碼 BLACKFRIDAY2026 已失效，最佳價由昨日折後 €31.94 回到一次價 €35.49。免運門檻 €59。",
+   "2026-11-28 live browser：Guardian 8 1.8kg €35.95（建議價 €41.99），價格不變，有貨；免運 €49。": "2026-11-28 live browser：Guardian 8 1.8kg €35.95（建議價 €41.99），價格不變，有貨; free shipping €49。",
+   "2026-11-28 live browser：Kitten 1.8kg €33.99（建議售價 €45.10，-25%），價格不變，有貨，仍為最佳價；預計送達 12 月 3–8 日。寄荷蘭運費仍未核實（須加車後才在購物車顯示，未加車）。頁面黑五碼 BF15（最高 -15%）仍顯示，未測試，不計入。": "2026-11-28 live browser：Kitten 1.8kg €33.99（建議售價 €45.10，-25%），價格不變，有貨，仍為最佳價; 預計送達 12 月 3–8 日。寄荷蘭運費仍未核實（須加車後才在購物車顯示，未加車）。頁面黑五碼 BF15（最高 -15%）仍顯示，未測試，不計入。",
+   "2026-11-28 live browser：Kitten 1.8kg €36.95（建議價 €40.49），價格不變，有貨；免運 €49。": "2026-11-28 live browser：Kitten 1.8kg €36.95（建議價 €40.49），價格不變，有貨; free shipping €49。",
+   "2026-11-28 live browser：Kitten 1.8kg €38.70 一次價／Herhaal €36.40（-6%），價格不變，有貨；免運 €69。": "2026-11-28 live browser：Kitten 1.8kg €38.70 一次價／Herhaal €36.40（-6%），價格不變，有貨; free shipping €69。",
+   "2026-11-28 live browser：Mixpack 6x200g €13.79 一次價／訂閱 €12.96，價格不變，有貨，仍為最佳價。免運 €29 起；滿 €100 全場 5% korting。": "2026-11-28 live browser：Mixpack 6x200g €13.79 一次價／訂閱 €12.96，價格不變，有貨，仍為最佳價。免運 €29 起; 滿 €100 全場 5% korting。",
+   "2026-11-28 live browser：Regional Red 1.8kg €42.50 一次價／Herhaal €39.95，價格不變，有貨，仍為最佳價；免運 €69。": "2026-11-28 live browser：Regional Red 1.8kg €42.50 一次價／Herhaal €39.95，價格不變，有貨，仍為最佳價; free shipping €69。",
+   "2026-11-28 live browser：Six Fish 1.8kg €33.95（建議價 €40.49），價格不變，有貨；黑五碼失效後成為本品最佳價；免運 €49。": "2026-11-28 live browser：Six Fish 1.8kg €33.95（建議價 €40.49），價格不變，有貨; 黑五碼失效後成為本品最佳價; free shipping €49。",
+   "2026-11-28 live browser：Tundra 1.8kg €43.95（建議價 €49.99），價格不變，有貨；免運 €49。": "2026-11-28 live browser：Tundra 1.8kg €43.95（建議價 €49.99），價格不變，有貨; free shipping €49。",
+   "2026-11-28 live browser：小牛肉 24x200g €57.19 一次價／訂閱 €53.76（-6%），價格不變，有貨；單買價 €59.16（€57.19 為 -3.33% 後）。": "2026-11-28 live browser：小牛肉 24x200g €57.19 一次價／訂閱 €53.76（-6%），價格不變，有貨; 單買價 €59.16（€57.19 為 -3.33% 後）。",
+   "2026-11-28 live browser：小牛肉 24x200g €57.49，價格不變，有貨；同頁雞肉 6x200g €14.79、小牛肉 6x200g €14.79。單買價 €59.16。": "2026-11-28 live browser：小牛肉 24x200g €57.49，價格不變，有貨; 同頁雞肉 6x200g €14.79、小牛肉 6x200g €14.79。單買價 €59.16。",
+   "2026-11-28 live browser：牛肉／鯖魚 1x185g €4.25（建議價 €4.40），價格不變，有貨；10–23 罐 €3.95、24 罐以上 €3.79；免運 €49。": "2026-11-28 live browser：牛肉／鯖魚 1x185g €4.25（建議價 €4.40），價格不變，有貨; 10–23 罐 €3.95、24 罐以上 €3.79; free shipping €49。",
+   "2026-11-28 live browser：選「11.5 liter」變體後顯示 €10.69，價格不變，有貨；20L €17.69。": "2026-11-28 live browser：選「11.5 liter」變體後顯示 €10.69，價格不變，有貨; 20L €17.69。",
+   "2026-11-28 live browser：選「20 liter」變體後顯示 €17.69、5 op voorraad，價格不變，有貨；11.5L 為 €10.69。": "2026-11-28 live browser：選「20 liter」變體後顯示 €17.69、5 op voorraad，價格不變，有貨; 11.5L 為 €10.69。",
+   "2026-11-28 live browser：雞肉 1x185g €4.25（建議價 €4.40），今日首次單獨記錄；缺貨「Dit product is tijdelijk niet verkrijgbaar」；10–23 罐 €3.95、24 罐以上 €3.79；免運 €49。": "2026-11-28 live browser：雞肉 1x185g €4.25（建議價 €4.40），今日首次單獨記錄; out of stock “Dit product is tijdelijk niet verkrijgbaar”; 10–23 罐 €3.95、24 罐以上 €3.79; free shipping €49。",
+   "2026-11-28 live browser：雞肉 24x200g €57.19 一次價／訂閱 €53.76（-6%），價格不變，有貨；同頁小牛肉 24x200g 同價。單買價 €59.16（€57.19 為 -3.33% 後）。": "2026-11-28 live browser：雞肉 24x200g €57.19 一次價／訂閱 €53.76（-6%），價格不變，有貨; 同頁小牛肉 24x200g 同價。單買價 €59.16（€57.19 為 -3.33% 後）。",
+   "2026-11-28 live browser：雞肉／牛肉 1x185g €4.40，價格不變，仍缺貨「Jammer! Dit product is niet op voorraad」；訂閱 €4.18（-5%）；免運 €50，否則 €5.95。Ziwi Box 試吃組三款皆 €36.30（原 €41.30），皆缺貨；站頂橫幅僅稱 Black Friday 送貨繁忙。": "2026-11-28 live browser：雞肉／牛肉 1x185g €4.40，價格不變，仍缺貨「Jammer! Dit product is niet op voorraad」; subscription €4.18 (-5%); 免運 €50，否則 €5.95。Ziwi Box 試吃組三款皆 €36.30（原 €41.30），皆缺貨; 站頂橫幅僅稱 Black Friday 送貨繁忙。",
+   "2026-11-28 商店目錄核實：Ocean 鮪魚／鱈魚／蝦／南瓜 Kitten 70g €0.99（原價 €1.65），價格不變，仍缺貨；缺貨故不是最佳價。運費未重測，沿用 11-09 政策。": "2026-11-28 商店目錄核實：Ocean 鮪魚／鱈魚／蝦／南瓜 Kitten 70g €0.99（原價 €1.65），價格不變，仍缺貨; 缺貨故不是最佳價。運費未重測，沿用 11-09 政策。",
+   "2026-11-28 商店目錄核實：Prime 雞＋石榴 Kitten 70g €0.99（原價 €1.65），價格不變，但由有貨轉為缺貨；缺貨故不再是最佳價，Farmina 有貨最佳改為 CutieCat 24x70g €39.99。運費未重測，沿用 11-09 政策（取貨點 €6.50／宅配 €9.00）。": "2026-11-28 商店目錄核實：Prime 雞＋石榴 Kitten 70g €0.99（原價 €1.65），價格不變，但由有貨轉為缺貨; 缺貨故不再是最佳價，Farmina 有貨最佳改為 CutieCat 24x70g €39.99。運費未重測，沿用 11-09 政策（取貨點 €6.50／宅配 €9.00）。",
+   "2026-11-28 店內目錄核實：50 粒 €39.95 一次價不變，有貨；定期配送 -5% €37.95 沿用 2026-11-24 商品頁核實折扣率推算，今日店內目錄未顯示訂閱價，未重核。運費 €3.95 未滿 €49，免運門檻 €49。": "2026-11-28 店內目錄核實：50 粒 €39.95 一次價不變，有貨; 定期配送 -5% €37.95 沿用 2026-11-24 商品頁核實折扣率推算，今日店內目錄未顯示訂閱價，未重核。運費 €3.95 未滿 €49，免運門檻 €49。",
+   "2026-11-28 店內目錄核實：60 粒 €29.95 一次價不變，有貨；定期配送 -5% €28.45 沿用 2026-11-24 商品頁核實折扣率推算，今日店內目錄未顯示訂閱價，未重核。免運 €49（未滿運 €3.95）。": "2026-11-28 店內目錄核實：60 粒 €29.95 一次價不變，有貨; 定期配送 -5% €28.45 沿用 2026-11-24 商品頁核實折扣率推算，今日店內目錄未顯示訂閱價，未重核。免運 €49（未滿運 €3.95）。",
+   "2026-11-28：Barfus.lv Synbiotic D-C 仍未恢復上架；Barfus 單盒運費仍未核實；Agriservicebouwhuis.nl L-Mesitran 250g 運費仍未核實；Protexin 兩款返現仍未核實到可用返現；Milo 兩品項訂閱價今日店內目錄未顯示，未重核": "2026-11-28：Barfus.lv Synbiotic D-C 仍未恢復上架; Barfus 單盒運費仍未核實; Agriservicebouwhuis.nl L-Mesitran 250g 運費仍未核實; Protexin 兩款返現仍未核實到可用返現; Milo 兩品項訂閱價今日店內目錄未顯示，未重核",
+   "2026-11-28：Medpets RC 12x85g 頁面仍顯示「Snel weer leverbaar」（可下單、週三到貨），非「Op voorraad」，明日留意是否轉為缺貨；Medpets ZIWI Steam-Dried 雞肉 800g 今日只顯示「Onbekende levertijd」，未顯示到貨日期": "2026-11-28：Medpets RC 12x85g 頁面仍顯示「Snel weer leverbaar」（可下單、週三到貨），非「Op voorraad」，明日留意是否轉為缺貨; Medpets ZIWI Steam-Dried 雞肉 800g 今日只顯示「Onbekende levertijd」，未顯示到貨日期",
+   "2026-11-28：Medpets ZIWI Steam-Dried 牛 2.2kg Herhaal 價今日商品頁仍未顯示（昨日 €78.30），未能重核；最佳價暫以一次價 €83.30 計": "2026-11-28：Medpets ZIWI Steam-Dried 牛 2.2kg Herhaal 價今日商品頁仍未顯示（昨日 €78.30），未能重核; 最佳價暫以一次價 €83.30 計",
    "20L 袋／10L 盒／6L 盒": "20L bag/10L box/6L box",
    "24x125g 擠壓袋 雞肉": "24x125g squeeze pouches chicken",
    "24x70g Prime Kitten 雞": "24x70g Prime Kitten chicken",
@@ -16093,12 +16277,7 @@
    "Ausland≤31.5kg€14.95，但國家清單僅列Deutschland；NL未確認": "abroad ≤31.5kg €14.95, but the country list only shows Germany; NL not confirmed",
    "B2C只見SK、B2B另CZ/HU；未見NL，不判全面不能寄": "B2C only shows SK; B2B also CZ/HU; NL not seen; not ruled out",
    "Bitiba MAC's 6x800g Kitten Kalf & Kippenharten €28.49：Abonnement 折扣按 11/03–11/07 實測 -6% 推算，今日未直接核實折扣率": "Bitiba MAC's 6x800g Kitten €28.49: subscription discount estimated at -6% from 11/03–11/07; not checked today",
-   "Black Friday -30%（原價 €20.69）；2026-11-27 live browser：12x85g €14.48（原 €20.69，-30%），價格不變，有貨；同頁 24x €28.39、48x €55.29。Black Friday 標籤；免運 €35；初次開啟遇 Cloudflare，換環境後清除並核實。": "Black Friday -30% (was €20.69); 2026-11-27 live browser：12x85g €14.48（原 €20.69，-30%），價格不變，有貨; 同頁 24x €28.39、48x €55.29。Black Friday 標籤; free shipping €35; 初次開啟遇 Cloudflare，換環境後清除並核實。",
-   "Black Friday code BF15（最高 -15%），未測試，不計入；倒數約 14 小時（09:53 查得），今日到期": "Black Friday code BF15（最高 -15%），未測試，不計入; 倒數約 14 小時（09:53 查得），今日到期",
-   "Black Friday code BLACKFRIDAY2026：全站額外 -10%。ORIJEN 三款最佳價已按 -10% 折算；Catsan 不計入最佳價": "Black Friday code BLACKFRIDAY2026：全站額外 -10%。ORIJEN 三款最佳價已按 -10% 折算; Catsan 不計入最佳價",
-   "Black Friday code BLACKFRIDAY2026：全站額外 -10%（11-21～11-27）；2026-11-27 live browser：1.8kg €32.95（原 €37.49）一次價不變，有貨；黑五碼 BLACKFRIDAY2026 全站額外 -10% 今日最後一天（11-21～11-27），折後 €29.66（按 -10% 計算，未加車驗證結帳價），仍為最佳價。€59 以下運 €6.95。": "Black Friday code BLACKFRIDAY2026：全站額外 -10%（11-21～11-27）; 2026-11-27 live browser：1.8kg €32.95（原 €37.49）一次價不變，有貨; 黑五碼 BLACKFRIDAY2026 全站額外 -10% 今日最後一天（11-21～11-27），折後 €29.66（按 -10% 計算，未加車驗證結帳價），仍為最佳價。€59 以下運 €6.95。",
-   "Black Friday code BLACKFRIDAY2026：全站額外 -10%（11-21～11-27）；2026-11-27 live browser：1.8kg €36.25（原 €40.49）一次價不變，有貨；黑五碼 BLACKFRIDAY2026 全站額外 -10% 今日最後一天，折後 €32.63（按 -10% 計算，未加車驗證結帳價），仍為最佳價。€59 以下運 €6.95。": "Black Friday code BLACKFRIDAY2026：全站額外 -10%（11-21～11-27）; 2026-11-27 live browser：1.8kg €36.25（原 €40.49）一次價不變，有貨; 黑五碼 BLACKFRIDAY2026 全站額外 -10% 今日最後一天，折後 €32.63（按 -10% 計算，未加車驗證結帳價），仍為最佳價。€59 以下運 €6.95。",
-   "Black Friday code BLACKFRIDAY2026：全站額外 -10%（11-21～11-27）；2026-11-27 live browser：Fit & Trim 1.8kg €35.49（原 €38.99），價格不變，有貨；黑五碼 BLACKFRIDAY2026 全站額外 -10% 今日最後一天，折後 €31.94（按 -10% 計算，未加車驗證結帳價），仍為最佳價。免運門檻 €59。": "Black Friday code BLACKFRIDAY2026：全站額外 -10%（11-21～11-27）; 2026-11-27 live browser：Fit & Trim 1.8kg €35.49（原 €38.99），價格不變，有貨; 黑五碼 BLACKFRIDAY2026 全站額外 -10% 今日最後一天，折後 €31.94（按 -10% 計算，未加車驗證結帳價），仍為最佳價。免運門檻 €59。",
+   "Black Friday -30%（原價 €20.69）；2026-11-28 live browser：12x85g €14.48（原 €20.69，-30%），價格不變，有貨；同頁 24x €28.39、48x €55.29。Black Friday 標籤；免運 €35；初次開啟遇 Cloudflare，換環境後清除並核實。": "Black Friday -30% (was €20.69); 2026-11-28 live browser：12x85g €14.48（原 €20.69，-30%），價格不變，有貨; 同頁 24x €28.39、48x €55.29。Black Friday 標籤; free shipping €35; 初次開啟遇 Cloudflare，換環境後清除並核實。",
    "Black Friday（建議價 €17.99）；2026-11-25 live browser：1x20L €15.29（€0.76/L，Black Friday 價，建議價 €17.99），有貨，與 2026-11-24 相同，無變化，仍為一次價最低；由 bol 銷售，另有 8 個合作夥伴。滿 €25 免運；20:00 前下單明日到貨。": "Black Friday（建議價 €17.99）; 2026-11-25 live browser：1x20L €15.29（€0.76/L，Black Friday 價，建議價 €17.99），有貨，與 2026-11-24 相同，無變化，仍為一次價最低; 由 bol 銷售，另有 8 個合作夥伴。滿 €25 免運; 20:00 前下單明日到貨。",
    "CashbackXL 返現 €0.84": "CashbackXL cashback €0.84",
    "CashbackXL 返現 €1.55": "CashbackXL cashback €1.55",
@@ -16124,7 +16303,7 @@
    "EAN4062911057135相同但不能僅依EAN消除7L/11L矛盾，故不算€/L、不更新最低": "Same EAN 4062911057135, but that doesn't resolve the 7L/11L conflict, so no €/L and no new low",
    "Extra Hygiene（無香）": "Extra Hygiene (unscented)",
    "Farmina 官方 eshop": "Farmina official eshop",
-   "Gemak 定期配送折扣維持 -15%；RC 優惠至 11 月 28 日止": "Gemak 定期配送折扣維持 -15%; RC 優惠至 11 月 28 日止",
+   "Gemak 定期配送折扣維持 -15%；RC 優惠至 11 月 28 日止；MAC's 小牛＋雞心頁面 Gemak 標示改為 -5% 優惠券 €10.63": "Gemak 定期配送折扣維持 -15%; RC 優惠至 11 月 28 日止; MAC's 小牛＋雞心頁面 Gemak 標示改為 -5% 優惠券 €10.63",
    "Hypostore Mesitran Vet Soft 起價 €10.74；Canislufa €18.14（未開商品頁）": "Hypostore Mesitran Vet Soft from €10.74; Canislufa €18.14 (product page not opened)",
    "Intratuin Woolsocks 返現 5%（只見於 GotCashback）": "Intratuin Woolsocks cashback 5% (only seen on GotCashback)",
    "Kitten（Ocean／Prime）": "Kitten (Ocean/Prime)",
@@ -16162,7 +16341,6 @@
    "Vivapets（10/25 頁面 404）": "Vivapets (10/25 page 404)",
    "Voormijndier.nl／Fauna Diertotaal／AVO／dierenwinkel.com／Multibazar.be": "Voormijndier.nl/Fauna Diertotaal/AVO/dierenwinkel.com/Multibazar.be",
    "Woeffies & Friends、Paws and Belly：Mesitran Vet Soft 20g €10.50（只見於搜尋摘要）": "Woeffies & Friends, Paws and Belly: Mesitran Vet Soft 20g €10.50 (only seen in search snippets)",
-   "Woolsocks 返現 €0.12": "Woolsocks cashback €0.12",
    "Woolsocks 返現 €0.16": "Woolsocks cashback €0.16",
    "Woolsocks 返現 €0.73": "Woolsocks cashback €0.73",
    "Woolsocks 返現 €1.43": "Woolsocks cashback €1.43",
@@ -16225,10 +16403,10 @@
    "全齡配方（含幼貓）・6 種口味": "All life stages (incl. kittens) · 6 flavours",
    "動物用醫療級蜂蜜凝膠（非 Ointment 軟膏）": "Medical-grade honey gel for animals (not the Ointment)",
    "包": "pouch",
-   "原價 €14.99，-20.01%；2026-11-27 live browser：1x11L €11.99（原價 €14.99，-20.01%）一次價／訂閱 €10.79，價格不變，有貨。": "was €14.99, -20.01%; 2026-11-27 live browser：1x11L €11.99（原價 €14.99，-20.01%）一次價／訂閱 €10.79，價格不變，有貨。",
-   "原價 €18.10 劃線特價 €12.65；2026-11-27 live browser：12x85g €12.65 一次價／Herhaal €11.90，價格不變，有貨，仍為最佳價。注意：頁面今日顯示「Snel weer leverbaar」（可下單，週一到貨），非「Op voorraad」，明日留意是否轉為缺貨。免運 €69。": "原價 €18.10 劃線特價 €12.65; 2026-11-27 live browser：12x85g €12.65 一次價／Herhaal €11.90，價格不變，有貨，仍為最佳價。注意：頁面今日顯示「Snel weer leverbaar」（可下單，週一到貨），非「Op voorraad」，明日留意是否轉為缺貨。免運 €69。",
-   "原價 €18.75，-30%；2026-11-27 live browser：12x85g €13.13（原 €18.75，-30%），價格不變，仍缺貨「Momenteel niet leverbaar」；訂閱首單 €11.82（-10%）。": "was €18.75, -30%; 2026-11-27 live browser：12x85g €13.13（原 €18.75，-30%），價格不變，仍缺貨「Momenteel niet leverbaar」; first subscription order €11.82 (-10%) 。",
-   "原價 €22.75；2026-11-27 live browser：1x20L €15.50（原價 €22.75），價格不變，有貨但僅剩 9 件（昨日 10 件）。黑五碼 BLACKFRIDAY2026 今日最後一天（11-21～11-27），按標價算術約 €13.95，非頁面標價，不計入最佳價。€59 以下運 €6.95；當日 20:00 前下單當日出貨。": "was €22.75; 2026-11-27 live browser：1x20L €15.50（原價 €22.75），價格不變，有貨但僅剩 9 件（昨日 10 件）。黑五碼 BLACKFRIDAY2026 今日最後一天（11-21～11-27），按標價算術約 €13.95，非頁面標價，不計入最佳價。€59 以下運 €6.95; 當日 20:00 前下單當日出貨。",
+   "原價 €14.99，-20.01%；2026-11-28 live browser：1x11L €11.99（原價 €14.99，-20.01%）一次價／訂閱 €10.79，價格不變，有貨。": "was €14.99, -20.01%; 2026-11-28 live browser：1x11L €11.99（原價 €14.99，-20.01%）一次價／訂閱 €10.79，價格不變，有貨。",
+   "原價 €18.10 劃線特價 €12.65；2026-11-28 live browser：12x85g €12.65 一次價／Herhaal €11.90，價格不變，仍為最佳價。頁面仍顯示「Snel weer leverbaar」（可下單，「Nu besteld, woensdag in huis」），非「Op voorraad」，明日留意是否轉為缺貨。免運 €69。": "原價 €18.10 劃線特價 €12.65; 2026-11-28 live browser：12x85g €12.65 一次價／Herhaal €11.90，價格不變，仍為最佳價。頁面仍顯示「Snel weer leverbaar」（可下單，「Nu besteld, woensdag in huis」），非「Op voorraad」，明日留意是否轉為缺貨。免運 €69。",
+   "原價 €18.75，-30%；2026-11-28 live browser：12x85g €13.13（原 €18.75，-30%），價格不變，仍缺貨「Momenteel niet leverbaar」；訂閱首單 €11.82（-10%）。": "was €18.75, -30%; 2026-11-28 live browser：12x85g €13.13（原 €18.75，-30%），價格不變，仍缺貨「Momenteel niet leverbaar」; first subscription order €11.82 (-10%) 。",
+   "原價 €22.75；2026-11-28 live browser：1x20L €15.50（原價 €22.75），價格不變，有貨，庫存仍 9 件。黑五碼 BLACKFRIDAY2026 已失效（活動期 11-21～11-27），昨日按標價算術約 €13.95 不再適用。€59 以下運 €6.95；當日 20:00 前下單當日出貨。": "was €22.75; 2026-11-28 live browser：1x20L €15.50（原價 €22.75），價格不變，有貨，庫存仍 9 件。黑五碼 BLACKFRIDAY2026 已失效（活動期 11-21～11-27），昨日按標價算術約 €13.95 不再適用。€59 以下運 €6.95; 當日 20:00 前下單當日出貨。",
    "只剩 4 包": "only 4 left",
    "只見於 kieskeurig（€18.49＋運費 €7.19）": "only seen on kieskeurig (€18.49 + shipping €7.19)",
    "只讀到Península資訊，NL未核實": "only Spanish mainland info found; NL not verified",
@@ -16254,9 +16432,9 @@
    "幼貓主食罐": "Complete kitten food",
    "幼貓乾飼料・無穀": "Kitten dry food · grain-free",
    "幼貓飼料比價": "Kitten Food Prices",
-   "建議價 €10.69；2026-11-27 live browser：Catsan hygiene korrels 11.5 liter €9.99（建議價 €10.69），價格不變，有貨；免運 €49。注意：標題未寫 Hygiene Plus，描述寫「Inhoud: 10 liter」，但商品圖袋身顯示 Hygiene Plus。": "建議價 €10.69; 2026-11-27 live browser：Catsan hygiene korrels 11.5 liter €9.99（建議價 €10.69），價格不變，有貨; 免運 €49。注意：標題未寫 Hygiene Plus，描述寫「Inhoud: 10 liter」，但商品圖袋身顯示 Hygiene Plus。",
-   "建議價 €34.95；2026-11-27 live browser：Chicken 800g €29.95（建議價 €34.95），價格不變，有貨；免運 €49。": "建議價 €34.95; 2026-11-27 live browser：Chicken 800g €29.95（建議價 €34.95），價格不變，有貨; free shipping €49。",
-   "建議價 €89.95；2026-11-27 live browser：Chicken 2.2kg €79.95（建議價 €89.95），價格不變，有貨；免運 €49。": "建議價 €89.95; 2026-11-27 live browser：Chicken 2.2kg €79.95（建議價 €89.95），價格不變，有貨; free shipping €49。",
+   "建議價 €10.69；2026-11-28 live browser：Catsan hygiene korrels 11.5 liter €9.99（建議價 €10.69），價格不變，有貨；免運 €49。注意：標題未寫 Hygiene Plus，描述寫「Inhoud: 10 liter」，但商品圖袋身顯示 Hygiene Plus；規格存疑，不進排名。": "建議價 €10.69; 2026-11-28 live browser：Catsan hygiene korrels 11.5 liter €9.99（建議價 €10.69），價格不變，有貨; 免運 €49。注意：標題未寫 Hygiene Plus，描述寫「Inhoud: 10 liter」，但商品圖袋身顯示 Hygiene Plus; 規格存疑，不進排名。",
+   "建議價 €34.95；2026-11-28 live browser：Chicken 800g €29.95（建議價 €34.95），價格不變，有貨；免運 €49。": "建議價 €34.95; 2026-11-28 live browser：Chicken 800g €29.95（建議價 €34.95），價格不變，有貨; free shipping €49。",
+   "建議價 €89.95；2026-11-28 live browser：Chicken 2.2kg €79.95（建議價 €89.95），價格不變，有貨；免運 €49。": "建議價 €89.95; 2026-11-28 live browser：Chicken 2.2kg €79.95（建議價 €89.95），價格不變，有貨; free shipping €49。",
    "抓取失敗商店": "shops that failed to fetch",
    "抓取失敗／未核實": "fetch failed / unverified",
    "持平歷史低價": "Matches record low",
@@ -16274,15 +16452,15 @@
    "條款含所有稅、運費另加，NL國家未明，不較舊低": "Terms include all taxes, shipping extra; NL unclear; not lower than before",
    "植物豆腐砂 Sensitive（無香）": "Plant-based tofu litter Sensitive (unscented)",
    "比歷史低價高 1%": "1% above record low",
+   "比歷史低價高 107%": "107% above record low",
    "比歷史低價高 12%": "12% above record low",
    "比歷史低價高 2%": "2% above record low",
    "比歷史低價高 31%": "31% above record low",
-   "比歷史低價高 47%": "47% above record low",
-   "比歷史低價高 52%": "52% above record low",
+   "比歷史低價高 53%": "53% above record low",
    "比歷史低價高 63%": "63% above record low",
    "比歷史低價高 64%": "64% above record low",
+   "比歷史低價高 68%": "68% above record low",
    "比歷史低價高 75%": "75% above record low",
-   "比歷史低價高 87%": "87% above record low",
    "比歷史低價高 88%": "88% above record low",
    "海洋魚蝦／雞肉石榴": "Ocean fish & shrimp / chicken & pomegranate",
    "滿 €29 免運／運費 €2.99": "free shipping from €29 / shipping €2.99",
@@ -16309,7 +16487,7 @@
    "盒": "box",
    "真低商品價但不寄NL，因此不列可買最低。搜尋摘要18.75已過時，以商品頁19.39為準": "Truly low price but no NL delivery, so not listed as buyable lowest. Search snippet 18.75 is outdated; product page 19.39",
    "真實低價€0.48/100g但NL不適用；不是以索引價排名": "real low of €0.48/100g but doesn't apply to NL; not ranked by search-index price",
-   "站內黑五橫幅 BLACK FRIDAY -15% CODE: BF15（適用性未驗證）；2026-11-27 live browser：50 粒 €27.99 有貨（Beschikbaar，預計 12 月 3–7 日送達），昨日確認下架、今日恢復上架，成為有貨最便宜（原最佳 Milo 訂閱 €37.95），為 Synbiotic 新最佳價。運費未核實；頁面黑五碼 BF15 最高 -15% 未測試，不計入。": "站內黑五橫幅 BLACK FRIDAY -15% CODE: BF15（適用性未驗證）; 2026-11-27 live browser：50 粒 €27.99 有貨（Beschikbaar，預計 12 月 3–7 日送達），昨日確認下架、今日恢復上架，成為有貨最便宜（原最佳 Milo 訂閱 €37.95），為 Synbiotic 新最佳價。運費未核實; 頁面黑五碼 BF15 最高 -15% 未測試，不計入。",
+   "站內黑五橫幅 BLACK FRIDAY -15% CODE: BF15（適用性未驗證）；2026-11-28 live browser：50 粒 €27.99，價格不變，有貨（Beschikbaar，預計 12 月 3–8 日送達），仍為最佳價。運費未核實；頁面黑五碼 BF15 最高 -15% 未測試，不計入。": "站內黑五橫幅 BLACK FRIDAY -15% CODE: BF15（適用性未驗證）; 2026-11-28 live browser：50 粒 €27.99，價格不變，有貨（Beschikbaar，預計 12 月 3–8 日送達），仍為最佳價。運費未核實; 頁面黑五碼 BF15 最高 -15% 未測試，不計入。",
    "符合條件€129免運": "free shipping over €129 when eligible",
    "精確商品頁現價確認；庫存/含稅文字/NL官方配送均未核實，不能當可寄NL新低": "current price confirmed on exact product page; stock, VAT and NL delivery not verified; not a buyable NL low",
    "結團礦砂・活性碳・無香": "Clumping clay litter · activated carbon · unscented",
@@ -16385,7 +16563,7 @@
    "1x800g Kitten 火雞／牛／鴨": "1x800g Kitten kalkoen/rund/eend",
    "1x85g 牛肉": "1x85g rund",
    "1x85g 雞肉": "1x85g kip",
-   "2 + 1 gratis 至 01-12-2026；2026-11-27 live browser：12x85g €16.95，有貨；「2 + 1 gratis」效期至 01-12-2026（不折入單價，僅註記）；「Op voorraad，Levertijd: 1 tot 2 werkdagen」；荷蘭境內滿 €75 免運，可到店自取。": "2 + 1 gratis 至 01-12-2026; 2026-11-27 live browser：12x85g €16,95，有貨; 「2 + 1 gratis」效期至 01-12-2026（不折入單價，僅註記）; ‘Op voorraad, Levertijd: 1 tot 2 werkdagen’; 荷蘭境內滿 €75 免運，可到店自取。",
+   "2 + 1 gratis 至 01-12-2026；2026-11-28 live browser：12x85g €16.95，有貨；「2 + 1 gratis」效期至 01-12-2026（不折入單價，僅註記）；「Op voorraad，Levertijd: 1 tot 2 werkdagen」；荷蘭境內滿 €75 免運，可到店自取。": "2 + 1 gratis 至 01-12-2026; 2026-11-28 live browser：12x85g €16,95，有貨; 「2 + 1 gratis」效期至 01-12-2026（不折入單價，僅註記）; ‘Op voorraad, Levertijd: 1 tot 2 werkdagen’; 荷蘭境內滿 €75 免運，可到店自取。",
    "2 盒起每盒": "per doos vanaf 2 dozen",
    "200g／400g／800g 罐": "200g/400g/800g blik",
    "2026-11-01：Intratuin Woolsocks 原頁 404，5% 只見於 GotCashback": "2026-11-01: Intratuin Woolsocks originele pagina 404, 5% alleen gezien op GotCashback",
@@ -16527,92 +16705,99 @@
    "2026-11-25 live browser：黑五碼 BLACKFRIDAY2026 全站額外 -10%，11-21～11-27 有效（剩約 2 天 14 小時）。ORIJEN Original 折後 €29.66、Six Fish 折後 €32.63、Fit & Trim 折後 €31.94，皆仍為最佳價。": "2026-11-25 live browser：黑五碼 BLACKFRIDAY2026 全站額外 -10%，11-21～11-27 有效（剩約 2 天 14 小時）。ORIJEN Original 折後 €29,66、Six Fish 折後 €32,63、Fit & Trim 折後 €31,94，皆仍為最佳價。",
    "2026-11-25 商店目錄核實：Prime 雞＋石榴 Kitten 70g €0.99（原價 €1.65）由缺貨恢復有貨（variant available=true）；有貨最便宜由 CutieCat 24x70g €39.99（€1.67/罐）回歸 PetBoutique €0.99/罐，與 2026-11-21～22 有貨價相同，非新低。Ocean 仍缺貨。": "2026-11-25 商店目錄核實：Prime 雞＋石榴 Kitten 70g €0,99（原價 €1,65）由缺貨恢復有貨（variant available=true）; 有貨最便宜由 CutieCat 24x70g €39,99（€1,67/罐）回歸 PetBoutique €0,99/罐，與 2026-11-21～22 有貨價相同，非新低。Ocean 仍缺貨。",
    "2026-11-25 未重試（前日 500 錯誤）；價格與庫存未核實，明日重試。": "2026-11-25 未重試（前日 500 錯誤）; 價格與庫存未核實，明日重試。",
-   "2026-11-27 live browser：11.5L €11.50 一次價／Herhaal €10.80，價格不變，有貨（頁面顯示「Snel weer leverbaar」，可下單、週一到貨）。": "2026-11-27 live browser：11.5L €11,50 一次價／Herhaal €10,80，價格不變，有貨（頁面顯示「Snel weer leverbaar」，可下單、週一到貨）。",
-   "2026-11-27 live browser：12x85g €15.95 有貨，價格不變。2+1 gratis 促銷至 2026-12-01（不折入單價，僅註記）。": "2026-11-27 live browser：12x85g €15,95 有貨，價格不變。2+1 gratis 促銷至 2026-12-01（不折入單價，僅註記）。",
-   "2026-11-27 live browser：12x85g €19.79 一次價不變／Gemak 仍 -15% €16.82，有貨；優惠至 11 月 28 日止。免運門檻 €29。": "2026-11-27 live browser：12x85g €19,79 一次價不變／Gemak 仍 -15% €16,82，有貨; 優惠至 11 月 28 日止。免運門檻 €29。",
-   "2026-11-27 live browser：12x85g €19.99，價格不變，有貨（22 間門市）；免運 €40 起，否則 €4.95。": "2026-11-27 live browser：12x85g €19,99，價格不變，有貨（22 間門市）; gratis verzending vanaf €40, anders €4,95。",
-   "2026-11-27 live browser：1x10L €33.99 一次價／訂閱 €31.95，價格不變，有貨，仍為最佳價。頁面標題仍寫 Extra Strong Parfumvrij，料號 1346690 對照無誤，商品圖顯示 Extra Hygiene Unscented，佐證為同款更名。滿 €29 免運。": "2026-11-27 live browser：1x10L €33,99 一次價／訂閱 €31,95，價格不變，有貨，仍為最佳價。頁面標題仍寫 Extra Strong Parfumvrij，料號 1346690 對照無誤，商品圖顯示 Extra Hygiene Unscented，佐證為同款更名。滿 €29 免運。",
-   "2026-11-27 live browser：1x11L €15.49 一次價不變／Gemak 仍 -15% €13.17，有貨；免運 €29。注意勿與 Bitiba 2189740 混淆。": "2026-11-27 live browser：1x11L €15,49 一次價不變／Gemak 仍 -15% €13,17，有貨; 免運 €29。注意勿與 Bitiba 2189740 混淆。",
-   "2026-11-27 live browser：1x18L €15.49 一次價／訂閱 €14.56，價格不變，有貨。": "2026-11-27 live browser：1x18L €15,49 一次價／訂閱 €14,56，價格不變，有貨。",
-   "2026-11-27 live browser：1x18L €15.99 一次價不變／Gemak 仍 -15% €13.59，有貨。": "2026-11-27 live browser：1x18L €15,99 一次價不變／Gemak 仍 -15% €13,59，有貨。",
-   "2026-11-27 live browser：1x18L €16.95，價格不變，Direct leverbaar；訂閱首單 €15.25（-10%，其後 -5%）；免運 €39。": "2026-11-27 live browser：1x18L €16,95，價格不變，Direct leverbaar; 訂閱首單 €15,25（-10%，其後 -5%）; gratis verzending €39。",
-   "2026-11-27 live browser：1x200g €2.25，四口味皆同價，價格不變，有貨；免運 €45。": "2026-11-27 live browser：1x200g €2,25，四口味皆同價，價格不變，有貨; gratis verzending €45。",
-   "2026-11-27 live browser：1x20L €17.69，價格不變，有貨；額外運輸附加費 €1.95／件；免運 €39。": "2026-11-27 live browser：1x20L €17,69，價格不變，有貨; 額外運輸附加費 €1,95／件; gratis verzending €39。",
-   "2026-11-27 live browser：1x800g 小牛＋雞心 €4.55，價格不變，有貨，仍為最佳價；同頁另有火雞＋兔肉 €4.58、火雞／牛／鴨 €4.61。": "2026-11-27 live browser：1x800g 小牛＋雞心 €4,55，價格不變，有貨，仍為最佳價; 同頁另有火雞＋兔肉 €4,58、火雞／牛／鴨 €4,61。",
-   "2026-11-27 live browser：1x800g 火雞＋兔肉 €4.58，價格不變，有貨；同頁小牛＋雞心 €4.55。": "2026-11-27 live browser：1x800g 火雞＋兔肉 €4,58，價格不變，有貨; 同頁小牛＋雞心 €4,55。",
-   "2026-11-27 live browser：1x800g 火雞／牛／鴨 €4.61，價格不變，有貨；同頁小牛＋雞心 €4.55。": "2026-11-27 live browser：1x800g 火雞／牛／鴨 €4,61，價格不變，有貨; 同頁小牛＋雞心 €4,55。",
-   "2026-11-27 live browser：20L €17.60 一次價／Herhaal €16.55，價格不變，有貨（頁面顯示「Snel weer leverbaar」，可下單、週一到貨）。": "2026-11-27 live browser：20L €17,60 一次價／Herhaal €16,55，價格不變，有貨（頁面顯示「Snel weer leverbaar」，可下單、週一到貨）。",
-   "2026-11-27 live browser：20g €10.15，價格不變，Direct leverbaar；買 2 件以上 2% 折扣；黑五 Dubbelslag：買 2 件相同商品第 2 件 -10%，至 11 月 30 日；免運 €59。": "2026-11-27 live browser：20g €10,15，價格不變，Direct leverbaar; 買 2 件以上 2% 折扣; 黑五 Dubbelslag：買 2 件相同商品第 2 件 -10%，至 11 月 30 日; gratis verzending €59。",
-   "2026-11-27 live browser：20g €10.75，價格不變，Stock: 36，有貨；Benelux 滿 €59 免運；效期至 29/08/2031。": "2026-11-27 live browser：20g €10,75，價格不變，Stock: 36，有貨; Benelux gratis verzending vanaf €59; 效期至 29/08/2031。",
-   "2026-11-27 live browser：20g €9.95，價格不變，可加購；頁面無明確庫存標示，商品頁無運費資訊。": "2026-11-27 live browser：20g €9,95，價格不變，可加購; 頁面無明確庫存標示，商品頁無運費資訊。",
-   "2026-11-27 live browser：24x70g Ocean €39.99，價格不變，有貨。": "2026-11-27 live browser：24x70g Ocean €39,99，價格不變，有貨。",
-   "2026-11-27 live browser：24x70g Ocean €48.00，價格不變，有貨；免運 €65。": "2026-11-27 live browser：24x70g Ocean €48,00，價格不變，有貨; gratis verzending €65。",
-   "2026-11-27 live browser：24x70g Prime €39.99（原 €42.96），價格不變，有貨；單罐 €1.79。": "2026-11-27 live browser：24x70g Prime €39,99（原 €42,96），價格不變，有貨; 單罐 €1,79。",
-   "2026-11-27 live browser：24x85g €28.39（€1.183/包），價格不變；同頁 12x85g €14.48。Black Friday 標籤；免運 €35；1–3 工作天。": "2026-11-27 live browser：24x85g €28,39（€1,183/包），價格不變; 同頁 12x85g €14,48。Black Friday 標籤; gratis verzending €35; 1–3 工作天。",
-   "2026-11-27 live browser：250g €42.50 價格不變，有貨，仍為 L-Mesitran 250g 最佳價。頁面仍無明確庫存標示、無寄 Rotterdam 運費資訊，運費未核實；店家位於荷蘭 Hasselt。": "2026-11-27 live browser：250g €42,50 價格不變，有貨，仍為 L-Mesitran 250g 最佳價。頁面仍無明確庫存標示、無寄 Rotterdam 運費資訊，運費未核實; 店家位於荷蘭 Hasselt。",
-   "2026-11-27 live browser：250g €50.95，價格不變，非現貨（預計 05-12-2026 到貨）；買 2 件以上 2% 折扣；黑五 Dubbelslag：買 2 件相同商品第 2 件 -10%，至 11 月 30 日；免運 €59。注意：Agriservicebouwhuis 同規格 €42.50 仍為本品最佳價。": "2026-11-27 live browser：250g €50,95，價格不變，非現貨（預計 05-12-2026 到貨）; 買 2 件以上 2% 折扣; 黑五 Dubbelslag：買 2 件相同商品第 2 件 -10%，至 11 月 30 日; 免運 €59。注意：Agriservicebouwhuis 同規格 €42,50 仍為本品最佳價。",
-   "2026-11-27 live browser：250g €51.95，價格不變，可加購；NL 運費今日產品頁全文仍未見運費文字，€6.26 仍未核實。": "2026-11-27 live browser：250g €51,95，價格不變，可加購; NL 運費今日產品頁全文仍未見運費文字，€6,26 仍未核實。",
-   "2026-11-27 live browser：2x18L €25.00，價格不變；Beschikbaar；出貨 1–5 工作天。頁內寫法不一：標題／網址寫 2x18 liter，但頁內變體連結寫「Catsan Hygiëne Plus 2x20 liter」；僅供參考，不進排名。": "2026-11-27 live browser：2x18L €25,00，價格不變; Beschikbaar; 出貨 1–5 工作天。頁內寫法不一：標題／網址寫 2x18 liter，但頁內變體連結寫「Catsan Hygiëne Plus 2x20 liter」; 僅供參考，不進排名。",
-   "2026-11-27 live browser：2x18L €29.49 一次價／訂閱 €27.72，價格不變，有貨。": "2026-11-27 live browser：2x18L €29,49 一次價／訂閱 €27,72，價格不變，有貨。",
-   "2026-11-27 live browser：2x18L 一次價 €30.49 不變／Gemak 仍 -15% €25.92（€0.72/L），有貨，仍為本品最佳價（€0.72/L）。": "2026-11-27 live browser：2x18L 一次價 €30,49 不變／Gemak 仍 -15% €25,92（€0,72/L），有貨，仍為本品最佳價（€0,72/L）。",
-   "2026-11-27 live browser：2x20L €34.50 一次價不變／Herhaal €32.45（昨日 €32.43，漲 €0.02，頁面明示），有貨（頁面顯示「Snel weer leverbaar」，可下單、週一到貨）。": "2026-11-27 live browser：2x20L €34,50 一次價不變／Herhaal €32,45（昨日 €32,43，漲 €0,02，頁面明示），有貨（頁面顯示「Snel weer leverbaar」，可下單、週一到貨）。",
-   "2026-11-27 live browser：3x11L €33.19 一次價／訂閱 €29.87，價格不變，有貨；滿 €100 全站 5%；免運 €29。": "2026-11-27 live browser：3x11L €33,19 一次價／訂閱 €29,87，價格不變，有貨; 滿 €100 全站 5%; gratis verzending €29。",
-   "2026-11-27 live browser：48x85g €55.29（€1.152/包），價格不變；同頁 12x85g €14.48。Black Friday 標籤；免運 €35；1–3 工作天。": "2026-11-27 live browser：48x85g €55,29（€1,152/包），價格不變; 同頁 12x85g €14,48。Black Friday 標籤; gratis verzending €35; 1–3 工作天。",
-   "2026-11-27 live browser：50 粒 €39.95 一次價不變，有貨；定期配送 -5% €37.95 今日於商品頁再核實。運費 €3.95 未滿 €49，免運門檻 €49。注意：Tradeinn 今日回貨 €27.99，成為有貨最便宜，Milo 不再是最佳。": "2026-11-27 live browser：50 粒 €39,95 一次價不變，有貨; 定期配送 -5% €37,95 今日於商品頁再核實。運費 €3,95 未滿 €49，免運門檻 €49。注意：Tradeinn 今日回貨 €27,99，成為有貨最便宜，Milo 不再是最佳。",
-   "2026-11-27 live browser：50 粒 €44.45 一次價／Herhaal €41.80，價格不變，仍缺貨「Onbekende levertijd」；免運 €69。": "2026-11-27 live browser：50 粒 €44,45 一次價／Herhaal €41,80，價格不變，仍缺貨「Onbekende levertijd」; gratis verzending €69。",
-   "2026-11-27 live browser：50 粒 €58.99（含稅），價格不變，缺貨，顯示「Aanvulling bezig」；滿 €129 免運。": "2026-11-27 live browser：50 粒 €58,99（含稅），價格不變，缺貨，顯示「Aanvulling bezig」; gratis verzending vanaf €129。",
-   "2026-11-27 live browser：60 粒 €18.79，價格不變，有貨，仍為最佳價；訂閱首購 €16.91（-10%，其後每單 -5%），滿 €39 免運。單盒合計 €22.78（未滿 €39 運 €3.99）。": "2026-11-27 live browser：60 粒 €18,79，價格不變，有貨，仍為最佳價; 訂閱首購 €16,91（-10%，其後每單 -5%），滿 €39 免運。單盒合計 €22,78（未滿 €39 運 €3,99）。",
-   "2026-11-27 live browser：60 粒 €19.90（含稅；未稅 €16.58），價格不變，缺貨，顯示「Replenishment in progress」且可 Pre-order；滿 €129 免運（BE、LU、DE、NL、ES、IT、AT、IE）。": "2026-11-27 live browser：60 粒 €19,90（含稅; 未稅 €16,58），價格不變，缺貨，顯示「Replenishment in progress」且可 Pre-order; gratis verzending vanaf €129 (BE, LU, DE, NL, ES, IT, AT, IE) 。",
-   "2026-11-27 live browser：60 粒 €23.20，漲價 €3.48（昨日 €19.72 的 -15% 折扣結束，回到原價 €23.20），有貨；仍高於最佳價 Pharmapets.be €18.79。運費：商品頁未寫；單盒結帳實測 €15.00（11-20）未重跑，單盒合計 €38.20 為按實測運費推算（官網 €9.00 說法與結帳不符，以結帳為準）。返現未核實。": "2026-11-27 live browser：60 粒 €23,20，漲價 €3,48（昨日 €19,72 的 -15% 折扣結束，回到原價 €23,20），有貨; 仍高於最佳價 Pharmapets.be €18,79。運費：商品頁未寫; 單盒結帳實測 €15,00（11-20）未重跑，單盒合計 €38,20 為按實測運費推算（官網 €9,00 說法與結帳不符，以結帳為準）。返現未核實。",
-   "2026-11-27 live browser：60 粒 €28.95（原 €32.95），價格不變，有貨；買 2 件 €28.08（-3%）、買 3 件 €27.21（-6%）；荷蘭境內滿 €75 免運（最高 14kg）。": "2026-11-27 live browser：60 粒 €28,95（原 €32,95），價格不變，有貨; 買 2 件 €28,08（-3%）、買 3 件 €27,21（-6%）; 荷蘭境內滿 €75 免運（最高 14kg）。",
-   "2026-11-27 live browser：60 粒 €28.99，價格不變，37 op voorraad，有貨；滿 €60 免運。": "2026-11-27 live browser：60 粒 €28,99，價格不變，37 op voorraad，有貨; gratis verzending vanaf €60。",
-   "2026-11-27 live browser：60 粒 €29.95 一次價不變，有貨；定期配送 €28.45（-5%）今日於商品頁再核實。免運 €49（未滿運 €3.95）。": "2026-11-27 live browser：60 粒 €29,95 一次價不變，有貨; 定期配送 €28,45（-5%）今日於商品頁再核實。免運 €49（未滿運 €3,95）。",
-   "2026-11-27 live browser：60g €19.49，價格不變，可加購；頁面無明確庫存標示，商品頁無運費資訊。": "2026-11-27 live browser：60g €19,49，價格不變，可加購; 頁面無明確庫存標示，商品頁無運費資訊。",
-   "2026-11-27 live browser：6x200g Sappige kip €14.79，價格不變，有貨；同頁小牛肉 6x200g €14.79、24x €57.49。本頁未顯示 Gemak 價。": "2026-11-27 live browser：6x200g Sappige kip €14,79，價格不變，有貨; 同頁小牛肉 6x200g €14,79、24x €57,49。本頁未顯示 Gemak 價。",
-   "2026-11-27 live browser：6x200g 小牛＋雞心 €11.19 一次價／訂閱 €10.52，價格不變，有貨。": "2026-11-27 live browser：6x200g 小牛＋雞心 €11,19 一次價／訂閱 €10,52，價格不變，有貨。",
-   "2026-11-27 live browser：6x200g 小牛＋雞心 €11.19，價格不變，有貨；同頁火雞＋兔肉 €12.19、火雞／牛／鴨 €12.19（火雞／牛／鴨今日首次單獨記錄）。": "2026-11-27 live browser：6x200g 小牛＋雞心 €11,19，價格不變，有貨; 同頁火雞＋兔肉 €12,19、火雞／牛／鴨 €12,19（火雞／牛／鴨今日首次單獨記錄）。",
-   "2026-11-27 live browser：6x200g 火雞＋兔肉 €12.19 一次價／訂閱 €11.46，價格不變，有貨。": "2026-11-27 live browser：6x200g 火雞＋兔肉 €12,19 一次價／訂閱 €11,46，價格不變，有貨。",
-   "2026-11-27 live browser：6x200g 火雞／牛／鴨 €12.19，今日首次單獨記錄；同頁小牛＋雞心 €11.19、火雞＋兔肉 €12.19。返現未針對此口味核實，最佳價暫以一次價計。": "2026-11-27 live browser：6x200g 火雞／牛／鴨 €12,19，今日首次單獨記錄; 同頁小牛＋雞心 €11,19、火雞＋兔肉 €12,19。返現未針對此口味核實，最佳價暫以一次價計。",
-   "2026-11-27 live browser：Beef 2.2kg €79.95（建議價 €89.95），價格不變，有貨；免運 €49。": "2026-11-27 live browser：Beef 2.2kg €79,95（建議價 €89,95），價格不變，有貨; gratis verzending €49。",
-   "2026-11-27 live browser：Beef 2.2kg €83.30 一次價不變，有貨；Herhaal 價今日商品頁未顯示（昨日 €78.30），未能重核，最佳價暫以一次價 €83.30 計。免運 €69。": "2026-11-27 live browser：Beef 2.2kg €83,30 一次價不變，有貨; Herhaal 價今日商品頁未顯示（昨日 €78,30），未能重核，最佳價暫以一次價 €83,30 計。免運 €69。",
-   "2026-11-27 live browser：Beef 2.2kg €84.50，價格不變，有貨。": "2026-11-27 live browser：Beef 2.2kg €84,50，價格不變，有貨。",
-   "2026-11-27 live browser：Beef 800g €29.95（建議價 €34.95），價格不變，有貨；免運 €49。": "2026-11-27 live browser：Beef 800g €29,95（建議價 €34,95），價格不變，有貨; gratis verzending €49。",
-   "2026-11-27 live browser：Beef 800g €31.20 一次價／Herhaal €29.35，價格不變，仍缺貨「Snel weer leverbaar」，預計 09-12-2026 到貨。": "2026-11-27 live browser：Beef 800g €31,20 一次價／Herhaal €29,35，價格不變，仍缺貨「Snel weer leverbaar」，預計 09-12-2026 到貨。",
-   "2026-11-27 live browser：Beef 800g €32.50，價格不變，有貨。": "2026-11-27 live browser：Beef 800g €32,50，價格不變，有貨。",
-   "2026-11-27 live browser：Chicken 2.2kg €83.30 一次價／Herhaal €78.30，價格不變，有貨，仍為最佳價（雞肉 2.2kg Herhaal €78.30＝€35.59/kg）。滿 €69 免運。": "2026-11-27 live browser：Chicken 2.2kg €83,30 一次價／Herhaal €78,30，價格不變，有貨，仍為最佳價（雞肉 2.2kg Herhaal €78,30＝€35,59/kg）。滿 €69 免運。",
-   "2026-11-27 live browser：Chicken 2.2kg €83.50，價格不變，OP VOORRAAD；滿 €21.99 免運；預計送達 3–6 工作天。": "2026-11-27 live browser：Chicken 2.2kg €83,50，價格不變，OP VOORRAAD; gratis verzending vanaf €21,99; 預計送達 3–6 工作天。",
-   "2026-11-27 live browser：Chicken 2.2kg €84.50，價格不變，有貨；免運 €45（BE €59）。": "2026-11-27 live browser：Chicken 2.2kg €84,50，價格不變，有貨; gratis verzending €45 (BE €59) 。",
-   "2026-11-27 live browser：Chicken 2.2kg €84.50，價格不變，有貨；送貨 1–2 werkdagen。": "2026-11-27 live browser：Chicken 2.2kg €84,50，價格不變，有貨; 送貨 1–2 werkdagen。",
-   "2026-11-27 live browser：Chicken 800g €31.20 一次價／Herhaal €29.35，價格不變，仍缺貨「Snel weer leverbaar」（可下單、寫明日到貨，但未顯示「Op voorraad」；與昨日文字相同，非今日新變動）。": "2026-11-27 live browser：Chicken 800g €31,20 一次價／Herhaal €29,35，價格不變，仍缺貨「Snel weer leverbaar」（可下單、寫明日到貨，但未顯示「Op voorraad」; 與昨日文字相同，非今日新變動）。",
-   "2026-11-27 live browser：Chicken 800g €32.50，價格不變，有貨。": "2026-11-27 live browser：Chicken 800g €32,50，價格不變，有貨。",
-   "2026-11-27 live browser：Fish 2.2kg €79.95（建議價 €89.95），價格不變，有貨；免運 €49。": "2026-11-27 live browser：Fish 2.2kg €79,95（建議價 €89,95），價格不變，有貨; gratis verzending €49。",
-   "2026-11-27 live browser：Fish 2.2kg €83.30 一次價／Herhaal €78.30，價格不變，有貨。注意：舊網址 ziwi-steam-dried-kattenvoeding-vis 已 404，商品已移至 ziwi-peak-steam-dried-kattenvoeding-vis（本站已用新網址）。免運 €69。": "2026-11-27 live browser：Fish 2.2kg €83,30 一次價／Herhaal €78,30，價格不變，有貨。注意：舊網址 ziwi-steam-dried-kattenvoeding-vis 已 404，商品已移至 ziwi-peak-steam-dried-kattenvoeding-vis（本站已用新網址）。免運 €69。",
-   "2026-11-27 live browser：Fish 2.2kg €84.50，價格不變，有貨。": "2026-11-27 live browser：Fish 2.2kg €84,50，價格不變，有貨。",
-   "2026-11-27 live browser：Fish 800g €29.95（建議價 €34.95），價格不變，有貨；免運 €49。": "2026-11-27 live browser：Fish 800g €29,95（建議價 €34,95），價格不變，有貨; gratis verzending €49。",
-   "2026-11-27 live browser：Fish 800g €31.20 一次價／Herhaal €29.35，價格不變；庫存由昨日回貨轉為再度缺貨「Snel weer leverbaar」，預計 09-12-2026 到貨。注意：舊網址 ziwi-steam-dried-kattenvoeding-vis 已 404，商品已移至 ziwi-peak-steam-dried-kattenvoeding-vis（本站已用新網址）。": "2026-11-27 live browser：Fish 800g €31,20 一次價／Herhaal €29,35，價格不變; 庫存由昨日回貨轉為再度缺貨「Snel weer leverbaar」，預計 09-12-2026 到貨。注意：舊網址 ziwi-steam-dried-kattenvoeding-vis 已 404，商品已移至 ziwi-peak-steam-dried-kattenvoeding-vis（本站已用新網址）。",
-   "2026-11-27 live browser：Fish 800g €32.50，價格不變，有貨。": "2026-11-27 live browser：Fish 800g €32,50，價格不變，有貨。",
-   "2026-11-27 live browser：Guardian 8 1.8kg €35.95（建議價 €41.99），價格不變，有貨；黑五標籤；免運 €49。": "2026-11-27 live browser：Guardian 8 1.8kg €35,95（建議價 €41,99），價格不變，有貨; 黑五標籤; gratis verzending €49。",
-   "2026-11-27 live browser：Kitten 1.8kg €33.99（建議售價 €45.10，-25%），價格不變，有貨，仍為最佳價；預計送達 12 月 3–7 日。寄荷蘭運費仍未核實（須加車後才在購物車顯示，未加車）。頁面黑五碼 BF15（最高 -15%），未測試，不計入。": "2026-11-27 live browser：Kitten 1.8kg €33,99（建議售價 €45,10，-25%），價格不變，有貨，仍為最佳價; 預計送達 12 月 3–7 日。寄荷蘭運費仍未核實（須加車後才在購物車顯示，未加車）。頁面黑五碼 BF15（最高 -15%），未測試，不計入。",
-   "2026-11-27 live browser：Kitten 1.8kg €36.95（建議價 €40.49），價格不變，有貨；免運 €49。": "2026-11-27 live browser：Kitten 1.8kg €36,95（建議價 €40,49），價格不變，有貨; gratis verzending €49。",
-   "2026-11-27 live browser：Kitten 1.8kg €38.70 一次價／Herhaal €36.40（-6%），價格不變，有貨；免運 €69。": "2026-11-27 live browser：Kitten 1.8kg €38,70 一次價／Herhaal €36,40（-6%），價格不變，有貨; gratis verzending €69。",
-   "2026-11-27 live browser：Kitten Veal & Salmon Oil 6x800g €28.99，價格不變，仍缺貨 Sold out。": "2026-11-27 live browser：Kitten Veal & Salmon Oil 6x800g €28,99，價格不變，仍缺貨 Sold out。",
-   "2026-11-27 live browser：Mixpack 6x200g €13.79 一次價／訂閱 €12.96，價格不變，有貨，仍為最佳價。免運 €29 起；滿 €100 全場 5% korting。": "2026-11-27 live browser：Mixpack 6x200g €13,79 一次價／訂閱 €12,96，價格不變，有貨，仍為最佳價。免運 €29 起; 滿 €100 全場 5% korting。",
-   "2026-11-27 live browser：Regional Red 1.8kg €42.50 一次價／Herhaal €39.95，價格不變，有貨，仍為最佳價；免運 €69。": "2026-11-27 live browser：Regional Red 1.8kg €42,50 一次價／Herhaal €39,95，價格不變，有貨，仍為最佳價; gratis verzending €69。",
-   "2026-11-27 live browser：Sappige kip 6x200g €14.79 一次價／訂閱 €13.90，價格不變，有貨。": "2026-11-27 live browser：Sappige kip 6x200g €14,79 一次價／訂閱 €13,90，價格不變，有貨。",
-   "2026-11-27 live browser：Six Fish 1.8kg €33.95（建議價 €40.49），價格不變，有貨；黑五標籤；免運 €49。": "2026-11-27 live browser：Six Fish 1.8kg €33,95（建議價 €40,49），價格不變，有貨; 黑五標籤; gratis verzending €49。",
-   "2026-11-27 live browser：Tundra 1.8kg €43.95（建議價 €49.99），價格不變，有貨；免運 €49。": "2026-11-27 live browser：Tundra 1.8kg €43,95（建議價 €49,99），價格不變，有貨; gratis verzending €49。",
-   "2026-11-27 live browser：小牛肉 24x200g €57.19 一次價／訂閱 €53.76（-6%），價格不變，有貨；單買價 €59.16（€57.19 為 -3.33% 後）。": "2026-11-27 live browser：小牛肉 24x200g €57,19 一次價／訂閱 €53,76（-6%），價格不變，有貨; 單買價 €59,16（€57,19 為 -3.33% 後）。",
-   "2026-11-27 live browser：小牛肉 24x200g €57.49，價格不變，有貨；同頁雞肉 6x200g €14.79、小牛肉 6x200g €14.79。單買價 €59.16。": "2026-11-27 live browser：小牛肉 24x200g €57,49，價格不變，有貨; 同頁雞肉 6x200g €14,79、小牛肉 6x200g €14,79。單買價 €59,16。",
-   "2026-11-27 live browser：小牛肉 6x200g €14.79 一次價／訂閱 €13.90，價格不變，有貨。": "2026-11-27 live browser：小牛肉 6x200g €14,79 一次價／訂閱 €13,90，價格不變，有貨。",
-   "2026-11-27 live browser：牛肉／鯖魚 1x185g €4.25（建議價 €4.40），價格不變，有貨；10–23 罐 €3.95、24 罐以上 €3.79；免運 €49。": "2026-11-27 live browser：牛肉／鯖魚 1x185g €4,25（建議價 €4,40），價格不變，有貨; 10–23 罐 €3,95、24 罐以上 €3,79; gratis verzending €49。",
-   "2026-11-27 live browser：選「11.5 liter」變體後顯示 €10.69，價格不變，有貨；20L €17.69。": "2026-11-27 live browser：選「11.5 liter」變體後顯示 €10,69，價格不變，有貨; 20L €17,69。",
-   "2026-11-27 live browser：選「20 liter」變體後顯示 €17.69、5 op voorraad，價格不變，有貨；11.5L 為 €10.69。": "2026-11-27 live browser：選「20 liter」變體後顯示 €17,69、5 op voorraad，價格不變，有貨; 11.5L 為 €10,69。",
-   "2026-11-27 live browser：雞肉 24x200g €57.19 一次價／訂閱 €53.76（-6%），價格不變，有貨；同頁小牛肉 24x200g 同價。單買價 €59.16（€57.19 為 -3.33% 後）。": "2026-11-27 live browser：雞肉 24x200g €57,19 一次價／訂閱 €53,76（-6%），價格不變，有貨; 同頁小牛肉 24x200g 同價。單買價 €59,16（€57,19 為 -3.33% 後）。",
-   "2026-11-27 live browser：雞肉／牛肉 1x185g €4.40，價格不變，仍缺貨「Jammer! Dit product is niet op voorraad」；訂閱 €4.18（-5%）；免運 €50，否則 €5.95；黑五出貨延遲提示。": "2026-11-27 live browser：雞肉／牛肉 1x185g €4,40，價格不變，仍缺貨「Jammer! Dit product is niet op voorraad」; abonnement €4,18 (-5%); gratis verzending €50, anders €5,95; 黑五出貨延遲提示。",
-   "2026-11-27 商店目錄核實：Ocean 鮪魚／鱈魚／蝦／南瓜 Kitten 70g €0.99（原價 €1.65），價格不變，仍缺貨；缺貨故不是最佳價。運費未重測，沿用 11-09 政策。": "2026-11-27 商店目錄核實：Ocean 鮪魚／鱈魚／蝦／南瓜 Kitten 70g €0,99（原價 €1,65），價格不變，仍缺貨; 缺貨故不是最佳價。運費未重測，沿用 11-09 政策。",
-   "2026-11-27 商店目錄核實：Prime 雞＋石榴 Kitten 70g €0.99（原價 €1.65），價格不變，有貨，仍為最佳價。運費未重測，沿用 11-09 政策（取貨點 €6.50／宅配 €9.00）。": "2026-11-27 商店目錄核實：Prime 雞＋石榴 Kitten 70g €0,99（原價 €1,65），價格不變，有貨，仍為最佳價。運費未重測，沿用 11-09 政策（取貨點 €6,50／宅配 €9,00）。",
    "2026-11-27：Barfus.lv Synbiotic D-C 仍未恢復上架；Barfus 單盒運費仍未核實；Agriservicebouwhuis.nl L-Mesitran 250g 運費仍未核實；Protexin 兩款返現仍未核實到可用返現": "2026-11-27：Barfus.lv Synbiotic D-C 仍未恢復上架; Barfus 單盒運費仍未核實; Agriservicebouwhuis.nl L-Mesitran 250g 運費仍未核實; Protexin 兩款返現仍未核實到可用返現",
    "2026-11-27：Medpets ZIWI Steam-Dried 牛 2.2kg Herhaal 價今日商品頁未顯示（昨日 €78.30），未能重核；最佳價暫以一次價 €83.30 計": "2026-11-27：Medpets ZIWI Steam-Dried 牛 2.2kg Herhaal 價今日商品頁未顯示（昨日 €78,30），未能重核; 最佳價暫以一次價 €83,30 計",
+   "2026-11-28 live browser：1.8kg €32.95（原 €37.49）一次價不變，有貨；黑五碼 BLACKFRIDAY2026 已失效（活動期 11-21～11-27，今日商品頁與首頁皆無黑五標示），最佳價由昨日折後 €29.66 回到一次價 €32.95。€59 以下運 €6.95。": "2026-11-28 live browser：1.8kg €32,95（原 €37,49）一次價不變，有貨; 黑五碼 BLACKFRIDAY2026 已失效（活動期 11-21～11-27，今日商品頁與首頁皆無黑五標示），最佳價由昨日折後 €29,66 回到一次價 €32,95。€59 以下運 €6,95。",
+   "2026-11-28 live browser：1.8kg €36.25（原 €40.49）一次價不變，有貨；黑五碼 BLACKFRIDAY2026 已失效，最佳價由昨日折後 €32.63 改為 Petfooddiscount.nl €33.95。€59 以下運 €6.95。": "2026-11-28 live browser：1.8kg €36,25（原 €40,49）一次價不變，有貨; 黑五碼 BLACKFRIDAY2026 已失效，最佳價由昨日折後 €32,63 改為 Petfooddiscount.nl €33,95。€59 以下運 €6,95。",
+   "2026-11-28 live browser：11.5L €11.50 一次價／Herhaal €10.80，價格不變，有貨。": "2026-11-28 live browser：11.5L €11,50 一次價／Herhaal €10,80，價格不變，有貨。",
+   "2026-11-28 live browser：12x85g €15.95 有貨，價格不變。2+1 gratis 促銷至 2026-12-01（不折入單價，僅註記）。": "2026-11-28 live browser：12x85g €15,95 有貨，價格不變。2+1 gratis 促銷至 2026-12-01（不折入單價，僅註記）。",
+   "2026-11-28 live browser：12x85g €19.79 一次價不變／Gemak 仍 -15% €16.82，有貨；Gemak -15% 優惠今日（11/28）仍顯示有效。免運門檻 €29。": "2026-11-28 live browser：12x85g €19,79 一次價不變／Gemak 仍 -15% €16,82，有貨; Gemak -15% 優惠今日（11/28）仍顯示有效。免運門檻 €29。",
+   "2026-11-28 live browser：12x85g €19.99，價格不變，有貨（23 間門市）；免運 €40 起，否則 €4.95。": "2026-11-28 live browser：12x85g €19,99，價格不變，有貨（23 間門市）; gratis verzending vanaf €40, anders €4,95。",
+   "2026-11-28 live browser：1x10L €33.99 一次價／訂閱 €31.95，價格不變，有貨，仍為最佳價。頁面標題仍寫 Extra Strong Parfumvrij，料號 1346690 對照無誤，商品圖顯示 Extra Hygiene Unscented，佐證為同款更名。滿 €29 免運。": "2026-11-28 live browser：1x10L €33,99 一次價／訂閱 €31,95，價格不變，有貨，仍為最佳價。頁面標題仍寫 Extra Strong Parfumvrij，料號 1346690 對照無誤，商品圖顯示 Extra Hygiene Unscented，佐證為同款更名。滿 €29 免運。",
+   "2026-11-28 live browser：1x11L €15.49 一次價不變／Gemak 仍 -15% €13.17，有貨；免運 €29。注意勿與 Bitiba 2189740 混淆。": "2026-11-28 live browser：1x11L €15,49 一次價不變／Gemak 仍 -15% €13,17，有貨; 免運 €29。注意勿與 Bitiba 2189740 混淆。",
+   "2026-11-28 live browser：1x18L €15.49 一次價／訂閱 €14.56，價格不變，有貨。": "2026-11-28 live browser：1x18L €15,49 一次價／訂閱 €14,56，價格不變，有貨。",
+   "2026-11-28 live browser：1x18L €15.99 一次價不變／Gemak 仍 -15% €13.59，有貨。": "2026-11-28 live browser：1x18L €15,99 一次價不變／Gemak 仍 -15% €13,59，有貨。",
+   "2026-11-28 live browser：1x18L €16.95，價格不變，Direct leverbaar；訂閱首單 €15.25（-10%，其後 -5%）；免運 €39。": "2026-11-28 live browser：1x18L €16,95，價格不變，Direct leverbaar; 訂閱首單 €15,25（-10%，其後 -5%）; gratis verzending €39。",
+   "2026-11-28 live browser：1x200g €2.25，四口味皆同價，價格不變，有貨；免運 €45。": "2026-11-28 live browser：1x200g €2,25，四口味皆同價，價格不變，有貨; gratis verzending €45。",
+   "2026-11-28 live browser：1x20L €17.69，價格不變，有貨；額外運輸附加費 €1.95／件；免運 €39。": "2026-11-28 live browser：1x20L €17,69，價格不變，有貨; 額外運輸附加費 €1,95／件; gratis verzending €39。",
+   "2026-11-28 live browser：1x800g 小牛＋雞心 €4.55，價格不變，有貨，仍為最佳價；同頁另有火雞＋兔肉 €4.58、火雞／牛／鴨 €4.61。": "2026-11-28 live browser：1x800g 小牛＋雞心 €4,55，價格不變，有貨，仍為最佳價; 同頁另有火雞＋兔肉 €4,58、火雞／牛／鴨 €4,61。",
+   "2026-11-28 live browser：1x800g 火雞＋兔肉 €4.58，價格不變，有貨；同頁小牛＋雞心 €4.55。": "2026-11-28 live browser：1x800g 火雞＋兔肉 €4,58，價格不變，有貨; 同頁小牛＋雞心 €4,55。",
+   "2026-11-28 live browser：1x800g 火雞／牛／鴨 €4.61，價格不變，有貨；同頁小牛＋雞心 €4.55。": "2026-11-28 live browser：1x800g 火雞／牛／鴨 €4,61，價格不變，有貨; 同頁小牛＋雞心 €4,55。",
+   "2026-11-28 live browser：20L €17.60 一次價／Herhaal €16.55，價格不變，有貨。": "2026-11-28 live browser：20L €17,60 一次價／Herhaal €16,55，價格不變，有貨。",
+   "2026-11-28 live browser：20g €10.15，價格不變，Direct leverbaar；買 2 件以上 2% 折扣；黑五 Dubbelslag：買 2 件相同商品第 2 件 -10%，至 11 月 30 日；免運 €59。": "2026-11-28 live browser：20g €10,15，價格不變，Direct leverbaar; 買 2 件以上 2% 折扣; 黑五 Dubbelslag：買 2 件相同商品第 2 件 -10%，至 11 月 30 日; gratis verzending €59。",
+   "2026-11-28 live browser：20g €10.75，價格不變，Stock: 36，有貨；Benelux 滿 €59 免運；效期至 29/08/2031。": "2026-11-28 live browser：20g €10,75，價格不變，Stock: 36，有貨; Benelux gratis verzending vanaf €59; 效期至 29/08/2031。",
+   "2026-11-28 live browser：20g €9.95，價格不變，可加購；頁面無明確庫存標示，商品頁無運費資訊。": "2026-11-28 live browser：20g €9,95，價格不變，可加購; 頁面無明確庫存標示，商品頁無運費資訊。",
+   "2026-11-28 live browser：24x70g Ocean €39.99，價格不變，有貨。": "2026-11-28 live browser：24x70g Ocean €39,99，價格不變，有貨。",
+   "2026-11-28 live browser：24x70g Ocean €48.00，價格不變，有貨；免運 €65。": "2026-11-28 live browser：24x70g Ocean €48,00，價格不變，有貨; gratis verzending €65。",
+   "2026-11-28 live browser：24x70g Prime €39.99（原 €42.96），價格不變，有貨；單罐 €1.79。PetBoutique.it 今日轉缺貨後，本品成為 Farmina 有貨最佳價。": "2026-11-28 live browser：24x70g Prime €39,99（原 €42,96），價格不變，有貨; 單罐 €1,79。PetBoutique.it 今日轉缺貨後，本品成為 Farmina 有貨最佳價。",
+   "2026-11-28 live browser：24x85g €28.39（€1.183/包），價格不變；同頁 12x85g €14.48。Black Friday 標籤；免運 €35；1–3 工作天。": "2026-11-28 live browser：24x85g €28,39（€1,183/包），價格不變; 同頁 12x85g €14,48。Black Friday 標籤; gratis verzending €35; 1–3 工作天。",
+   "2026-11-28 live browser：250g €42.50 價格不變，有貨，仍為 L-Mesitran 250g 最佳價。頁面仍無明確庫存標示、無寄 Rotterdam 運費資訊，運費未核實；店家位於荷蘭 Hasselt。": "2026-11-28 live browser：250g €42,50 價格不變，有貨，仍為 L-Mesitran 250g 最佳價。頁面仍無明確庫存標示、無寄 Rotterdam 運費資訊，運費未核實; 店家位於荷蘭 Hasselt。",
+   "2026-11-28 live browser：250g €50.95，價格不變，今日頁面顯示 Direct leverbaar（昨日寫預計 05-12-2026 到貨）；買 2 件以上 2% 折扣；黑五 Dubbelslag：買 2 件相同商品第 2 件 -10%，至 11 月 30 日；免運 €59。注意：Agriservicebouwhuis 同規格 €42.50 仍為本品最佳價。": "2026-11-28 live browser：250g €50,95，價格不變，今日頁面顯示 Direct leverbaar（昨日寫預計 05-12-2026 到貨）; 買 2 件以上 2% 折扣; 黑五 Dubbelslag：買 2 件相同商品第 2 件 -10%，至 11 月 30 日; 免運 €59。注意：Agriservicebouwhuis 同規格 €42,50 仍為本品最佳價。",
+   "2026-11-28 live browser：250g €51.95，價格不變，可加購；NL 運費今日產品頁全文仍未見運費文字，€6.26 仍未核實。": "2026-11-28 live browser：250g €51,95，價格不變，可加購; NL 運費今日產品頁全文仍未見運費文字，€6,26 仍未核實。",
+   "2026-11-28 live browser：2x18L €25.00，價格不變；Beschikbaar；出貨 1–5 工作天。頁內寫法不一：標題／網址寫 2x18 liter，但頁內品項行寫「Catsan Hygiëne Plus 2x20 liter」、商品圖為 20L 包裝；僅供參考，不進排名。": "2026-11-28 live browser：2x18L €25,00，價格不變; Beschikbaar; 出貨 1–5 工作天。頁內寫法不一：標題／網址寫 2x18 liter，但頁內品項行寫「Catsan Hygiëne Plus 2x20 liter」、商品圖為 20L 包裝; 僅供參考，不進排名。",
+   "2026-11-28 live browser：2x18L €29.49 一次價／訂閱 €27.72，價格不變，有貨。": "2026-11-28 live browser：2x18L €29,49 一次價／訂閱 €27,72，價格不變，有貨。",
+   "2026-11-28 live browser：2x18L 一次價 €30.49 不變／Gemak 仍 -15% €25.92（€0.72/L），有貨，仍為本品最佳價（€0.72/L）。": "2026-11-28 live browser：2x18L 一次價 €30,49 不變／Gemak 仍 -15% €25,92（€0,72/L），有貨，仍為本品最佳價（€0,72/L）。",
+   "2026-11-28 live browser：2x20L €34.50 一次價不變／Herhaal €32.45，價格不變，有貨。": "2026-11-28 live browser：2x20L €34,50 一次價不變／Herhaal €32,45，價格不變，有貨。",
+   "2026-11-28 live browser：3x11L €33.19 一次價／訂閱 €29.87，價格不變，有貨；滿 €100 全站 5%；免運 €29。": "2026-11-28 live browser：3x11L €33,19 一次價／訂閱 €29,87，價格不變，有貨; 滿 €100 全站 5%; gratis verzending €29。",
+   "2026-11-28 live browser：48x85g €55.29（€1.152/包），價格不變；同頁 12x85g €14.48。Black Friday 標籤；免運 €35；1–3 工作天。": "2026-11-28 live browser：48x85g €55,29（€1,152/包），價格不變; 同頁 12x85g €14,48。Black Friday 標籤; gratis verzending €35; 1–3 工作天。",
+   "2026-11-28 live browser：50 粒 €44.45 一次價／Herhaal €41.80，價格不變，仍缺貨「Onbekende levertijd」；免運 €69。": "2026-11-28 live browser：50 粒 €44,45 一次價／Herhaal €41,80，價格不變，仍缺貨「Onbekende levertijd」; gratis verzending €69。",
+   "2026-11-28 live browser：50 粒 €58.99（含稅），價格不變，缺貨，顯示「Aanvulling bezig」；滿 €129 免運。": "2026-11-28 live browser：50 粒 €58,99（含稅），價格不變，缺貨，顯示「Aanvulling bezig」; gratis verzending vanaf €129。",
+   "2026-11-28 live browser：60 粒 €18.79，價格不變，有貨，仍為最佳價；訂閱首購 €16.91（-10%，其後每單 -5%），滿 €39 免運。單盒合計 €22.78（未滿 €39 運 €3.99）。": "2026-11-28 live browser：60 粒 €18,79，價格不變，有貨，仍為最佳價; 訂閱首購 €16,91（-10%，其後每單 -5%），滿 €39 免運。單盒合計 €22,78（未滿 €39 運 €3,99）。",
+   "2026-11-28 live browser：60 粒 €19.90（含稅；未稅 €16.58），價格不變，缺貨，顯示「Replenishment in progress」且可 Pre-order；滿 €129 免運（BE、LU、DE、NL、ES、IT、AT、IE）。": "2026-11-28 live browser：60 粒 €19,90（含稅; 未稅 €16,58），價格不變，缺貨，顯示「Replenishment in progress」且可 Pre-order; gratis verzending vanaf €129 (BE, LU, DE, NL, ES, IT, AT, IE) 。",
+   "2026-11-28 live browser：60 粒 €23.20，價格不變，有貨；仍高於最佳價 Pharmapets.be €18.79。運費：商品頁未寫；單盒結帳實測 €15.00（11-20）未重跑，單盒合計 €38.20 為按實測運費推算（官網 €9.00 說法與結帳不符，以結帳為準）。返現未核實。": "2026-11-28 live browser：60 粒 €23,20，價格不變，有貨; 仍高於最佳價 Pharmapets.be €18,79。運費：商品頁未寫; 單盒結帳實測 €15,00（11-20）未重跑，單盒合計 €38,20 為按實測運費推算（官網 €9,00 說法與結帳不符，以結帳為準）。返現未核實。",
+   "2026-11-28 live browser：60 粒 €28.95（原 €32.95），價格不變，有貨；買 2 件 €28.08（-3%）、買 3 件 €27.21（-6%）；荷蘭境內滿 €75 免運（最高 14kg）。": "2026-11-28 live browser：60 粒 €28,95（原 €32,95），價格不變，有貨; 買 2 件 €28,08（-3%）、買 3 件 €27,21（-6%）; 荷蘭境內滿 €75 免運（最高 14kg）。",
+   "2026-11-28 live browser：60 粒 €28.99，價格不變，37 op voorraad，有貨；滿 €60 免運。": "2026-11-28 live browser：60 粒 €28,99，價格不變，37 op voorraad，有貨; gratis verzending vanaf €60。",
+   "2026-11-28 live browser：60g €19.49，價格不變，可加購；頁面無明確庫存標示，商品頁無運費資訊。": "2026-11-28 live browser：60g €19,49，價格不變，可加購; 頁面無明確庫存標示，商品頁無運費資訊。",
+   "2026-11-28 live browser：6x200g Sappige kip €14.79，價格不變，有貨；同頁小牛肉 6x200g €14.79、24x €57.49。本頁未顯示 Gemak 價。": "2026-11-28 live browser：6x200g Sappige kip €14,79，價格不變，有貨; 同頁小牛肉 6x200g €14,79、24x €57,49。本頁未顯示 Gemak 價。",
+   "2026-11-28 live browser：6x200g 小牛＋雞心 €11.19 一次價不變，有貨；頁面已無 Gemak 標示，改為勾選「-5% Extra korting」後 €10.63（較昨日 Gemak 價 €11.07 便宜 €0.44），以優惠券價計最佳；返現未重核，沿用 11-27 核實值。同頁火雞＋兔肉 €12.19、火雞／牛／鴨 €12.19。": "2026-11-28 live browser：6x200g 小牛＋雞心 €11,19 一次價不變，有貨; 頁面已無 Gemak 標示，改為勾選「-5% Extra korting」後 €10,63（較昨日 Gemak 價 €11,07 便宜 €0,44），以優惠券價計最佳; 返現未重核，沿用 11-27 核實值。同頁火雞＋兔肉 €12,19、火雞／牛／鴨 €12,19。",
+   "2026-11-28 live browser：6x200g 小牛＋雞心 €11.19 一次價／訂閱 €10.52，價格不變，有貨。": "2026-11-28 live browser：6x200g 小牛＋雞心 €11,19 一次價／訂閱 €10,52，價格不變，有貨。",
+   "2026-11-28 live browser：6x200g 火雞＋兔肉 €12.19 一次價／訂閱 €11.46，價格不變，有貨。": "2026-11-28 live browser：6x200g 火雞＋兔肉 €12,19 一次價／訂閱 €11,46，價格不變，有貨。",
+   "2026-11-28 live browser：6x200g 火雞／牛／鴨 €12.19，價格不變，有貨；同頁小牛＋雞心 €11.19、火雞＋兔肉 €12.19。返現未針對此口味核實，最佳價暫以一次價計。": "2026-11-28 live browser：6x200g 火雞／牛／鴨 €12,19，價格不變，有貨; 同頁小牛＋雞心 €11,19、火雞＋兔肉 €12,19。返現未針對此口味核實，最佳價暫以一次價計。",
+   "2026-11-28 live browser：Beef 2.2kg €79.95（建議價 €89.95），價格不變，有貨；免運 €49。": "2026-11-28 live browser：Beef 2.2kg €79,95（建議價 €89,95），價格不變，有貨; gratis verzending €49。",
+   "2026-11-28 live browser：Beef 2.2kg €83.30 一次價不變，有貨；Herhaal 價今日商品頁仍未顯示（昨日 €78.30），未能重核，最佳價暫以一次價 €83.30 計。免運 €69。": "2026-11-28 live browser：Beef 2.2kg €83,30 一次價不變，有貨; Herhaal 價今日商品頁仍未顯示（昨日 €78,30），未能重核，最佳價暫以一次價 €83,30 計。免運 €69。",
+   "2026-11-28 live browser：Beef 2.2kg €84.50，價格不變，有貨。": "2026-11-28 live browser：Beef 2.2kg €84,50，價格不變，有貨。",
+   "2026-11-28 live browser：Beef 800g €29.95（建議價 €34.95），價格不變，有貨；免運 €49。": "2026-11-28 live browser：Beef 800g €29,95（建議價 €34,95），價格不變，有貨; gratis verzending €49。",
+   "2026-11-28 live browser：Beef 800g €31.20 一次價／Herhaal €29.35，價格不變，仍缺貨「Snel weer leverbaar」，預計 09-12-2026 到貨。": "2026-11-28 live browser：Beef 800g €31,20 一次價／Herhaal €29,35，價格不變，仍缺貨「Snel weer leverbaar」，預計 09-12-2026 到貨。",
+   "2026-11-28 live browser：Beef 800g €32.50，價格不變，有貨。": "2026-11-28 live browser：Beef 800g €32,50，價格不變，有貨。",
+   "2026-11-28 live browser：Chicken 2.2kg €83.30 一次價／Herhaal €78.30，價格不變，有貨，仍為最佳價（雞肉 2.2kg Herhaal €78.30＝€35.59/kg）。滿 €69 免運。": "2026-11-28 live browser：Chicken 2.2kg €83,30 一次價／Herhaal €78,30，價格不變，有貨，仍為最佳價（雞肉 2.2kg Herhaal €78,30＝€35,59/kg）。滿 €69 免運。",
+   "2026-11-28 live browser：Chicken 2.2kg €83.50，價格不變，OP VOORRAAD；滿 €21.99 免運；預計送達 3–6 工作天。": "2026-11-28 live browser：Chicken 2.2kg €83,50，價格不變，OP VOORRAAD; gratis verzending vanaf €21,99; 預計送達 3–6 工作天。",
+   "2026-11-28 live browser：Chicken 2.2kg €84.50，價格不變，有貨；免運 €45（BE €59）。": "2026-11-28 live browser：Chicken 2.2kg €84,50，價格不變，有貨; gratis verzending €45 (BE €59) 。",
+   "2026-11-28 live browser：Chicken 2.2kg €84.50，價格不變，有貨；送貨 1–2 werkdagen。": "2026-11-28 live browser：Chicken 2.2kg €84,50，價格不變，有貨; 送貨 1–2 werkdagen。",
+   "2026-11-28 live browser：Chicken 800g €31.20 一次價／Herhaal €29.35，價格不變，仍缺貨；今日頁面只顯示「Onbekende levertijd」，未顯示到貨日期（昨日預計 09-12-2026）。": "2026-11-28 live browser：Chicken 800g €31,20 一次價／Herhaal €29,35，價格不變，仍缺貨; 今日頁面只顯示「Onbekende levertijd」，未顯示到貨日期（昨日預計 09-12-2026）。",
+   "2026-11-28 live browser：Chicken 800g €32.50，價格不變，有貨。": "2026-11-28 live browser：Chicken 800g €32,50，價格不變，有貨。",
+   "2026-11-28 live browser：Fish 2.2kg €79.95（建議價 €89.95），價格不變，有貨；免運 €49。": "2026-11-28 live browser：Fish 2.2kg €79,95（建議價 €89,95），價格不變，有貨; gratis verzending €49。",
+   "2026-11-28 live browser：Fish 2.2kg €83.30 一次價／Herhaal €78.30，價格不變，有貨。免運 €69。": "2026-11-28 live browser：Fish 2.2kg €83,30 一次價／Herhaal €78,30，價格不變，有貨。免運 €69。",
+   "2026-11-28 live browser：Fish 2.2kg €84.50，價格不變，有貨。": "2026-11-28 live browser：Fish 2.2kg €84,50，價格不變，有貨。",
+   "2026-11-28 live browser：Fish 800g €29.95（建議價 €34.95），價格不變，有貨；免運 €49。": "2026-11-28 live browser：Fish 800g €29,95（建議價 €34,95），價格不變，有貨; gratis verzending €49。",
+   "2026-11-28 live browser：Fish 800g €31.20 一次價／Herhaal €29.35，價格不變，仍缺貨「Snel weer leverbaar」，預計 09-12-2026 到貨。": "2026-11-28 live browser：Fish 800g €31,20 一次價／Herhaal €29,35，價格不變，仍缺貨「Snel weer leverbaar」，預計 09-12-2026 到貨。",
+   "2026-11-28 live browser：Fish 800g €32.50，價格不變，有貨。": "2026-11-28 live browser：Fish 800g €32,50，價格不變，有貨。",
+   "2026-11-28 live browser：Fit & Trim 1.8kg €35.49（原 €38.99），一次價不變，有貨；黑五碼 BLACKFRIDAY2026 已失效，最佳價由昨日折後 €31.94 回到一次價 €35.49。免運門檻 €59。": "2026-11-28 live browser：Fit & Trim 1.8kg €35,49（原 €38,99），一次價不變，有貨; 黑五碼 BLACKFRIDAY2026 已失效，最佳價由昨日折後 €31,94 回到一次價 €35,49。免運門檻 €59。",
+   "2026-11-28 live browser：Guardian 8 1.8kg €35.95（建議價 €41.99），價格不變，有貨；免運 €49。": "2026-11-28 live browser：Guardian 8 1.8kg €35,95（建議價 €41,99），價格不變，有貨; gratis verzending €49。",
+   "2026-11-28 live browser：Kitten 1.8kg €33.99（建議售價 €45.10，-25%），價格不變，有貨，仍為最佳價；預計送達 12 月 3–8 日。寄荷蘭運費仍未核實（須加車後才在購物車顯示，未加車）。頁面黑五碼 BF15（最高 -15%）仍顯示，未測試，不計入。": "2026-11-28 live browser：Kitten 1.8kg €33,99（建議售價 €45,10，-25%），價格不變，有貨，仍為最佳價; 預計送達 12 月 3–8 日。寄荷蘭運費仍未核實（須加車後才在購物車顯示，未加車）。頁面黑五碼 BF15（最高 -15%）仍顯示，未測試，不計入。",
+   "2026-11-28 live browser：Kitten 1.8kg €36.95（建議價 €40.49），價格不變，有貨；免運 €49。": "2026-11-28 live browser：Kitten 1.8kg €36,95（建議價 €40,49），價格不變，有貨; gratis verzending €49。",
+   "2026-11-28 live browser：Kitten 1.8kg €38.70 一次價／Herhaal €36.40（-6%），價格不變，有貨；免運 €69。": "2026-11-28 live browser：Kitten 1.8kg €38,70 一次價／Herhaal €36,40（-6%），價格不變，有貨; gratis verzending €69。",
+   "2026-11-28 live browser：Kitten Veal & Salmon Oil 6x800g €28.99，價格不變，仍缺貨 Sold out。": "2026-11-28 live browser：Kitten Veal & Salmon Oil 6x800g €28,99，價格不變，仍缺貨 Sold out。",
+   "2026-11-28 live browser：Mixpack 6x200g €13.79 一次價／訂閱 €12.96，價格不變，有貨，仍為最佳價。免運 €29 起；滿 €100 全場 5% korting。": "2026-11-28 live browser：Mixpack 6x200g €13,79 一次價／訂閱 €12,96，價格不變，有貨，仍為最佳價。免運 €29 起; 滿 €100 全場 5% korting。",
+   "2026-11-28 live browser：Regional Red 1.8kg €42.50 一次價／Herhaal €39.95，價格不變，有貨，仍為最佳價；免運 €69。": "2026-11-28 live browser：Regional Red 1.8kg €42,50 一次價／Herhaal €39,95，價格不變，有貨，仍為最佳價; gratis verzending €69。",
+   "2026-11-28 live browser：Sappige kip 6x200g €14.79 一次價／訂閱 €13.90，價格不變，有貨。": "2026-11-28 live browser：Sappige kip 6x200g €14,79 一次價／訂閱 €13,90，價格不變，有貨。",
+   "2026-11-28 live browser：Six Fish 1.8kg €33.95（建議價 €40.49），價格不變，有貨；黑五碼失效後成為本品最佳價；免運 €49。": "2026-11-28 live browser：Six Fish 1.8kg €33,95（建議價 €40,49），價格不變，有貨; 黑五碼失效後成為本品最佳價; gratis verzending €49。",
+   "2026-11-28 live browser：Tundra 1.8kg €43.95（建議價 €49.99），價格不變，有貨；免運 €49。": "2026-11-28 live browser：Tundra 1.8kg €43,95（建議價 €49,99），價格不變，有貨; gratis verzending €49。",
+   "2026-11-28 live browser：小牛肉 24x200g €57.19 一次價／訂閱 €53.76（-6%），價格不變，有貨；單買價 €59.16（€57.19 為 -3.33% 後）。": "2026-11-28 live browser：小牛肉 24x200g €57,19 一次價／訂閱 €53,76（-6%），價格不變，有貨; 單買價 €59,16（€57,19 為 -3.33% 後）。",
+   "2026-11-28 live browser：小牛肉 24x200g €57.49，價格不變，有貨；同頁雞肉 6x200g €14.79、小牛肉 6x200g €14.79。單買價 €59.16。": "2026-11-28 live browser：小牛肉 24x200g €57,49，價格不變，有貨; 同頁雞肉 6x200g €14,79、小牛肉 6x200g €14,79。單買價 €59,16。",
+   "2026-11-28 live browser：小牛肉 6x200g €14.79 一次價／訂閱 €13.90，價格不變，有貨。": "2026-11-28 live browser：小牛肉 6x200g €14,79 一次價／訂閱 €13,90，價格不變，有貨。",
+   "2026-11-28 live browser：牛肉／鯖魚 1x185g €4.25（建議價 €4.40），價格不變，有貨；10–23 罐 €3.95、24 罐以上 €3.79；免運 €49。": "2026-11-28 live browser：牛肉／鯖魚 1x185g €4,25（建議價 €4,40），價格不變，有貨; 10–23 罐 €3,95、24 罐以上 €3,79; gratis verzending €49。",
+   "2026-11-28 live browser：選「11.5 liter」變體後顯示 €10.69，價格不變，有貨；20L €17.69。": "2026-11-28 live browser：選「11.5 liter」變體後顯示 €10,69，價格不變，有貨; 20L €17,69。",
+   "2026-11-28 live browser：選「20 liter」變體後顯示 €17.69、5 op voorraad，價格不變，有貨；11.5L 為 €10.69。": "2026-11-28 live browser：選「20 liter」變體後顯示 €17,69、5 op voorraad，價格不變，有貨; 11.5L 為 €10,69。",
+   "2026-11-28 live browser：雞肉 1x185g €4.25（建議價 €4.40），今日首次單獨記錄；缺貨「Dit product is tijdelijk niet verkrijgbaar」；10–23 罐 €3.95、24 罐以上 €3.79；免運 €49。": "2026-11-28 live browser：雞肉 1x185g €4,25（建議價 €4,40），今日首次單獨記錄; uitverkocht ‘Dit product is tijdelijk niet verkrijgbaar’; 10–23 罐 €3,95、24 罐以上 €3,79; gratis verzending €49。",
+   "2026-11-28 live browser：雞肉 24x200g €57.19 一次價／訂閱 €53.76（-6%），價格不變，有貨；同頁小牛肉 24x200g 同價。單買價 €59.16（€57.19 為 -3.33% 後）。": "2026-11-28 live browser：雞肉 24x200g €57,19 一次價／訂閱 €53,76（-6%），價格不變，有貨; 同頁小牛肉 24x200g 同價。單買價 €59,16（€57,19 為 -3.33% 後）。",
+   "2026-11-28 live browser：雞肉／牛肉 1x185g €4.40，價格不變，仍缺貨「Jammer! Dit product is niet op voorraad」；訂閱 €4.18（-5%）；免運 €50，否則 €5.95。Ziwi Box 試吃組三款皆 €36.30（原 €41.30），皆缺貨；站頂橫幅僅稱 Black Friday 送貨繁忙。": "2026-11-28 live browser：雞肉／牛肉 1x185g €4,40，價格不變，仍缺貨「Jammer! Dit product is niet op voorraad」; abonnement €4,18 (-5%); 免運 €50，否則 €5,95。Ziwi Box 試吃組三款皆 €36,30（原 €41,30），皆缺貨; 站頂橫幅僅稱 Black Friday 送貨繁忙。",
+   "2026-11-28 商店目錄核實：Ocean 鮪魚／鱈魚／蝦／南瓜 Kitten 70g €0.99（原價 €1.65），價格不變，仍缺貨；缺貨故不是最佳價。運費未重測，沿用 11-09 政策。": "2026-11-28 商店目錄核實：Ocean 鮪魚／鱈魚／蝦／南瓜 Kitten 70g €0,99（原價 €1,65），價格不變，仍缺貨; 缺貨故不是最佳價。運費未重測，沿用 11-09 政策。",
+   "2026-11-28 商店目錄核實：Prime 雞＋石榴 Kitten 70g €0.99（原價 €1.65），價格不變，但由有貨轉為缺貨；缺貨故不再是最佳價，Farmina 有貨最佳改為 CutieCat 24x70g €39.99。運費未重測，沿用 11-09 政策（取貨點 €6.50／宅配 €9.00）。": "2026-11-28 商店目錄核實：Prime 雞＋石榴 Kitten 70g €0,99（原價 €1,65），價格不變，但由有貨轉為缺貨; 缺貨故不再是最佳價，Farmina 有貨最佳改為 CutieCat 24x70g €39,99。運費未重測，沿用 11-09 政策（取貨點 €6,50／宅配 €9,00）。",
+   "2026-11-28 店內目錄核實：50 粒 €39.95 一次價不變，有貨；定期配送 -5% €37.95 沿用 2026-11-24 商品頁核實折扣率推算，今日店內目錄未顯示訂閱價，未重核。運費 €3.95 未滿 €49，免運門檻 €49。": "2026-11-28 店內目錄核實：50 粒 €39,95 一次價不變，有貨; 定期配送 -5% €37,95 沿用 2026-11-24 商品頁核實折扣率推算，今日店內目錄未顯示訂閱價，未重核。運費 €3,95 未滿 €49，免運門檻 €49。",
+   "2026-11-28 店內目錄核實：60 粒 €29.95 一次價不變，有貨；定期配送 -5% €28.45 沿用 2026-11-24 商品頁核實折扣率推算，今日店內目錄未顯示訂閱價，未重核。免運 €49（未滿運 €3.95）。": "2026-11-28 店內目錄核實：60 粒 €29,95 一次價不變，有貨; 定期配送 -5% €28,45 沿用 2026-11-24 商品頁核實折扣率推算，今日店內目錄未顯示訂閱價，未重核。免運 €49（未滿運 €3,95）。",
+   "2026-11-28：Barfus.lv Synbiotic D-C 仍未恢復上架；Barfus 單盒運費仍未核實；Agriservicebouwhuis.nl L-Mesitran 250g 運費仍未核實；Protexin 兩款返現仍未核實到可用返現；Milo 兩品項訂閱價今日店內目錄未顯示，未重核": "2026-11-28：Barfus.lv Synbiotic D-C 仍未恢復上架; Barfus 單盒運費仍未核實; Agriservicebouwhuis.nl L-Mesitran 250g 運費仍未核實; Protexin 兩款返現仍未核實到可用返現; Milo 兩品項訂閱價今日店內目錄未顯示，未重核",
+   "2026-11-28：Medpets RC 12x85g 頁面仍顯示「Snel weer leverbaar」（可下單、週三到貨），非「Op voorraad」，明日留意是否轉為缺貨；Medpets ZIWI Steam-Dried 雞肉 800g 今日只顯示「Onbekende levertijd」，未顯示到貨日期": "2026-11-28：Medpets RC 12x85g 頁面仍顯示「Snel weer leverbaar」（可下單、週三到貨），非「Op voorraad」，明日留意是否轉為缺貨; Medpets ZIWI Steam-Dried 雞肉 800g 今日只顯示「Onbekende levertijd」，未顯示到貨日期",
+   "2026-11-28：Medpets ZIWI Steam-Dried 牛 2.2kg Herhaal 價今日商品頁仍未顯示（昨日 €78.30），未能重核；最佳價暫以一次價 €83.30 計": "2026-11-28：Medpets ZIWI Steam-Dried 牛 2.2kg Herhaal 價今日商品頁仍未顯示（昨日 €78,30），未能重核; 最佳價暫以一次價 €83,30 計",
    "20L 袋／10L 盒／6L 盒": "20L zak/10L doos/6L doos",
    "24x125g 擠壓袋 雞肉": "24x125g knijpzakjes kip",
    "24x70g Prime Kitten 雞": "24x70g Prime Kitten kip",
@@ -16655,12 +16840,7 @@
    "B2C只見SK、B2B另CZ/HU；未見NL，不判全面不能寄": "B2C toont alleen SK; B2B ook CZ/HU; NL niet gezien; niet uitgesloten",
    "Barfus.lv Synbiotic D-C 缺貨，最佳價改為 Milo €39.95": "Barfus.lv Synbiotic D-C 缺貨，最佳價改為 Milo €39,95",
    "Bitiba MAC's 6x800g Kitten Kalf & Kippenharten €28.49：Abonnement 折扣按 11/03–11/07 實測 -6% 推算，今日未直接核實折扣率": "Bitiba MAC's 6x800g Kitten €28,49: abonnementskorting geschat op -6% o.b.v. 03-11–07-11; vandaag niet gecontroleerd",
-   "Black Friday -30%（原價 €20.69）；2026-11-27 live browser：12x85g €14.48（原 €20.69，-30%），價格不變，有貨；同頁 24x €28.39、48x €55.29。Black Friday 標籤；免運 €35；初次開啟遇 Cloudflare，換環境後清除並核實。": "Black Friday -30% (was €20,69); 2026-11-27 live browser：12x85g €14,48（原 €20,69，-30%），價格不變，有貨; 同頁 24x €28,39、48x €55,29。Black Friday 標籤; gratis verzending €35; 初次開啟遇 Cloudflare，換環境後清除並核實。",
-   "Black Friday code BF15（最高 -15%），未測試，不計入；倒數約 14 小時（09:53 查得），今日到期": "Black Friday code BF15（最高 -15%），未測試，不計入; 倒數約 14 小時（09:53 查得），今日到期",
-   "Black Friday code BLACKFRIDAY2026：全站額外 -10%。ORIJEN 三款最佳價已按 -10% 折算；Catsan 不計入最佳價": "Black Friday code BLACKFRIDAY2026：全站額外 -10%。ORIJEN 三款最佳價已按 -10% 折算; Catsan 不計入最佳價",
-   "Black Friday code BLACKFRIDAY2026：全站額外 -10%（11-21～11-27）；2026-11-27 live browser：1.8kg €32.95（原 €37.49）一次價不變，有貨；黑五碼 BLACKFRIDAY2026 全站額外 -10% 今日最後一天（11-21～11-27），折後 €29.66（按 -10% 計算，未加車驗證結帳價），仍為最佳價。€59 以下運 €6.95。": "Black Friday code BLACKFRIDAY2026：全站額外 -10%（11-21～11-27）; 2026-11-27 live browser：1.8kg €32,95（原 €37,49）一次價不變，有貨; 黑五碼 BLACKFRIDAY2026 全站額外 -10% 今日最後一天（11-21～11-27），折後 €29,66（按 -10% 計算，未加車驗證結帳價），仍為最佳價。€59 以下運 €6,95。",
-   "Black Friday code BLACKFRIDAY2026：全站額外 -10%（11-21～11-27）；2026-11-27 live browser：1.8kg €36.25（原 €40.49）一次價不變，有貨；黑五碼 BLACKFRIDAY2026 全站額外 -10% 今日最後一天，折後 €32.63（按 -10% 計算，未加車驗證結帳價），仍為最佳價。€59 以下運 €6.95。": "Black Friday code BLACKFRIDAY2026：全站額外 -10%（11-21～11-27）; 2026-11-27 live browser：1.8kg €36,25（原 €40,49）一次價不變，有貨; 黑五碼 BLACKFRIDAY2026 全站額外 -10% 今日最後一天，折後 €32,63（按 -10% 計算，未加車驗證結帳價），仍為最佳價。€59 以下運 €6,95。",
-   "Black Friday code BLACKFRIDAY2026：全站額外 -10%（11-21～11-27）；2026-11-27 live browser：Fit & Trim 1.8kg €35.49（原 €38.99），價格不變，有貨；黑五碼 BLACKFRIDAY2026 全站額外 -10% 今日最後一天，折後 €31.94（按 -10% 計算，未加車驗證結帳價），仍為最佳價。免運門檻 €59。": "Black Friday code BLACKFRIDAY2026：全站額外 -10%（11-21～11-27）; 2026-11-27 live browser：Fit & Trim 1.8kg €35,49（原 €38,99），價格不變，有貨; 黑五碼 BLACKFRIDAY2026 全站額外 -10% 今日最後一天，折後 €31,94（按 -10% 計算，未加車驗證結帳價），仍為最佳價。免運門檻 €59。",
+   "Black Friday -30%（原價 €20.69）；2026-11-28 live browser：12x85g €14.48（原 €20.69，-30%），價格不變，有貨；同頁 24x €28.39、48x €55.29。Black Friday 標籤；免運 €35；初次開啟遇 Cloudflare，換環境後清除並核實。": "Black Friday -30% (was €20,69); 2026-11-28 live browser：12x85g €14,48（原 €20,69，-30%），價格不變，有貨; 同頁 24x €28,39、48x €55,29。Black Friday 標籤; gratis verzending €35; 初次開啟遇 Cloudflare，換環境後清除並核實。",
    "Black Friday（建議價 €17.99）；2026-11-25 live browser：1x20L €15.29（€0.76/L，Black Friday 價，建議價 €17.99），有貨，與 2026-11-24 相同，無變化，仍為一次價最低；由 bol 銷售，另有 8 個合作夥伴。滿 €25 免運；20:00 前下單明日到貨。": "Black Friday（建議價 €17,99）; 2026-11-25 live browser：1x20L €15,29（€0,76/L，Black Friday 價，建議價 €17,99），有貨，與 2026-11-24 相同，無變化，仍為一次價最低; 由 bol 銷售，另有 8 個合作夥伴。滿 €25 免運; 20:00 前下單明日到貨。",
    "CashbackXL 返現 €0.84": "CashbackXL cashback €0,84",
    "CashbackXL 返現 €1.55": "CashbackXL cashback €1,55",
@@ -16688,7 +16868,7 @@
    "Farmina PetBoutique.it Prime 70g 恢復有貨 €0.99，最佳價回歸 PetBoutique": "Farmina PetBoutique.it Prime 70g 恢復有貨 €0,99，最佳價回歸 PetBoutique",
    "Farmina PetBoutique.it 兩款缺貨，最佳價改為 CutieCat €39.99（€1.67/罐）": "Farmina PetBoutique.it 兩款缺貨，最佳價改為 CutieCat €39,99（€1,67/罐）",
    "Farmina 官方 eshop": "Farmina officiële eshop",
-   "Gemak 定期配送折扣維持 -15%；RC 優惠至 11 月 28 日止": "Gemak 定期配送折扣維持 -15%; RC 優惠至 11 月 28 日止",
+   "Gemak 定期配送折扣維持 -15%；RC 優惠至 11 月 28 日止；MAC's 小牛＋雞心頁面 Gemak 標示改為 -5% 優惠券 €10.63": "Gemak 定期配送折扣維持 -15%; RC 優惠至 11 月 28 日止; MAC's 小牛＋雞心頁面 Gemak 標示改為 -5% 優惠券 €10,63",
    "Huisdieren ORIJEN Fit & Trim 貓版恢復上架 €35.49": "Huisdieren ORIJEN Fit & Trim 貓版恢復上架 €35,49",
    "Hypostore Mesitran Vet Soft 起價 €10.74；Canislufa €18.14（未開商品頁）": "Hypostore Mesitran Vet Soft vanaf €10,74; Canislufa €18,14 (productpagina niet geopend)",
    "Intratuin Woolsocks 返現 5%（只見於 GotCashback）": "Intratuin Woolsocks cashback 5% (alleen gezien op GotCashback)",
@@ -16738,7 +16918,6 @@
    "Vivapets（10/25 頁面 404）": "Vivapets (10/25 pagina 404)",
    "Voormijndier.nl／Fauna Diertotaal／AVO／dierenwinkel.com／Multibazar.be": "Voormijndier.nl/Fauna Diertotaal/AVO/dierenwinkel.com/Multibazar.be",
    "Woeffies & Friends、Paws and Belly：Mesitran Vet Soft 20g €10.50（只見於搜尋摘要）": "Woeffies & Friends, Paws and Belly: Mesitran Vet Soft 20g €10,50 (alleen gezien in zoekfragmenten)",
-   "Woolsocks 返現 €0.12": "Woolsocks cashback €0,12",
    "Woolsocks 返現 €0.16": "Woolsocks cashback €0,16",
    "Woolsocks 返現 €0.73": "Woolsocks cashback €0,73",
    "Woolsocks 返現 €1.43": "Woolsocks cashback €1,43",
@@ -16805,10 +16984,10 @@
    "全齡配方（含幼貓）・6 種口味": "Voor alle levensfasen (incl. kittens) · 6 smaken",
    "動物用醫療級蜂蜜凝膠（非 Ointment 軟膏）": "Medische honinggel voor dieren (niet de Ointment-zalf)",
    "包": "zakje",
-   "原價 €14.99，-20.01%；2026-11-27 live browser：1x11L €11.99（原價 €14.99，-20.01%）一次價／訂閱 €10.79，價格不變，有貨。": "was €14,99, -20.01%; 2026-11-27 live browser：1x11L €11,99（原價 €14,99，-20.01%）一次價／訂閱 €10,79，價格不變，有貨。",
-   "原價 €18.10 劃線特價 €12.65；2026-11-27 live browser：12x85g €12.65 一次價／Herhaal €11.90，價格不變，有貨，仍為最佳價。注意：頁面今日顯示「Snel weer leverbaar」（可下單，週一到貨），非「Op voorraad」，明日留意是否轉為缺貨。免運 €69。": "原價 €18,10 劃線特價 €12,65; 2026-11-27 live browser：12x85g €12,65 一次價／Herhaal €11,90，價格不變，有貨，仍為最佳價。注意：頁面今日顯示「Snel weer leverbaar」（可下單，週一到貨），非「Op voorraad」，明日留意是否轉為缺貨。免運 €69。",
-   "原價 €18.75，-30%；2026-11-27 live browser：12x85g €13.13（原 €18.75，-30%），價格不變，仍缺貨「Momenteel niet leverbaar」；訂閱首單 €11.82（-10%）。": "was €18,75, -30%; 2026-11-27 live browser：12x85g €13,13（原 €18,75，-30%），價格不變，仍缺貨「Momenteel niet leverbaar」; eerste abonnementsbestelling €11,82 (-10%) 。",
-   "原價 €22.75；2026-11-27 live browser：1x20L €15.50（原價 €22.75），價格不變，有貨但僅剩 9 件（昨日 10 件）。黑五碼 BLACKFRIDAY2026 今日最後一天（11-21～11-27），按標價算術約 €13.95，非頁面標價，不計入最佳價。€59 以下運 €6.95；當日 20:00 前下單當日出貨。": "was €22,75; 2026-11-27 live browser：1x20L €15,50（原價 €22,75），價格不變，有貨但僅剩 9 件（昨日 10 件）。黑五碼 BLACKFRIDAY2026 今日最後一天（11-21～11-27），按標價算術約 €13,95，非頁面標價，不計入最佳價。€59 以下運 €6,95; 當日 20:00 前下單當日出貨。",
+   "原價 €14.99，-20.01%；2026-11-28 live browser：1x11L €11.99（原價 €14.99，-20.01%）一次價／訂閱 €10.79，價格不變，有貨。": "was €14,99, -20.01%; 2026-11-28 live browser：1x11L €11,99（原價 €14,99，-20.01%）一次價／訂閱 €10,79，價格不變，有貨。",
+   "原價 €18.10 劃線特價 €12.65；2026-11-28 live browser：12x85g €12.65 一次價／Herhaal €11.90，價格不變，仍為最佳價。頁面仍顯示「Snel weer leverbaar」（可下單，「Nu besteld, woensdag in huis」），非「Op voorraad」，明日留意是否轉為缺貨。免運 €69。": "原價 €18,10 劃線特價 €12,65; 2026-11-28 live browser：12x85g €12,65 一次價／Herhaal €11,90，價格不變，仍為最佳價。頁面仍顯示「Snel weer leverbaar」（可下單，「Nu besteld, woensdag in huis」），非「Op voorraad」，明日留意是否轉為缺貨。免運 €69。",
+   "原價 €18.75，-30%；2026-11-28 live browser：12x85g €13.13（原 €18.75，-30%），價格不變，仍缺貨「Momenteel niet leverbaar」；訂閱首單 €11.82（-10%）。": "was €18,75, -30%; 2026-11-28 live browser：12x85g €13,13（原 €18,75，-30%），價格不變，仍缺貨「Momenteel niet leverbaar」; eerste abonnementsbestelling €11,82 (-10%) 。",
+   "原價 €22.75；2026-11-28 live browser：1x20L €15.50（原價 €22.75），價格不變，有貨，庫存仍 9 件。黑五碼 BLACKFRIDAY2026 已失效（活動期 11-21～11-27），昨日按標價算術約 €13.95 不再適用。€59 以下運 €6.95；當日 20:00 前下單當日出貨。": "was €22,75; 2026-11-28 live browser：1x20L €15,50（原價 €22,75），價格不變，有貨，庫存仍 9 件。黑五碼 BLACKFRIDAY2026 已失效（活動期 11-21～11-27），昨日按標價算術約 €13,95 不再適用。€59 以下運 €6,95; 當日 20:00 前下單當日出貨。",
    "只剩 4 包": "nog maar 4 op voorraad",
    "只見於 kieskeurig（€18.49＋運費 €7.19）": "alleen gezien op kieskeurig (€18,49 + verzending €7,19)",
    "只讀到Península資訊，NL未核實": "alleen info voor Spaans vasteland; NL niet geverifieerd",
@@ -16834,9 +17013,9 @@
    "幼貓主食罐": "Volledig kittenvoer",
    "幼貓乾飼料・無穀": "Kittendroogvoer · graanvrij",
    "幼貓飼料比價": "Prijzen kittenvoer",
-   "建議價 €10.69；2026-11-27 live browser：Catsan hygiene korrels 11.5 liter €9.99（建議價 €10.69），價格不變，有貨；免運 €49。注意：標題未寫 Hygiene Plus，描述寫「Inhoud: 10 liter」，但商品圖袋身顯示 Hygiene Plus。": "建議價 €10,69; 2026-11-27 live browser：Catsan hygiene korrels 11.5 liter €9,99（建議價 €10,69），價格不變，有貨; 免運 €49。注意：標題未寫 Hygiene Plus，描述寫「Inhoud: 10 liter」，但商品圖袋身顯示 Hygiene Plus。",
-   "建議價 €34.95；2026-11-27 live browser：Chicken 800g €29.95（建議價 €34.95），價格不變，有貨；免運 €49。": "建議價 €34,95; 2026-11-27 live browser：Chicken 800g €29,95（建議價 €34,95），價格不變，有貨; gratis verzending €49。",
-   "建議價 €89.95；2026-11-27 live browser：Chicken 2.2kg €79.95（建議價 €89.95），價格不變，有貨；免運 €49。": "建議價 €89,95; 2026-11-27 live browser：Chicken 2.2kg €79,95（建議價 €89,95），價格不變，有貨; gratis verzending €49。",
+   "建議價 €10.69；2026-11-28 live browser：Catsan hygiene korrels 11.5 liter €9.99（建議價 €10.69），價格不變，有貨；免運 €49。注意：標題未寫 Hygiene Plus，描述寫「Inhoud: 10 liter」，但商品圖袋身顯示 Hygiene Plus；規格存疑，不進排名。": "建議價 €10,69; 2026-11-28 live browser：Catsan hygiene korrels 11.5 liter €9,99（建議價 €10,69），價格不變，有貨; 免運 €49。注意：標題未寫 Hygiene Plus，描述寫「Inhoud: 10 liter」，但商品圖袋身顯示 Hygiene Plus; 規格存疑，不進排名。",
+   "建議價 €34.95；2026-11-28 live browser：Chicken 800g €29.95（建議價 €34.95），價格不變，有貨；免運 €49。": "建議價 €34,95; 2026-11-28 live browser：Chicken 800g €29,95（建議價 €34,95），價格不變，有貨; gratis verzending €49。",
+   "建議價 €89.95；2026-11-28 live browser：Chicken 2.2kg €79.95（建議價 €89.95），價格不變，有貨；免運 €49。": "建議價 €89,95; 2026-11-28 live browser：Chicken 2.2kg €79,95（建議價 €89,95），價格不變，有貨; gratis verzending €49。",
    "抓取失敗商店": "winkels die niet opgehaald konden worden",
    "抓取失敗／未核實": "ophalen mislukt / niet geverifieerd",
    "持平歷史低價": "Gelijk aan laagste prijs ooit",
@@ -16854,15 +17033,15 @@
    "條款含所有稅、運費另加，NL國家未明，不較舊低": "Voorwaarden incl. alle belastingen, verzending extra; NL onduidelijk; niet lager dan eerder",
    "植物豆腐砂 Sensitive（無香）": "Plantaardige tofukorrels Sensitive (geurloos)",
    "比歷史低價高 1%": "1% boven laagste prijs ooit",
+   "比歷史低價高 107%": "107% boven laagste prijs ooit",
    "比歷史低價高 12%": "12% boven laagste prijs ooit",
    "比歷史低價高 2%": "2% boven laagste prijs ooit",
    "比歷史低價高 31%": "31% boven laagste prijs ooit",
-   "比歷史低價高 47%": "47% boven laagste prijs ooit",
-   "比歷史低價高 52%": "52% boven laagste prijs ooit",
+   "比歷史低價高 53%": "53% boven laagste prijs ooit",
    "比歷史低價高 63%": "63% boven laagste prijs ooit",
    "比歷史低價高 64%": "64% boven laagste prijs ooit",
+   "比歷史低價高 68%": "68% boven laagste prijs ooit",
    "比歷史低價高 75%": "75% boven laagste prijs ooit",
-   "比歷史低價高 87%": "87% boven laagste prijs ooit",
    "比歷史低價高 88%": "88% boven laagste prijs ooit",
    "海洋魚蝦／雞肉石榴": "Zeevis & garnalen / kip & granaatappel",
    "滿 €29 免運／運費 €2.99": "gratis verzending vanaf €29 / verzending €2,99",
@@ -16889,7 +17068,7 @@
    "盒": "doos",
    "真低商品價但不寄NL，因此不列可買最低。搜尋摘要18.75已過時，以商品頁19.39為準": "Echt lage prijs maar geen NL-levering, dus niet als koopbare laagste. Zoekfragment 18,75 verouderd; productpagina 19,39",
    "真實低價€0.48/100g但NL不適用；不是以索引價排名": "echte lage prijs €0,48/100g maar geldt niet voor NL; niet gerangschikt op zoekindexprijs",
-   "站內黑五橫幅 BLACK FRIDAY -15% CODE: BF15（適用性未驗證）；2026-11-27 live browser：50 粒 €27.99 有貨（Beschikbaar，預計 12 月 3–7 日送達），昨日確認下架、今日恢復上架，成為有貨最便宜（原最佳 Milo 訂閱 €37.95），為 Synbiotic 新最佳價。運費未核實；頁面黑五碼 BF15 最高 -15% 未測試，不計入。": "站內黑五橫幅 BLACK FRIDAY -15% CODE: BF15（適用性未驗證）; 2026-11-27 live browser：50 粒 €27,99 有貨（Beschikbaar，預計 12 月 3–7 日送達），昨日確認下架、今日恢復上架，成為有貨最便宜（原最佳 Milo 訂閱 €37,95），為 Synbiotic 新最佳價。運費未核實; 頁面黑五碼 BF15 最高 -15% 未測試，不計入。",
+   "站內黑五橫幅 BLACK FRIDAY -15% CODE: BF15（適用性未驗證）；2026-11-28 live browser：50 粒 €27.99，價格不變，有貨（Beschikbaar，預計 12 月 3–8 日送達），仍為最佳價。運費未核實；頁面黑五碼 BF15 最高 -15% 未測試，不計入。": "站內黑五橫幅 BLACK FRIDAY -15% CODE: BF15（適用性未驗證）; 2026-11-28 live browser：50 粒 €27,99，價格不變，有貨（Beschikbaar，預計 12 月 3–8 日送達），仍為最佳價。運費未核實; 頁面黑五碼 BF15 最高 -15% 未測試，不計入。",
    "符合條件€129免運": "gratis verzending vanaf €129 indien van toepassing",
    "精確商品頁現價確認；庫存/含稅文字/NL官方配送均未核實，不能當可寄NL新低": "huidige prijs bevestigd op exacte productpagina; voorraad, btw en NL-levering niet geverifieerd; geen koopbare NL-laagste prijs",
    "結團礦砂・活性碳・無香": "Klonterende kleikorrels · actieve kool · geurloos",
